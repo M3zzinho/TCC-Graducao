@@ -1,0 +1,242 @@
+\chapter[Hilbert \texorpdfstring{\ensuremath{C^*}}{C*}-modules]{Hilbert \texorpdfstring{\mathbf{C^*}}{C*}-modules}
+\label{ch:hilbert modules}
+
+Hilbert modules first appear in the work of \textit{I. Kaplaski} \cite{kaplansky1953modules} and \textit{W. Paschke} \cite{paschke1973inner} later. There are three main areas where Hilbert $C^*$-modules are heavily used to formulate mathematical concepts envolving:
+\begin{itroman}
+    \item\label{main areas (i)} Induced representations of Morita equivalence \cite{brown1977stable}, \cite{RIEFFEL1974176}, \cite{rieffel1981c};
+    \item Kasparov's $KK$-theory \cite{kasparov1980stinespring};
+    \item $C^*$-algebraic quantum groups.
+\end{itroman}
+
+In what is tangible to this work, we address the Morita equivalence target by building a Fredholm operator approach between Hilbert modules, introduced by Ruy Exel \cite{exel7fredholm}. Hence, this chapter is responsible for defining and studying those objects.
+
+The material source contains for this chapter contains the well written textbooks like \cite{lance1995hilbert}, \cite{jensen2012elements}, \cite{manuilov2001hilbert}.
+
+\section{The interest object}
+
+%The star of the show were introduced by 
+
+
+\begin{definicao}[Inner product Module]
+\label{def: pre-hilb module}
+A right module $E$ over a $C^*$-algebra (non-necessarily unital) blessed with an generalized inner product $\langle \come, \come\rangle : E \times E \longto A$ will be said to be a \textit{Inner product module} when $\inner\come\come$ attends the following properties:
+\begin{itroman}
+\item \textbf{Twisted $\boldsymbol A$-sesquilinear}: The first coordinate are involuted-linear and the second one linear, i.e.,
+\begin{eqspaced*}{\left(\begin{array}{c}
+     x,y,z\in E\\ a\in A
+\end{array}\right)}
+    \hspace{-1.25cm}
+    \begin{cases}
+        \langle x+ya, z\rangle = \langle x,z\rangle + a^*\langle y,z\rangle   \\
+        \langle z, x+ya\rangle = \langle z,x\rangle + \langle z,y\rangle a  \\
+    \end{cases}
+\end{eqspaced*}
+\item \label{item: Hermitian symmetry}\textbf{$\boldsymbol A$-Hermitian symmetry}: $\langle x,y \rangle = {\langle y,x \rangle}^*$ whenever $x,y \in E$.
+\item \label{def item: positivo definido}\textbf{Positive definite}: For any $x\in E$, $\langle x,x\rangle = 0 \Leftrightarrow x=0$. By \ref{item: Hermitian symmetry}, we can say that $\langle x,x\rangle \geq 0$ since it is self-adjoint.
+\end{itroman}
+One could argue that we only need the inner product to be linear in the second coordinate and by the Hermitian symmetry conclude as a proposition that every inner product over Inner product modules is indeed twisted sesquilinear. 
+\end{definicao}
+
+\begin{proposicao}[Cauchy-Schwartz inequality]\label{prop: Cauchy-Schwartz}
+For any Inner product module $E$ over $A$, the following inequality holds: 
+\begin{eqspaced}{(x,y \in E)}
+\label{eq: cauchy-schwarts}
+{\|\inner xy\|}^{2} \leq \|\inner xx\| \cdot \|\inner yy\|.
+\end{eqspaced}
+\end{proposicao}
+\begin{proof}
+Given the fact that $0\leq \inner aa$ for $a\in A$, notice that with the acessory elements $a\coloneqq \inner xx$, $b \coloneqq \inner yy$ and $c\coloneqq \inner xy$,
+\begin{eqspaced*}{(t \in \R)}
+\hspace{-0.5cm}
+\begin{array}{rcl}
+    0 & \leq & \inner{x -  yt c^*}{x - y t c^*} \\
+    &=& \vphantom{\displaystyle \int_a^b} 
+        \inner x{x - y t  c^*}- tc\inner{y}{x - y t  c^*} \\
+    &=& \inner xx - \inner xy\,tc^* - tc\inner yx + tc\inner yytc^* \\
+    &=& \vphantom{\displaystyle \int_a^b}
+        a - 2tcc^*+ t^2cbc^*
+\end{array}
+\end{eqspaced*}
+
+Since $2t c c^*$ is self-adjoint, we can add in both sides and maintain the inequality in the $C^*$-realm. Using the $A$-norm and assumig $t \geq 0$, by \ref{lema: Cstar prop: a <= b ---> |a| <= |b|},
+\begin{eqnarray}
+ 2t \|cc^*\| &\leq& \|a \| + t^2\|cb c^*\| \nonumber \\
+             &\leq & \vphantom{\displaystyle \int_a^b} \|a \| + t^2\|c\|\|b\|\|c^*\| \nonumber \\
+\label{eq: CS - polinomio quadrado}
+\To \hfill 2t\|c\|^2 &\leq&  \|a \| + t^2\|b\|\|c\|^2           
+\end{eqnarray}
+
+With a fairly nice quadratic polynomial in $\R[t]$ calved by (\ref{eq: CS - polinomio quadrado}) in our hands witch is allways non negative, the discriminant must be non positive. Therefore:
+\begin{eqnarray}
+    (-2\|c\|^2)^2 - 4\|b\|\|c\|^2 \|a\|  &\leq& 0 \nonumber\\
+    \label{eq: CS - discriminante delta} \To \hfill
+    \vphantom{\displaystyle \int_a^b}\|\inner xy\|^4 - \|\inner yy\|\|\inner xy\|^2 \|\inner xx\|  &\leq& 0 
+\end{eqnarray}
+
+Assuming  $\|\inner xy\|^2 \neq 0$ means that (\ref{eq: CS - discriminante delta}) can be simplified into Cauchy-Schwartz inequality (\ref{eq: cauchy-schwarts}) by cancelling $\|\inner xy\|^2$. Otherwise\footnote{Note that $\|\inner xy\|^2=0$ if and only if $\inner xy=0$.}, $\inner xy=0$ is a trivial case of the desired inequality.
+\end{proof}
+
+For any $A$-valued inner product as above, we define a norm $\|x\| \coloneqq \sqrt{\sub{\|\inner xx\|}A}$ on a Inner product $C^*$-module. Which means that for arbitrary $x,y \in E$ and $a\in A$, the following holds:
+\begin{itroman}
+\item $\|x\| = 0 \sse x=0$.
+\item $\|xa\| = \sub{\|a\|}A \|x\|$.
+\item \label{item: desigualdade triangular} $\|x+y\| \leq \|x\|+\|y\|$.
+\end{itroman}
+
+Notice that the triangle inequality \ref{item: desigualdade triangular} is a direct consequence of \ref{prop: Cauchy-Schwartz}:
+\begin{eqnarray*}
+\|x+y\|^2 &=& \Anorm{\inner{x+y}{x+y}} 
+\\ &=& \Anorm{\inner x{x}+\inner xy+ \inner y{x}+\inner y{y}}
+\\
+&\leq& \|x\|^2 + \Anorm{\inner xy}+\Anorm{\inner xy^*} + \|y\|^2\\
+&=& \|x\|^2  + 2\Anorm{\inner xy}+ \|y\|^2\\
+&\overset{\ref{prop: Cauchy-Schwartz}}\leq & \|x\|^2+2\|x\|\|y\| + \|y\|^2 = \big(\|x\|+\|y\|\big)^2
+\end{eqnarray*}
+as in the good old days. One identity that still remais is the polarization one: For every sesquilinear form $\varsigma : E\times E \longto A$
+\begin{eqspaced}{(x,y\in E)}
+\label{eq: polarization}
+4 \varsigma(y,x) = \sum_{n = 0}^3 i^n \varsigma({x+i^ny},{x+i^ny}).
+\end{eqspaced}
+
+Since it should be a normed space, hence a complex vector space, one may be concerned about the fact that $A$ doesn't necessarily have a unit and therefore, $zx$ for $z\in \C$ should be an worry. 
+
+\begin{proposicao}
+All Inner product modules are naturally complex vector spaces, even the ones over non necessarily unital $C^*$-algebras.
+\begin{proof}
+Any Inner product module $E$ is a $\mathbb Z$-module naturally because it is an abelian group with respect to the addition, and so is that $-\inner xy = \inner x{-y}$. Therefore, since the proof of Cauchy-Schwartz inequality \ref{prop: Cauchy-Schwartz} doesn't depend on the unity of $A$, we safe unitl now. For any approximate unit $(\sub u\lambda)_\lambda \subset A$, $(x\sub u\lambda)_\lambda \subset E$ converges to $x$, whence, for $z\in \C$, let $zx \coloneqq \lim_\lambda x(z\sub u\lambda)$. Since $A$ is a vector space, all properties are guaranteed and we are done.
+\end{proof}
+\end{proposicao}
+
+\begin{definicao}
+Inner product modules are called \textit{Hilbert \ensuremath{C^*}-modules} when the induced norm is complete in the Cauchy sense.
+\end{definicao}
+
+\begin{proposicao}\label{prop: EA = E}
+For a Hilbert $C^*$-module $E$ over $A$, $\con{\operatorname{Span} EA} = E$.
+\end{proposicao}
+\begin{proof}
+If $(\sub u\lambda)_\lambda \subset A$ is a approximate unit for $A$, then for all $x\in E$:
+\begin{equation*}
+    \begin{array}{rcl}
+        \lim_\lambda \inner{x-x\sub u\lambda}{x-x\sub u\lambda} &=& \lim_\lambda\big(\inner xx - \sub u\lambda \inner xx\big)  \\
+        & & \hphantom{\lim_\lambda}- \lim_{\lambda} \big(\inner xx\sub u\lambda - \sub u\lambda \inner xx\sub u\lambda \big) = 0.
+    \end{array}
+\end{equation*}
+Hence the elements of the form $x\sub u\lambda$ are dense in $E$. 
+\end{proof}
+
+\begin{observacao}\label{obs: tornar um R-modulo em um K-modulo}
+Let $A$ and $B$ be $C^*$-algebras. If $E$ is a Hilbert $B$-module and the ideal $I$ of the clousure of the elements spanned by $\inner xy$ is contained in $A$, then there is a way to make $E$ into a Hilbert $A$-module without changing the inner product. Namely, let $(\sub u\lambda)_\lambda$ be an approximate unit for $I$. Then the identity
+\begin{equation*}
+\begin{array}{rcl}
+    \inner{x \sub u\eta a-x \sub u\lambda a}{x \sub u\eta a-x \sub u\lambda a} &=& 
+a^* \sub u\eta \inner xx \sub u\eta a+a^* \sub u\lambda \inner xx \sub u\lambda a \\ & & \hphantom{a^*}-a^* \sub u\eta \inner xx \sub u\lambda a-a^* \sub u\lambda \inner xx \sub u\eta a,
+\end{array}
+\end{equation*}
+holds for all $x\in E$ and $a\in A$, showing that $(x\sub u\lambda a)_\lambda$ converges in $E$. We can define $x a=\lim x \sub u{\lambda} a$, and it is straightforward to check that this makes $E$ into a Hilbert $A$-module. This is particularly when dealing with non unital $C^*$-algebras $A$, and we might have a look into the same module over $\widetilde A$.
+\end{observacao}
+
+\begin{exemplos}$\left.\right.$\label{exemplos de hilbert modules}
+\begin{itroman}
+    \item Any traditional complex Hilbert space is a Hilbert $\C$-module.    
+    \item \label{item: soma direta de modulos de hilbert} Let $(E_i)_{i\in I}$ be a family of Hilbert $C^*$-modules over $A$. The direct sum will be:
+    \[
+    \bigoplus_{i\in I}E_i \coloneqq \Big\{x \in \prod_{i\in I} E_i \mid \sum_{i\in I} \inner{x_i}{x_i} \in A\Big\}
+    \]
+    It should be noticed that the convergence of $\sum_i \inner{x_i}{x_i}$ is a weaker condition than requiring that the series of norms $\sum_i \big\|\inner{x_i}{x_i}\|$ should converge. With the addition inner product $\inner xy = \sum_{i} \sub{\inner{x_i}{y_i}}{E_i}$, $\bigoplus_{i} E_i$ is a Hilbert $C^*$-module it self.
+%   \begin{enumerate}
+%       \item \textbf{\ensuremath{\boldsymbol{\inner\come\come}} is well defined}: Let $x,y \in \bigoplus_i E_i$ and $a,b\in A$ their sums. Therefore, for a given $\ep>0$, we're abble to find finite sets $F_x, F_y \subset J$ such that:
+%        \begin{eqspaced*}{\left(\begin{array}{c}
+%             F_x\subset I_x \subset I \\
+%             F_y\subset I_y \subset I
+%        \end{array}\right)}
+%        \hspace{-1.25cm}
+%        \Big\| \bilateral{-0.18cm}{\sum_{i\in I_x \backslash F_x}} \inner{x_i}{x_i}\Big\| < \ep \e
+%        \Big\|\bilateral{-0.18cm}{\sum_{i\in I_y\backslash F_y}} \inner{y_i}{y_i}\Big\| < \ep 
+%        \end{eqspaced*}
+%        Therefore, for any index set $J$ such that $I \supset J \supset F_x\cup F_y$, one does indeed have that:
+%        \begin{eqspaced*}{}
+%        \Big\| {\sum_{i\in J \backslash F_x\cup F_y}} \inner{x_i}{y_i} \Big\| \leqslant \Big\|\sum_{i\in J \backslash F_x} \inner{x_i}{x_i}\Big\| \cdot \Big\|\sum_{i\in J \backslash F_y} \inner{y_i}{y_i}\Big\| < \ep^2.
+%        \end{eqspaced*}
+%        \item \textbf{\ensuremath{\boldsymbol{\bigoplus_i E_i}} is complete}: For a sequence $(x^{(n)})_{n\in \N} \subset \bigoplus_i E_i$ be a Cauchy one, it really means that: For a given $\ep>0$, there exists $n(\ep)\in \N$ such that
+%        \begin{eqspaced*}{(n,m \geq n(\ep))}
+%        \Big\|\sum_{i\in I} \inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}} \Big\| < \ep
+%        \end{eqspaced*}
+%        Since all elements are positive, $\|\inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}}\| < \ep$ for each and every index $i$. No surprises in noticing that each $(x_i^{(n)})_{n\in \N} \subset E_i$ is a Cauchy sequence inside a Banach space, i.e., there exists $x_i \coloneqq \lim_{n\to \infty} x_i^{(n)}$.
+        
+%        We must verify that $\sum_i \inner{x_i}{x_i}$ does in fact converge in $A$. Fixing $\ep$ once and for all, get yourself a finite index set $F \subset I$ such that 
+%        \begin{eqspaced*}{(F\subset J \subset I)}
+%        \Big\| \bilateral{-0.13cm}{\sum_{i\in J \backslash F}} \inner{x_i^{(n)}}{x_i^{(n)}}\Big\| < \ep
+%        \end{eqspaced*}
+%        for every $n\geqslant n(\ep)$. Notation will be really awfull, so don't freak out: Notice that for a finite intermediary index set $J \supset F' \supset F$, we shall apply the some old trick:
+%        \begin{equation*}
+%            \begin{array}{rl}
+%                 & \Big\| \sum\limits_{i\in F'\backslash F} \Big(\langle x_{i}^{(m)}, x_{i}^{(m)}\rangle+\langle x_{i}^{(n)}-x_{i}^{(m)}, x_{i}^{(m)}\rangle+\langle x_{i}^{(m)}, x_{i}^{(n)}-x_{i}^{(m)}\rangle+\langle x_{i}^{(n)}, x_{i}^{(n)}\rangle\Big) \Big\|\\
+%                = & \Big\| \sum\limits_{i\in F'\backslash F} \inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}} \Big\| \leqslant \Big\| \sum\limits_{i\in I} \inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}}\Big\| < \ep 
+%            \end{array}
+%        \end{equation*}
+%        Therefore:
+%        \begin{equation*}
+%            \begin{aligned}
+%\Big\|\sum\limits_{i \in F' \backslash F}\langle x_{i}^{(m)}, x_{i}^{(m)}\rangle\Big\| &< 2 \varepsilon+\Big\|\sum\limits_{i \in F' \backslash F}\langle x_{i}^{(n)}-x_{i}^{(m)}, x_{i}^{(m)}\rangle\Big\|+\Big\|\sum\limits_{i \in F' \backslash F}\langle x_{i}^{(m)}, x_{i}^{(n)}-x_{i}^{(m)}\rangle\Big\|\\
+%& \leq 2 \varepsilon+2\Big\|\sum\limits_{i \in F' \backslash F}\langle x_{i}^{(n)}-x_{i}^{(m)}, x_{i}^{(n)}-x_{i}^{(m)}\rangle\Big\|^{1 / 2}\Big\|\langle x_{i}^{(m)}, x_{i}^{(m)}\rangle\Big\|^{1 / 2} \\
+%& \leq 2 \varepsilon+2 \varepsilon^{1 / 2}\Big\|\langle x_{i}^{(m)}, x_{i}^{(m)}\rangle\Big\|^{1 / 2} .
+%\end{aligned}
+%        \end{equation*}
+%        Now, by solving the quadratic inequality, we obtain that
+%$$
+%\left\|\sum\limits_{i\in J\backslash F}\left\langle x_{i}^{(m)}, x_{i}^{(m)}\right\rangle\right\|<(1+\sqrt{3})^{2} \varepsilon<8 \varepsilon .
+%$$
+%Passing to the limit $m \longrightarrow \infty$ in the inequality above, we obtain that
+%$$
+%\left\|\sum\limits_{i\in J\backslash F}\left\langle x_{i}, x_{i}\right\rangle\right\|<8 \varepsilon
+%$$
+%    \end{enumerate}    
+    \item Subexamples of \ref{item: soma direta de modulos de hilbert} are: $A$ it-self endowed with $\inner ab \coloneqq a^*b$; $A^n = \bigoplus_{i =1}^n A$ for any natural number $n$.
+    
+    \item \textbf{The standard Hilbert \mathbf{A}-module $\boldsymbol{\HA}$}: A more especif subexample of \ref{item: soma direta de modulos de hilbert} can be given by $\HA \coloneqq \bigoplus_{n\in \mathbb N} A$, consisting of all sequences $(a_n)_n \subset A$ which $\sum_n a_n^*a_n$ converges.
+    \item \label{exemplo hilb (X) C*algebra} Given a Hilbert space $H$, the algebraic tensor product of $H$ by $A$ can be seeing as a Inner product $C^*$-module, with the bond:
+    \[
+    \inner {x\otimes a}{y\otimes b} \coloneqq \sub{\inner xy}H a^*b
+    \]
+    $H\otimes A$ stands for its completion.
+    
+    \item Let $X \in \CHaus$ and $E\longto X$ a complex vector bundle. As we mention, $C(X)$ is a unital $C^*$-algebra. Whenever $d: E\times E \longto [0,\infty)$ is an Hermitian metric over $E$, the set $\Gamma (E)$ of continuous sections over $E$ holds the title of Hilbert module over $C(X)$ when endowed with
+    \begin{equation*}
+    \function{{\inner\come\come}{\Gamma(E)\times \Gamma(E)}{C(X)}{(a,b)}{d(a(\,\cdot\,),b(\,\cdot\,))}} 
+    \end{equation*}
+    as an inner product.
+\end{itroman}
+\end{exemplos}
+%\begin{itroman}
+%
+%\end{itroman}
+
+\begin{lema}
+\label{lema: lim <x_lambda,y_lambda> = <x,y>}
+Given two nets $(\sub x\lambda)_\lambda$ and $(\sub y\lambda)_\lambda$ and $x,y$ in a Hilbert module $E$ over a $C^*$-algebra $A$ such that $\sub x\lambda \to x$ and $\sub y\lambda \to y$,  $\lim_\lambda \inner{\sub x\lambda}{\sub y\lambda} = \inner xy$ holds.
+\begin{proof}
+From the Cauchy-Schartz inequallity \ref{prop: Cauchy-Schwartz}, is easy to obtain that
+\begin{eqspaced*}{(z\in E, \lambda \in \LLambda)}
+    \sub{\|\inner{\sub x\lambda-x}z\|}A \overset{(\ref{eq: cauchy-schwarts})}\leqslant \sub{\|\sub x\lambda-x\|}E \sub{\|z\|}E
+\end{eqspaced*}
+Analogously, $\sub{\|\inner z{\sub y\lambda-y}\|}A \leqslant \sub{\|\sub y\lambda-y\|}E \sub{\|z\|}E$. For each and every index $\lambda$, it is possible to obtain the following inequality:
+\begin{eqnarray*}
+    \|\inner{\sub x\lambda}{\sub y\lambda} - \inner xy\| &=& \|\inner{\sub x\lambda}{\sub y\lambda} - \inner{\sub x\lambda}y + \inner{\sub x\lambda}y- \inner xy\|  \\
+    &\leqslant& \|\inner{\sub x\lambda}{\sub y\lambda-y}\| + \| \inner{\sub x\lambda-x}y\| \\
+    &\leqslant& \|\sub y\lambda-y\| \|\sub x\lambda\| +\|y\|\|\sub x\lambda-x\| 
+\end{eqnarray*}
+Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| \to \|x\|$. By $\|\sub y\lambda -y\|\to 0$,  there exists $\sub\lambda 0$ in which $\|\sub y\lambda - y\|\,\|\sub x\lambda\|  < \ep/2 $. Similarly, there allways exists $\sub\lambda1$ such that $\sub{\|\sub x\lambda -x\|}E < \ep/2({\|y\|}+1)$ for $\lambda \succeq \sub\lambda1$. Since it exists $\sub\lambda2 $ such that $\sub\lambda2 \succeq \sub\lambda0$ and $\sub\lambda2 \succeq \sub\lambda1$, we conclude that $\|\inner{\sub x\lambda}{\sub y\lambda} - \inner xy\| < \ep$ for all $\lambda \succeq \sub\lambda2$.
+\end{proof}
+\end{lema}
+
+
+\begin{proposicao}
+If $E$ is Hilbert $A$-module, $\|x\| = \sup\{\|\inner xy\| \mid \|y\| \leq 1\}$.
+\end{proposicao}
+
+\section{Adjointable operators}
+- no riesz lemma :/
+- examples of non-adjointables
+- the (unital) C*-algebra of adjointable operators
+- equivalence of positivity
