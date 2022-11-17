@@ -1,22 +1,21 @@
 \babel@toc {nil}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
-\contentsline {chapter}{\numberline {2}\ensuremath {K}-theory of Banach Algebras}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}General portrait of homological theories}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}The \ensuremath {K_0} group}{9}{section.2.2}%
-\contentsline {section}{\numberline {2.3}The \ensuremath {K_1} group}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}The index map}{14}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Hilbert \ensuremath {C^*}-modules}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The interest object}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Adjointable operators}{21}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Fredholm Operators}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Definitions and comparisons}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Regular Fredholm Operators and their indexes}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Regularization of General Fredholm Operators}{23}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Toolkit of theorems}{23}{section.4.4}%
-\contentsline {section}{\numberline {4.5}The Fredholm Picture of \ensuremath {K_0}}{23}{section.4.5}%
-\contentsline {chapter}{\numberline {A}Usefull and handy theorems in \ensuremath {C^*}-algebras}{25}{appendix.A}%
-\contentsline {section}{\numberline {A.1}\ensuremath {C^*}-algebras 101}{25}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Gelfand-Naimark representation theorem}{35}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Continuos Functional Calculus}{40}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Positive elements}{44}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Approximate Units}{47}{section.A.5}%
+\contentsline {chapter}{\numberline {1}\ensuremath {K}-theory of Banach Algebras}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}General portrait of homological theories}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The \ensuremath {K_0} group}{7}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The \ensuremath {K_1} group}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}The index map}{12}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Hilbert \ensuremath {C^*}-modules}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The interest object}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Adjointable operators}{19}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Fredholm Operators}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definitions and comparisons}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Regular Fredholm Operators and their indexes}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Regularization of General Fredholm Operators}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Toolkit of theorems}{21}{section.3.4}%
+\contentsline {section}{\numberline {3.5}The Fredholm Picture of \ensuremath {K_0}}{21}{section.3.5}%
+\contentsline {chapter}{\numberline {A}Usefull and handy theorems in \ensuremath {C^*}-algebras}{23}{appendix.A}%
+\contentsline {section}{\numberline {A.1}\ensuremath {C^*}-algebras 101}{23}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Gelfand-Naimark representation theorem}{33}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Continuos Functional Calculus}{38}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Positive elements}{42}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Approximate Units}{45}{section.A.5}%

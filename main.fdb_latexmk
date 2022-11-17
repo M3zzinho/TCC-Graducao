@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1668711499 "main.aux" "main.bbl" "main" 1668711506
+["bibtex main"] 1668712084 "main.aux" "main.bbl" "main" 1668712091
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1668711505 13794 0bfa6ef17c037d0cdab39c42bf633170 "pdflatex"
+  "main.aux" 1668712090 13607 ed4a88360d57247504952f464e83cedc "pdflatex"
   "ref.bib" 1668711430 15810 8cc8a7963da9824d64fe83e78fe133f6 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1668711499 "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" "main.pdf" "main" 1668711506
+["pdflatex"] 1668712085 "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" "main.pdf" "main" 1668712091
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1603395601 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1603395603 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1603395669 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -412,19 +412,18 @@
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1623005660 55589 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1602241898 2275 d29aca6fd67823551cb07584e3681d5d ""
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1602241898 20688 beaddf14d96104d4bf016523be5395c5 ""
-  "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" 1668711490 552 3b1252b481b8180ed21852847d44d11f ""
+  "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" 1668712075 553 abc630e53a1c437c2d6ecb2fc9313b88 ""
   "chapters/appendix.tex" 1668711430 66926 ae7bec09ad7f7c0a24e0fe759feb039f ""
   "chapters/fredholm.tex" 1668711430 1098 059e137838fa2f042905f82dd4152b31 ""
   "chapters/hilbert_modules.tex" 1668711430 17378 6d40766455b2b150eedcbcb7ea3a3d9e ""
-  "chapters/introduction.tex" 1668711488 36 7e78e6fb65da78e8a963b1d42bc5337d ""
   "chapters/k_theory.tex" 1668711430 26844 46aadb6c97426adeaf7c58491543c0c1 ""
   "figures/0DaysSinceUsingZorn.jpg" 1668711430 31051 8034d7ffc397e9153fc25f04b557591a ""
   "figures/grothendieck-riemann-roch.tex" 1668711430 87337 d7b05468b97fd068ae31d30678bc5f4a ""
-  "main.aux" 1668711505 13794 0bfa6ef17c037d0cdab39c42bf633170 "pdflatex"
-  "main.bbl" 1668711499 4042 09ead01e9c172700d826a845110b482c "bibtex main"
-  "main.out" 1668711505 3783 5a0bdd42d5a77f762ca257d7aa150301 "pdflatex"
-  "main.tex" 1668711490 552 3b1252b481b8180ed21852847d44d11f ""
-  "main.toc" 1668711505 1897 15479909e9a423c1cbba648773347b56 "pdflatex"
+  "main.aux" 1668712090 13607 ed4a88360d57247504952f464e83cedc "pdflatex"
+  "main.bbl" 1668712084 4042 09ead01e9c172700d826a845110b482c "bibtex main"
+  "main.out" 1668712090 3679 b733735161fb0cd266153c1a91f57dd5 "pdflatex"
+  "main.tex" 1668712075 553 abc630e53a1c437c2d6ecb2fc9313b88 ""
+  "main.toc" 1668712090 1829 2e203441c81739a3b94c6276c2743ca2 "pdflatex"
   "structure/macros.tex" 1668711430 15254 fd7ab24e0f9c18d0d926be0e8838ad10 ""
   "structure/packages.tex" 1668711430 5349 bdd7ecae3a9e5acf5e96f19d7f9a98c6 ""
   (generated)
