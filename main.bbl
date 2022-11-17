@@ -1,0 +1,117 @@
+\begin{thebibliography}{10}
+
+\bibitem{alaoglu1940}
+Leon Alaoglu.
+\newblock Weak topologies of normed linear spaces.
+\newblock {\em Annals of Mathematics}, 41(1):252--267, 1940.
+
+\bibitem{blackadar1998k}
+Bruce Blackadar.
+\newblock {\em K-theory for operator algebras}, volume~5.
+\newblock Cambridge University Press, 1998.
+
+\bibitem{borel1958theoreme}
+Armand Borel and Jean-Pierre Serre.
+\newblock Le th{\'e}or{\`e}me de riemann-roch.
+\newblock {\em Bulletin de la Soci{\'e}t{\'e} math{\'e}matique de France},
+  86:97--136, 1958.
+
+\bibitem{brown1977stable}
+Lawrence Brown, Philip Green, and Marc Rieffel.
+\newblock Stable isomorphism and strong morita equivalence of
+  \ensuremath{C^*}-algebras.
+\newblock {\em Pacific Journal of Mathematics}, 71(2):349--363, 1977.
+
+\bibitem{cuntz1984k}
+Joachim Cuntz.
+\newblock \ensuremath{K}-theory and \ensuremath{C^*}-algebras.
+\newblock {\em Lecture Notes in mathematics}, 1046:55--79, 1984.
+
+\bibitem{douglas1998banach}
+Ronald~G Douglas.
+\newblock {\em Banach algebra techniques in operator theory}, volume 179.
+\newblock Springer Science \& Business Media, 1998.
+
+\bibitem{exel7fredholm}
+Ruy Exel.
+\newblock A fredholm operator approach to morita equivalence.
+\newblock {\em K-Theory}, 7(3).
+\newblock \url{http://mtm.ufsc.br/~exel/papers/morita.pdf}.
+
+\bibitem{jensen2012elements}
+Kjeld~Knudsen Jensen and Klaus Thomsen.
+\newblock {\em Elements of KK-theory}.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{kaplansky1953modules}
+Irving Kaplansky.
+\newblock Modules over operator algebras.
+\newblock {\em American Journal of Mathematics}, 75(4):839--858, 1953.
+
+\bibitem{karoubi2008k}
+Max Karoubi.
+\newblock {\em \ensuremath{K}-theory: An introduction}, volume 226.
+\newblock Springer Science \& Business Media, 2008.
+
+\bibitem{kasparov1980stinespring}
+G.~G. KASPAROV.
+\newblock Hilbert \ensuremath{C^*}-modules : Theorems of stinespring and
+  voiculescu.
+\newblock {\em Journal of Operator Theory}, 4(1):133--150, 1980.
+
+\bibitem{lance1995hilbert}
+E~Christopher Lance.
+\newblock {\em Hilbert \ensuremath{C^*}-modules: a toolkit for operator
+  algebraists}, volume 210.
+\newblock Cambridge University Press, 1995.
+
+\bibitem{manuilov2001hilbert}
+V.~M. Manuilov and E.~V. Troitsky.
+\newblock {\em Hilbert \ensuremath{C^*}-Modules}.
+\newblock American Mathematical Society, 2001.
+
+\bibitem{paschke1973inner}
+William~L Paschke.
+\newblock Inner product modules over \ensuremath{B^*}-algebras.
+\newblock {\em Transactions of the American Mathematical Society},
+  182:443--468, 1973.
+\newblock
+  \url{https://www.ams.org/journals/tran/1973-182-00/S0002-9947-1973-0355613-0/S0002-9947-1973-0355613-0.pdf}.
+
+\bibitem{rieffel1981c}
+Marc Rieffel.
+\newblock \ensuremath{C^*}-algebras associated with irrational rotations.
+\newblock {\em Pacific Journal of Mathematics}, 93(2):415--429, 1981.
+\newblock \url{https://msp.org/pjm/1981/93-2/pjm-v93-n2-p12-s.pdf}.
+
+\bibitem{RIEFFEL1974176}
+Marc~A Rieffel.
+\newblock Induced representations of \ensuremath{C^*}-algebras.
+\newblock {\em Advances in Mathematics}, 13(2):176--257, 1974.
+\newblock
+  \url{https://www.sciencedirect.com/science/article/pii/0001870874900681}.
+
+\bibitem{segal1947irreducible}
+Irving~E Segal.
+\newblock Irreducible representations of operator algebras.
+\newblock {\em Bulletin of the American Mathematical Society}, 53(2):73--88,
+  1947.
+\newblock
+  \url{https://www.ams.org/journals/bull/1947-53-02/S0002-9904-1947-08742-5/}.
+
+\bibitem{simmons1963introduction}
+George~F Simmons.
+\newblock {\em Introduction to topology and modern analysis}, volume~44.
+\newblock Tokyo, 1963.
+
+\bibitem{singh2006spectrum}
+Dinesh Singh.
+\newblock The spectrum in a banach algebra.
+\newblock {\em The American Mathematical Monthly}, 113(8):756--758, 2006.
+
+\bibitem{wegge1993k}
+Niels~Erik Wegge-Olsen.
+\newblock {\em K-theory and \ensuremath{\textsc{C}^*}-algebras.}
+\newblock Oxford university press, 1993.
+
+\end{thebibliography}
