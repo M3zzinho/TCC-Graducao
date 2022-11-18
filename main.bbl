@@ -5,6 +5,10 @@ Leon Alaoglu.
 \newblock Weak topologies of normed linear spaces.
 \newblock {\em Annals of Mathematics}, 41(1):252--267, 1940.
 
+\bibitem{aliprantisinfinite}
+Ch~D Aliprantis and KC~Border.
+\newblock Infinite dimensional analysis, 1994.
+
 \bibitem{blackadar1998k}
 Bruce Blackadar.
 \newblock {\em K-theory for operator algebras}, volume~5.
@@ -27,6 +31,17 @@ Joachim Cuntz.
 \newblock \ensuremath{K}-theory and \ensuremath{C^*}-algebras.
 \newblock {\em Lecture Notes in mathematics}, 1046:55--79, 1984.
 
+\bibitem{dixmier1982c}
+J.~Dixmier.
+\newblock {\em \ensuremath{C^*}-algebras}.
+\newblock North-Holland mathematical library. North-Holland, 1982.
+
+\bibitem{dontchev2020bartle}
+Asen~L Dontchev.
+\newblock Bartle-graves theorem revisited.
+\newblock {\em Set-Valued and Variational Analysis}, 28(1):109--122, 2020.
+\newblock \url{https://link.springer.com/article/10.1007/s11228-019-00524-1}.
+
 \bibitem{douglas1998banach}
 Ronald~G Douglas.
 \newblock {\em Banach algebra techniques in operator theory}, volume 179.
@@ -37,6 +52,12 @@ Ruy Exel.
 \newblock A fredholm operator approach to morita equivalence.
 \newblock {\em K-Theory}, 7(3).
 \newblock \url{http://mtm.ufsc.br/~exel/papers/morita.pdf}.
+
+\bibitem{aweygan2020}
+Aweygan (https://math.stackexchange.com/users/234668/aweygan).
+\newblock Strictly positive element in unital $c^*$-algebra is invertible.
+\newblock Mathematics Stack Exchange, 2020.
+\newblock URL:https://math.stackexchange.com/q/3926191 (version: 2020-11-28).
 
 \bibitem{jensen2012elements}
 Kjeld~Knudsen Jensen and Klaus Thomsen.
@@ -70,6 +91,14 @@ V.~M. Manuilov and E.~V. Troitsky.
 \newblock {\em Hilbert \ensuremath{C^*}-Modules}.
 \newblock American Mathematical Society, 2001.
 
+\bibitem{mingo1984equivariant}
+James~A Mingo and William~J Phillips.
+\newblock Equivariant triviality theorems for hilbert \ensuremath{C^*}-modules.
+\newblock {\em Proceedings of the American Mathematical Society},
+  91(2):225--230, 1984.
+\newblock
+  \url{https://www.ams.org/journals/proc/1984-091-02/S0002-9939-1984-0740176-0/S0002-9939-1984-0740176-0.pdf}.
+
 \bibitem{paschke1973inner}
 William~L Paschke.
 \newblock Inner product modules over \ensuremath{B^*}-algebras.
@@ -77,6 +106,11 @@ William~L Paschke.
   182:443--468, 1973.
 \newblock
   \url{https://www.ams.org/journals/tran/1973-182-00/S0002-9947-1973-0355613-0/S0002-9947-1973-0355613-0.pdf}.
+
+\bibitem{reed2012methods}
+Michael Reed.
+\newblock {\em Methods of modern mathematical physics: Functional analysis}.
+\newblock Elsevier, 2012.
 
 \bibitem{rieffel1981c}
 Marc Rieffel.
@@ -108,6 +142,20 @@ George~F Simmons.
 Dinesh Singh.
 \newblock The spectrum in a banach algebra.
 \newblock {\em The American Mathematical Monthly}, 113(8):756--758, 2006.
+
+\bibitem{sokal2011uniform}
+Alan~D. Sokal.
+\newblock A really simple elementary proof of the uniform boundedness theorem.
+\newblock {\em The American Mathematical Monthly}, 118(5):450--452, 2011.
+\newblock
+  \url{https://www.tandfonline.com/doi/abs/10.4169/amer.math.monthly.118.05.450}.
+
+\bibitem{239982}
+Johannes~Ebert (\url{https://mathoverflow.net/users/9928/johannes-ebert}).
+\newblock Operators on hilbert \ensuremath{C^*}-module and families of fredholm
+  operators.
+\newblock MathOverflow.
+\newblock URL:\url{https://mathoverflow.net/q/239982} (version: 2016-05-28).
 
 \bibitem{wegge1993k}
 Niels~Erik Wegge-Olsen.
