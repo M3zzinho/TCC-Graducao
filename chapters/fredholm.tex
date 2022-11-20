@@ -124,7 +124,7 @@ Since the algebra is unital, any adjointable operator is $C[0,1]$-compact: $\mat
 
 Therefore, in order to develop the theory of Fredholm operator between Hilbert modules and, in some extent, try to obtain a correspondence with the classical theory, we shall dodge that closure of the Fredholm range. Hence, we will focus on a smaller class of operators: those which admit pseudo-inverse, henceforth, the \textit{regular} ones. Later, we shall extent our results to general Fredholm operators, showing that each and everyone is, in some extent, regularizable.
 
-\subsection{Regular Fredholm operators}
+\section{Regular Fredholm operators}
 \label{sec: regular fredholm}
 \begin{definicao}[Regular operators]
 It is said to be \textit{regular} any operator $T\in \adj(E,F)$ that admits a \textit{pseudo-inverse}, i.e., there exists $S\in \adj(F,E)$ such that $TST=T$ and $STS=S$. When $S$ is such that $TS$ and $ST$ are idempotents, it is called a \textit{Moore-Penrose} inverse. 
@@ -132,7 +132,10 @@ It is said to be \textit{regular} any operator $T\in \adj(E,F)$ that admits a \t
 
 For a regular Fredholm operator $T$, such a pseudo-inverse $S$ fits the Fredholm criteria of $T$: If $S'$ is such that $\sub\Id E - S'T$ and $\sub\Id F - TS'$ are finite-rank operators,
 \begin{equation*}
-    (\sub \Id E - S'T)(\sub \Id E - ST) =  (\sub\Id E - S'T) - (\sub \Id E - S'T)ST = \sub \Id E - S'T- ST + \underbrace{S'TST}_{S'T}  = \sub \Id E - ST
+    \begin{array}{rcl}
+        (\sub \Id E - S'T)(\sub \Id E - ST) &=&  (\sub\Id E - S'T) - (\sub \Id E - S'T)ST \\
+        &=& \sub \Id E - S'T- ST + \underbrace{S'TST}_{S'T}  = \sub \Id E - ST
+    \end{array}
 \end{equation*}
 Since $\operatorname{FR}(E,F)$ is an ideal, the above manipulation shows that $\sub\Id E - ST$ is indeed a finite-rank operator (and similarly for $\sub\Id F - TS$).
 
@@ -319,7 +322,7 @@ Using \ref{prop: propriedades de fredholm}\ref{prop item: invertivel tem ind = 0
 \end{proof}
 \end{teorema}
 
-\subsection{Regularization of Fredholm operators}
+\section{Regularization of Fredholm operators}
 
 Time to extend our concepts to general Fredholm operators. A change in algebras will be necessary, so we write our next lemma with new a $C^*$-algebra notation.
 
@@ -686,7 +689,7 @@ as desired. \hfill \qedhere
 \end{proof}
 \end{proposicao}
 
-\subsection{``Fredholm Picture of \texorpdfstring{$K_0(A)$}{K0(A)}''}
+\section{``Fredholm Picture of \texorpdfstring{$K_0(A)$}{K0(A)}''}
 
 We already saw that every element of $K_0(A)$ is the index of some Fredholm operator.
 

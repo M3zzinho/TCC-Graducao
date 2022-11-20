@@ -10,14 +10,15 @@
 \contentsline {section}{\numberline {3.2}Adjointable operators}{21}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Finite rank operators}{24}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Kasparov Stabilization Theorem}{29}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Quasi-stably isomorphic finite rank modules}{31}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Fredholm Operators}{39}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}Regular Fredholm operators}{42}{subsection.4.0.1}%
-\contentsline {subsection}{\numberline {4.0.2}Regularization of Fredholm operators}{46}{subsection.4.0.2}%
-\contentsline {subsection}{\numberline {4.0.3}``Fredholm Picture of $K_0(A)$''}{53}{subsection.4.0.3}%
-\contentsline {chapter}{\numberline {A}Usefull and handy theorems in \ensuremath {C^*}-algebras}{57}{appendix.A}%
-\contentsline {section}{\numberline {A.1}\ensuremath {C^*}-algebras 101}{57}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Gelfand-Naimark representation theorem}{67}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Continuos Functional Calculus}{72}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Positive elements}{76}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Approximate Units}{79}{section.A.5}%
+\contentsline {section}{\numberline {3.5}Rank definition of Finite Rank Hilbert Modules}{31}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Quasi-stably-isomorphic Hilbert modules}{35}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Fredholm Operators}{41}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Regular Fredholm operators}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Regularization of Fredholm operators}{48}{section.4.2}%
+\contentsline {section}{\numberline {4.3}``Fredholm Picture of $K_0(A)$''}{55}{section.4.3}%
+\contentsline {chapter}{\numberline {A}Usefull and handy theorems in \ensuremath {C^*}-algebras}{59}{appendix.A}%
+\contentsline {section}{\numberline {A.1}\ensuremath {C^*}-algebras 101}{59}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Gelfand-Naimark representation theorem}{69}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Continuos Functional Calculus}{74}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Positive elements}{78}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Approximate Units}{81}{section.A.5}%

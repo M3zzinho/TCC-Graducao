@@ -522,8 +522,8 @@ A Hilbert Module $M$ over an $C^*$-algebra $A$ whose identity operator $\sub\Id 
 For an $A$-finite rank Hilbert module $M$ over $A$, the family of finite rank automorphisms ${\textsc{FR}}(M)$ over $A$ is a two-sided ideal of the adjointable operators $\adj(M)$. 
 \end{proposicao}
 \begin{proof}
-Extending coordinatewise, let $Ty \coloneqq \coord{Ty}n $ and notice that,
-\begin{eqspaced*}{(T,S \in \adj(M))}
+Extending coordinatewise, let $Ty \coloneqq \coord{Ty}n $ and notice that, for $T,S \in \adj(M)$,
+\begin{eqspaced*}{}
     \begin{array}{rcl}
         T\Omega_y\Omega_x^* + \Omega_w\Omega_z^*S &=& \sum\limits_{i=1}^n   Ty_i\inner{x_i}{\,\cdot\,}  \\ 
         & & \hphantom{\sum\limits_{i=1}^n}+ \sum\limits_{i=1}^n w_i\inner{S^*z_i}{\,\cdot\,} \\
@@ -545,7 +545,8 @@ U \cap \operatorname{FR}({E}) \neq \varnothing
 Since $\mathscr K({E})$ is a unital ${C}^{*}$-algebra, the invertible operators $\mathrm{GL}(\mathscr K({E}))$ constitute a non empty open set by \ref{prop: GL(A) eh aberto}, hence there is a finite-rank invertible operator $F \in \GL(\mathscr K(E)) \cap \operatorname{FR}(E)$. Since $\operatorname{FR}({E})$ contains an invertible and is an ideal, it follows that  $\sub\Id E = F\inv F \in \operatorname{FR}({E})$, i.e., the identity has finite rank.
 \end{proof}
 
-In order to fully characterize finite rank Hilbert Modules over a given $C^*$-algebra, the same K-algebraic theoretic bias is seen right here. %As far as theory goes, polar decomposition of a given adjointable operator is required. 
+In order to fully characterize finite rank Hilbert Modules over a given $C^*$-algebra, the same $K$-theoretic bias is seen right here through the representation by idempotents.
+%As far as theory goes, polar decomposition of a given adjointable operator is required. 
 
 %\begin{invocacao}[\cite{liu2019polar}, Theorems 3.8 and 3.13]
 %\label{invo: existencia de decomposicao polar}
@@ -592,13 +593,13 @@ That operator show us that $\Omega_x^*$ is an invertible operator: Given $a\in A
 %\sub{\inner\xi{\zeta}}M = \sub{\inner{\Omega_x^*\xi}{\Omega_x^*\zeta}}{A^n} 
 %\end{eqspaced}
 \end{itroman}
-Since it is an adjointable, functional continuous calculus allow us to extract the square root $|\Omega_x^*| \coloneqq (\Omega_x\Omega_x^*)^{1/2}$, which is self-adjoint. Besides beeing a linear bijection, $\Omega_x^*$ doesn't preserves inner products. But notice that $U \coloneqq \Omega_x^*|\Omega_x^*|^{-1}$ does:
-\begin{eqspaced*}{(\xi,\zeta \in M)}
+Since it is an adjointable, functional continuous calculus allow us to extract the square root $|\Omega_x^*| \coloneqq (\Omega_x\Omega_x^*)^{1/2}$, which is self-adjoint. Besides beeing a linear bijection, $\Omega_x^*$ doesn't preserves inner products. But notice that $U \coloneqq \Omega_x^*|\Omega_x^*|^{-1}$ does: For $\xi,\zeta \in M$,
+\begin{eqspaced*}{}
     \begin{array}{rcl}
         \sub{\inner{U\xi}{U\zeta}}{A^n} &=& \sub{\inner{\Omega_x^*|\Omega_x^*|^{-1}\xi}{\Omega_x^*|\Omega_x^*|^{-1}\zeta}}{A^n} \\
         &=& \vphantom{\int\limits_a^b} \sub{\inner\xi{|\Omega_x^*|^{-1}\Omega_x\Omega_x^*|\Omega_x^*|^{-1}\zeta}}{M}  \\
         &=& 
-        \sub{\inner\xi{|\Omega_x^*|^{-1}|\Omega_x^*|^{2}|\Omega_x^*|^{-1}\zeta}}{M}  = \sub{\inner\xi\zeta}{M}
+        \sub{\inner\xi{|\Omega_x^*|^{-1}|\Omega_x^*|^{2}|\Omega_x^*|^{-1}\zeta}}{M}  = \sub{\inner\xi\zeta}{M}.
     \end{array} 
 \end{eqspaced*}
 Hence $U$ is a Hilbert isomorphism between $M$ and $pA^n$. 
@@ -700,8 +701,8 @@ Hence $T^*T \geqslant S^*S$. Notice that $S^*S$ has dense range, and by \ref{pro
 
 
 
-\begin{proposicao}
-A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e., is $\sigma$-unital.
+%\begin{proposicao}
+%A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e., is $\sigma$-unital.
 %\begin{proof}
 %Assume that $E$ is countably generated and let $\sub\Pi E: E \oplus \HA \longtwoheadrightarrow E\oplus \HA$ be the projection into $E$. Then $E \simeq \sub\Pi E(E\oplus \HA)$. By Kasparov Stabilization theorem \ref{teo: kasparov stabilization}, let $U\in \mathscr K(\HA, E\oplus \HA)$ be the isomorphism given. Notice that it is a $*$-isomorphism the conjugation map:
 %\begin{equation*}
@@ -714,11 +715,10 @@ A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ 
 %    \functionwithoutname{{P\mathscr K(\HA)P}{\mathscr K(P(\HA)}{P (\lim \Omega_y\Omega_x^*) P}{{\lim \Omega_{Py}\Omega_{Px}^*}}}
 %\end{equation*}
 %\end{proof}
-\end{proposicao}
+%\end{proposicao}
 
 
-\section{Quasi-stably isomorphic finite rank modules}
-
+\section{Rank definition of Finite Rank Hilbert Modules}
 In order to define the actual \textit{rank} of a finite rank module $M$, we wish to deal with the $K_0$-group as the $K$-algebraic theoreticals like, so we shall visualise our $A$-modules over the unifization $\widetilde A$ of the underlying $C^*$-algebra $A$, regardless if it already posseses a unity or not. This process naturally enrich our module, as showed in \ref{prop: M eh finitamente gerado projetivo}.
 
 \begin{definicao}[Projective module]
@@ -734,7 +734,6 @@ That is to say, for every epimorphism\footnote{For our pourpose and needs, surje
 
 \begin{proposicao}\label{prop: M eh finitamente gerado projetivo}
 Every finite rank Hilbert $A$-module is a finitely generated projective Hilbert $\widetilde A$-module.
-\end{proposicao}
 \begin{proof}
 Let $M$ be a finite rank Hilbert $A$-module. If $(a,\lambda) \in \widetilde A$, letting $(a,\lambda)\cdot \xi \coloneqq a\xi + \lambda\xi$ turns $M$ into an Hilbert $\widetilde A$-module. If $p\in \adj({\widetilde{A}}^n)$ is the idempotent such that $M \simeq p{\widetilde{A}}^n$ given by \ref{teo: M rank finito sse M = pA^n}, notice that:
 \begin{itroman}
@@ -758,6 +757,7 @@ Let $M$ be a finite rank Hilbert $A$-module. If $(a,\lambda) \in \widetilde A$, 
 \end{itroman}
 Since ${\widetilde{A}}^n$ is free module, setting $Q \coloneqq \ker p$, one can see that $M$ is projective by \ref{item: M projetivo sse M oplus Q livre} and finitely generated by \ref{item: direct summand}. 
 \end{proof}
+\end{proposicao}
 
 \begin{lema}\label{prop: pAm cong qAn sse p ~ q}
 Let $p, q$ be idempotent square matrices with entries living in $A$. The following are equivalent:
@@ -765,7 +765,6 @@ Let $p, q$ be idempotent square matrices with entries living in $A$. The followi
     \item\label{prop: pAm cong qAn sse p ~ q (i)} As Hilbert modules, $pA^m \simeq q A^n$.
     \item\label{prop: pAm cong qAn sse p ~ q (ii)} $p$ and $q$ are Murray von-Neumann equivalent: There are $r,s$ such that $p=rs$ and $q=sr$.
 \end{itroman}
-\end{lema}
 \begin{proof}
 $\left.\right.$
 \begin{itemize}
@@ -785,6 +784,7 @@ $\left.\right.$
     Therefore $ pA^m \simeq qA^n $. \qedhere
 \end{itemize}
 \end{proof}
+\end{lema}
 
 
 For a $A$-finite rank module $M$, $M$ can be viewed as an finitely gerated projective $\widetilde A$-module, hence let $p$ be as in \ref{teo: M rank finito sse M = pA^n} embeded in $\mathbb M_{\infty}({\widetilde{A}})$. As an element of $V({\widetilde{A}})$, the equivalence class of idempotents which represents $M$, is the set:
@@ -800,10 +800,9 @@ Letting $[\,\cdot\,]_0 : V({\widetilde{A}}) \longhookrightarrow K_0({\widetilde{
 
 \begin{proposicao}
 \label{prop: compacto idempotente eh rank finito}
-Let $P \in \mathscr K(M)$ be a compact self-adjoint idempotent operator over a Hilbert $A$-module $M$. Therefore, $\Im P$ is an $A$-finite rank one.
-\end{proposicao}
+Let $P \in \mathscr K(E)$ be a compact self-adjoint idempotent operator over a Hilbert $A$-module $E$. Therefore, $\Im P$ is an $A$-finite rank one.
 \begin{proof}
-Notice that $\sub{\Id}{\Im P} = P$. Since it is compact in $M$, there are nets $(\sub y\lambda)_\lambda, (\sub x\lambda)_\lambda \subset M^{\infty}$ such that $P = \lim_\lambda \Omega_{\sub y\lambda}^{\vphantom{*}}\Omega_{\sub x\lambda}^*$. Therefore:
+Notice that $\sub{\Id}{\Im P} = P$. Since it is compact in $M$, there are nets $(\sub y\lambda)_\lambda, (\sub x\lambda)_\lambda \subset E^{\infty}$ such that $P = \lim_\lambda \Omega_{\sub y\lambda}^{\vphantom{*}}\Omega_{\sub x\lambda}^*$. Therefore:
 \begin{eqnarray*}
 \sub{\Id}{\Im P} &=& P = P^3 = P\Big(\lim_\lambda \Omega_{\sub y\lambda}^{\vphantom{*}}\Omega_{\sub x\lambda}^*\Big)P\\
 &=& \lim_\lambda P\Omega_{\sub y\lambda}^{\vphantom{*}}\Omega_{\sub x\lambda}^*P =  \lim_\lambda \Omega_{P\sub y\lambda}^{\vphantom{*}}\Omega_{P^*\sub x\lambda}^*
@@ -811,9 +810,9 @@ Notice that $\sub{\Id}{\Im P} = P$. Since it is compact in $M$, there are nets $
 \end{eqnarray*}
 In light of the \ref{prop: identidade compacta eh de rank finito}, ${\Im P}$ is indeed a finite-rank module.
 \end{proof}
+\end{proposicao}
 
-    \begin{observacao}
-    \label{obs: idempotente gerando inversivel}
+\begin{observacao}\label{obs: idempotente gerando inversivel}
     The range of an idempotent operator coincide with the range of some projection, i.e., self-adjoint idempotent operator. To see this, suppose that $a\in A$ is an idempotent in a unital $C^*$-algebra $A$.  Let
     \[
     h \coloneqq 1 + (a-a^*)(a^*-a) = 1 + aa^* - a^* - a + a^*a
@@ -845,12 +844,42 @@ In light of the \ref{prop: identidade compacta eh de rank finito}, ${\Im P}$ is 
     \end{itroman}
     
     In particular, if $a\coloneqq Q\in \adj(E)$ is an idempotent operator, $\Im Q$ coincides with the range of $p$ by \ref{item: p eh uma projecao}, which is a self-adjoint idempotent operator. In particular $E = \Im Q \oplus \Im Q^{\perp}$.
-    \end{observacao}
+\end{observacao}
 
 
 \begin{definicao}
-The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the class $\rank(M) \coloneqq [M]_0 \in K_0(A)$. By proposition \ref{prop: compacto idempotente eh rank finito} and the remark \ref{obs: idempotente gerando inversivel}, we shall also define the rank of a given compact idempotent operator $P$ as the rank of $\Im P$.
+The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the class $\rank(M) \coloneqq [p]_0 \in K_0(A)$. By proposition \ref{prop: compacto idempotente eh rank finito} and the remark \ref{obs: idempotente gerando inversivel}, we shall also define the rank of a given compact idempotent operator $P$ as the rank of $\Im P$.
 \end{definicao}
+
+
+\begin{lema}\label{lema: [P]_0 = [Q]_0 ---> [p]_0 = [q]_0}
+    Let $E$ be a Hilbert module and $P, Q \in \adj(E)$ be two idempotent operators. If $P$ and $Q$ are similar, i.e., there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
+    \begin{proof}
+        We have that $P = uQ\inv u$, $\Im P \simeq pA^n$ and $\Im Q \simeq qA^n$. Since their ranges are finite-rank modules (\ref{obs: idempotente gerando inversivel} and \ref{prop: compacto idempotente eh rank finito}), there are $x,y \in (\Im P)^n$ and $z,w \in (\Im Q)^m$ such that 
+        $$P = \sub\Id{\Im P} = \Omega_{y}^{\,}\Omega_x^* \e Q = \sub\Id{\Im Q} = \Omega_{w}^{\,}\Omega_z^*.$$ 
+        We know that $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$. Therefore:
+
+        $$
+        \Omega_y\Omega_x^* = P = uQ\inv u = u\Omega_{w}\Omega_z^*\inv u = \Omega_{u(w)}^{\,}\Omega_{({\inv u})^*(z)}^* $$
+        $$\Rightarrow \sum_{i=1}^n y_i \inner{x_i}{\come} = \sum_{i=1}^m u(w_i)\inner{(\inv u)^*(z_i)}{\come}$$ 
+        Notice that the matrix $\widehat q \coloneqq \left(\inner{(\inv u)^*(z_i)}{u(y_j)}\right)_{i,j}$ obeys $\Im uQ\inv u \simeq \widehat{q}A^s$ by the construction of \ref{teo: M rank finito sse M = pA^n}. But since $\widehat{q} = q$, we obtain two isomorphisms such that the following diagram commutes.
+        \begin{equation*}
+\begin{tikzcd}
+    \Im P \arrow[d]        & \Im uQu^{-1} \arrow[l, no head, equal] \arrow[d] \arrow[r, dashed] & \Im Q \arrow[d] \\
+    pA^r \arrow[r, dashed] & qA^s \arrow[r, no head, equal]                                     & qA^s           
+    \end{tikzcd}
+        \end{equation*}
+        Since $pA^n\simeq qA^m$ if, and only if $p$ and $q$ are Murray-von Neumann equivalent by \ref{prop: pAm cong qAn sse p ~ q}, the result follows. 
+    \end{proof}   
+\end{lema}
+
+\begin{corolario}
+    \label{corol: [P]_0 =[Q]_0 ---> rank(P) = rank(Q)}
+    Let $P$ and $Q$ be compact idempotent operators in $\mathscr L(E)$. If $[P]_0 = [Q]_0$, then $\rank(P) = \rank(Q)$.
+\end{corolario}
+
+
+\section{Quasi-stably-isomorphic Hilbert modules}
 
 If $X, Y, Z$ and $W$ are Hilbert $A$-modules and $T$ is in $\adj(X \oplus Y, Z \oplus W)$, then $T$ can be represented by a matrix
 $$
@@ -865,15 +894,13 @@ We are in touch with pretty algebraic properties of Hilbert modules, and in our 
 
 \begin{definicao}[Quasi-stably-isomorphic finite rank]
 \label{def: quasi-stabli-isomorphic}
-Two Hilbert modules $M$ and $N$ are said to be \textit{quasi-stably-isomorphic} if there exists a Hilbert module $X$ and an invertible operator $T \in \GL \adj(M \oplus X, N \oplus X)$ such that $\sub{\Id}{X}-\sub T{X X}$ is compact.
+Two Hilbert modules $E$ and $F$ are said to be \textit{quasi-stably-isomorphic} if there exists a Hilbert module $X$ and an invertible operator $T \in \GL \adj(E \oplus X, F \oplus X)$ such that $\sub{\Id}{X}-\sub T{X X}$ is compact.
 \end{definicao}
 
-Before lighting that relationship, first we enrich the definition.
+Before lighting that relationship, first we enrich the definition on the special case of finite-rank modules.
 
-\begin{lema}
-\label{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}
+\begin{lema}\label{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}
 Assume $M$ and $N$ are $A$-finite rank modules. If $M$ and $N$ are quasi-stably-isomorphic then the module $X$ referred to in \ref{def: quasi-stabli-isomorphic} can be taken to be countably generated.
-\end{lema}
 \begin{proof}
 Let $X$ and $T$ as in \ref{def: quasi-stabli-isomorphic}. Using matrix notation, we have:
 \begin{equation*}
@@ -910,13 +937,19 @@ In order to obey \ref{item: imagens contidas no gerador}, our initial collection
 \]
 Let $\sub{\mathscr C}0$ be given by:
 \begin{equation*}
-    \sub{\mathscr C}0 \coloneqq {\big\{ r\pi_i(y) \mid r\in \{\sub{T}{X M}^{\vphantom{*}}, \sub{S}{X N}^{\vphantom{*}}, \sub{T}{N X}^{*},\sub{S}{XM}^{*}\}, \sub\Id{\operatorname{dom}(r)} = \Omega_y^{\,}\Omega_x^*\big\}}_{i\in \mathbb N} \cup \bigcup_{n\in \N} \{\pi_i(\boldsymbol{\xi_n}) , \pi_i(\boldsymbol{\zeta_n}) \}_{i \in \N}
+    \begin{array}{rcl}
+        \sub{\mathscr C}0 &\coloneqq& {\big\{ r\pi_i(y) \mid r\in \{\sub{T}{X M}^{\vphantom{*}}, \sub{S}{X N}^{\vphantom{*}}, \sub{T}{N X}^{*},\sub{S}{XM}^{*}\}, \sub\Id{\operatorname{dom}(r)} = \Omega_y^{\,}\Omega_x^*\big\}}_{i\in \mathbb N} \\ 
+        & & \cup \bigcup\limits_{n\in \N} \{\pi_i(\boldsymbol{\xi_n}) , \pi_i(\boldsymbol{\zeta_n}) \}_{i \in \N}
+    \end{array}
 \end{equation*}
 By construction, those properties are obeyed. Inductively, we set new collections in order to obey to above properties in terms of the operator $\sub T{XX}^{\vphantom{*}}$ and $\sub{S}{XX}$:
 \begin{eqspaced*}{(n\in \mathbb N)}
-\mathscr C_{n+1}\coloneqq \mathscr C_{n} \cup \sub{T}{X X}^{\vphantom{*}}\left(\mathscr C_{n}\right) \cup \sub{S}{X X}^{\vphantom{*}}\left(\mathscr C_{n}\right) \cup \sub{T}{X X}^{*}\left(\mathscr C_{n}\right) \cup \sub{S}{X X}^{*}\left(\mathscr C_{n}\right)
+\begin{array}{rcl}
+    \mathscr C_{n+1} &\coloneqq & \mathscr C_{n} \cup \sub{T}{X X}^{\vphantom{*}}\left(\mathscr C_{n}\right) \cup \sub{S}{X X}^{\vphantom{*}}\left(\mathscr C_{n}\right) \\
+    & & \cup \sub{T}{X X}^{*}\left(\mathscr C_{n}\right) \cup \sub{S}{X X}^{*}\left(\mathscr C_{n}\right)
+\end{array}
 \end{eqspaced*}
-in order that each $\mathscr C_n$ satisfies \ref{item: imagens contidas no gerador} and \ref{item: aproximacao de Id-T_XX}. Therefore, the union $\mathscr C\coloneqq \bigcup_{n \in \mathbb{N}} \mathscr C_{n}$ is then obviously countable, and also obeys those same properties above. In addition, the following one belongs to package:
+in order that each $\mathscr C_n$ satisfies \ref{item: imagens contidas no gerador} and \ref{item: aproximacao de Id-T_XX}. Therefore, the union $\mathscr C\coloneqq \bigcup_{n} \mathscr C_{n}$ is then obviously countable, and also obeys those same properties above. In addition, the following one belongs to package:
 \begin{enumerate}[label=\ensuremath{(\roman*)}]
     \setcounter{enumi}{2}
     \item \label{item: (iii)} \textbf{$\boldsymbol{\mathscr C}$ is invariant under $\boldsymbol{\sub{T}{X X}^{\vphantom{*}}, \sub{T}{X X}^{-1}, \sub{T}{X X}^{*}}$ and $\boldsymbol{(\sub{T}{X X}^{-1})^{*}}$.} Let $r \in \adj (X)$ be one the operators. If it was the case that $\mathscr C$ wasn't invariant over $r$, necessarily it would exists $w \in r(\mathscr C)\backslash \mathscr C$, hence, $\inv r(w) \in \mathscr C_n$ for some $n$. However, 
@@ -930,11 +963,13 @@ Let $X' \coloneqq \con{\langle{\mathscr C}\rangle}$ be the Hilbert submodule of 
 $$T\left(M \oplus X'\right) \subseteq N \oplus X' \e T^{*}\left(N \oplus X'\right) \subseteq M \oplus X'.$$ 
 The restriction of $T$ then gives an operator $T^{\prime}$ in $\adj\left(M \oplus X', N \oplus X'\right)$. The same reasoning applies to ${\inv T}$ providing $({\inv T})^{\prime}$ in $\adj\left(N \oplus X', M \oplus X'\right)$ which is obviously the inverse of $T^{\prime}$. In virtue of \ref{item: aproximacao de Id-T_XX} it is clear that $T^{\prime}$ satisfies the conditions of definition \ref{def: quasi-stabli-isomorphic}.
 \end{proof}
+\end{lema}
+
+In terms of the Morita equivalence, this is a big deal since we are not restricting ourselves into $C^*$-algebras with countably approximate identities. After studying Fredholm operators between Hilbert modules, one shall construct group morphisms $K_*(A) \longto K_*(B)$ for generic $C^*$-algebras $A$ and $B$. Those maps turn out to be isomorphisms when $A$ and $B$ are strongly Morita equivalent.
 
 \begin{teorema}
 \label{teo: M N quasi stably iso ==> rank igual}
 Let $M$ and $N$ be quasi-stably-isomorphic finite rank Hilbert modules over a $C^*$-algebra $A$. Therefore, $\rank(M) = \rank(N)$.
-\end{teorema}
 \begin{proof}
 Let $T \in \GL(\adj(M\oplus X, N\oplus X))$ with $X$ beeing a countably generated Hilbert module (\ref{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}) and $\sub \Id X - \sub T{XX} \in \mathscr K(X)$. By the countability condition, we can apply Kasparov's Stabilization Theorem \ref{teo: kasparov stabilization} in order to obtain that $X \oplus \mathscr H_A \simeq \mathscr H_A$. Without loss of generality, we can assume that $X = \mathscr H_A$.
 
@@ -979,14 +1014,49 @@ Meaning that
     \end{equation*}
     Similarly, one can check that $GFG=G$. Hence, $\Id-FG$ and $\Id - GF$ are idempotents.
 \end{itroman}
-For sake of notation, let $\mathcal B \coloneqq \adj(\mathscr H_A)$ and $\mathcal K \coloneqq \mathscr K(\mathscr H_A)$.
-Since the compact set is an ideal of $\mathcal B$, one can consider the following exact sequence of $C^*$-algebras:
-\begin{equation*}
+For sake of notation, let $\mathscr Q(E) \coloneqq {\adj(E)}/{\mathscr K(E)}$ for a Hilbert $A$-module $E$. Since the compact set is an ideal of the adjointable maps, one can consider the following exact sequence of $C^*$-algebras:
+\begin{equation}
+    \label{eq:seq exata de C-star em K(H_A)}
 \begin{tikzcd}
-0 \arrow[r] & \mathcal K \arrow[r, "\iota"] & \mathcal B \arrow[r, "\pi"] & \mfrac{\mathcal B}{\mathcal K} \arrow[r] & 0
+0 \arrow[r] & \mathscr K(\mathscr H_A) \arrow[r, hook] & \adj(\mathscr H_A) \arrow[r, "\pi", two heads] & \mathscr Q(\mathscr H_A) \arrow[r] & 0
 \end{tikzcd}
-\end{equation*}
-By \ref{teo item: I-FG e I-GF sao compactos}, is easy to see that $\pi(F)$ and $\pi(G)$ are each others inverse in $\mathcal B/\mathcal K$. Consider the $K$-theory index map: $\partial_1 : K_1({\mathcal B}/{\mathcal K}) \longto K_0(\mathcal K)$ which \textcolor{red}{assings to the class of $\pi(F)$, the element $\rank(N)-\rank(M)$, once $\mathcal K$ is identified with $\mathscr K \otimes A$ according to [7], 2.4, and $K_0(\mathscr K \otimes A)$ is identified with $K_0(A)$ as usual in $K$-theory.}
+\end{equation}
 
-Since $\sub{T}{\mathscr H_A\mathscr H_A}$ is a compact perturbation of the identity and both $M$ and $N$ are finite rank modules, one concludes that $F$ is also a compact perturbation of the identity. It follows that $\pi(F)=1$ and hence, has index $0=\rank(M)-\rank(N)$, concluding the proof.
+Notice that we can consider the index map $\partial$ induced by (\ref{eq:seq exata de C-star em K(H_A)}). Since $\sub{T}{\mathscr H_A\mathscr H_A}$ is a compact perturbation of the identity and both $M$ and $N$ are finite rank modules, one concludes that $F$ is also a compact perturbation of the identity. Therefore, $\partial([\pi(F)]_1)=\partial([\sub\Id{\mathscr Q(\mathscr H_A)}]_1) = 0$.
+
+We can extract more information by writing down who is the index in terms of $F$ and $G$. By \ref{teo item: I-FG e I-GF sao compactos}, is easy to see that $\pi(F)$ and $\pi(G)$ are each others inverse in $\mathscr Q(\mathscr H_A)$. In order to compute the index, the element  
+\begin{equation*}
+    w \coloneqq \begin{pmatrix}
+        F & \Id - FG \\ \Id-GF & G
+    \end{pmatrix} \in \GL_2^{(0)}({\mathscr Q(\mathscr H_A)})
+\end{equation*}
+is a lift of $\diag(\pi(F), \pi(F)^{-1})$, which it's inverse just swaps $F$ and $G$ places. Therefore:
+\begin{equation*}
+    \label{eq: index pi(F)}
+ \begin{array}{rcl}
+    0 &=& \partial\left(\left[\pi(F)\right]_1\right) \vspace{0.125cm}\\
+    &=& \left[w\sub p2 \inv w\right]_0 - \left[\sub p2\right]_0 \vspace{0.125cm}\\
+    &=&  \left[\left(\begin{smallmatrix}
+        F & \Id - FG \\ \Id - GF & G
+    \end{smallmatrix}\right)\left(\begin{smallmatrix}
+        \vphantom{F \Id-FG}\Id & 0 \\ \vphantom{F \Id-FG} 0 & 0   
+    \end{smallmatrix}\right)\left(\begin{smallmatrix}
+        G & \Id - GF \\ \Id - FG & F
+    \end{smallmatrix}\right)\right]_0 - \left[\left(\begin{smallmatrix}
+        \vphantom{F \Id-FG}\Id & \vphantom{F \Id-FG}0 \\ \vphantom{F \Id-FG} 0 & 0   
+    \end{smallmatrix}\right)\right]_0 \vspace{0.125cm}\\
+    &=&  \left[\left(\begin{smallmatrix}
+        FG & 0 \\ 0 & \Id - GF 
+    \end{smallmatrix}\right)\right]_0 - \left[\left(\begin{smallmatrix}
+        \vphantom{F \Id-FG}\Id & \vphantom{F \Id-FG}0 \\ \vphantom{F \Id-FG} 0 & 0   
+    \end{smallmatrix}\right)\right]_0 \vspace{0.125cm}\\
+    &=& \left[\Id - GF\right]_0 - \left[\Id - FG\right]_0
+ \end{array}
+\end{equation*}
+Hence $[\Id - FG]_0 = [\Id - GF]_0$ and by the corollary \ref{corol: [P]_0 =[Q]_0 ---> rank(P) = rank(Q)}, one obtains that $\rank(\Id-FG) = \rank(\Id - GF)$. We had seen that $\Id - FG = \inv\varphi \sub\Pi{M}\varphi$, i.e., $\Im(\Id - FG) \simeq M$. Therefore:
+\begin{equation*}
+    \rank(M) = [M]_0 = [\Im(\Id - FG)]_0 = \rank(\Id-FG).
+\end{equation*} 
+Similarly, one obtains that $\rank(N) = \rank(\Id-GF)$ and consequentially, $\rank(M) = \rank(N)$ as we were looking.
 \end{proof}
+\end{teorema}
