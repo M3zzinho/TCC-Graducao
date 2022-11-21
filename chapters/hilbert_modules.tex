@@ -13,6 +13,7 @@ In what is tangible to this work, we address the Morita equivalence target by bu
 The material source contains for this chapter contains the well written textbooks like \cite{lance1995hilbert}, \cite{jensen2012elements}, \cite{manuilov2001hilbert}.
 
 \section{The interest object}
+\label{sec:definicao de hilbert c-star-modules}
 
 %The star of the show were introduced by 
 
@@ -43,38 +44,38 @@ For any Inner product module $E$ over $A$, the following inequality holds:
 \label{eq: cauchy-schwarts}
 {\|\inner xy\|}^{2} \leq \|\inner xx\| \cdot \|\inner yy\|.
 \end{eqspaced}
-\end{proposicao}
 \begin{proof}
-Given the fact that $0\leq \inner aa$ for $a\in A$, notice that with the acessory elements $a\coloneqq \inner xx$, $b \coloneqq \inner yy$ and $c\coloneqq \inner xy$,
-\begin{eqspaced*}{(t \in \R)}
-\hspace{-0.5cm}
-\begin{array}{rcl}
-    0 & \leq & \inner{x -  yt c^*}{x - y t c^*} \\
-    &=& \vphantom{\displaystyle \int_a^b} 
-        \inner x{x - y t  c^*}- tc\inner{y}{x - y t  c^*} \\
-    &=& \inner xx - \inner xy\,tc^* - tc\inner yx + tc\inner yytc^* \\
-    &=& \vphantom{\displaystyle \int_a^b}
-        a - 2tcc^*+ t^2cbc^*
-\end{array}
-\end{eqspaced*}
-
-Since $2t c c^*$ is self-adjoint, we can add in both sides and maintain the inequality in the $C^*$-realm. Using the $A$-norm and assumig $t \geq 0$, by \ref{lema: Cstar prop: a <= b ---> |a| <= |b|},
-\begin{eqnarray}
- 2t \|cc^*\| &\leq& \|a \| + t^2\|cb c^*\| \nonumber \\
-             &\leq & \vphantom{\displaystyle \int_a^b} \|a \| + t^2\|c\|\|b\|\|c^*\| \nonumber \\
-\label{eq: CS - polinomio quadrado}
-\To \hfill 2t\|c\|^2 &\leq&  \|a \| + t^2\|b\|\|c\|^2           
-\end{eqnarray}
-
-With a fairly nice quadratic polynomial in $\R[t]$ calved by (\ref{eq: CS - polinomio quadrado}) in our hands witch is allways non negative, the discriminant must be non positive. Therefore:
-\begin{eqnarray}
-    (-2\|c\|^2)^2 - 4\|b\|\|c\|^2 \|a\|  &\leq& 0 \nonumber\\
-    \label{eq: CS - discriminante delta} \To \hfill
-    \vphantom{\displaystyle \int_a^b}\|\inner xy\|^4 - \|\inner yy\|\|\inner xy\|^2 \|\inner xx\|  &\leq& 0 
-\end{eqnarray}
-
-Assuming  $\|\inner xy\|^2 \neq 0$ means that (\ref{eq: CS - discriminante delta}) can be simplified into Cauchy-Schwartz inequality (\ref{eq: cauchy-schwarts}) by cancelling $\|\inner xy\|^2$. Otherwise\footnote{Note that $\|\inner xy\|^2=0$ if and only if $\inner xy=0$.}, $\inner xy=0$ is a trivial case of the desired inequality.
-\end{proof}
+    Given the fact that $0\leq \inner aa$ for $a\in A$, notice that with the acessory elements $a\coloneqq \inner xx$, $b \coloneqq \inner yy$ and $c\coloneqq \inner xy$,
+    \begin{eqspaced*}{(t \in \R)}
+    \hspace{-0.5cm}
+    \begin{array}{rcl}
+        0 & \leq & \inner{x -  yt c^*}{x - y t c^*} \\
+        &=& \vphantom{\displaystyle \int_a^b} 
+            \inner x{x - y t  c^*}- tc\inner{y}{x - y t  c^*} \\
+        &=& \inner xx - \inner xy\,tc^* - tc\inner yx + tc\inner yytc^* \\
+        &=& \vphantom{\displaystyle \int_a^b}
+            a - 2tcc^*+ t^2cbc^*
+    \end{array}
+    \end{eqspaced*}
+    
+    Since $2t c c^*$ is self-adjoint, we can add in both sides and maintain the inequality in the $C^*$-realm. Using the $A$-norm and assumig $t \geq 0$, by \ref{lema: Cstar prop: a <= b ---> |a| <= |b|},
+    \begin{eqnarray}
+     2t \|cc^*\| &\leq& \|a \| + t^2\|cb c^*\| \nonumber \\
+                 &\leq & \vphantom{\displaystyle \int_a^b} \|a \| + t^2\|c\|\|b\|\|c^*\| \nonumber \\
+    \label{eq: CS - polinomio quadrado}
+    \To \hfill 2t\|c\|^2 &\leq&  \|a \| + t^2\|b\|\|c\|^2           
+    \end{eqnarray}
+    
+    With a fairly nice quadratic polynomial in $\R[t]$ calved by (\ref{eq: CS - polinomio quadrado}) in our hands witch is allways non negative, the discriminant must be non positive. Therefore:
+    \begin{eqnarray}
+        (-2\|c\|^2)^2 - 4\|b\|\|c\|^2 \|a\|  &\leq& 0 \nonumber\\
+        \label{eq: CS - discriminante delta} \To \hfill
+        \vphantom{\displaystyle \int_a^b}\|\inner xy\|^4 - \|\inner yy\|\|\inner xy\|^2 \|\inner xx\|  &\leq& 0 
+    \end{eqnarray}
+    
+    Assuming  $\|\inner xy\|^2 \neq 0$ means that (\ref{eq: CS - discriminante delta}) can be simplified into Cauchy-Schwartz inequality (\ref{eq: cauchy-schwarts}) by cancelling $\|\inner xy\|^2$. Otherwise\footnote{Note that $\|\inner xy\|^2=0$ if and only if $\inner xy=0$.}, $\inner xy=0$ is a trivial case of the desired inequality.
+    \end{proof}
+\end{proposicao}
 
 For any $A$-valued inner product as above, we define a norm $\|x\| \coloneqq \sqrt{\sub{\|\inner xx\|}A}$ on a Inner product $C^*$-module. Which means that for arbitrary $x,y \in E$ and $a\in A$, the following holds:
 \begin{itroman}
@@ -112,8 +113,7 @@ Inner product modules are called \textit{Hilbert \ensuremath{C^*}-modules} when 
 \end{definicao}
 
 \begin{proposicao}\label{prop: EA = E}
-For a Hilbert $C^*$-module $E$ over $A$, $\con{\operatorname{Span} EA} = E$.
-\end{proposicao}
+For a Hilbert $C^*$-module $E$ over $A$, let $EA$ denote the linear span of elements given by $xa$, for $x\in E$ and $a\in A$. Therefore $\con{EA} = E$.
 \begin{proof}
 If $(\sub u\lambda)_\lambda \subset A$ is a approximate unit for $A$, then for all $x\in E$:
 \begin{equation*}
@@ -124,6 +124,7 @@ If $(\sub u\lambda)_\lambda \subset A$ is a approximate unit for $A$, then for a
 \end{equation*}
 Hence the elements of the form $x\sub u\lambda$ are dense in $E$. 
 \end{proof}
+\end{proposicao}
 
 \begin{observacao}\label{obs: tornar um R-modulo em um K-modulo}
 Let $A$ and $B$ be $C^*$-algebras. If $E$ is a Hilbert $B$-module and the ideal $I$ of the clousure of the elements spanned by $\inner xy$ is contained in $A$, then there is a way to make $E$ into a Hilbert $A$-module without changing the inner product. Namely, let $(\sub u\lambda)_\lambda$ be an approximate unit for $I$. Then the identity
@@ -136,7 +137,8 @@ a^* \sub u\eta \inner xx \sub u\eta a+a^* \sub u\lambda \inner xx \sub u\lambda 
 holds for all $x\in E$ and $a\in A$, showing that $(x\sub u\lambda a)_\lambda$ converges in $E$. We can define $x a=\lim x \sub u{\lambda} a$, and it is straightforward to check that this makes $E$ into a Hilbert $A$-module. This is particularly when dealing with non unital $C^*$-algebras $A$, and we might have a look into the same module over $\widetilde A$.
 \end{observacao}
 
-\begin{exemplos}$\left.\right.$\label{exemplos de hilbert modules}
+\begin{exemplos}\label{exemplos de hilbert modules}
+    $\left.\right.$
 \begin{itroman}
     \item Any traditional complex Hilbert space is a Hilbert $\C$-module.    
     \item \label{item: soma direta de modulos de hilbert} Let $(E_i)_{i\in I}$ be a family of Hilbert $C^*$-modules over $A$. The direct sum will be:
@@ -206,6 +208,8 @@ holds for all $x\in E$ and $a\in A$, showing that $(x\sub u\lambda a)_\lambda$ c
     \function{{\inner\come\come}{\Gamma(E)\times \Gamma(E)}{C(X)}{(a,b)}{d(a(\,\cdot\,),b(\,\cdot\,))}} 
     \end{equation*}
     as an inner product.
+
+%    \item Let $G$ be a locally compact group and consider the integral of $f: G \longto \C$ with respect to the left Haar measure. With the involution
 \end{itroman}
 \end{exemplos}
 %\begin{itroman}
@@ -251,41 +255,41 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
     
 \begin{proposicao}
     Every adjointable operator $T:E \longto F$, between Hilbert $A$-modules is bounded and continuous.
-\end{proposicao}
-\begin{proof}
-    Since the set $\{\sub{\inner{Tx}y}F = \sub{\inner{x}{T^*y}}E \mid \|x\|\leq 1\} \subset A$ is bounded for all $y \in F$, Banach-Steinhaus theorem \ref{invo: limitacao uniforme} implies that $T$ is bounded. 
-    \begin{quote}
-        \begin{invocacao}[Banach-Steinhaus ``Uniform Boundness Principle'' - \cite{sokal2011uniform}]
-    \label{invo: limitacao uniforme}
-    Let $\mathcal{F}$ be a family of bounded linear operators from a Banach space $X$ to a normed linear space $Y$. If $\mathcal{F}$ is pointwise bounded, then $\mathcal{F}$ is norm-bounded, i.e.,
-    \[\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.\]
-    %$\hphantom{\text{normed linear spa}}\vphantom{\int\limits^\int}\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.$
-    \textit{A sketch of Sokal's really simple proof}. For any operator $T\in \mathcal F$, one obtain that\footnote{Just observe that 
-    \[\max(\|T(x+\xi)\|, \|T(x-\xi)\|) \geqslant \dfrac{1}{2}(\|T(x+\xi)\|+ \|T(x-\xi)\|) \geq \|T\xi\|\]
-    foll all $\xi \in X$. Hence, take the supremum over $\xi \in B(0,r)$.} $\sup_{z\in B(x,r)} \|Tz\| \geqslant \|T\|r$ for any $x\in X$ and $r>0$. Hence, if $\sup \|\mathcal F\| = \infty$, there exists a sequence $(T_n)_n\subset \mathcal{F}$ such that $\|T_n\| \geqslant 4^n$. By the first claim, one can build (inductively) $(x_n)_n\subset X$, with $\sub x0=0$, $\|x_{n+1}-x_n\|\leqslant 1/3^{n+1}$ and $\|T_nx\|\geqslant \|T\|2/3^{n+1}$, which happens to be a Cauchy. Since $X$ is complete, there exists $x$ such that $\|x-x_n\| \leq 3^n/2$, hence $\|T_nx\| \geq \|T_n\|/(2.3^n) \geqslant (4/3)^n/2$, contradicting pointwise convergence of $\mathcal F$.
-    \end{invocacao}
-    \end{quote}
-    By \ref{lema: lim <x_lambda,y_lambda> = <x,y>}, for a convergent net $\sub x\lambda \to x$, the following holds for all $y\in E$:
-    \begin{equation*}{}
-    \begin{array}{rcl}
-    0 &=& \lim_\lambda \Big[\inner{T^*y}{\sub x\lambda} - \inner{T^*y}{\sub x\lambda}\Big]\\
-    &=& \vphantom{\int\limits_a^b}\lim_\lambda \inner{y}{T\sub x\lambda} - \lim_\lambda\inner{T^*y}{\sub x\lambda} \\
-    &=& \inner{y}{\textstyle{\lim_\lambda T\sub x\lambda}} - \inner{T^*y}{{\textstyle\lim_\lambda \sub x\lambda}} \\
-    &=& \vphantom{\int\limits_a^b}\inner{y}{{\textstyle\lim_\lambda T\sub x\lambda}} - \inner{T^*y}x\\
-    &=& \inner{y}{{\textstyle\lim_\lambda T\sub x\lambda}} - \inner{y}{Tx} = \inner{y}{\lim_\lambda T\sub x\lambda - Tx}
-    \end{array}
-    \end{equation*}
-    Especially when $y \coloneqq \lim_\lambda T\sub x\lambda  - Tx$, so that $\lim_\lambda T\sub x\lambda = Tx$.
+    \begin{proof}
+        Since the set $\{\sub{\inner{Tx}y}F = \sub{\inner{x}{T^*y}}E \mid \|x\|\leq 1\} \subset A$ is bounded for all $y \in F$, Banach-Steinhaus theorem \ref{invo: limitacao uniforme} implies that $T$ is bounded. 
+        \begin{quote}
+            \begin{invocacao}[Banach-Steinhaus ``Uniform Boundness Principle'' - \cite{sokal2011uniform}]
+        \label{invo: limitacao uniforme}
+        Let $\mathcal{F}$ be a family of bounded linear operators from a Banach space $X$ to a normed linear space $Y$. If $\mathcal{F}$ is pointwise bounded, then $\mathcal{F}$ is norm-bounded, i.e.,
+        \[\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.\]
+        %$\hphantom{\text{normed linear spa}}\vphantom{\int\limits^\int}\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.$
+        \textit{A sketch of Sokal's really simple proof}. For any operator $T\in \mathcal F$, one obtain that\footnote{Just observe that 
+        \[\max(\|T(x+\xi)\|, \|T(x-\xi)\|) \geqslant \dfrac{1}{2}(\|T(x+\xi)\|+ \|T(x-\xi)\|) \geq \|T\xi\|\]
+        foll all $\xi \in X$. Hence, take the supremum over $\xi \in B(0,r)$.} $\sup_{z\in B(x,r)} \|Tz\| \geqslant \|T\|r$ for any $x\in X$ and $r>0$. Hence, if $\sup \|\mathcal F\| = \infty$, there exists a sequence $(T_n)_n\subset \mathcal{F}$ such that $\|T_n\| \geqslant 4^n$. By the first claim, one can build (inductively) $(x_n)_n\subset X$, with $\sub x0=0$, $\|x_{n+1}-x_n\|\leqslant 1/3^{n+1}$ and $\|T_nx\|\geqslant \|T\|2/3^{n+1}$, which happens to be a Cauchy. Since $X$ is complete, there exists $x$ such that $\|x-x_n\| \leq 3^n/2$, hence $\|T_nx\| \geq \|T_n\|/(2.3^n) \geqslant (4/3)^n/2$, contradicting pointwise convergence of $\mathcal F$.
+        \end{invocacao}
+        \end{quote}
+        By \ref{lema: lim <x_lambda,y_lambda> = <x,y>}, for a convergent net $\sub x\lambda \to x$, the following holds for all $y\in E$:
+        \begin{equation*}{}
+        \begin{array}{rcl}
+        0 &=& \lim_\lambda \Big[\inner{T^*y}{\sub x\lambda} - \inner{T^*y}{\sub x\lambda}\Big]\\
+        &=& \vphantom{\int\limits_a^b}\lim_\lambda \inner{y}{T\sub x\lambda} - \lim_\lambda\inner{T^*y}{\sub x\lambda} \\
+        &=& \inner{y}{\textstyle{\lim_\lambda T\sub x\lambda}} - \inner{T^*y}{{\textstyle\lim_\lambda \sub x\lambda}} \\
+        &=& \vphantom{\int\limits_a^b}\inner{y}{{\textstyle\lim_\lambda T\sub x\lambda}} - \inner{T^*y}x\\
+        &=& \inner{y}{{\textstyle\lim_\lambda T\sub x\lambda}} - \inner{y}{Tx} = \inner{y}{\lim_\lambda T\sub x\lambda - Tx}
+        \end{array}
+        \end{equation*}
+        Especially when $y \coloneqq \lim_\lambda T\sub x\lambda  - Tx$, so that $\lim_\lambda T\sub x\lambda = Tx$.
     \end{proof}
+\end{proposicao}
     
 \begin{exemplo}
     \label{exemplo:finite rank}
     Given $x,y \in E$, the maps $y\inner{x}{\come}$ and $x\inner y\come$ are adjoints of each other. The linear span of those operator are what we will call the \textit{finite rank} operators.
 \end{exemplo}
     
-    In traditional Hilbert spaces, every bounded operator is adjointable, thanks to the Riesz Lemma (\cite{reed2012methods}). But when talking about Hilbert modules, that can't be the case anymore:
+In traditional Hilbert spaces, every bounded operator is adjointable, thanks to the Riesz Lemma (\cite{reed2012methods}). But when talking about Hilbert modules, that can't be the case anymore:
     
-    \begin{contraexemplo}[\textit{Non-adjointable bounded operator} - \cite{paschke1973inner}]
+\begin{contraexemplo}[\textit{Non-adjointable bounded operator} - \cite{paschke1973inner}]
     Suppose that $J$ is a closed right ideal of a unital $C^{*}$-algebra $A$ such that no element of $J^{*}$ acts as a left multiplicative identity on $J$\footnote{For instance, the algebra of complex valued continuous functions on the unit interval $C[0,1]$, and the ideal $\sub C0[0,1]$ of functions which vanish at 0.}. Consider the right module $J \times A$ with inner product defined by 
     \begin{equation*}
     \inner{\left(\sub a{1}, \sub b{1}\right)}{\left(\sub a{2}, \sub b{2}\right)} = \sub a{2}^{*} \sub a{1}+\sub b{2}^{*} \sub b{1}
@@ -297,17 +301,16 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
         a = \inner{T(a,b)}{(0,1)} = \inner{(a,b)}{T^*(0,1)} = x^*a+y^*b
     \end{equation*}
     for all $(a,b)$. Necessarilly, it is the case that $y=0$ and $x^*a=a$ for all $a\in J$, hence $x^*$ acts as a left multiplicative identity on $J$. But $x^* \in J^*$, and this contradicts our assumption of $J$.
-    \end{contraexemplo}
+\end{contraexemplo}
     
-    \begin{contraexemplo}
+\begin{contraexemplo}
     Let $X\in \CHaus$ and $Y \subset X$ a closed non-empty subset with dense complement. Let $E \coloneqq \big\{f \in C(X) \mid f(Y) = \{0\}\big\}$ and $\iota : E \longhookrightarrow C(X)$ the bounded inclusion map. If $\iota$ were adjointable, $E \ni \iota^*(\sub\Id{C(X)}) = \sub\Id{C(X)} \notin E$, i.e., the inclusion is a non-adjointable bounded operator.
-    \end{contraexemplo}
+\end{contraexemplo}
         
-    \begin{proposicao}
-    With the operator norm $\|T\| \coloneqq \sup_{\|x\|=1} \|Tx\|$, the adjointable operators $\adj(E,F)$ is a unital $C^*$-algebra.
-    \end{proposicao}
+\begin{proposicao}
+    With the operator norm $\|T\| \coloneqq \sup_{\|x\|=1} \|Tx\|$, the adjointable operators $\adj(E,F)$ is $C^*$-algebra.
     \begin{proof}
-    It is straightfoward checking that $\adj(E,F)$ is an unital involution Banach algebra. To check the $C^*$-norm property, for each adjointable $T$,
+    It is straightfoward checking that $\adj(E,F)$ is an involution Banach algebra. To check the $C^*$-norm property, for each adjointable $T$,
     \begin{equation}
     \label{eq: |Tx|² <= |T*|.|T|.|x|²}
         \begin{array}{rcl}
@@ -321,10 +324,10 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
     \]
     which means: $\|T\| \leq \|T^*\|$ and by extension, $\|T\|=\|T^*\|$. This automatically garantee the $C^*$-norm property.
     \end{proof}
+\end{proposicao}
     
-    \begin{proposicao}
+\begin{proposicao}[Equivallence of positivity]
     Beeing positive some element $T$ in the $C^*$-algebra $\adj(E)$ of adjointable automorphisms of a Hilbert $C^*$-module is equivalent to beeing positive in the inner algebra: $\inner{Tx}{x} \geq 0$ for all $x\in E$.
-    \end{proposicao}
     \begin{proof}
     Assume that $T$ is a positive element in the $C^*$-algebra of operators. From \ref{lema: a positive sse a=b(star)b}, let $S$ be such that $T = S^*S$. Therefore:
     \begin{eqspaced}{(x\in E)}
@@ -336,12 +339,12 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
     $$
     On the other hand, $T_{-} \geq 0$ and $T_{-}^{3} \geq 0$, hence $\langle T_{-}^{3} x, x\rangle \geq 0$ (because the statement in this direction is already proved). So the only possibility left is $\langle T_{-}^{3} x, x\rangle=0$ for any $x $. By the polarization equality \ref{eq: polarization}, this implies $\langle T_{-}^{3} x, y\rangle=0$ for all $x, y \in \mathcal{M}$, hence $T_{-}^{3}=0$, $T_{-}=0$. Thus, $T=T_{+} \geq 0$.
     \end{proof}
+\end{proposicao}
     
-    \begin{proposicao}
+\begin{proposicao}
     If $T \in \adj(E,F)$ and $x\in E$, then $\inner{Tx}{Tx} \leqslant \|T\|^2 \inner xx$.
-    \end{proposicao}
     \begin{proof}
-    Let $\rho$ be a state of $A$. By repeated application of the Cauchy-Schwartz inequality to $\rho(\inner\come\come)$ on $E$,
+    Let $\rho$ be a state of $A$. By repeated application of the Cauchy-Schwartz inequality to $\rho(\inner\come\come)$:
     \begin{eqnarray*}
     \rho(\inner{T^*Tx}{x}) &\leq& \rho\big(\inner{T^*Tx}{T^*Tx}\big)^{\frac12} \rho\big(\inner xx\big)^{\frac12} \\
     &=&
@@ -356,8 +359,8 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
     \end{eqnarray*}
     As $n\to \infty$, one deduces that $\rho(\inner{Tx}{Tx}) \leqslant \|T\|^2 \rho(\inner xx)$. Since this is true for all states $\rho$, the desired inequality holds.
     \end{proof}
+\end{proposicao}
     
-
 \section{Finite rank operators}
 \label{sec: finite rank operators}
 
@@ -388,7 +391,7 @@ One should note that for $x\in M^n$ and $y \in N^n$, $\Omega_y\Omega_x^*$ rises 
     \Omega_y\Omega_x^*\xi = \Omega_y^n\left(\sub{\inner{\sub x1}\xi}M,\ldots, \sub{\inner{x_n}\xi}M\right)= {\sum\limits_{i=1}^n} y_i \sub{\inner{x_i}\xi}M.
 \end{eqspaced}
 
-\begin{definicao}
+\begin{definicao}[Compact and finite-rank operators]
 Every operator of the form $\Omega_y\Omega_x^*: M\longto N$, where $(x,y) \in M^n \times N^n$ will be said to be a $A$\textit{-finite rank operator}. The set of finite-rank operators will be denoted by $\sub{\textsc{FR}}{A}(M,N)$. The set of $A$\textit{-compact operators} between $M$ and $N$ are defined as the topological closure of ${\textsc{FR}}(M,N)$ and it's denoted as $\sub{\mathscr K}A(M,N)$. 
 \end{definicao}
 
@@ -410,19 +413,17 @@ finite-dimensional, and so do $X$.}.
 %i.e., $Ty = \inner{(Tz)^*z}{y}$.
 %\end{proof}
 
-\begin{proposicao}
-\label{prop: H_A resgata nocao de compacto}
+\begin{proposicao}\label{prop: H_A resgata nocao de compacto}
 In the standard Hilbert module $\mathscr H_A$ over a unital $C^*$-algebra $A$, the classical compact notion of compact operator is well rescued: If $L_n(A) \subset \mathscr H_A$ denotes the free submodule generated by the first $n$ canonical elements $e_i$ ($i\leq n$), the following are equivallent:
 \begin{itroman}
     \item\label{prop item: prop: H_A resgata nocao de compacto (i)} $K \in \mathscr K_{A}(A)$.
     \item\label{prop item: prop: H_A resgata nocao de compacto (ii)} The norms of restrictions of $K$ onto the orthogonal complements $L_{n}(A)^{\perp}$ of the submodules $L_{n}(A)$ vanish as $n \longrightarrow \infty$.
 \end{itroman}
-\end{proposicao}
 \begin{proof}
 $\left.\right.$
 \begin{itemize}
     \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Rightarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] Let $p_{n}: \mathscr H_A \longtwoheadrightarrow L_n(A)^{\perp}$ by the orthogonal projection. Then, for any $z \perp L_{n}(A)$, one has
-    \begin{eqspaced*}{(z \perp L_n(A))}
+    \begin{eqspaced*}{}
     \begin{array}{rcl}
 \|\Omega_{x}^{}\Omega_{y}^{*}z\|^{2} &= & \vphantom{\int\limits_b} \|\langle\Omega_{x}^{\vphantom{*}}\Omega_{y}^{*}z, \Omega_{x}^{}\Omega_{y}^{*}z\rangle\|\\
 &=& \big\| \big\langle x\langle y,z\rangle, x\langle y,z\rangle\big\rangle\big\| \\
@@ -434,25 +435,21 @@ $\left.\right.$
 \end{array}
     \end{eqspaced*}
 Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restriction of the operator $\Omega_{x}^{}\Omega_{y}^{*}$ to the submodule $L_{n}(A)^{\perp}$, hence, for the norm of any compact operator $K$.
-    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Leftarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] For a operator $K \in \adj(\mathscr H_A)$, suppose that 
-    \begin{equation*}
-        \lim_{n\to \infty} \|K \sub\restrita{L_n(A)^{\perp}}\| = 0.
-    \end{equation*}
-    If $z \perp L_n(A)$, for any $i \leq n$, $\inner{e_i}{z} =0$, hence $\sum_{i=1}^n Ke_i \inner{e_i}z = 0$. Therefore:
+    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Leftarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] For a operator $K \in \adj(\mathscr H_A)$, suppose that $\|K \sub\restrita{L_n(A)^{\perp}}\|$ vanishes when $n\to \infty$. If $z$ is an orthogonal element with respect to $L_n(A)$, i.e., $\inner{e_i}{z} =0$ for any $i \leq n$, notice that if $e^n\coloneqq (\sub e1, \ldots, e_n)$, then $\Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)= 0$. Therefore:
     \begin{equation*}
         \begin{array}{rl}
             & \lim\limits_{n\to \infty} \sup\limits_{\substack{ z \in L_n(A)^{\perp} \\ \|z\| \leq 1}} \Big\| Kz - \sum\limits_{i=1}^n Ke_i \inner{e_i}z\Big\|\\
             = &  
-        \lim_{n\to \infty} \sup\limits_{\substack{ z \in L_n(A)^{\perp} \\ \|z\| \leq 1}} \| Kz \| = \lim\limits_{n\to \infty} \|K \sub\restrita{L_n(A)^{\perp}}\|= 0.
+        \lim\limits_{n\to \infty} \sup\limits_{\substack{ z \in L_n(A)^{\perp} \\ \|z\| \leq 1}} \| Kz \| = \lim\limits_{n\to \infty} \|K \sub\restrita{L_n(A)^{\perp}}\|= 0.
         \end{array}
     \end{equation*}
-    If $z \in L_n(A)$, one can see that $Kz = \sum_{i=1}^n Ke_i \inner{e_i}z$, so that the supremum can be taken in the hole $\mathscr H_A$, since $$\sup_{z \in L_n(A)} \big(Kz - \sum_{i=1}^n Ke_i \inner{e_i}z\big) = 0$$ 
-    for any natural number $n$. Therefore:
+    If $z \in L_n(A)$, one can see that $Kz = \Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)$, so that the supreme can be taken in the hole $\mathscr H_A$. Therefore:
     \begin{equation*}
         K = \lim_{n\to \infty} \sum_{i=1}^n \Omega_{Ke_i}^{\vphantom{*}}\Omega_{e_i}^* \in \mathscr K_A(A). \qedhere 
     \end{equation*}
 \end{itemize}
 \end{proof}
+\end{proposicao}
 
 %\begin{exemplo}
 %For any traditional complex Hilbert space $H$, $\sub{\mathscr K}{\C}(H)$ is the usual compact set of operators: Given $K: H \longto H$ such that $K = \lim_\lambda \Omega_{\sub w\lambda}\Omega_{\sub z\lambda}^*$ for some $(\sub z\lambda)_\lambda,(\sub w\lambda)_\lambda \subset \C^n$, let $B$ be the closed unit ball.
@@ -462,35 +459,37 @@ Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restrict
 
 \begin{exemplos}$\left.\right.$
 \begin{itroman}
-    \item Let $A$ be your favorite $C^*$-algebra. We shall see that $\mathscr K(A) \simeq A$. Let
+    \item Let $A$ be your favorite $C^*$-algebra. We shall see that $\mathscr K(A) \simeq A$. Notice that the map 
     \begin{equation*}
-        \function{{\varphi}{\mathscr K(A)}{A}{{\displaystyle\lim_{n \to \infty} aaaaa}}{{\textstyle{\sum\limits_{i=1}^\infty z_i {b_i}{a_i}^*}}}}
+        \function{{L}{A}{\adj(A)}{a}{
+            (b \overset{L_a}\longmapsto ab)}}
     \end{equation*}
-    We'll prove that $\varphi$ provides the desired isomorphism. 
-    \begin{enumerate}
-        \item \textbf{$\boldsymbol{\varphi}$ is well defined}: 
-    \end{enumerate}
+    is well defined since $L_{a^*}$ is the adjoint of $L_a$. It is no mistery that $\|L_a\| \leqslant \|a\|$, but notice that $\|L_a(a^*)\| = \|a\|\,\|a^*\|$, hence $L$ is an isomorphism of $A$ onto a closed $*$-subalgebra of $\adj(A)$. \nocite{raeburn1998morita}
     
-    \item If $A$ is a unital algebra, $\mathscr K(A) = \adj(L)$ since any adjointable operator $T$ consists of left multiplication by $T(1)$.
+    Since $a\inner{b}{\come} = L_{ab^*}$, it follows that $\mathscr K(A)$ is the clousure of (the image under $L$ of) the linear span of products in $A$. But every $C^*$-algebra contains an approximate identity, such products are dense, thus $L$ is an isomorphism between $A$ and $\mathscr K(A)$.   
+
+    \item If $A$ is a unital algebra, $\mathscr K(A) = \adj(A)$ since any adjointable operator $T$ consists of left multiplication by $T(1)$.
     
-    \item Reviewing \ref{exemplos de hilbert modules}\ref{exemplo hilb (X) C*algebra}, we shall see that $\mathscr K(H\otimes A) \simeq \mathscr K(H) \otimes A$. Algebraically, identify $\Omega_{\xi \otimes a}\Omega_{\eta \otimes b}^* \longmapsto (\Omega_\xi\Omega_\eta^*) \otimes L_{ab^*}$. Analytically, \textcolor{red}{there is way more work to do}...
+    \item Reviewing \ref{exemplos de hilbert modules}\ref{exemplo hilb (X) C*algebra}, one can obtain that $\mathscr K(H\otimes A) \simeq \mathscr K(H) \otimes A$. 
     
-    \item $\mathscr K(E^m, F^n) \simeq \mathbb M_{m\times n}(\mathscr K(E, F))$ and by extension, $\mathscr L(E^m, F^n) \simeq \mathbb M_{m\times n}(\mathscr L(E, F))$.
+    \item $\mathscr K(E^m, F^n) \simeq \mathbb M_{m\times n}(\mathscr K(E, F))$ and $\mathscr L(E^m, F^n) \simeq \mathbb M_{m\times n}(\mathscr L(E, F))$.
     
-    \item \textbf{Hilbert modules which all bounded operators are adjointable}: Let $\mathcal K$ be the $C^*$-algebra of all compact operators in a Hilbert space. If $E$ is a Hilbert $\mathcal K$-module, by ???, each bounded linear operator $T: E \longto E$ is adjointable.
-    \textcolor{red}{Pesquisar melhor: \url{https://arxiv.org/pdf/math/0611916.pdf}, \url{http://pub.acta.hu/acta/showCustomerArticle.action?id=2821&dataObjectType=article&returnAction=showCustomerVolume&sessionDataSetId=721f203e8ce1a16e&style=}}
+%    \item \textbf{Hilbert modules which all bounded operators are adjointable}: Let $\mathcal K$ be the $C^*$-algebra of all compact operators in a Hilbert space. If $E$ is a Hilbert $\mathcal K$-module, by ???, each bounded linear operator $T: E \longto E$ is adjointable.
+%    \textcolor{red}{Pesquisar melhor: \url{https://arxiv.org/pdf/math/0611916.pdf}, \url{http://pub.acta.hu/acta/showCustomerArticle.action?id=2821&dataObjectType=article&returnAction=showCustomerVolume&sessionDataSetId=721f203e8ce1a16e&style=}}
 \end{itroman}
 \end{exemplos}
 
 \begin{proposicao}
 \label{prop: Omega_x eh compacto}
 For each $x\in M^n$, $\Omega_x$ is a $A$-compact operator.
-\end{proposicao}
 \begin{proof}
-Let $(\sub u\lambda)_\lambda \subset A$ be an approximate unit. Notice that for $\Omega: M \longto \adj(A,M)$, one can consider $A$ it-self as a Hilbert module, so that $\Omega_{\sub u\lambda}^* : A^1\longto A$ is the standard multiplication by $\sub u\lambda$. Therefore:
-\begin{eqspaced}{(a\in A)}
+Let $(\sub u\lambda)_\lambda \subset A$ be an approximate unit. Considering $A$ it-self as a Hilbert module, $\Omega_{\sub u\lambda}^* : A^1\longto A$ is the standard multiplication by $\sub u\lambda$. Therefore, for each $a\in A$:
+\begin{eqspaced}{}
 \label{eq: 1-rank multipliers are compact}
-    \Omega_xa = xa = x \lim_\lambda \sub u\lambda a \overset{\sub u\lambda= \sub u\lambda^*}= \lim_\lambda x \sub{\inner{\sub u\lambda}{a}}A \overset{(\ref{eq: omega_y omega_x*})}= \lim_\lambda \Omega_x {\Omega_{\sub u\lambda}}^{\hspace{-0.15cm}*}a  
+    \begin{array}{rcl}
+        \Omega_xa &=& xa = x \lim_\lambda \sub u\lambda a \\
+        &\overset{\sub u\lambda= \sub u\lambda^*}=& \lim_\lambda x \sub{\inner{\sub u\lambda}{a}}A \overset{(\ref{eq: omega_y omega_x*})}= \lim_\lambda \Omega_x {\Omega_{\sub u\lambda}}^{\hspace{-0.15cm}*}a  
+    \end{array}
 \end{eqspaced}
 So every finite 1-rank operators is indeed compact. For a general $n$, we arrive at a sum of finite 1-rank operators. Given $x \in M^n$ and $a \in A^n $, for each $\lambda$, we wish to obtain $y\in M^n$ and $b\in (A^n)^n$ such that, 
 \[
@@ -511,32 +510,30 @@ Therefore, for any $a\in A^n$, the following holds and the claim is proved.
     \Omega_xa = \sum_{i=1}^n x_i a_i \overset{(\ref{eq: 1-rank multipliers are compact})}= \lim_\lambda \sum_{i=1}^n  \Omega_{x_i}\Omega_{\sub u\lambda}^* a_i \overset{(\ref{eq: Omega_xOmega_ulambda^* da certo})}= \lim_\lambda \Omega_x \Omega_{\operatorname{Diag}(\sub u\lambda)}^*a. \qedhere
 \end{equation*}
 \end{proof}
+\end{proposicao}
 
 \begin{definicao}[Finite-rank Hilbert Module]
 \label{def: finite rank module}
 A Hilbert Module $M$ over an $C^*$-algebra $A$ whose identity operator $\sub\Id M$ is $A$-finite rank will be said to be an $A$\textit{-finite rank} module.
 \end{definicao}
 
-\begin{proposicao}
-\label{prop: FR(M) eh um ideal}
+\begin{proposicao}\label{prop: FR(M) eh um ideal}
 For an $A$-finite rank Hilbert module $M$ over $A$, the family of finite rank automorphisms ${\textsc{FR}}(M)$ over $A$ is a two-sided ideal of the adjointable operators $\adj(M)$. 
-\end{proposicao}
 \begin{proof}
 Extending coordinatewise, let $Ty \coloneqq \coord{Ty}n $ and notice that, for $T,S \in \adj(M)$,
 \begin{eqspaced*}{}
     \begin{array}{rcl}
-        T\Omega_y\Omega_x^* + \Omega_w\Omega_z^*S &=& \sum\limits_{i=1}^n   Ty_i\inner{x_i}{\,\cdot\,}  \\ 
-        & & \hphantom{\sum\limits_{i=1}^n}+ \sum\limits_{i=1}^n w_i\inner{S^*z_i}{\,\cdot\,} \\
+        T\Omega_y\Omega_x^* + \Omega_w\Omega_z^*S &=& \sum\limits_{i=1}^n   Ty_i\inner{x_i}{\,\cdot\,}  + \sum\limits_{i=1}^n w_i\inner{S^*z_i}{\,\cdot\,} \\
         &=& \Omega_{(Ty,w)}\Omega_{(x,S^*z)}^*. 
     \end{array}
 \end{eqspaced*}
 Therefore, any $\adj(M)$-linear combination of finite rank operators is itself a finite rank one, as showed above, i.e., ${\textsc{FR}}(M) \triangleleft \adj(M)$.
 \end{proof}
+\end{proposicao}
 
 \begin{proposicao}
 \label{prop: identidade compacta eh de rank finito}
 If the identity $\sub\Id E$ in a Hilbert module $E$ is a compact operator, then $E$ has finite rank, i.e., $\sub \Id E \in \mathscr K(E) \Rightarrow \sub\Id E \in \operatorname{FR}(E)$. 
-\end{proposicao}
 \begin{proof}
 Suppose that $\sub\Id M$ is a compact operator in a given Hilbert module $E$. By construction, $\operatorname{FR}(E)$ is a dense subset of compact operators, so every open non empty set $U \subset \mathscr K({E})$ obeys
 \begin{eqspaced*}{(U \subset \mathscr K(E))}
@@ -544,6 +541,7 @@ U \cap \operatorname{FR}({E}) \neq \varnothing
 \end{eqspaced*}
 Since $\mathscr K({E})$ is a unital ${C}^{*}$-algebra, the invertible operators $\mathrm{GL}(\mathscr K({E}))$ constitute a non empty open set by \ref{prop: GL(A) eh aberto}, hence there is a finite-rank invertible operator $F \in \GL(\mathscr K(E)) \cap \operatorname{FR}(E)$. Since $\operatorname{FR}({E})$ contains an invertible and is an ideal, it follows that  $\sub\Id E = F\inv F \in \operatorname{FR}({E})$, i.e., the identity has finite rank.
 \end{proof}
+\end{proposicao}
 
 In order to fully characterize finite rank Hilbert Modules over a given $C^*$-algebra, the same $K$-theoretic bias is seen right here through the representation by idempotents.
 %As far as theory goes, polar decomposition of a given adjointable operator is required. 
@@ -574,7 +572,6 @@ In order to fully characterize finite rank Hilbert Modules over a given $C^*$-al
 
 \begin{teorema}\label{teo: M rank finito sse M = pA^n}
 A Hilbert module $M$ has finite rank if, and only if, there exists an idempotent matrix $p\in \mathbb M_{n\times n}(A)$ such that $M$ is isomorphic, as Hilbert $A$-modules, to $p A^{n}$.
-\end{teorema}
 \begin{proof}
 Assume that $M$ has finite rank, i.e., $\Id = \Omega_y\Omega_x^*$ for some $x,y \in M^n$. As presented in (\ref{eq: Omega_x^*Omega_y eh idempotente}), $\Omega_x^*\Omega_y \in \adj(A^n)$ is an idempotent operator, which corresponds to left multiplication by the idempotent matrix $p\coloneqq (\inner{x_i}{y_j})_{i,j} \in \mathbb M_{n\times n}(A)$.
 \begin{equation}
@@ -582,7 +579,7 @@ Assume that $M$ has finite rank, i.e., $\Id = \Omega_y\Omega_x^*$ for some $x,y 
     \Id = \Omega_y \Omega_x^* \To \Omega_x^* = (\Omega_x^*\Omega_y) \Omega_x^* \To \Omega_x^*\Omega_y = (\Omega_x^*\Omega_y)^2
 \end{equation}
 \begin{itroman}
-    \item[] \textbf{$\boldsymbol{\Omega_x^*}$ is invertible}: The middle term of (\ref{eq: Omega_x^*Omega_y eh idempotente}) tells us that $\Omega_x^*= p\Omega_x^* $. Therefore, consider the following:
+    \item[] \mathbf{\Omega_x^*:M \longto pA^n} \textbf{is invertible}: The middle term of (\ref{eq: Omega_x^*Omega_y eh idempotente}) tells us that $\Omega_x^*= p\Omega_x^* $. Therefore, consider the following:
 \begin{equation*}
     \function{T{pA^n}{M}{pa}{\Omega_ya}}
 \end{equation*}
@@ -605,7 +602,7 @@ Since it is an adjointable, functional continuous calculus allow us to extract t
 Hence $U$ is a Hilbert isomorphism between $M$ and $pA^n$. 
 %Let $x$ and $y$ be tuples given the coefficients
 \end{proof}
-
+\end{teorema}
 
 \section{Kasparov Stabilization Theorem}
 

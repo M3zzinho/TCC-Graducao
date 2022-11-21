@@ -2017,11 +2017,11 @@ INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsco
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\old-arrows\oasy.enc
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\old-arrows\oasy.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free0.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
