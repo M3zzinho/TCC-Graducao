@@ -850,20 +850,21 @@ The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the cla
 
 
 \begin{lema}\label{lema: [P]_0 = [Q]_0 ---> [p]_0 = [q]_0}
-    Let $E$ be a Hilbert module and $P, Q \in \adj(E)$ be two idempotent operators. If $P$ and $Q$ are similar, i.e., there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
+    Let $E$ be a Hilbert module and $P, Q \in \adj(E)$ be two compact idempotent operators, and let $p$ and $q$ be the idempotent square matrices given in the proof of Theorem \ref{teo: M rank finito sse M = pA^n}. If $P$ and $Q$ are similar, i.e., there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
     \begin{proof}
         We have that $P = uQ\inv u$, $\Im P \simeq pA^n$ and $\Im Q \simeq qA^n$. Since their ranges are finite-rank modules (\ref{obs: idempotente gerando inversivel} and \ref{prop: compacto idempotente eh rank finito}), there are $x,y \in (\Im P)^n$ and $z,w \in (\Im Q)^m$ such that 
         $$P = \sub\Id{\Im P} = \Omega_{y}^{\,}\Omega_x^* \e Q = \sub\Id{\Im Q} = \Omega_{w}^{\,}\Omega_z^*.$$ 
-        We know that $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$. Therefore:
+        We know that $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$ by the argument used in . Therefore:
 
         $$
-        \Omega_y\Omega_x^* = P = uQ\inv u = u\Omega_{w}\Omega_z^*\inv u = \Omega_{u(w)}^{\,}\Omega_{({\inv u})^*(z)}^* $$
-        $$\Rightarrow \sum_{i=1}^n y_i \inner{x_i}{\come} = \sum_{i=1}^m u(w_i)\inner{(\inv u)^*(z_i)}{\come}$$ 
+        \Omega_y\Omega_x^* = P = uQ\inv u = u\Omega_{w}\Omega_z^*\inv u = \Omega_{u(w)}^{\,}\Omega_{({\inv u})^*(z)}^*, $$
+        which means that
+        $$\sum_{i=1}^n y_i \inner{x_i}{\come} = \sum_{i=1}^m u(w_i)\inner{(\inv u)^*(z_i)}{\come}$$ 
         Notice that the matrix $\widehat q \coloneqq \left(\inner{(\inv u)^*(z_i)}{u(y_j)}\right)_{i,j}$ obeys $\Im uQ\inv u \simeq \widehat{q}A^s$ by the construction of \ref{teo: M rank finito sse M = pA^n}. But since $\widehat{q} = q$, we obtain two isomorphisms such that the following diagram commutes.
         \begin{equation*}
 \begin{tikzcd}
     \Im P \arrow[d]        & \Im uQu^{-1} \arrow[l, no head, equal] \arrow[d] \arrow[r, dashed] & \Im Q \arrow[d] \\
-    pA^r \arrow[r, dashed] & qA^s \arrow[r, no head, equal]                                     & qA^s           
+    pA^n \arrow[r, dashed] & qA^m \arrow[r, no head, equal]                                     & qA^m           
     \end{tikzcd}
         \end{equation*}
         Since $pA^n\simeq qA^m$ if, and only if $p$ and $q$ are Murray-von Neumann equivalent by \ref{prop: pAm cong qAn sse p ~ q}, the result follows. 
@@ -1019,7 +1020,7 @@ For sake of notation, let $\mathscr Q(E) \coloneqq {\adj(E)}/{\mathscr K(E)}$ fo
 \end{tikzcd}
 \end{equation}
 
-Notice that we can consider the index map $\partial$ induced by (\ref{eq:seq exata de C-star em K(H_A)}). Since $\sub{T}{\mathscr H_A\mathscr H_A}$ is a compact perturbation of the identity and both $M$ and $N$ are finite rank modules, one concludes that $F$ is also a compact perturbation of the identity. Therefore, $\partial([\pi(F)]_1)=\partial([\sub\Id{\mathscr Q(\mathscr H_A)}]_1) = 0$.
+Notice that we can consider the index map $\partial$ induced by (\ref{eq:seq exata de C-star em K(H_A)}). Since $\sub{T}{\mathscr H_A\mathscr H_A}$ is a compact perturbation of the identity and both $M$ and $N$ are finite rank modules, one concludes that $F$ is also a compact perturbation of the identity. Therefore, $\pi(F)= \sub1{\mathscr Q(\mathscr H_A)}$. Since $\Id_2$ is a lift of $\diag(\sub1{\mathscr Q(\mathscr H_A)}, \inv{\sub1{\mathscr Q(\mathscr H_A)}})$, one can obtain that $\partial([\sub1{\mathscr Q(\mathscr H_A)}]_1) = [\Id_2 p_2\Id_2^{-1}]_0 - [p_2]_0 = 0$.
 
 We can extract more information by writing down who is the index in terms of $F$ and $G$. By \ref{teo item: I-FG e I-GF sao compactos}, is easy to see that $\pi(F)$ and $\pi(G)$ are each others inverse in $\mathscr Q(\mathscr H_A)$. In order to compute the index, the element  
 \begin{equation*}
@@ -1027,7 +1028,7 @@ We can extract more information by writing down who is the index in terms of $F$
         F & \Id - FG \\ \Id-GF & G
     \end{pmatrix} \in \GL_2^{(0)}({\mathscr Q(\mathscr H_A)})
 \end{equation*}
-is a lift of $\diag(\pi(F), \pi(F)^{-1})$, which it's inverse just swaps $F$ and $G$ places. Therefore:
+is a lift of $\diag(\pi(F), \pi(F)^{-1})$, and its inverse just swaps $F$ and $G$ places. Therefore:
 \begin{equation*}
     \label{eq: index pi(F)}
  \begin{array}{rcl}
