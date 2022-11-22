@@ -7,45 +7,45 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
 Warning--empty year in exel7fredholm
 Warning--there's a number but no series in raeburn1998morita
-You've used 29 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            684 strings with 8335 characters,
-and the built_in function-call counts, 7756 in all, are:
-= -- 779
-> -- 250
-< -- 6
-+ -- 106
-- -- 74
-* -- 466
-:= -- 1327
-add.period$ -- 98
-call.type$ -- 29
-change.case$ -- 113
+            636 strings with 7455 characters,
+and the built_in function-call counts, 5705 in all, are:
+= -- 574
+> -- 194
+< -- 3
++ -- 81
+- -- 58
+* -- 344
+:= -- 978
+add.period$ -- 73
+call.type$ -- 21
+change.case$ -- 85
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 317
-empty$ -- 697
-format.name$ -- 74
-if$ -- 1618
+cite$ -- 23
+duplicate$ -- 225
+empty$ -- 506
+format.name$ -- 58
+if$ -- 1191
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 37
-newline$ -- 157
-num.names$ -- 58
-pop$ -- 138
+int.to.str$ -- 21
+missing$ -- 25
+newline$ -- 116
+num.names$ -- 42
+pop$ -- 102
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 71
 quote$ -- 0
-skip$ -- 199
+skip$ -- 144
 stack$ -- 0
-substring$ -- 475
-swap$ -- 35
-text.length$ -- 6
+substring$ -- 346
+swap$ -- 24
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
+type$ -- 70
 warning$ -- 2
-while$ -- 84
-width$ -- 31
-write$ -- 330
+while$ -- 60
+width$ -- 23
+write$ -- 241
 (There were 2 warnings)

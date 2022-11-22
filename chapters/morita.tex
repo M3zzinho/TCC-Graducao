@@ -1,0 +1,68 @@
+\chapter{Application to Morita Equivalence}
+
+\section[Preliminars on Hilbert \texorpdfstring{\ensuremath{C^*}}{C*}-bimodules]{Preliminars on Hilbert \texorpdfstring{\mathbf{C^*}}{C*}-bimodules}
+
+\begin{definicao}
+	A Hilbert $(A,B)$-bimodule $X$ is said to be \textit{left-full} (resp. right-full) if $(X \mid X)$ coincides with $A$ (resp. if $\langle X, X\rangle$ coincides with $B$ ).
+\end{definicao}
+
+\begin{definicao}
+	A bimodule $X$ is said to be an \textit{$(A,B)$-imprimitivity bimodule} if $X$ is left-full Hilbert $A$-module and a right-full Hilbert $B$-module.
+\end{definicao}
+
+\begin{exemplos}
+	\begin{itroman}$\left.\right.$
+		\item Every $C^*$-algebra $A$ is an $(A,A)$-imprimitivity bimodule with $(a\mid b) = ab^*$ and $\inner{a}{b} = a^*b$. 
+
+	\item Let $H$ be a Hilbert space, which is a right Hilbert $\C$-module, with some inner product $\inner{\come}{\come}$. If $\mathcal K \coloneqq \mathscr K(H)$ is the usual $C^*$-algebra of compact operators, consider the $\mathcal K$-valued inner product 
+	\begin{equation*}
+		\function{{(\come\mid \come)}{H\times H}{\mathcal K}{(x,y)}{\left(z \overset{x\otimes \con y}\longmapsto \inner{z}{y}x \right)}}
+	\end{equation*}
+	One can check that $(x\otimes \con y)^* = y \otimes \con x$, $(x \otimes \con y)(z \otimes \con w) = \inner{z}{y}(x\otimes \con w)$ and the operator norm of $x\otimes \con x$ is $\|x\|^2$, which will lead to $\left(H, (\come\mid \come)\right)$ being a Hilbert $\mathcal K$-module.
+
+	Notice that $(H\mid H) = \con{\operatorname{Span} \{\inner{\come}{y}x\}} = \mathcal K$ since each $(x\mid y)$ is a finite-rank 1 operator. Since $\inner{H}{H} = \C$, one concludes that $H$ is a $(\mathcal K, \C)$-imprimitivity bimodule.
+	\end{itroman}
+\end{exemplos}
+
+\section[\texorpdfstring{\ensuremath{K}}{K}-theory and Hilbert \texorpdfstring{\ensuremath{C^*}}{C*}-bimodules]{\texorpdfstring{\mathbf{K}}{K}-theory and Hilbert \texorpdfstring{\mathbf{C^*}}{C*}-bimodules}
+
+Throughout this section, suppose that $A$ and $B$ are $C^*$-algebras and $X$ is a left-full Hilbert $(A,B)$-bimodule.
+
+\begin{invocacao}[\cite{exel7fredholm}, Corollary 4.3]
+	\label{invocacao:exel 4.3}
+	If $T\in \sub\adj{A}(E,F)$ is an $A$-Fredholm operator, the induced operator $(T\otimes \sub\Id{X})\in \sub\adj{B}(E\sub\otimes{A} X, F\sub\otimes A X)$ is $B$-Fredholm.
+\end{invocacao}
+
+\begin{definicao}
+	Let $X$ be a left-full Hilbert $(A,B)$-bimodule. For $\alpha\in K_0(A)$, choose $T$ to be a Fredholm operator in which $\ind(T)=\alpha$ using the isomorphism given by the corollary \ref{corol:atiyah-janich}. This induces a morphism $X_*$ which commutes the following diagram:
+	\begin{equation*}
+		\begin{tikzcd}
+		F(A) \arrow[d, "\ind"'] \arrow[rr, "\cdot \otimes \sub\Id X"] &  & F(B) \arrow[d, "\ind"] \\
+		K_0(A) \arrow[rr, "X_*"', dashed]                            &  & K_0(B)                
+		\end{tikzcd}
+	\end{equation*}
+	%\begin{equation*}
+	%	\function{{X_*}{K_0(A)}{K_0(B)}{\alpha}{\ind(T \otimes \sub\Id{X})}}
+	%\end{equation*}
+\end{definicao}
+
+This application is well defined since 
+\begin{equation*}
+	\ind(T_1)=\ind(T_2) \To \ind(T_1\otimes \sub\Id{X}) = \ind(T_2\otimes \sub\Id{X})
+\end{equation*}
+as stated in \cite{exel7fredholm}, Proposition 4.4. Since tensor products are associative, one concludes that $Y_* \circ X_* = (X \sub\otimes B Y)_*$. 
+
+Consider $X^*$ to be the conjugated module by $*$, which is $(B,A)$-imprimitivity bimodule. Considering the composition law and the summoning \ref{invo:exel 4.13}, we can consider the inverse of $X_*$ given by $(X^*)_*: K_0(B) \longto K_0(A)$. 
+
+\begin{invocacao}[\cite{exel7fredholm}, Proposition 4.13]
+	\label{invo:exel 4.13}
+	For any left-full Hilbert $(A,B)$-bimodule $X$, the tensor product $X\sub\otimes B X^*$ is a Hilbert $(A,A)$-bimodule isomorphic to $(A\mid A)$.
+\end{invocacao}
+
+Therefore, we can extract the following theorem:
+
+\begin{teorema}
+	If $A$ and $B$ are strongly Morita equivalent, and $X$ is the $(A,B)$-imprimitivity bimodule, then $X_* : K_0(A) \longto K_0(B)$ is an isomorphism.
+\end{teorema}
+
+Suppose that $A$ and $B$ are strongly Morita equivalent, and $X$ is the certifying $(A,B)$-imprimitive bimodule. If $SA \coloneqq C_0(\R) \otimes A$ denotes the suspension $C^*$-algebra of $A$, one can induce a suspension of $X$, given by $SX \coloneqq C_0(\R)\otimes X$. Since $K_1(A) \simeq K_0(SA)$ and $SA$ and $SB$ are Morita equivalent, one can induce an isomorphism $(SX)_* : K_1(A) \longto K_1(B)$.

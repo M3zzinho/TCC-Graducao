@@ -1,18 +1,8 @@
 \begin{thebibliography}{10}
 
-\bibitem{alaoglu1940}
-Leon Alaoglu.
-\newblock Weak topologies of normed linear spaces.
-\newblock {\em Annals of Mathematics}, 41(1):252--267, 1940.
-
 \bibitem{aliprantisinfinite}
 Ch~D Aliprantis and KC~Border.
 \newblock Infinite dimensional analysis, 1994.
-
-\bibitem{blackadar1998k}
-Bruce Blackadar.
-\newblock {\em K-theory for operator algebras}, volume~5.
-\newblock Cambridge University Press, 1998.
 
 \bibitem{borel1958theoreme}
 Armand Borel and Jean-Pierre Serre.
@@ -26,11 +16,6 @@ Lawrence Brown, Philip Green, and Marc Rieffel.
   \ensuremath{C^*}-algebras.
 \newblock {\em Pacific Journal of Mathematics}, 71(2):349--363, 1977.
 
-\bibitem{cuntz1984k}
-Joachim Cuntz.
-\newblock \ensuremath{K}-theory and \ensuremath{C^*}-algebras.
-\newblock {\em Lecture Notes in mathematics}, 1046:55--79, 1984.
-
 \bibitem{dixmier1982c}
 J.~Dixmier.
 \newblock {\em \ensuremath{C^*}-algebras}.
@@ -41,11 +26,6 @@ Asen~L Dontchev.
 \newblock Bartle-graves theorem revisited.
 \newblock {\em Set-Valued and Variational Analysis}, 28(1):109--122, 2020.
 \newblock \url{https://link.springer.com/article/10.1007/s11228-019-00524-1}.
-
-\bibitem{douglas1998banach}
-Ronald~G Douglas.
-\newblock {\em Banach algebra techniques in operator theory}, volume 179.
-\newblock Springer Science \& Business Media, 1998.
 
 \bibitem{exel7fredholm}
 Ruy Exel.
@@ -131,24 +111,6 @@ Marc~A Rieffel.
 \newblock
   \url{https://www.sciencedirect.com/science/article/pii/0001870874900681}.
 
-\bibitem{segal1947irreducible}
-Irving~E Segal.
-\newblock Irreducible representations of operator algebras.
-\newblock {\em Bulletin of the American Mathematical Society}, 53(2):73--88,
-  1947.
-\newblock
-  \url{https://www.ams.org/journals/bull/1947-53-02/S0002-9904-1947-08742-5/}.
-
-\bibitem{simmons1963introduction}
-George~F Simmons.
-\newblock {\em Introduction to topology and modern analysis}, volume~44.
-\newblock Tokyo, 1963.
-
-\bibitem{singh2006spectrum}
-Dinesh Singh.
-\newblock The spectrum in a banach algebra.
-\newblock {\em The American Mathematical Monthly}, 113(8):756--758, 2006.
-
 \bibitem{sokal2011uniform}
 Alan~D. Sokal.
 \newblock A really simple elementary proof of the uniform boundedness theorem.
@@ -162,10 +124,5 @@ Johannes~Ebert (\url{https://mathoverflow.net/users/9928/johannes-ebert}).
   operators.
 \newblock MathOverflow.
 \newblock URL:\url{https://mathoverflow.net/q/239982} (version: 2016-05-28).
-
-\bibitem{wegge1993k}
-Niels~Erik Wegge-Olsen.
-\newblock {\em K-theory and \ensuremath{\textsc{C}^*}-algebras.}
-\newblock Oxford university press, 1993.
 
 \end{thebibliography}

@@ -16,9 +16,6 @@
 \contentsline {section}{\numberline {4.1}Regular Fredholm operators}{44}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Regularization of Fredholm operators}{48}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Fredholm Picture of \ensuremath {K_0(A)}}{54}{section.4.3}%
-\contentsline {chapter}{\numberline {A}Usefull and handy theorems in \ensuremath {C^*}-algebras}{57}{appendix.A}%
-\contentsline {section}{\numberline {A.1}\ensuremath {C^*}-algebras 101}{57}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Gelfand-Naimark representation theorem}{67}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Continuos Functional Calculus}{72}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Positive elements}{76}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Approximate Units}{79}{section.A.5}%
+\contentsline {chapter}{\numberline {5}Application to Morita Equivalence}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preliminars on Hilbert \ensuremath {C^*}-bimodules}{57}{section.5.1}%
+\contentsline {section}{\numberline {5.2}\ensuremath {K}-theory and Hilbert \ensuremath {C^*}-bimodules}{58}{section.5.2}%
