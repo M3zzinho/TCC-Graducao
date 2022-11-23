@@ -2,16 +2,26 @@
 
 \section[Preliminars on Hilbert \texorpdfstring{\ensuremath{C^*}}{C*}-bimodules]{Preliminars on Hilbert \texorpdfstring{\mathbf{C^*}}{C*}-bimodules}
 
+Let $A$ and $B$ be two $C^*$-algebras. A Hilbert $(A,B)$-bimodule $X$ is a space with two inner products:
+\begin{equation*}
+	(\come\mid\come):X\times X \longto A \e \inner{\come}{\come}:X\times X \longto B
+\end{equation*} 
+where $\left(X, (\come\mid\come)\right)$ is a \textit{left} Hilbert $A$-module and $\left(X, \inner\come\come\right)$ a \textit{right} Hilbert $B$-module, besides satisfying the following transition relation:
+\begin{equation*}
+	(x\mid y)z = z \inner yz
+\end{equation*}
+In order to operations make sense, it is required that $(\come\mid\come)$ to linear in the first entry, and sesquilinear in the second.
+
 \begin{definicao}
-	A Hilbert $(A,B)$-bimodule $X$ is said to be \textit{left-full} (resp. right-full) if $(X \mid X)$ coincides with $A$ (resp. if $\langle X, X\rangle$ coincides with $B$ ).
+	A Hilbert $(A,B)$-bimodule $X$ is said to be \textit{left-full} (resp. right-full) if $(X \mid X)$ coincides with $A$ (resp. if $\langle X, X\rangle$ coincides with $B$).
 \end{definicao}
 
 \begin{definicao}
 	A bimodule $X$ is said to be an \textit{$(A,B)$-imprimitivity bimodule} if $X$ is left-full Hilbert $A$-module and a right-full Hilbert $B$-module.
 \end{definicao}
 
-\begin{exemplos}
-	\begin{itroman}$\left.\right.$
+\begin{exemplos}$\left.\right.$
+	\begin{itroman}
 		\item Every $C^*$-algebra $A$ is an $(A,A)$-imprimitivity bimodule with $(a\mid b) = ab^*$ and $\inner{a}{b} = a^*b$. 
 
 	\item Let $H$ be a Hilbert space, which is a right Hilbert $\C$-module, with some inner product $\inner{\come}{\come}$. If $\mathcal K \coloneqq \mathscr K(H)$ is the usual $C^*$-algebra of compact operators, consider the $\mathcal K$-valued inner product 
@@ -37,7 +47,7 @@ Throughout this section, suppose that $A$ and $B$ are $C^*$-algebras and $X$ is 
 	Let $X$ be a left-full Hilbert $(A,B)$-bimodule. For $\alpha\in K_0(A)$, choose $T$ to be a Fredholm operator in which $\ind(T)=\alpha$ using the isomorphism given by the corollary \ref{corol:atiyah-janich}. This induces a morphism $X_*$ which commutes the following diagram:
 	\begin{equation*}
 		\begin{tikzcd}
-		F(A) \arrow[d, "\ind"'] \arrow[rr, "\cdot \otimes \sub\Id X"] &  & F(B) \arrow[d, "\ind"] \\
+		F(A) \arrow[d, "\ind"'] \arrow[rr, "\,\cdot\, \otimes \sub\Id X"] &  & F(B) \arrow[d, "\ind"] \\
 		K_0(A) \arrow[rr, "X_*"', dashed]                            &  & K_0(B)                
 		\end{tikzcd}
 	\end{equation*}

@@ -1952,8 +1952,6 @@ INPUT chapters\hilbert_modules.tex
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdugm\mdugmm7y.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdugm\mdugmm7y.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\mathdesign\mdugm\mdugmm7y.tfm
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri7.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmcsc10.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmbx9.tfm
@@ -1978,6 +1976,8 @@ INPUT .\chapters\fredholm.tex
 INPUT chapters\fredholm.tex
 INPUT .\chapters\fredholm.tex
 INPUT chapters\fredholm.tex
+INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
+INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri7.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtko10.tfm
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
@@ -1996,18 +1996,16 @@ INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\old-arrows\oasy.enc
+INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free0.enc
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbsy10.pfb
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbsy10.pfb
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbsy7.pfb
-INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbsy7.pfb
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\55119\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb

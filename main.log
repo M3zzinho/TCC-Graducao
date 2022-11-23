@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  22 NOV 2022 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  23 NOV 2022 16:16
 entering extended mode
 **c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
 (c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
@@ -1369,20 +1369,11 @@ Overfull \hbox (7.18109pt too wide) in paragraph at lines 330--332
  []
 
 
-LaTeX Warning: Reference `lema: a positive sse a=b(star)b' on page 23 undefined on input line 332.
-
-
-LaTeX Warning: Reference `teo: positividade' on page 23 undefined on input line 336.
-
-
-LaTeX Warning: Reference `teo item: the Hahn decomposition' on page 23 undefined on input line 336.
-
-[23]
 Overfull \hbox (3.05981pt too wide) in paragraph at lines 345--347
 [][]\T1/lmr/bx/n/10.95 Proposition 3.2.9. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 E$\T1/lmr/m/n/10.95 , then $\OMS/lmsy/m/n/10.95 h[]\OML/lmm/m/it/10.95 ; []\OMS/lmsy/m/n/10.95 i \U/msa/m/n/10.95 6 \OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 k[]h\OML/lmm/m/it/10.95 x; x\OMS/lmsy/m/n/10.95 i$\T1/lmr/m/n/10.95 . 
  []
 
-[24]
+[23] [24]
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <9> not available
 (Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 402.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <9> not available
@@ -1397,99 +1388,118 @@ Overfull \hbox (6.77217pt too wide) in paragraph at lines 420--421
  []
 
 [25] [26] [27]
-
-LaTeX Warning: Reference `prop: GL(A) eh aberto' on page 28 undefined on input line 542.
-
-
-Overfull \hbox (9.76039pt too wide) in paragraph at lines 546--548
+Overfull \hbox (9.76039pt too wide) in paragraph at lines 547--549
 \T1/lmr/m/n/10.95 algebra, the same $\OML/lmm/m/it/10.95 K$\T1/lmr/m/n/10.95 -theoretic bias is seen right here through the representation
  []
 
 [28]
-Package mdframed Info: mdframed works in twoside mode on input line 634.
+Overfull \hbox (0.10211pt too wide) in paragraph at lines 610--611
+\T1/lmr/m/n/10.95 In what follows through this text, one important application is a construction
+ []
+
+
+Overfull \hbox (4.78499pt too wide) in paragraph at lines 610--611
+\T1/lmr/m/n/10.95 of a specific isomorphism between $\OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , without any separability
+ []
+
+
+Overfull \hbox (6.51132pt too wide) in paragraph at lines 612--613
+\T1/lmr/m/n/10.95 is dense. With this characterization, we prove Kasparov stabilization theorem. 
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 637.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 634.
- [29]
-Package mdframed Info: Not enough space on this page on input line 636.
+(mdframed)              on input line 637.
+Package mdframed Info: Not enough space on this page on input line 639.
+[29]
+Package mdframed Info: Not enough space on this page on input line 639.
 
-Overfull \hbox (3.97942pt too wide) in paragraph at lines 666--667
+Overfull \hbox (3.97942pt too wide) in paragraph at lines 667--668
 []\T1/lmr/m/n/10.95 Consider the case only when $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 is Hilbert $[]$-module, which is sufficient
  []
 
 
-Overfull \hbox (0.74661pt too wide) in paragraph at lines 668--669
+Overfull \hbox (0.74661pt too wide) in paragraph at lines 669--670
 []\T1/lmr/m/n/10.95 Let $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 []\OT1/lmr/m/n/10.95 )[]$ \T1/lmr/m/n/10.95 be a bounded sequence of generators for $\OML/lmm/m/it/10.95 M$\T1/lmr/m/n/10.95 , with each generator
  []
 
-
-Overfull \hbox (80.4516pt too wide) detected at line 672
-[] \OML/lmm/m/it/10.95 T \OT1/lmr/m/n/10.95 = [] 2[]
-[]
-[] = [] 2[](\OML/lmm/m/it/10.95 [] \OT1/lmr/m/n/10.95 + 2[]\OML/lmm/m/it/10.95 e[]\OT1/lmr/m/n/10.95 )\OMS/lmsy/m/n/10.95 h[]\OML/lmm/m/it/10.95 ; []\OMS/lmsy/m/n/10.95 i \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 [] [][]\OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 [] \OT1/lmr/m/n/10.95 + 2[]\OML/lmm/m/it/10.95 e[]\OT1/lmr/m/n/10.95 )
+[30]
+Overfull \hbox (1.19301pt too wide) in paragraph at lines 695--697
+\T1/lmr/m/n/10.95 strictly positive and so do $\OML/lmm/m/it/10.95 T[]T$\T1/lmr/m/n/10.95 . Therefore, $\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 j[]$ \T1/lmr/m/n/10.95 is the desired isomorphism
  []
 
-[30]
-Overfull \hbox (6.85864pt too wide) in paragraph at lines 718--718
+
+Overfull \hbox (6.85864pt too wide) in paragraph at lines 725--725
 []\T1/lmr/bx/n/14.4 Rank definition of Finite Rank Hilbert Modules 
  []
 
-
-Overfull \hbox (6.96806pt too wide) in paragraph at lines 733--735
+[31]
+Overfull \hbox (6.96806pt too wide) in paragraph at lines 740--742
 [][]\T1/lmr/bx/n/10.95 Proposition 3.5.2. []\T1/lmr/m/n/10.95 Every finite rank Hilbert $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -module is a finitely generated
  []
 
-[31]
-Overfull \hbox (1.48155pt too wide) in paragraph at lines 747--748
+
+Overfull \hbox (1.48155pt too wide) in paragraph at lines 754--755
 []\T1/lmr/bx/n/10.95 If there exists $[]$ such that $[]$ is free, then $[]$ is projective\T1/lmr/m/n/10.95 :
  []
 
-[32]
-Overfull \hbox (11.45116pt too wide) detected at line 796
-[][] []\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 M\OT1/lmr/m/n/10.95 ][][] = [][]([\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ] \OMS/lmsy/m/n/10.95   \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 s\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 )]) = [[](\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 )] \OMS/lmsy/m/n/10.95   \OT1/lmr/m/n/10.95 [[](\OML/lmm/m/it/10.95 s\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ))] = 0  \OMS/lmsy/m/n/10.95 )  \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 M\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95 2 [] [][] \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 :
- []
-
-
-LaTeX Warning: Reference `teo: spectral mapping' on page 33 undefined on input line 821.
-
-[33] [34]
-Overfull \hbox (7.17862pt too wide) in paragraph at lines 895--896
+[32] [33]
+Package mdframed Info: mdframed works in twoside mode on input line 832.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 832.
+ [34] [35]
+Overfull \hbox (7.17862pt too wide) in paragraph at lines 914--915
 [][]\T1/lmr/bx/n/10.95 Definition 3.6.1 \T1/lmr/m/n/10.95 (Quasi-stably-isomorphic finite rank)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Two Hilbert modules
  []
 
-[35]
-Overfull \hbox (1.9589pt too wide) in paragraph at lines 910--912
+
+Overfull \hbox (10.46231pt too wide) in paragraph at lines 917--918
+[]\T1/lmr/m/n/10.95 Notice that this is an equivalence relation. Before lighting that relationship,
+ []
+
+
+Overfull \hbox (1.9589pt too wide) in paragraph at lines 929--931
 \T1/lmr/m/n/10.95 Since it is an invertible operator, consider the inverse given in matrix notation
  []
 
-
-Overfull \hbox (12.111pt too wide) in paragraph at lines 928--930
+[36]
+Overfull \hbox (12.111pt too wide) in paragraph at lines 947--949
 \T1/lmr/m/n/10.95 Hence, $[] \OML/lmm/m/it/10.95 r$ \T1/lmr/m/n/10.95 is contained in the submodule generated by $[]\OML/lmm/m/it/10.95 r[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 y\OT1/lmr/m/n/10.95 )[][]$\T1/lmr/m/n/10.95 . 
  []
 
-[36]
-Overfull \hbox (16.22331pt too wide) in paragraph at lines 966--967
+
+Overfull \hbox (16.22331pt too wide) in paragraph at lines 985--986
 \T1/lmr/m/n/10.95 After studying Fredholm operators between Hilbert modules, one shall construct
  []
 
-
-Overfull \hbox (4.83577pt too wide) in paragraph at lines 970--972
+[37]
+Overfull \hbox (4.83577pt too wide) in paragraph at lines 989--991
 [][]\T1/lmr/bx/n/10.95 Theorem 3.6.3. []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 N$ \T1/lmr/m/n/10.95 be quasi-stably-isomorphic finite rank Hilbert
  []
 
-[37]
-Overfull \hbox (24.39006pt too wide) detected at line 990
+
+Overfull \hbox (24.39006pt too wide) detected at line 1010
 []
  []
 
 
-Overfull \hbox (1.1447pt too wide) detected at line 1002
+Overfull \hbox (1.1447pt too wide) detected at line 1022
 []  []  []
  []
 
-[38]) (chapters/fredholm.tex [39] [40
+[38]
+Overfull \hbox (9.75294pt too wide) in paragraph at lines 1035--1036
+[]$[]$ \T1/lmr/bx/n/10.95 and $[]$ are compact perturbations of the identity\T1/lmr/m/n/10.95 : The operators
+ []
 
-]
+
+Overfull \hbox (7.43497pt too wide) in paragraph at lines 1035--1036
+\T1/lmr/m/n/10.95 which ignores $\OML/lmm/m/it/10.95 '$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 '[]$ \T1/lmr/m/n/10.95 in the constructions of $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 G$\T1/lmr/m/n/10.95 , are represented
+ []
+
+[39]) (chapters/fredholm.tex [40]
 Chapter 4.
 
 Overfull \hbox (0.9537pt too wide) in paragraph at lines 4--5
@@ -1509,7 +1519,9 @@ Overfull \hbox (23.2154pt too wide) in paragraph at lines 15--16
 
 LaTeX Warning: Reference `lema:lambda1-a invertivel para ||a||<lambda' on page 41 undefined on input line 22.
 
-[41]
+[41
+
+]
 Overfull \hbox (3.48427pt too wide) in paragraph at lines 44--45
 [][]\T1/lmr/bx/n/10.95 Example 4.0.5 \T1/lmr/m/n/10.95 ([[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 X \OMS/lmsy/m/n/10.95 2 []$ \T1/lmr/m/n/10.95 and $\U/rsfs/m/n/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 `[]\OT1/lmr/m/n/10.95 ([]))$ \T1/lmr/m/n/10.95 the set of $[]$-Fredholm
  []
@@ -1546,86 +1558,83 @@ Overfull \hbox (6.01793pt too wide) in paragraph at lines 81--82
 \T1/lmr/m/n/10.95 that $[] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 and $[] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 are finite dimensional. Those assumptions are sufficient
  []
 
-
-Overfull \hbox (21.88907pt too wide) in paragraph at lines 87--89
-\U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 [0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1]) \OMS/lmsy/m/n/10.95 ' \U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 [0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1])$\T1/lmr/m/n/10.95 , hence must be $\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 [0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1]$\T1/lmr/m/n/10.95 -Fredholm as well. Unfortunately,
+[43]
+Overfull \hbox (3.38815pt too wide) in paragraph at lines 100--101
+[][]\T1/lmr/bx/n/10.95 Example 4.1.2. []\T1/lmr/m/n/10.95 The operators $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 constructed in the proof of Theorem
  []
 
-[43] [44]
-Overfull \hbox (21.87169pt too wide) in paragraph at lines 154--156
-[][]\T1/lmr/bx/n/10.95 Proposition 4.1.5. []\T1/lmr/m/n/10.95 Our elementary propositions of classical Fredholm operators
+[44]
+Overfull \hbox (21.87169pt too wide) in paragraph at lines 158--160
+[][]\T1/lmr/bx/n/10.95 Proposition 4.1.6. []\T1/lmr/m/n/10.95 Our elementary propositions of classical Fredholm operators
  []
 
 [45]
-Overfull \hbox (8.48784pt too wide) detected at line 177
+Overfull \hbox (8.48784pt too wide) detected at line 181
 []
  []
 
 
-Overfull \hbox (36.80988pt too wide) in paragraph at lines 180--181
+Overfull \hbox (36.80988pt too wide) in paragraph at lines 184--185
 []\T1/lmr/m/n/10.95 Notice that $[] \OML/lmm/m/it/10.95 VT \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 since $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 is an invertible one, hence $[] \OT1/lmr/m/n/10.95 ([] \OML/lmm/m/it/10.95 VT\OT1/lmr/m/n/10.95 ) =
  []
 
 [46]
 
-Package amsthm Warning: The \qedhere command may not work correctly here on input line 214.
+Package amsthm Warning: The \qedhere command may not work correctly here on input line 218.
 
 
-Overfull \hbox (12.14856pt too wide) in paragraph at lines 224--225
+Overfull \hbox (12.14856pt too wide) in paragraph at lines 228--229
 \T1/lmr/m/n/10.95 and $[] \OML/lmm/m/it/10.95 R \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 T[] \OMS/lmsy/m/n/10.95   [] \OML/lmm/m/it/10.95 T[]$\T1/lmr/m/n/10.95 . Hence, $[] \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 UR\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 will be a compact perturbation
  []
 
 
-Overfull \hbox (12.28343pt too wide) in paragraph at lines 237--238
+Overfull \hbox (12.28343pt too wide) in paragraph at lines 241--242
 []$[]$\T1/lmr/m/n/10.95 : Using the coordinate switch operator (which
  []
 
 
-Overfull \hbox (14.30122pt too wide) detected at line 249
+Overfull \hbox (14.30122pt too wide) detected at line 253
 [] []
  []
 
 [47] [48] [49] [50]
-Overfull \hbox (5.74916pt too wide) in paragraph at lines 460--461
+Overfull \hbox (5.74916pt too wide) in paragraph at lines 464--465
 [][]\T1/lmr/bx/n/10.95 Definition 4.2.4. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 is a Fredholm operator in $\U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , then the Fredholm
  []
 
 
-Overfull \hbox (9.23944pt too wide) in paragraph at lines 467--469
+Overfull \hbox (9.23944pt too wide) in paragraph at lines 471--473
 [][]\T1/lmr/bx/n/10.95 Proposition 4.2.5. []\T1/lmr/m/n/10.95 Let $[]\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 Q [][]\OT1/lmr/m/n/10.95 = \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 =\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be the Calkin algebra
  []
 
-
-LaTeX Warning: Reference `prop: GL(A) eh aberto' on page 51 undefined on input line 469.
-
 [51] [52]
-Overfull \hbox (1.54073pt too wide) in paragraph at lines 546--547
+Overfull \hbox (1.54073pt too wide) in paragraph at lines 542--543
 []\T1/lmr/m/n/10.95 Write $\OML/lmm/m/it/10.95  \OT1/lmr/m/n/10.95 = [\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95   \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 q\OT1/lmr/m/n/10.95 ][]$ \T1/lmr/m/n/10.95 with $[][]\OT1/lmr/m/n/10.95 ([\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95   \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 q\OT1/lmr/m/n/10.95 ][]) = 0$\T1/lmr/m/n/10.95 , for self-adjoint idempotent
  []
 
 
-Overfull \hbox (3.92651pt too wide) detected at line 573
+Overfull \hbox (3.92651pt too wide) detected at line 569
 [] [] \OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 x\OMS/lmsy/m/n/10.95 k \U/msa/m/n/10.95 6 \OT1/lmr/m/n/10.95 1)
  []
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 575.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 571.
 
 LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 575.
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 571.
 
 [53]
-Overfull \hbox (14.32813pt too wide) in paragraph at lines 597--598
+Overfull \hbox (14.32813pt too wide) in paragraph at lines 593--594
 \T1/lmr/m/n/10.95 idempotents, hence their ranges are finite rank modules ([][]3.5.4[][]). Moreover,
  []
 
 [54]
-Overfull \hbox (22.63991pt too wide) in paragraph at lines 643--644
+Overfull \hbox (22.63991pt too wide) in paragraph at lines 639--640
 []\T1/lmr/bx/n/10.95 There is a orthonormal generating set $[]$
  []
 
 
-Overfull \hbox (2.66446pt too wide) in paragraph at lines 643--644
+Overfull \hbox (2.66446pt too wide) in paragraph at lines 639--640
 \T1/lmr/m/n/10.95 Since each $\OML/lmm/m/it/10.95 a[] \OMS/lmsy/m/n/10.95 2 []$\T1/lmr/m/n/10.95 , one can write $\OML/lmm/m/it/10.95 a[] \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 a[]\OT1/lmr/m/n/10.95 )[]$\T1/lmr/m/n/10.95 . Hence, orthonormality
  []
 
@@ -1634,20 +1643,22 @@ Chapter 5.
 [57
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 31.
+Package mdframed Info: mdframed works in twoside mode on input line 41.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 31.
+(mdframed)              on input line 41.
 
-Overfull \hbox (16.7609pt too wide) in paragraph at lines 55--56
+Overfull \hbox (16.7609pt too wide) in paragraph at lines 65--66
 []\T1/lmr/m/n/10.95 Consider $\OML/lmm/m/it/10.95 X[]$ \T1/lmr/m/n/10.95 to be the conjugated module by $\OMS/lmsy/m/n/10.95 $\T1/lmr/m/n/10.95 , which is $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B; A\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 57.
+Package mdframed Info: mdframed works in twoside mode on input line 67.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 57.
-) (main.bbl [58]
+(mdframed)              on input line 67.
+) [58] (main.bbl [59] [60
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 37--41
 []\T1/lmr/m/n/10.95 Aweygan (https://math.stackexchange.com/users/234668/aweygan).
  []
@@ -1667,9 +1678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--41
 \T1/lmr/m/n/10.95 URL:https://math.stackexchange.com/q/3926191 (version: 2020-
  []
 
-[59
-
-]
+[61]
 Underfull \hbox (badness 1168) in paragraph at lines 75--81
 []\T1/lmr/m/n/10.95 James A Mingo and William J Phillips.  Equivariant triviality
  []
@@ -1726,7 +1735,7 @@ Underfull \hbox (badness 2799) in paragraph at lines 122--127
 
 ) 
 AED: lastpage setting LastPage
-[60] (main.aux)
+[62] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.90001pt have occurred.
@@ -1738,13 +1747,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F9E16ABBC4DA2908676F740020151508;3763.
+(rerunfilecheck)             Checksum: D5ADB411EF69A6D518C608915C988133;3829.
  ) 
 Here is how much of TeX's memory you used:
- 46758 strings out of 478927
- 1043262 string characters out of 2852535
- 1649872 words of memory out of 3000000
- 63396 multiletter control sequences out of 15000+600000
+ 46765 strings out of 478927
+ 1043360 string characters out of 2852535
+ 1650133 words of memory out of 3000000
+ 63398 multiletter control sequences out of 15000+600000
  665120 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,29n,93p,53572b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1778,10 +1787,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
-Output written on main.pdf (60 pages, 1107727 bytes).
+{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
+Output written on main.pdf (62 pages, 1108105 bytes).
 PDF statistics:
- 1116 PDF objects out of 1200 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
+ 1131 PDF objects out of 1200 (max. 8388607)
+ 308 named destinations out of 1000 (max. 500000)
  269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

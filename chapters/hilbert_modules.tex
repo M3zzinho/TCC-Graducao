@@ -263,9 +263,9 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
         Let $\mathcal{F}$ be a family of bounded linear operators from a Banach space $X$ to a normed linear space $Y$. If $\mathcal{F}$ is pointwise bounded, then $\mathcal{F}$ is norm-bounded, i.e.,
         \[\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.\]
         %$\hphantom{\text{normed linear spa}}\vphantom{\int\limits^\int}\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.$
-        \textit{A sketch of Sokal's really simple proof}. For any operator $T\in \mathcal F$, one obtain that\footnote{Just observe that 
-        \[\max(\|T(x+\xi)\|, \|T(x-\xi)\|) \geqslant \dfrac{1}{2}(\|T(x+\xi)\|+ \|T(x-\xi)\|) \geq \|T\xi\|\]
-        foll all $\xi \in X$. Hence, take the supremum over $\xi \in B(0,r)$.} $\sup_{z\in B(x,r)} \|Tz\| \geqslant \|T\|r$ for any $x\in X$ and $r>0$. Hence, if $\sup \|\mathcal F\| = \infty$, there exists a sequence $(T_n)_n\subset \mathcal{F}$ such that $\|T_n\| \geqslant 4^n$. By the first claim, one can build (inductively) $(x_n)_n\subset X$, with $\sub x0=0$, $\|x_{n+1}-x_n\|\leqslant 1/3^{n+1}$ and $\|T_nx\|\geqslant \|T\|2/3^{n+1}$, which happens to be a Cauchy. Since $X$ is complete, there exists $x$ such that $\|x-x_n\| \leq 3^n/2$, hence $\|T_nx\| \geq \|T_n\|/(2.3^n) \geqslant (4/3)^n/2$, contradicting pointwise convergence of $\mathcal F$.
+        %\textit{A sketch of Sokal's really simple proof}. For any operator $T\in \mathcal F$, one obtain that\footnote{Just observe that 
+        %\[\max(\|T(x+\xi)\|, \|T(x-\xi)\|) \geqslant \dfrac{1}{2}(\|T(x+\xi)\|+ \|T(x-\xi)\|) \geq \|T\xi\|\]
+        %foll all $\xi \in X$. Hence, take the supremum over $\xi \in B(0,r)$.} $\sup_{z\in B(x,r)} \|Tz\| \geqslant \|T\|r$ for any $x\in X$ and $r>0$. Hence, if $\sup \|\mathcal F\| = \infty$, there exists a sequence $(T_n)_n\subset \mathcal{F}$ such that $\|T_n\| \geqslant 4^n$. By the first claim, one can build (inductively) $(x_n)_n\subset X$, with $\sub x0=0$, $\|x_{n+1}-x_n\|\leqslant 1/3^{n+1}$ and $\|T_nx\|\geqslant \|T\|2/3^{n+1}$, which happens to be a Cauchy. Since $X$ is complete, there exists $x$ such that $\|x-x_n\| \leq 3^n/2$, hence $\|T_nx\| \geq \|T_n\|/(2.3^n) \geqslant (4/3)^n/2$, contradicting pointwise convergence of $\mathcal F$.
         \end{invocacao}
         \end{quote}
         By \ref{lema: lim <x_lambda,y_lambda> = <x,y>}, for a convergent net $\sub x\lambda \to x$, the following holds for all $y\in E$:
@@ -329,11 +329,11 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
 \begin{proposicao}[Equivallence of positivity]
     Beeing positive some element $T$ in the $C^*$-algebra $\adj(E)$ of adjointable automorphisms of a Hilbert $C^*$-module is equivalent to beeing positive in the inner algebra: $\inner{Tx}{x} \geq 0$ for all $x\in E$.
     \begin{proof}
-    Assume that $T$ is a positive element in the $C^*$-algebra of operators. From \ref{lema: a positive sse a=b(star)b}, let $S$ be such that $T = S^*S$. Therefore:
+    Assume that $T$ is a positive element in the $C^*$-algebra of operators. In a $C^*$-algebra, we know that $a \geqslant 0 \sse a=b^*b$ for some $b$. With this in hands, let $S$ be such that $T = S^*S$. Therefore:
     \begin{eqspaced}{(x\in E)}
     \inner{Tx}x = \inner{S^*Sx}{x} = \inner{Sx}{Sx} \bilateral{-0.25cm}{\overset{\ref{def: pre-hilb module}\ref{def item: positivo definido}}\geq} 0.
     \end{eqspaced}
-    Conversely, positive elements are self-adjoint, i.e., $\inner{Tx}x = \inner{x}{Tx}$. From the polarization identity \ref{eq: polarization}, one can see that $\inner{Tx}y = \inner{x}{Ty}$ for all $x,y \in E$, showing that $T$ is self-adjoint. By the Hahn decomposition \ref{teo: positividade}\ref{teo item: the Hahn decomposition}, there exists two positive elements $T_+$ and $T_-$ such that $T = T_+-T_-$ and $T_+T_-= T_+T_- = 0$. Then $\langle T_{-} y, y\rangle \leq\langle T_{+} y, y\rangle$ for any $y \in E$. In particular,
+    Conversely, positive elements are self-adjoint, i.e., $\inner{Tx}x = \inner{x}{Tx}$. From the polarization identity \ref{eq: polarization}, one can see that $\inner{Tx}y = \inner{x}{Ty}$ for all $x,y \in E$, showing that $T$ is self-adjoint. By the Hahn decomposition\footnote{Every element $a\in A$ in a $C^*$-algebra can be written as $a = a_+-a_-$ with $a_+, a_-\geqslant 0$, $a_+a_-=a_-a_+=0$. This is callede the Hahn decomposition.}, there exists two positive elements $T_+$ and $T_-$ such that $T = T_+-T_-$ and $T_+T_-= T_+T_- = 0$. Then $\langle T_{-} y, y\rangle \leq\langle T_{+} y, y\rangle$ for any $y \in E$. In particular,
     $$
     \langle T_{-}^{3} x, x\rangle=\langle T_{-}^{2} x, T_{-} x\rangle \leq\langle T_{+} T_{-} x, T_{-} x\rangle=0 .
     $$
@@ -361,7 +361,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
     \end{proof}
 \end{proposicao}
     
-\section{Finite rank operators}
+\section{Compact and Finite rank operators}
 \label{sec: finite rank operators}
 
 We are heading towards the definition of generalized Fredholm operators between Hilbert modules, and for that, we need a replacement for the finite dimensional condition. Henceforth, we shall explore the example \ref{exemplo:finite rank}.
@@ -414,7 +414,7 @@ finite-dimensional, and so do $X$.}.
 %\end{proof}
 
 \begin{proposicao}\label{prop: H_A resgata nocao de compacto}
-In the standard Hilbert module $\mathscr H_A$ over a unital $C^*$-algebra $A$, the classical compact notion of compact operator is well rescued: If $L_n(A) \subset \mathscr H_A$ denotes the free submodule generated by the first $n$ canonical elements $e_i$ ($i\leq n$), the following are equivallent:
+In the standard Hilbert module $\HA$ over a unital $C^*$-algebra $A$, the classical compact notion of compact operator is well rescued: If $L_n(A) \subset \HA$ denotes the free submodule generated by the first $n$ canonical elements $e_i$ ($i\leq n$), the following are equivallent:
 \begin{itroman}
     \item\label{prop item: prop: H_A resgata nocao de compacto (i)} $K \in \mathscr K_{A}(A)$.
     \item\label{prop item: prop: H_A resgata nocao de compacto (ii)} The norms of restrictions of $K$ onto the orthogonal complements $L_{n}(A)^{\perp}$ of the submodules $L_{n}(A)$ vanish as $n \longrightarrow \infty$.
@@ -422,7 +422,7 @@ In the standard Hilbert module $\mathscr H_A$ over a unital $C^*$-algebra $A$, t
 \begin{proof}
 $\left.\right.$
 \begin{itemize}
-    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Rightarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] Let $p_{n}: \mathscr H_A \longtwoheadrightarrow L_n(A)^{\perp}$ by the orthogonal projection. Then, for any $z \perp L_{n}(A)$, one has
+    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Rightarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] Let $p_{n}: \HA \longtwoheadrightarrow L_n(A)^{\perp}$ by the orthogonal projection. Then, for any $z \perp L_{n}(A)$, one has
     \begin{eqspaced*}{}
     \begin{array}{rcl}
 \|\Omega_{x}^{}\Omega_{y}^{*}z\|^{2} &= & \vphantom{\int\limits_b} \|\langle\Omega_{x}^{\vphantom{*}}\Omega_{y}^{*}z, \Omega_{x}^{}\Omega_{y}^{*}z\rangle\|\\
@@ -435,7 +435,7 @@ $\left.\right.$
 \end{array}
     \end{eqspaced*}
 Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restriction of the operator $\Omega_{x}^{}\Omega_{y}^{*}$ to the submodule $L_{n}(A)^{\perp}$, hence, for the norm of any compact operator $K$.
-    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Leftarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] For a operator $K \in \adj(\mathscr H_A)$, suppose that $\|K \sub\restrita{L_n(A)^{\perp}}\|$ vanishes when $n\to \infty$. If $z$ is an orthogonal element with respect to $L_n(A)$, i.e., $\inner{e_i}{z} =0$ for any $i \leq n$, notice that if $e^n\coloneqq (\sub e1, \ldots, e_n)$, then $\Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)= 0$. Therefore:
+    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Leftarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] For a operator $K \in \adj(\HA)$, suppose that $\|K \sub\restrita{L_n(A)^{\perp}}\|$ vanishes when $n\to \infty$. If $z$ is an orthogonal element with respect to $L_n(A)$, i.e., $\inner{e_i}{z} =0$ for any $i \leq n$, notice that if $e^n\coloneqq (\sub e1, \ldots, e_n)$, then $\Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)= 0$. Therefore:
     \begin{equation*}
         \begin{array}{rl}
             & \lim\limits_{n\to \infty} \sup\limits_{\substack{ z \in L_n(A)^{\perp} \\ \|z\| \leq 1}} \Big\| Kz - \sum\limits_{i=1}^n Ke_i \inner{e_i}z\Big\|\\
@@ -443,7 +443,7 @@ Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restrict
         \lim\limits_{n\to \infty} \sup\limits_{\substack{ z \in L_n(A)^{\perp} \\ \|z\| \leq 1}} \| Kz \| = \lim\limits_{n\to \infty} \|K \sub\restrita{L_n(A)^{\perp}}\|= 0.
         \end{array}
     \end{equation*}
-    If $z \in L_n(A)$, one can see that $Kz = \Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)$, so that the supreme can be taken in the hole $\mathscr H_A$. Therefore:
+    If $z \in L_n(A)$, one can see that $Kz = \Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)$, so that the supreme can be taken in the hole $\HA$. Therefore:
     \begin{equation*}
         K = \lim_{n\to \infty} \sum_{i=1}^n \Omega_{Ke_i}^{\vphantom{*}}\Omega_{e_i}^* \in \mathscr K_A(A). \qedhere 
     \end{equation*}
@@ -458,6 +458,7 @@ Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restrict
 %\end{exemplo}
 
 \begin{exemplos}$\left.\right.$
+    \label{exemplos: K( . )}
 \begin{itroman}
     \item Let $A$ be your favorite $C^*$-algebra. We shall see that $\mathscr K(A) \simeq A$. Notice that the map 
     \begin{equation*}
@@ -468,7 +469,7 @@ Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restrict
     
     Since $a\inner{b}{\come} = L_{ab^*}$, it follows that $\mathscr K(A)$ is the clousure of (the image under $L$ of) the linear span of products in $A$. But every $C^*$-algebra contains an approximate identity, such products are dense, thus $L$ is an isomorphism between $A$ and $\mathscr K(A)$.   
 
-    \item If $A$ is a unital algebra, $\mathscr K(A) = \adj(A)$ since any adjointable operator $T$ consists of left multiplication by $T(1)$.
+    \item \label{exemplo item: K(A)=L(A) pra A unital} If $A$ is a unital algebra, $\mathscr K(A) = \adj(A)$ since any adjointable operator $T$ consists of left multiplication by $T(1)$.
     
     \item Reviewing \ref{exemplos de hilbert modules}\ref{exemplo hilb (X) C*algebra}, one can obtain that $\mathscr K(H\otimes A) \simeq \mathscr K(H) \otimes A$. 
     
@@ -539,7 +540,7 @@ Suppose that $\sub\Id M$ is a compact operator in a given Hilbert module $E$. By
 \begin{eqspaced*}{(U \subset \mathscr K(E))}
 U \cap \operatorname{FR}({E}) \neq \varnothing
 \end{eqspaced*}
-Since $\mathscr K({E})$ is a unital ${C}^{*}$-algebra, the invertible operators $\mathrm{GL}(\mathscr K({E}))$ constitute a non empty open set by \ref{prop: GL(A) eh aberto}, hence there is a finite-rank invertible operator $F \in \GL(\mathscr K(E)) \cap \operatorname{FR}(E)$. Since $\operatorname{FR}({E})$ contains an invertible and is an ideal, it follows that  $\sub\Id E = F\inv F \in \operatorname{FR}({E})$, i.e., the identity has finite rank.
+Since $\mathscr K({E})$ is a unital ${C}^{*}$-algebra, the invertible operators $\mathrm{GL}(\mathscr K({E}))$ constitute a non empty open set, hence there is a finite-rank invertible operator $F \in \GL(\mathscr K(E)) \cap \operatorname{FR}(E)$. Since $\operatorname{FR}({E})$ contains an invertible and is an ideal, it follows that  $\sub\Id E = F\inv F \in \operatorname{FR}({E})$, i.e., the identity has finite rank.
 \end{proof}
 \end{proposicao}
 
@@ -606,27 +607,29 @@ Hence $U$ is a Hilbert isomorphism between $M$ and $pA^n$.
 
 \section{Kasparov Stabilization Theorem}
 
-We follow \cite{mingo1984equivariant}.
+In what follows through this text, one important application is a construction of a specific isomorphism between $K_0(A)$ and $K_0(B)$, without any separability condition assumed in the inner $C^*$-algebras $A$ and $B$. Technically, we still need the main theorem of this section, requiring some countability condition. But keep calm and relax, since this enumerability shall be dribbled in Lemma \ref{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}. 
+
+We follow \cite{mingo1984equivariant} in the following road map: Defining strictly positive elements in a $C^*$-algebra and characterizing operators in $\mathscr K(E)$ whose range is dense. With this characterization, we prove Kasparov stabilization theorem. 
+
 \begin{definicao}
 If $a$ is a positive element in a $C^*$-algebra $A$ and $\phi(a) \neq 0$ for all \textit{states}\footnote{Norm 1 positive linear functional $\phi: A \longto \C$.} $\phi$ on $A$, then $a$ is said to be \textit{strictly positive}.
 \end{definicao}
 
 \begin{proposicao}
 A positive element $a\geqslant 0$ in a unitary $C^*$-algebra is strictly positive if and only if it is a invertible element.
-\end{proposicao}
-\begin{proof} 
-We follow \cite{aweygan2020}. Suppose $a\in A$ is strictly positive.  Since $A$ is unital, the state space of $A$ is weak$^*$-compact, and it follows that $\varepsilon:=\inf\{\phi(a)\mid \phi\text{ is a state on }A\}>0$. It then follows that $a-\varepsilon$ is positive, from which it follows that the spectrum of $a$ is contained in $[\varepsilon,\infty)$, i.e., $0$ is not in the spectrum of $a$, hence $a$ is invertible.
+\begin{proof}[Proof due to \cite{aweygan2020}] 
+Suppose $a\in A$ is strictly positive.  Since $A$ is unital, the state space of $A$ is weak$^*$-compact, and it follows that the element $\varepsilon:=\inf\{\phi(a)\mid \phi\text{ is a state on }A\}$ is strictly positive, i.e., $\ep >0$. Therefore $a-\varepsilon$ is a positive element, so that the spectrum of $a$ is contained in $[\varepsilon,\infty)$, i.e., $a$ is invertible since $0$ is not in the spectrum of $a$.
 
-If $a\in A$ is positive and invertible, its spectrum is a compact subset of $(0,\infty)$, and thus $a-\varepsilon$ is positive for some $\varepsilon>0$.  Thus if $\phi$ is a non-zero positive linear functional on $A$, we have
+Conversely, suppose that a element $a\in A$ is positive and invertible. Whence, its spectrum is a compact subset of $(0,\infty)$, and thus $a-\varepsilon$ is positive for some $\varepsilon>0$.  If $\phi$ is a non-zero positive linear functional on $A$, we have
 \begin{equation*}
     \phi(a)=\varepsilon\phi(1)+\phi(a-\varepsilon)\geq \varepsilon\|\phi\|+0>0. \qedhere
 \end{equation*}
 \end{proof}
 
+\end{proposicao}
 \begin{lema}
 \label{lema: a > 0 sse aA denso em A}
 Let $a\in A$ be a positive element. Therefore $a$ is strictly positive if, and only if, $aA$ is dense in $A$.
-\end{lema}
 \begin{proof}
 Conjure the following statement:
 %\vspace{-0.75cm}
@@ -641,13 +644,11 @@ Suppose that $L \coloneqq aA\subset A \eqqcolon L'$ isn't dense, i.e., $L \neq L
 \end{eqspaced*}
 i.e., $\phi$ vanishes on $aA$, hence it is not dense.
 \end{proof}
-
-Notice that if $a \geqslant 0$ and is strictly positive, obviously, $a\neq 0$ since $\phi(0)=0$ for all states $\phi$. Conversely, we wish to show that $a>0$ is in fact, strictly positive. 
+\end{lema}
 
 \begin{proposicao}
 \label{prop: T > 0 sse Im T densa}
 Let $E$ be a Hilbert $A$-module and $T$ a positive element in the $C^*$-algebra $\mathscr K(E)$. Then $T$ is strictly positive if and only if $T$ has dense range.
-\end{proposicao}
 \begin{proof}
 If $T$ is strictly positive, by \ref{lema: a > 0 sse aA denso em A} then $\con{T\mathscr K(E)} = \mathscr K(E)$. Since $\con{\mathscr K(E)E} = E$, we have that $\con{\Im T} = \con{T\mathscr K(E)E} = \con{\mathscr K(E)E} = E$, i.e., $T$ has dense image. Conversely, suppose that $T$ has dense range. Therefore, for any $x,y \in E$, choose a sequence $(z_n)_n\subset E$ with $Tz_n \longto x$. Therefore,
 \[
@@ -655,28 +656,27 @@ If $T$ is strictly positive, by \ref{lema: a > 0 sse aA denso em A} then $\con{T
 \]
 So $T\mathscr K(E)$ is dense and $T$ is strictly positive.
 \end{proof}
+\end{proposicao}
 
 A Hilbert $A$-module $M$ is countably generated if there is a sequence $\left(x_{n}\right)_n \subset X$ such that every $x$ is the limit $A$-linear combinations of $\left(x_{n}\right)_n$.
 
 \begin{teorema}[Kasparov Stabilization Theorem]
 \label{teo: kasparov stabilization}
-If $M$ is a countably generated Hilbert $A$-module, then there exists a isomorphism $U : \HA \longto M\oplus \HA$. Whenever $A$ is unital, $U$ is compact.
-\end{teorema}
+If $M$ is a countably generated Hilbert $A$-module, then $\HA \simeq M\oplus \HA$.
 \begin{proof}
 Consider the case only when $M$ is Hilbert $\widetilde{A}$-module, which is sufficient since $\con{MA} = M$ and $\con{\HA A} = \HA$. Therefore, assume that $A$ is a unital $C^*$-algebra.
 
-Let $(\eta_n)_n$ be a bounded sequence of generators for $M$, with each generator repeated infinitely often. Let $(\sub e n)_n$ be the canonical orthonormal basis for $\HA$, i.e., only the $n$-th coordinate of $\sub e n$ is 1 and 0 elsewhere. Define $T:\HA\longto M\oplus \HA$ linearly by $T\sub e n \coloneqq 2^{-n} \eta_n \oplus 4^{-n}\sub e n$. Notice that
-\begin{eqspaced*}{(\zeta_n \coloneqq \eta_n+2^{-n}\sub e n)}
-\hspace{-0.5cm}
-T = \sum_{n=1}^\infty 2^{-n} \Omega^{\vphantom{*}}_{\zeta_n}\Omega^*_{\sub e n} =  \sum_{n=1}^\infty 2^{-n} (\eta_n+2^{-n}\sub e n)\inner{\sub e n}{\come}
-\end{eqspaced*}
-Therefore, $T$ is a compact bijection. Since each $\eta_n$ is repeated infinitely often, it is true that $\eta_n \oplus 2^{-m}\sub e m = T(2^m\sub e m)\in \Im T$ for infinitely many $m$ which $\eta_n=\eta_m$. Going through the limit when $m\longto \infty$, we see that 
+Let $(\eta_n)_n$ be a bounded sequence of generators for $M$, with each generator repeated infinitely often. Let $(\sub e n)_n$ be the canonical orthonormal basis for $\HA$, i.e., only the $n$-th coordinate of $\sub e n$ is 1 and 0 elsewhere. Define $T:\HA\longto M\oplus \HA$ linearly extending by $T\sub e n \coloneqq 2^{-n} \eta_n + 4^{-n}\sub e n$. Notice that, for the elements $\zeta_n \coloneqq \eta_n+2^{-n}\sub e n$, $T$ can be written as
 \begin{equation*}
-    \eta_n \oplus 0 = \lim_{m\to \infty} \eta_n \oplus 2^{-m}\sub e m = \lim_{m\to \infty} T(2^m\sub e m) \in \con{\Im T}
+T = \sum_{n=1}^\infty 2^{-n} \Omega^{\vphantom{*}}_{\zeta_n}\Omega^*_{\sub e n} =  \sum_{n=1}^\infty 2^{-n} (\eta_n+2^{-n}\sub e n)\inner{\sub e n}{\come}.
 \end{equation*}
-and $0 \oplus \sub e n = 4^n (T\sub e n - 2^{-n}(\eta_n \oplus 0))$. Therefore, both $\eta_n \oplus 0$ and $0\oplus\sub e n$ are in the closure $\con{\Im T}$.
+Therefore, $T$ is a compact bijection. Since each $\eta_n$ is repeated infinitely often, it is true that $\eta_n + 2^{-m}\sub e m = T(2^m\sub e m)\in \Im T$ for infinitely many $m$ which $\eta_n=\eta_m$. Going through the limit when $m\longto \infty$, we see that 
+\begin{equation*}
+    \eta_n + 0 = \lim_{m\to \infty} \eta_n + 2^{-m}\sub e m = \lim_{m\to \infty} T(2^m\sub e m) \in \con{\Im T}
+\end{equation*}
+and $0 + \sub e n = 4^n (T\sub e n - 2^{-n}(\eta_n + 0))$. Therefore, both $\eta_n + 0$ and $0+\sub e n$ are in the closure $\con{\Im T}$.
 
-Since $\{\eta_n \oplus 0,0 \oplus \sub e n  \}_n$ generates a dense submodule of $M\oplus \HA$, $T$ has dense range. Define new operators $S$ and $R$ given by $S\sub e n \coloneqq 0 \oplus 4^{-n}\sub e n$ and $R\sub e n \coloneqq 2^{-n}\eta_n \oplus 0$, in order that
+Since $\{\eta_n + 0,\,0 + \sub e n  \}_n$ generates a dense submodule of $M\oplus \HA$, $T$ has dense range. Define new operators $S$ and $R$ given by $S\sub e n \coloneqq 0 + 4^{-n}\sub e n$ and $R\sub e n \coloneqq 2^{-n}\eta_n + 0$, in order that
 \begin{equation*}
     \begin{array}{rcl}
          T^*T &=& S^*S + R^*R \\ 
@@ -693,10 +693,17 @@ Since $\{\eta_n \oplus 0,0 \oplus \sub e n  \}_n$ generates a dense submodule of
          \end{smallmatrix}\right)
     \end{array}
 \end{equation*}
-Hence $T^*T \geqslant S^*S$. Notice that $S^*S$ has dense range, and by \ref{prop: T > 0 sse Im T densa}, it is strictly positive and so do $T^*T$. Therefore, one can define $U \coloneqq T |T|^{-1}$ which is isomorphism between Hilbert modules, and since $T$ is a compact operator, so is $U$.
+Hence $T^*T \geqslant S^*S$. Notice that $S^*S$ has dense range, and by \ref{prop: T > 0 sse Im T densa}, it is strictly positive and so do $T^*T$. Therefore, $T |T|^{-1}$ is the desired  isomorphism between those Hilbert modules.
 \end{proof}
+\end{teorema}
 
+\begin{proposicao}
+    A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e., is $\sigma$-unital.
 
+    \begin{proof}
+        If $A$ is unital and $(e_n)_n \subset \HA$ is the canonical orthonormal basis, the operator $h \coloneqq \sum_n 2^{-n} e_n \inner{e_n}{\come}$ is a strictly positive element in $\mathscr K(\HA)$ since it has dense range. If $P\in \adj(\HA)$ is an idempotent self-adjoint operator, then $PhP$ is strictly positive in $\mathscr K(P\HA)$. Finally, notice that $A$ is countably generated if, and only if $\widetilde{A}$ is countably generated. Therefore $\sub{\mathscr K}A(E) = \sub{\mathscr K}{\widetilde{A}}(E)$ is $\sigma$-unital if, and only if $E$ is countably generated.
+    \end{proof}
+\end{proposicao}
 
 %\begin{proposicao}
 %A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e., is $\sigma$-unital.
@@ -792,7 +799,10 @@ which by \ref{prop: pAm cong qAn sse p ~ q} is well defined.
 
 Letting $[\,\cdot\,]_0 : V({\widetilde{A}}) \longhookrightarrow K_0({\widetilde{A}})$ be the natural inclusion, $[q]_0 \coloneqq [q]- [s(q)]$, one may see $[M]_0 \in K_0({\widetilde{A}})$ as an element of $K_0(A)$. In fact, if $\ep : \widetilde A \longtwoheadrightarrow \C$ is the projection of the complex component, $\ep(p) = 0$ since $M$ is originally a Hilbert $A$-module. Therefore,
 \[
-\ep^*\big([M]_0\big) = \ep^*([p] - [s(p)]) = [\ep(p)]- [\ep(s(p))] = 0 \To [M]_0 \in \ker \ep^* = K_0(A).
+\sub\ep0\big([M]_0\big) = \sub\ep0([p] - [s(p)]) = [\ep(p)]- [\ep(s(p))] = 0 
+\]
+\[
+\To [M]_0 \in \ker \sub\ep0 = K_0(A).
 \]
 
 \begin{proposicao}
@@ -818,7 +828,16 @@ In light of the \ref{prop: identidade compacta eh de rank finito}, ${\Im P}$ is 
     
     \begin{itroman}
         \item $h^* = h$.
-        \item Notice that $(a-a^*)(a^*-a) \geqslant 0$, hence $\Spec((a-a^*)(a^*-a)) \subset [0,\infty)$. By spectral mapping theorem \ref{teo: spectral mapping}, 
+        \item Notice that $(a-a^*)(a^*-a) \geqslant 0$, hence $\Spec((a-a^*)(a^*-a)) \subset [0,\infty)$. Conjure one of the classical theorems in spectral theory:        
+        \begin{invocacao}[Spectral mapping theorem]
+            \label{teo: spectral mapping}
+            Given an unital Banach algebra $A$ and $a\in A$, the following holds:
+            \begin{equation*}
+                \Spec(p(a)) = \{p(\lambda) \mid \lambda \in \Spec(a)\} = p(\Spec(a))
+            \end{equation*}
+            for each and every complex polynomial $p \in \C[x]$.
+        \end{invocacao}
+        By the theorem \ref{teo: spectral mapping}, 
         \begin{equation*}
             \Spec(h) = 1 + \Spec((a-a^*)(a^*-a)) \subset [1,\infty).
         \end{equation*}
@@ -854,13 +873,13 @@ The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the cla
     \begin{proof}
         We have that $P = uQ\inv u$, $\Im P \simeq pA^n$ and $\Im Q \simeq qA^n$. Since their ranges are finite-rank modules (\ref{obs: idempotente gerando inversivel} and \ref{prop: compacto idempotente eh rank finito}), there are $x,y \in (\Im P)^n$ and $z,w \in (\Im Q)^m$ such that 
         $$P = \sub\Id{\Im P} = \Omega_{y}^{\,}\Omega_x^* \e Q = \sub\Id{\Im Q} = \Omega_{w}^{\,}\Omega_z^*.$$ 
-        We know that $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$ by the argument used in . Therefore:
+        We know that $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$ by the argument used in \ref{teo: M rank finito sse M = pA^n}. Therefore:
 
         $$
         \Omega_y\Omega_x^* = P = uQ\inv u = u\Omega_{w}\Omega_z^*\inv u = \Omega_{u(w)}^{\,}\Omega_{({\inv u})^*(z)}^*, $$
         which means that
-        $$\sum_{i=1}^n y_i \inner{x_i}{\come} = \sum_{i=1}^m u(w_i)\inner{(\inv u)^*(z_i)}{\come}$$ 
-        Notice that the matrix $\widehat q \coloneqq \left(\inner{(\inv u)^*(z_i)}{u(y_j)}\right)_{i,j}$ obeys $\Im uQ\inv u \simeq \widehat{q}A^s$ by the construction of \ref{teo: M rank finito sse M = pA^n}. But since $\widehat{q} = q$, we obtain two isomorphisms such that the following diagram commutes.
+        $$\sum_{i=1}^n y_i \inner{x_i}{\come} = \sum_{i=1}^m u(w_i)\inner{(\inv u)^*(z_i)}{\come}.$$ 
+        Notice that the matrix $\widehat q \coloneqq \left(\inner{(\inv u)^*(z_i)}{u(w_j)}\right)_{i,j}$ obeys $\Im uQ\inv u \simeq \widehat{q}A^m$ by the construction of \ref{teo: M rank finito sse M = pA^n}. But since $\inner{(\inv u)^*(z_i)}{u(w_j)} = \inner{z_i}{w_j}$, one concludes that $\widehat{q} = q$, hence, we obtain two isomorphisms such that the following diagram commutes.
         \begin{equation*}
 \begin{tikzcd}
     \Im P \arrow[d]        & \Im uQu^{-1} \arrow[l, no head, equal] \arrow[d] \arrow[r, dashed] & \Im Q \arrow[d] \\
@@ -895,7 +914,7 @@ We are in touch with pretty algebraic properties of Hilbert modules, and in our 
 Two Hilbert modules $E$ and $F$ are said to be \textit{quasi-stably-isomorphic} if there exists a Hilbert module $X$ and an invertible operator $T \in \GL \adj(E \oplus X, F \oplus X)$ such that $\sub{\Id}{X}-\sub T{X X}$ is compact.
 \end{definicao}
 
-Before lighting that relationship, first we enrich the definition on the special case of finite-rank modules.
+Notice that this is an equivalence relation. Before lighting that relationship, first we enrich the definition on the special case of finite-rank modules.
 
 \begin{lema}\label{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}
 Assume $M$ and $N$ are $A$-finite rank modules. If $M$ and $N$ are quasi-stably-isomorphic then the module $X$ referred to in \ref{def: quasi-stabli-isomorphic} can be taken to be countably generated.
@@ -969,64 +988,78 @@ In terms of the Morita equivalence, this is a big deal since we are not restrict
 \label{teo: M N quasi stably iso ==> rank igual}
 Let $M$ and $N$ be quasi-stably-isomorphic finite rank Hilbert modules over a $C^*$-algebra $A$. Therefore, $\rank(M) = \rank(N)$.
 \begin{proof}
-Let $T \in \GL(\adj(M\oplus X, N\oplus X))$ with $X$ beeing a countably generated Hilbert module (\ref{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}) and $\sub \Id X - \sub T{XX} \in \mathscr K(X)$. By the countability condition, we can apply Kasparov's Stabilization Theorem \ref{teo: kasparov stabilization} in order to obtain that $X \oplus \mathscr H_A \simeq \mathscr H_A$. Without loss of generality, we can assume that $X = \mathscr H_A$.
+Let $T \in \GL(\adj(M\oplus X, N\oplus X))$ with $X$ beeing a countably generated Hilbert module (\ref{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}) and $\sub \Id X - \sub T{XX} \in \mathscr K(X)$. By the countability condition, we can apply Kasparov's Stabilization Theorem \ref{teo: kasparov stabilization} in order to obtain that $X \oplus \HA \simeq \HA$. Without loss of generality, we can assume that $X = \HA$.
 
-Since $M$ is finitely generated as an $A$-module, by Kasparov's theorem again, there exists a isomorphism $\varphi :\mathscr H_A \longto M\oplus \mathscr H_A$. Now, we construct operators $F$ and $G$ given by the compositions:
+Since $M$ is finitely generated as an $A$-module, by Kasparov's theorem again, there exists a isomorphism $\varphi :\HA \longto M\oplus \HA$. Now, we construct operators $F$ and $G$ given by the compositions:
 \begin{equation*}
     \begin{array}{c}
-         F: \mathscr H_A \overset{\varphi}{\longto} M\oplus \mathscr H_A \overset{T}{\longto} N\oplus \mathscr H_A \longtwoheadrightarrow \mathscr H_A \longhookrightarrow M\oplus \mathscr H_A \overset{\inv \varphi}{\longto} {\mathscr H_A}\\
-    \vphantom{\displaystyle\int\limits^b}G: \mathscr H_A \overset{\varphi}{\longto} M\oplus \mathscr H_A \longtwoheadrightarrow \mathscr H_A \longhookrightarrow N \oplus \mathscr H_A \overset{\inv T}{\longto} M\oplus \mathscr H_A \overset{\inv \varphi}{\longto} {\mathscr H_A} 
+         F: \HA \overset{\varphi}{\longto} M\oplus \HA \overset{T}{\longto} N\oplus \HA \longtwoheadrightarrow \HA \longhookrightarrow M\oplus \HA \overset{\inv \varphi}{\longto} {\HA}\\
+    \vphantom{\displaystyle\int\limits^b}G: \HA \overset{\varphi}{\longto} M\oplus \HA \longtwoheadrightarrow \HA \longhookrightarrow N \oplus \HA \overset{\inv T}{\longto} M\oplus \HA \overset{\inv \varphi}{\longto} {\HA} 
     \end{array}
 \end{equation*}
-We state that
+
+Those are the first moments we are dealing with the so called generalized Fredholm operators. We state that
 \begin{itroman}
-    \item \label{teo item: I-FG e I-GF sao compactos}\textbf{Both $\boldsymbol{\Id - FG}$ and $\boldsymbol{\Id - GF}$ are compact}: Let $\sub\Pi{M} = \sub\Id{M} \oplus 0$ and $\sub\Pi{\mathscr H_A} = 0 \oplus \Id$ be the coordinate projections. When composing, one can simplify:
+    \item \label{teo item: I-FG e I-GF sao compactos}\textbf{Both $\boldsymbol{\Id - FG}$ and $\boldsymbol{\Id - GF}$ are compact}: Let $\sub\Pi{M} = \sub\Id{M} \oplus 0$ and $\sub\Pi{\HA} = 0 \oplus \Id$ be the coordinate projections. When composing, one can simplify:
 \begin{equation*}
     \begin{array}{c}
-    FG: \mathscr H_A \overset{\varphi}{\longto} M\oplus \mathscr H_A \overset{\sub{\Pi}{\mathscr H_A} }{\longto} M\oplus \mathscr H_A \overset{\inv \varphi}{\longto} {\mathscr H_A}
+    FG: \HA \overset{\varphi}{\longto} M\oplus \HA \overset{\sub{\Pi}{\HA} }{\longto} M\oplus \HA \overset{\inv \varphi}{\longto} {\HA}
     \\
-    \vphantom{\displaystyle\int\limits^b}GF: \mathscr H_A \overset{\varphi}{\longto} M\oplus \mathscr H_A \overset{T}{\longto} N\oplus \mathscr H_A \overset{\sub\Pi{\mathscr H_A}}{\longto} N \oplus \mathscr H_A \overset{\inv T}{\longto} M\oplus \mathscr H_A \overset{\inv \varphi}{\longto} {\mathscr H_A}  
+    \vphantom{\displaystyle\int\limits^b}GF: \HA \overset{\varphi}{\longto} M\oplus \HA \overset{T}{\longto} N\oplus \HA \overset{\sub\Pi{\HA}}{\longto} N \oplus \HA \overset{\inv T}{\longto} M\oplus \HA \overset{\inv \varphi}{\longto} {\HA}  
     \end{array}
 \end{equation*}
 Meaning that
 \begin{equation*}
     \begin{array}{rcl}
-        \Id - FG &=& \Id - \inv \varphi \sub\Pi{\mathscr H_A}\varphi \\
+        \Id - FG &=& \Id - \inv \varphi \sub\Pi{\HA}\varphi \\
         &=& \inv \varphi\sub\Pi M \varphi 
     \end{array}
 \e 
 \begin{array}{rcl}
-     \Id - GF &=& \Id - \inv \varphi{\inv T} \sub\Pi{\mathscr H_A} T\varphi  \\
+     \Id - GF &=& \Id - \inv \varphi{\inv T} \sub\Pi{\HA} T\varphi  \\
      &=& \inv{(T\varphi)} \sub\Pi N(T\varphi)
 \end{array}
     \end{equation*}
    Therefore, $I-FG$ and $I-GF$ are unitarily equivalent to $\sub\Pi M$ and $\sub \Pi N$, which are compact operators.
     
-    \item \mathbf{\Id - FG}  \textbf{and} \mathbf{\Id - GF} \textbf{are idempotents}: Notice that $F = \inv \varphi(\sub 0M \oplus \sub{\Pi}{\mathscr H_A} T\varphi(\come))$. Therefore:
+    \item \mathbf{\Id - FG}  \textbf{and} \mathbf{\Id - GF} \textbf{are idempotents}: Notice that $F = \inv \varphi(\sub 0M \oplus \sub{\Pi}{\HA} T\varphi(\come))$. Therefore:
     \begin{equation*}
     \begin{array}{rcl}
-         FGF &=& \inv \varphi(\sub 0M \oplus \sub{\Pi}{\mathscr H_A} T\varphi GF(\come)) \\
-         &=& \inv \varphi\big(\sub 0M \oplus \sub{\Pi}{\mathscr H_A} T\varphi\inv \varphi\inv T \sub\Pi{\mathscr H_A}T\varphi(\come)\big) \\
-         &=&\inv \varphi(\sub 0M \oplus \sub{\Pi}{\mathscr H_A} T\varphi(\come)) = F.
+         FGF &=& \inv \varphi(\sub 0M \oplus \sub{\Pi}{\HA} T\varphi GF(\come)) \\
+         &=& \inv \varphi\big(\sub 0M \oplus \sub{\Pi}{\HA} T\varphi\inv \varphi\inv T \sub\Pi{\HA}T\varphi(\come)\big) \\
+         &=&\inv \varphi(\sub 0M \oplus \sub{\Pi}{\HA} T\varphi(\come)) = F.
     \end{array}
     \end{equation*}
     Similarly, one can check that $GFG=G$. Hence, $\Id-FG$ and $\Id - GF$ are idempotents.
+
+    \item \label{teo item: F e G sao Fredholm}\mathbf{F} \textbf{and} \mathbf{G} \textbf{are compact perturbations of the identity}: The operators which ignores $\varphi$ and $\inv\varphi$ in the constructions of $F$ and $G$, are represented by
+    \begin{equation*}
+        F' \coloneqq 
+        \begin{pmatrix}
+            0 & 0 \\
+            \sub{T}{\HA M} & \sub{T}{\HA\HA}
+        \end{pmatrix} \e G' \coloneqq \begin{pmatrix}
+            0 & \sub{S}{M\HA} \\
+            0 & \sub S{\HA\HA}
+        \end{pmatrix}
+    \end{equation*}
+    where $S \coloneqq \inv T$. Since $\sub{T}{\HA\HA}$ is a compact perturbation of the identity and both $M$ and $N$ are finite rank modules (and so any operator having either $M$ or $N$ as domain or codomain must be compact), one concludes that $F'$ and $G'$, hence, $F$ and $G$ are indeed, compact perturbations of the identity.
 \end{itroman}
 For sake of notation, let $\mathscr Q(E) \coloneqq {\adj(E)}/{\mathscr K(E)}$ for a Hilbert $A$-module $E$. Since the compact set is an ideal of the adjointable maps, one can consider the following exact sequence of $C^*$-algebras:
 \begin{equation}
     \label{eq:seq exata de C-star em K(H_A)}
 \begin{tikzcd}
-0 \arrow[r] & \mathscr K(\mathscr H_A) \arrow[r, hook] & \adj(\mathscr H_A) \arrow[r, "\pi", two heads] & \mathscr Q(\mathscr H_A) \arrow[r] & 0
+0 \arrow[r] & \mathscr K(\HA) \arrow[r, hook] & \adj(\HA) \arrow[r, "\pi", two heads] & \mathscr Q(\HA) \arrow[r] & 0
 \end{tikzcd}
 \end{equation}
 
-Notice that we can consider the index map $\partial$ induced by (\ref{eq:seq exata de C-star em K(H_A)}). Since $\sub{T}{\mathscr H_A\mathscr H_A}$ is a compact perturbation of the identity and both $M$ and $N$ are finite rank modules, one concludes that $F$ is also a compact perturbation of the identity. Therefore, $\pi(F)= \sub1{\mathscr Q(\mathscr H_A)}$. Since $\Id_2$ is a lift of $\diag(\sub1{\mathscr Q(\mathscr H_A)}, \inv{\sub1{\mathscr Q(\mathscr H_A)}})$, one can obtain that $\partial([\sub1{\mathscr Q(\mathscr H_A)}]_1) = [\Id_2 p_2\Id_2^{-1}]_0 - [p_2]_0 = 0$.
+Notice that we can consider the index map $\partial$ induced by (\ref{eq:seq exata de C-star em K(H_A)}). As stated in item \ref{teo item: F e G sao Fredholm}, one concludes that $\pi(F)= \sub1{\mathscr Q(\HA)}$. Since $\Id_2$ is a lift of $\diag(\sub1{\mathscr Q(\HA)}, \inv{\sub1{\mathscr Q(\HA)}})$, one can obtain that $\partial([\sub1{\mathscr Q(\HA)}]_1) = [\Id_2 p_2\Id_2^{-1}]_0 - [p_2]_0 = 0$.
 
-We can extract more information by writing down who is the index in terms of $F$ and $G$. By \ref{teo item: I-FG e I-GF sao compactos}, is easy to see that $\pi(F)$ and $\pi(G)$ are each others inverse in $\mathscr Q(\mathscr H_A)$. In order to compute the index, the element  
+We can extract more information by writing down who is the index in terms of $F$ and $G$. By \ref{teo item: I-FG e I-GF sao compactos}, is easy to see that $\pi(F)$ and $\pi(G)$ are each others inverse in $\mathscr Q(\HA)$. In order to compute the index, the element  
 \begin{equation*}
     w \coloneqq \begin{pmatrix}
         F & \Id - FG \\ \Id-GF & G
-    \end{pmatrix} \in \GL_2^{(0)}({\mathscr Q(\mathscr H_A)})
+    \end{pmatrix} \in \GL_2^{(0)}({\mathscr Q(\HA)})
 \end{equation*}
 is a lift of $\diag(\pi(F), \pi(F)^{-1})$, and its inverse just swaps $F$ and $G$ places. Therefore:
 \begin{equation*}
