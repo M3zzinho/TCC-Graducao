@@ -10,6 +10,14 @@ Armand Borel and Jean-Pierre Serre.
 \newblock {\em Bulletin de la Soci{\'e}t{\'e} math{\'e}matique de France},
   86:97--136, 1958.
 
+\bibitem{brown1977morita}
+Lawrence Brown, Philip Green, and Marc Rieffel.
+\newblock Stable isomorphism and strong morita equivalence of
+  \ensuremath{C^*}-algebras.
+\newblock {\em Pacific Journal of Mathematics}, 71(2):349--363, 1977.
+\newblock
+  \url{https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-71/issue-2/Stable-isomorphism-and-strong-Morita-equivalence-of-C-algebras/pjm/1102811432.full?tab=ArticleLinkCited}.
+
 \bibitem{brown1977stable}
 Lawrence Brown, Philip Green, and Marc Rieffel.
 \newblock Stable isomorphism and strong morita equivalence of
@@ -70,6 +78,13 @@ E~Christopher Lance.
 V.~M. Manuilov and E.~V. Troitsky.
 \newblock {\em Hilbert \ensuremath{C^*}-Modules}.
 \newblock American Mathematical Society, 2001.
+
+\bibitem{mingo1987K}
+James~A Mingo.
+\newblock \ensuremath{K}-theory and multipliers of stable
+  \ensuremath{C^*}-algebras.
+\newblock {\em Transactions of the American Mathematical Society},
+  299(1):397--411, 1987.
 
 \bibitem{mingo1984equivariant}
 James~A Mingo and William~J Phillips.

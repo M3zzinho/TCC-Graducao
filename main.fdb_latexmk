@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1669390802 "main.aux" "main.bbl" "main" 1669412891
+["bibtex main"] 1669501876 "main.aux" "main.bbl" "main" 1669502634
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1669412890 15481 aafa7dc772fd318d3212cf38a700d38a "pdflatex"
-  "ref.bib" 1669140930 15854 a78c313201d424f0db9ac66b67383da8 ""
+  "main.aux" 1669502633 15624 c6e6ab50ef99d150c593b9fd7ae3b200 "pdflatex"
+  "ref.bib" 1669490214 16127 958b18be13be16788cea5843e49935e0 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1669412884 "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" "main.pdf" "main" 1669412891
+["pdflatex"] 1669502626 "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" "main.pdf" "main" 1669502634
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1603395601 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1603395603 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1603395669 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -417,18 +417,19 @@
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1623005660 55589 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-abspage.sty" 1602241898 2275 d29aca6fd67823551cb07584e3681d5d ""
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1602241898 20688 beaddf14d96104d4bf016523be5395c5 ""
-  "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" 1669412843 601 43d8c02403c77ac6db8a3a7fce72d8fb ""
+  "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex" 1669501875 653 077aabe52220577b1ba12a39562c2e79 ""
+  "chapters/agradecimentos.tex" 1669502625 1967 93e73fe106d798665090545e13b011a5 ""
   "chapters/fredholm.tex" 1669338647 47952 183750aac504e46762133b48822d29b3 ""
-  "chapters/hilbert_modules.tex" 1669336968 83995 edc7f2f3a48535f6709989fb13bcec3b ""
-  "chapters/introduction.tex" 1669404677 26 ded5b91e4b68537e082bfaac97051497 ""
+  "chapters/hilbert_modules.tex" 1669496167 84032 74b4510f7049017e78272b25a5b5e5ff ""
+  "chapters/introduction.tex" 1669499667 5996 5455623fe3695a53a06d86ee5c8de145 ""
   "chapters/k_theory.tex" 1668958138 29030 3ce9879f16a47143df1e81739702f66a ""
-  "chapters/morita.tex" 1669404084 8244 078513b87748ae6eae90f14623654328 ""
+  "chapters/morita.tex" 1669492807 8315 64b67ec8d0aa39b95c526f29eef80d10 ""
   "figures/grothendieck-riemann-roch.tex" 1668711430 87337 d7b05468b97fd068ae31d30678bc5f4a ""
-  "main.aux" 1669412890 15481 aafa7dc772fd318d3212cf38a700d38a "pdflatex"
-  "main.bbl" 1669390802 4740 a1a130ae14ab616fe729ac64c8df2b27 "bibtex main"
-  "main.out" 1669412890 3963 07fffc29a2c1940e9cb3296cf5997406 "pdflatex"
-  "main.tex" 1669412843 601 43d8c02403c77ac6db8a3a7fce72d8fb ""
-  "main.toc" 1669412890 1893 01f39cd3469255f4d9b44595f0251d84 "pdflatex"
+  "main.aux" 1669502633 15624 c6e6ab50ef99d150c593b9fd7ae3b200 "pdflatex"
+  "main.bbl" 1669501877 5414 c794ddef4372a8d9ce2c6314ab83a3f7 "bibtex main"
+  "main.out" 1669502633 3783 c425e39db3c0f8b803e6ce4de3dc9fa6 "pdflatex"
+  "main.tex" 1669501875 653 077aabe52220577b1ba12a39562c2e79 ""
+  "main.toc" 1669502633 1814 15e43ba8d6fa7f31f705631dcaac16a7 "pdflatex"
   "structure/macros.tex" 1668711430 15254 fd7ab24e0f9c18d0d926be0e8838ad10 ""
   "structure/packages.tex" 1669412883 5991 ccb472fe66c1341d77a31d80386be8a6 ""
   (generated)
