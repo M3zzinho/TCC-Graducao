@@ -16,6 +16,6 @@
 \contentsline {section}{\numberline {4.1}Regular Fredholm operators}{44}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Regularization of Fredholm operators}{48}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Fredholm Picture of \ensuremath {K_0(A)}}{54}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Application to Morita Equivalence}{57}{chapter.5}%
+\contentsline {chapter}{\numberline {5}A Fredholm operator approach to Morita-Rieffel Equivalence}{57}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Preliminars on Hilbert \ensuremath {C^*}-bimodules}{57}{section.5.1}%
-\contentsline {section}{\numberline {5.2}\ensuremath {K}-theory and Hilbert \ensuremath {C^*}-bimodules}{58}{section.5.2}%
+\contentsline {section}{\numberline {5.2}\ensuremath {K}-theory and Hilbert \ensuremath {C^*}-bimodules}{59}{section.5.2}%

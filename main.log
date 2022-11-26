@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  23 NOV 2022 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  25 NOV 2022 18:48
 entering extended mode
 **c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
 (c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
@@ -1006,14 +1006,25 @@ Package: catchfilebetweentags 2011/02/19 v1.1 - Catch file between tags (FC)
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \CatchFBT@tok=\toks256
+) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip148
+\f@nch@O@elh=\skip149
+\f@nch@O@erh=\skip150
+\f@nch@O@olh=\skip151
+\f@nch@O@orh=\skip152
+\f@nch@O@elf=\skip153
+\f@nch@O@erf=\skip154
+\f@nch@O@olf=\skip155
+\f@nch@O@orf=\skip156
 )) (structure/macros.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count379
-\rotFPtop=\skip148
-\rotFPbot=\skip149
+\rotFPtop=\skip157
+\rotFPbot=\skip158
 \rot@float@box=\box128
 \rot@mess@toks=\toks56
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty
@@ -1034,30 +1045,30 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )))) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 12.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    ... okay on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count380
@@ -1085,8 +1096,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 11.
-Package hyperref Info: Link coloring ON on input line 11.
+(lastpage)             ! on input line 12.
+Package hyperref Info: Link coloring ON on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1096,9 +1107,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count386
 )
-LaTeX Info: Redefining \ref on input line 11.
-LaTeX Info: Redefining \pageref on input line 11.
-LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1112,63 +1123,92 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
 \c@lstlisting=\count387
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 13.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 14.
 (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 13.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 13.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 13.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 13.
+(Font)              <17.28> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 13.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+(Font)              <10> on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 13.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 14.
  [1
 
 
-{C:/Users/55119/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2
+{C:/Users/55119/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2
 
 ] (main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 3.
+
+Overfull \hbox (5.20796pt too wide) in paragraph at lines 19--19
+ [] [][][]\T1/lmr/bx/n/10.95 A Fredholm operator approach to Morita-Rieffel Equivalence[][] []  
+ []
+
 )
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (chapters/introduction.tex [3] [4
+ (chapters/introduction.tex [3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4
 
 ]
 Chapter 1.
-) (chapters/k_theory.tex [5] [6
+) (chapters/k_theory.tex [5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6
 
 ]
 Chapter 2.
@@ -1212,6 +1252,13 @@ Overfull \hbox (3.89067pt too wide) in paragraph at lines 40--44
 \T1/lmr/m/n/10.95 introduces the group $\OML/lmm/m/it/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 associated to a subcategory of an abelian category,
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [8]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 72.
@@ -1248,13 +1295,28 @@ Overfull \hbox (3.9962pt too wide) in paragraph at lines 81--82
 \T1/lmr/m/n/10.95 mimics the above paragraph, by replacing vector bundles by finitely generated
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [9]
 Overfull \hbox (12.21446pt too wide) in paragraph at lines 89--90
 []\T1/lmr/bx/n/10.95 Homotopic\T1/lmr/m/n/10.95 : There are a continuous path $\OML/lmm/m/it/10.95  \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 ([0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1]\OML/lmm/m/it/10.95 ; A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 of idempotents
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 104.
-(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd) [10]
+(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
 Overfull \hbox (4.01443pt too wide) in paragraph at lines 120--121
 \T1/lmr/m/n/10.95 formal differences. In lighter sheets, for pairs $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 and $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c; d\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 of elements
  []
@@ -1279,6 +1341,13 @@ LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.83249> not available
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <3.83249> not available
 (Font)              size <5> substituted on input line 124.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [11]
 Overfull \hbox (6.32082pt too wide) in paragraph at lines 153--154
 \T1/lmr/m/n/10.95 compact operators in a infinite-dimensional Hilbert space $\OML/lmm/m/it/10.95 H$\T1/lmr/m/n/10.95 , i.e., $\OML/lmm/m/it/10.95 V\OT1/lmr/m/n/10.95 (\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 )) \OMS/lmsy/m/n/10.95 '
@@ -1294,11 +1363,34 @@ Overfull \hbox (0.45132pt too wide) in paragraph at lines 188--189
 \T1/lmr/m/n/10.95 elements, but simpler. Therefore, let $[][]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 ) [][]= [][] [][](\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 considering
  []
 
-[12] [13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 257.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [14]
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
 
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
 (Font)              using `T1/lmr/m/scsl' instead on input line 278.
@@ -1308,7 +1400,22 @@ Overfull \hbox (4.5833pt too wide) in paragraph at lines 285--286
 []\T1/lmr/m/n/10.95 In order to show that the index is well defined, suppose that $\OML/lmm/m/it/10.95 y \OMS/lmsy/m/n/10.95 2 [][]\OT1/lmr/m/n/10.95 ([])$
  []
 
-[15]) (chapters/hilbert_modules.tex [16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]) (chapters/hilbert_modules.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
 Chapter 3.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <24.88> not available
 (Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 1.
@@ -1333,12 +1440,34 @@ Overfull \hbox (1.68993pt too wide) detected at line 34
 
 LaTeX Warning: Reference `lema: Cstar prop: a <= b ---> |a| <= |b|' on page 18 undefined on input line 61.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [18]
 Overfull \hbox (0.45808pt too wide) in paragraph at lines 105--107
 [][]\T1/lmr/bx/n/10.95 Proposition 3.1.3. []\T1/lmr/m/n/10.95 All Inner product modules are naturally complex vector
  []
 
-[19] [20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
 Package mdframed Info: mdframed works in twoside mode on input line 261.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1353,10 +1482,24 @@ Overfull \hbox (13.21507pt too wide) in paragraph at lines 263--264
 \T1/lmr/m/n/10.95 Principle'' - [[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OMS/lmsy/m/n/10.95 F$ \T1/lmr/m/n/10.95 be a family of bounded linear operators
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [21]
 Overfull \hbox (2.08463pt too wide) in paragraph at lines 293--294
 [][]\T1/lmr/bx/n/10.95 Counterexample 3.2.5 \T1/lmr/m/n/10.95 (\T1/lmr/m/it/10.95 Non-adjointable bounded operator \T1/lmr/m/n/10.95 - [[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Suppose
  []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22]
 Overfull \hbox (5.13611pt too wide) in paragraph at lines 324--326
@@ -1373,7 +1516,22 @@ Overfull \hbox (3.05981pt too wide) in paragraph at lines 345--347
 [][]\T1/lmr/bx/n/10.95 Proposition 3.2.9. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 E$\T1/lmr/m/n/10.95 , then $\OMS/lmsy/m/n/10.95 h[]\OML/lmm/m/it/10.95 ; []\OMS/lmsy/m/n/10.95 i \U/msa/m/n/10.95 6 \OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 k[]h\OML/lmm/m/it/10.95 x; x\OMS/lmsy/m/n/10.95 i$\T1/lmr/m/n/10.95 . 
  []
 
-[23] [24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24]
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <9> not available
 (Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 402.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <9> not available
@@ -1383,14 +1541,44 @@ LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <5> not available
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <5> not available
 (Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 402.
 
-Overfull \hbox (6.77217pt too wide) in paragraph at lines 420--421
-[]\T1/lmr/m/n/10.95 The norms of restrictions of $\OML/lmm/m/it/10.95 K$ \T1/lmr/m/n/10.95 onto the orthogonal complements $\OML/lmm/m/it/10.95 L[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )[]$
+Overfull \hbox (16.0391pt too wide) in paragraph at lines 420--421
+[]\T1/lmr/m/n/10.95 The norms of restrictions of $\OML/lmm/m/it/10.95 K$ \T1/lmr/m/n/10.95 onto the orthogonal complements $\OML/lmm/m/it/10.95 L[]\OT1/lmr/m/n/10.95 (\U/rsfs/m/n/10.95 H[]\OT1/lmr/m/n/10.95 )[]$
  []
 
-[25] [26] [27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27]
 Overfull \hbox (9.76039pt too wide) in paragraph at lines 547--549
 \T1/lmr/m/n/10.95 algebra, the same $\OML/lmm/m/it/10.95 K$\T1/lmr/m/n/10.95 -theoretic bias is seen right here through the representation
  []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28]
 Overfull \hbox (0.10211pt too wide) in paragraph at lines 610--611
@@ -1412,6 +1600,13 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 637.
 Package mdframed Info: Not enough space on this page on input line 639.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [29]
 Package mdframed Info: Not enough space on this page on input line 639.
 
@@ -1424,82 +1619,159 @@ Overfull \hbox (0.74661pt too wide) in paragraph at lines 669--670
 []\T1/lmr/m/n/10.95 Let $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 []\OT1/lmr/m/n/10.95 )[]$ \T1/lmr/m/n/10.95 be a bounded sequence of generators for $\OML/lmm/m/it/10.95 M$\T1/lmr/m/n/10.95 , with each generator
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [30]
 Overfull \hbox (1.19301pt too wide) in paragraph at lines 695--697
 \T1/lmr/m/n/10.95 strictly positive and so do $\OML/lmm/m/it/10.95 T[]T$\T1/lmr/m/n/10.95 . Therefore, $\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 j[]$ \T1/lmr/m/n/10.95 is the desired isomorphism
  []
 
 
-Overfull \hbox (6.85864pt too wide) in paragraph at lines 725--725
+Overfull \hbox (6.85864pt too wide) in paragraph at lines 729--729
 []\T1/lmr/bx/n/14.4 Rank definition of Finite Rank Hilbert Modules 
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [31]
-Overfull \hbox (6.96806pt too wide) in paragraph at lines 740--742
+Overfull \hbox (6.96806pt too wide) in paragraph at lines 744--746
 [][]\T1/lmr/bx/n/10.95 Proposition 3.5.2. []\T1/lmr/m/n/10.95 Every finite rank Hilbert $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -module is a finitely generated
  []
 
 
-Overfull \hbox (1.48155pt too wide) in paragraph at lines 754--755
+Overfull \hbox (1.48155pt too wide) in paragraph at lines 758--759
 []\T1/lmr/bx/n/10.95 If there exists $[]$ such that $[]$ is free, then $[]$ is projective\T1/lmr/m/n/10.95 :
  []
 
-[32] [33]
-Package mdframed Info: mdframed works in twoside mode on input line 832.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33]
+Package mdframed Info: mdframed works in twoside mode on input line 836.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 832.
- [34] [35]
-Overfull \hbox (7.17862pt too wide) in paragraph at lines 914--915
+(mdframed)              on input line 836.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[35]
+Overfull \hbox (7.17862pt too wide) in paragraph at lines 918--919
 [][]\T1/lmr/bx/n/10.95 Definition 3.6.1 \T1/lmr/m/n/10.95 (Quasi-stably-isomorphic finite rank)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Two Hilbert modules
  []
 
 
-Overfull \hbox (10.46231pt too wide) in paragraph at lines 917--918
+Overfull \hbox (10.46231pt too wide) in paragraph at lines 921--922
 []\T1/lmr/m/n/10.95 Notice that this is an equivalence relation. Before lighting that relationship,
  []
 
 
-Overfull \hbox (1.9589pt too wide) in paragraph at lines 929--931
+Overfull \hbox (1.9589pt too wide) in paragraph at lines 933--935
 \T1/lmr/m/n/10.95 Since it is an invertible operator, consider the inverse given in matrix notation
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [36]
-Overfull \hbox (12.111pt too wide) in paragraph at lines 947--949
-\T1/lmr/m/n/10.95 Hence, $[] \OML/lmm/m/it/10.95 r$ \T1/lmr/m/n/10.95 is contained in the submodule generated by $[]\OML/lmm/m/it/10.95 r[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 y\OT1/lmr/m/n/10.95 )[][]$\T1/lmr/m/n/10.95 . 
- []
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-Overfull \hbox (16.22331pt too wide) in paragraph at lines 985--986
+[37]
+Overfull \hbox (16.22331pt too wide) in paragraph at lines 990--991
 \T1/lmr/m/n/10.95 After studying Fredholm operators between Hilbert modules, one shall construct
  []
 
-[37]
-Overfull \hbox (4.83577pt too wide) in paragraph at lines 989--991
+
+Overfull \hbox (4.83577pt too wide) in paragraph at lines 993--995
 [][]\T1/lmr/bx/n/10.95 Theorem 3.6.3. []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 N$ \T1/lmr/m/n/10.95 be quasi-stably-isomorphic finite rank Hilbert
  []
 
 
-Overfull \hbox (24.39006pt too wide) detected at line 1010
+Overfull \hbox (24.39006pt too wide) detected at line 1014
 []
  []
 
 
-Overfull \hbox (1.1447pt too wide) detected at line 1022
+Overfull \hbox (1.1447pt too wide) detected at line 1026
 []  []  []
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [38]
-Overfull \hbox (9.75294pt too wide) in paragraph at lines 1035--1036
+Overfull \hbox (9.75294pt too wide) in paragraph at lines 1039--1040
 []$[]$ \T1/lmr/bx/n/10.95 and $[]$ are compact perturbations of the identity\T1/lmr/m/n/10.95 : The operators
  []
 
 
-Overfull \hbox (7.43497pt too wide) in paragraph at lines 1035--1036
+Overfull \hbox (7.43497pt too wide) in paragraph at lines 1039--1040
 \T1/lmr/m/n/10.95 which ignores $\OML/lmm/m/it/10.95 '$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 '[]$ \T1/lmr/m/n/10.95 in the constructions of $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 G$\T1/lmr/m/n/10.95 , are represented
  []
 
-[39]) (chapters/fredholm.tex [40]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[39]) (chapters/fredholm.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[40]
 Chapter 4.
 
 Overfull \hbox (0.9537pt too wide) in paragraph at lines 4--5
@@ -1507,158 +1779,307 @@ Overfull \hbox (0.9537pt too wide) in paragraph at lines 4--5
  []
 
 
-Overfull \hbox (8.72563pt too wide) in paragraph at lines 15--16
+Overfull \hbox (8.72563pt too wide) in paragraph at lines 14--15
 [][]\T1/lmr/bx/n/10.95 Proposition 4.0.2. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 is invertible modulo $\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , then it is $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -Fredholm.
  []
-
-
-Overfull \hbox (23.2154pt too wide) in paragraph at lines 15--16
-\T1/lmr/m/n/10.95 Hence, definition [][]4.0.1[][] really fits the sentence ``Atikinson's theorem trivialization''. 
- []
-
-
-LaTeX Warning: Reference `lema:lambda1-a invertivel para ||a||<lambda' on page 41 undefined on input line 22.
 
 [41
 
 ]
-Overfull \hbox (3.48427pt too wide) in paragraph at lines 44--45
+Overfull \hbox (3.48427pt too wide) in paragraph at lines 43--44
 [][]\T1/lmr/bx/n/10.95 Example 4.0.5 \T1/lmr/m/n/10.95 ([[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 X \OMS/lmsy/m/n/10.95 2 []$ \T1/lmr/m/n/10.95 and $\U/rsfs/m/n/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 `[]\OT1/lmr/m/n/10.95 ([]))$ \T1/lmr/m/n/10.95 the set of $[]$-Fredholm
  []
 
 
-Overfull \hbox (1.13695pt too wide) in paragraph at lines 49--52
+Overfull \hbox (1.13695pt too wide) in paragraph at lines 48--51
 \T1/lmr/m/n/10.95 Hence $[]$ is adjointable. In order to show that continuous families of Fredholm
  []
 
-
-Overfull \hbox (8.81508pt too wide) in paragraph at lines 52--54
-[]$[]$ \T1/lmr/bx/n/10.95 is $[]$-compact whenever $[]$ is continuous family of compact
- []
-
-Package mdframed Info: mdframed works in twoside mode on input line 61.
+Package mdframed Info: mdframed works in twoside mode on input line 60.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 61.
+(mdframed)              on input line 60.
 
-Overfull \hbox (20.72673pt too wide) in paragraph at lines 63--64
+Overfull \hbox (20.72673pt too wide) in paragraph at lines 62--63
 [][]\T1/lmr/bx/n/10.95 Summoning 4.0.6 \T1/lmr/m/n/10.95 (Classical Bartle-Graves theorem - Corollary
  []
 
 
-Overfull \hbox (8.76268pt too wide) in paragraph at lines 63--64
+Overfull \hbox (8.76268pt too wide) in paragraph at lines 62--63
 \T1/lmr/m/n/10.95 17.67 [[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Every surjective continuous linear operator between
  []
 
-Package mdframed Info: Not enough space on this page on input line 64.
-[42]
-Package mdframed Info: Not enough space on this page on input line 64.
+Package mdframed Info: Not enough space on this page on input line 63.
 
-Overfull \hbox (6.01793pt too wide) in paragraph at lines 81--82
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[42]
+Package mdframed Info: Not enough space on this page on input line 63.
+
+Overfull \hbox (6.01793pt too wide) in paragraph at lines 80--81
 \T1/lmr/m/n/10.95 that $[] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 and $[] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 are finite dimensional. Those assumptions are sufficient
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [43]
-Overfull \hbox (3.38815pt too wide) in paragraph at lines 100--101
+Overfull \hbox (3.38815pt too wide) in paragraph at lines 99--100
 [][]\T1/lmr/bx/n/10.95 Example 4.1.2. []\T1/lmr/m/n/10.95 The operators $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 constructed in the proof of Theorem
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [44]
-Overfull \hbox (21.87169pt too wide) in paragraph at lines 158--160
-[][]\T1/lmr/bx/n/10.95 Proposition 4.1.6. []\T1/lmr/m/n/10.95 Our elementary propositions of classical Fredholm operators
- []
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [45]
-Overfull \hbox (8.48784pt too wide) detected at line 181
+Overfull \hbox (8.48784pt too wide) detected at line 179
 []
  []
 
 
-Overfull \hbox (36.80988pt too wide) in paragraph at lines 184--185
+Overfull \hbox (36.80988pt too wide) in paragraph at lines 182--183
 []\T1/lmr/m/n/10.95 Notice that $[] \OML/lmm/m/it/10.95 VT \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 since $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 is an invertible one, hence $[] \OT1/lmr/m/n/10.95 ([] \OML/lmm/m/it/10.95 VT\OT1/lmr/m/n/10.95 ) =
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [46]
 
-Package amsthm Warning: The \qedhere command may not work correctly here on input line 218.
+Package amsthm Warning: The \qedhere command may not work correctly here on input line 216.
 
 
-Overfull \hbox (12.14856pt too wide) in paragraph at lines 228--229
+Overfull \hbox (12.14856pt too wide) in paragraph at lines 226--227
 \T1/lmr/m/n/10.95 and $[] \OML/lmm/m/it/10.95 R \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 T[] \OMS/lmsy/m/n/10.95   [] \OML/lmm/m/it/10.95 T[]$\T1/lmr/m/n/10.95 . Hence, $[] \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 UR\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 will be a compact perturbation
  []
 
 
-Overfull \hbox (12.28343pt too wide) in paragraph at lines 241--242
+Overfull \hbox (12.28343pt too wide) in paragraph at lines 239--240
 []$[]$\T1/lmr/m/n/10.95 : Using the coordinate switch operator (which
  []
 
 
-Overfull \hbox (14.30122pt too wide) detected at line 253
+Overfull \hbox (14.30122pt too wide) detected at line 251
 [] []
  []
 
-[47] [48] [49] [50]
-Overfull \hbox (5.74916pt too wide) in paragraph at lines 464--465
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[47]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[48]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[49]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[50]
+Overfull \hbox (5.74916pt too wide) in paragraph at lines 462--463
 [][]\T1/lmr/bx/n/10.95 Definition 4.2.4. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 is a Fredholm operator in $\U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , then the Fredholm
  []
 
 
-Overfull \hbox (9.23944pt too wide) in paragraph at lines 471--473
-[][]\T1/lmr/bx/n/10.95 Proposition 4.2.5. []\T1/lmr/m/n/10.95 Let $[]\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 Q [][]\OT1/lmr/m/n/10.95 = \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 =\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be the Calkin algebra
+Overfull \hbox (3.07999pt too wide) in paragraph at lines 470--472
+[][]\T1/lmr/bx/n/10.95 Proposition 4.2.5. []\T1/lmr/m/n/10.95 Let $\U/rsfs/m/n/10.95 Q\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be the Calkin algebra and $\OML/lmm/m/it/10.95  \OT1/lmr/m/n/10.95 : \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 !
  []
 
-[51] [52]
-Overfull \hbox (1.54073pt too wide) in paragraph at lines 542--543
+
+Overfull \hbox (11.1698pt too wide) in paragraph at lines 470--472
+\U/rsfs/m/n/10.95 Q\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be the quotient projection. The set of Fredholm operators $\U/rsfs/m/n/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 ) [][]=
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[51]
+Overfull \hbox (1.54073pt too wide) in paragraph at lines 530--531
 []\T1/lmr/m/n/10.95 Write $\OML/lmm/m/it/10.95  \OT1/lmr/m/n/10.95 = [\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95   \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 q\OT1/lmr/m/n/10.95 ][]$ \T1/lmr/m/n/10.95 with $[][]\OT1/lmr/m/n/10.95 ([\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95   \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 q\OT1/lmr/m/n/10.95 ][]) = 0$\T1/lmr/m/n/10.95 , for self-adjoint idempotent
  []
 
 
-Overfull \hbox (3.92651pt too wide) detected at line 569
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[52]
+Overfull \hbox (3.92651pt too wide) detected at line 557
 [] [] \OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 x\OMS/lmsy/m/n/10.95 k \U/msa/m/n/10.95 6 \OT1/lmr/m/n/10.95 1)
  []
 
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 571.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 559.
 
 LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 571.
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 559.
 
-[53]
-Overfull \hbox (14.32813pt too wide) in paragraph at lines 593--594
+
+Overfull \hbox (14.32813pt too wide) in paragraph at lines 581--582
 \T1/lmr/m/n/10.95 idempotents, hence their ranges are finite rank modules ([][]3.5.4[][]). Moreover,
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[53]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [54]
-Overfull \hbox (22.63991pt too wide) in paragraph at lines 639--640
+Overfull \hbox (22.63991pt too wide) in paragraph at lines 627--628
 []\T1/lmr/bx/n/10.95 There is a orthonormal generating set $[]$
  []
 
 
-Overfull \hbox (2.66446pt too wide) in paragraph at lines 639--640
+Overfull \hbox (2.66446pt too wide) in paragraph at lines 627--628
 \T1/lmr/m/n/10.95 Since each $\OML/lmm/m/it/10.95 a[] \OMS/lmsy/m/n/10.95 2 []$\T1/lmr/m/n/10.95 , one can write $\OML/lmm/m/it/10.95 a[] \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 a[]\OT1/lmr/m/n/10.95 )[]$\T1/lmr/m/n/10.95 . Hence, orthonormality
  []
 
-[55]) (chapters/morita.tex [56]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[55]) (chapters/morita.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[56]
 Chapter 5.
 [57
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 41.
+Overfull \hbox (1.39862pt too wide) in paragraph at lines 36--37
+[][]\T1/lmr/bx/n/10.95 Definition 5.1.2 \T1/lmr/m/n/10.95 (Morita-Rieffel)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 be $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras. A bimodule
+ []
+
+
+Overfull \hbox (11.20135pt too wide) in paragraph at lines 43--44
+[]\T1/lmr/m/n/10.95 Isomorphic $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras are necessarily Morita-Rieffel equivalent. Indeed,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[58]
+Overfull \hbox (17.07133pt too wide) in paragraph at lines 59--60
+[]\T1/lmr/m/n/10.95 A full treatment about Morita-Rieffel equivalence, including the construction
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 66.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 41.
+(mdframed)              on input line 66.
 
-Overfull \hbox (16.7609pt too wide) in paragraph at lines 65--66
+Overfull \hbox (16.7609pt too wide) in paragraph at lines 90--91
 []\T1/lmr/m/n/10.95 Consider $\OML/lmm/m/it/10.95 X[]$ \T1/lmr/m/n/10.95 to be the conjugated module by $\OMS/lmsy/m/n/10.95 $\T1/lmr/m/n/10.95 , which is $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B; A\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 67.
+Package mdframed Info: mdframed works in twoside mode on input line 92.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 67.
-) [58] (main.bbl [59] [60
+(mdframed)              on input line 92.
 
-]
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 95.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[59]
+Overfull \hbox (12.18343pt too wide) in paragraph at lines 100--101
+\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A; B\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity bimodule, then $\OML/lmm/m/it/10.95 X[] \OT1/lmr/m/n/10.95 : \OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 ! \OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 is an isomorphism. 
+ []
+
+)
+Overfull \hbox (8.24069pt too wide) in paragraph at lines 103--26
+[]\T1/lmr/m/n/10.95 Suppose that $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 are Morita-Rieffel equivalent, and $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 is the certifying
+ []
+
+(main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 37--41
 []\T1/lmr/m/n/10.95 Aweygan (https://math.stackexchange.com/users/234668/aweygan).
  []
@@ -1678,7 +2099,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--41
 \T1/lmr/m/n/10.95 URL:https://math.stackexchange.com/q/3926191 (version: 2020-
  []
 
-[61]
+[61
+
+]
 Underfull \hbox (badness 1168) in paragraph at lines 75--81
 []\T1/lmr/m/n/10.95 James A Mingo and William J Phillips.  Equivariant triviality
  []
@@ -1735,6 +2158,13 @@ Underfull \hbox (badness 2799) in paragraph at lines 122--127
 
 ) 
 AED: lastpage setting LastPage
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [62] (main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1747,16 +2177,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D5ADB411EF69A6D518C608915C988133;3829.
+(rerunfilecheck)             Checksum: 07FFFC29A2C1940E9CB3296CF5997406;3963.
  ) 
 Here is how much of TeX's memory you used:
- 46765 strings out of 478927
- 1043360 string characters out of 2852535
- 1650133 words of memory out of 3000000
- 63398 multiletter control sequences out of 15000+600000
+ 46991 strings out of 478927
+ 1047101 string characters out of 2852535
+ 1653475 words of memory out of 3000000
+ 63616 multiletter control sequences out of 15000+600000
  665120 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,29n,93p,53572b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed one
@@ -1788,9 +2220,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
-Output written on main.pdf (62 pages, 1108105 bytes).
+Output written on main.pdf (62 pages, 1111660 bytes).
 PDF statistics:
- 1131 PDF objects out of 1200 (max. 8388607)
- 308 named destinations out of 1000 (max. 500000)
+ 1139 PDF objects out of 1200 (max. 8388607)
+ 312 named destinations out of 1000 (max. 500000)
  269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
