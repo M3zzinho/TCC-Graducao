@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1669649809 "main.aux" "main.bbl" "main" 1669649817
+["bibtex main"] 1669649809 "main.aux" "main.bbl" "main" 1669650221
   "C:/Users/55119/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1669649816 15624 c6e6ab50ef99d150c593b9fd7ae3b200 "pdflatex"
+  "main.aux" 1669650219 15624 c6e6ab50ef99d150c593b9fd7ae3b200 "pdflatex"
   "ref.bib" 1669649747 16143 c20b4c32229aef8248df097215dceb97 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1669649810 "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/TCC2/main.tex" "main.pdf" "main" 1669649817
+["pdflatex"] 1669650213 "c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/TCC2/main.tex" "main.pdf" "main" 1669650221
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1603395601 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1603395603 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/55119/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1603395669 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -421,15 +421,15 @@
   "chapters/agradecimentos.tex" 1669649747 1970 0ee8ca516d12cfb6e42d5e41e22d506e ""
   "chapters/fredholm.tex" 1669649747 47950 a9d24b8d37064af03bc7ec5b12db4336 ""
   "chapters/hilbert_modules.tex" 1669649747 84024 03270e35de8a42482f3a063b3c5e8564 ""
-  "chapters/introduction.tex" 1669649747 5990 150e64a31bf40c3a7c590c8bef482631 ""
+  "chapters/introduction.tex" 1669650087 5992 6509e5b72dcea7c0ae06b02afd5e8ece ""
   "chapters/k_theory.tex" 1669649747 29028 74a8bf423ffc8581c22595e8f7e9ffb0 ""
   "chapters/morita.tex" 1669649747 8302 95b9c2a2e6c899ba4b3d6212b500e3c1 ""
   "figures/grothendieck-riemann-roch.tex" 1669649747 87337 d7b05468b97fd068ae31d30678bc5f4a ""
-  "main.aux" 1669649816 15624 c6e6ab50ef99d150c593b9fd7ae3b200 "pdflatex"
+  "main.aux" 1669650219 15624 c6e6ab50ef99d150c593b9fd7ae3b200 "pdflatex"
   "main.bbl" 1669649809 5420 c3629117da780d0b78ae19065e65d0a0 "bibtex main"
-  "main.out" 1669649816 3783 c425e39db3c0f8b803e6ce4de3dc9fa6 "pdflatex"
+  "main.out" 1669650219 3783 c425e39db3c0f8b803e6ce4de3dc9fa6 "pdflatex"
   "main.tex" 1669649796 653 077aabe52220577b1ba12a39562c2e79 ""
-  "main.toc" 1669649816 1814 15e43ba8d6fa7f31f705631dcaac16a7 "pdflatex"
+  "main.toc" 1669650219 1814 15e43ba8d6fa7f31f705631dcaac16a7 "pdflatex"
   "structure/macros.tex" 1669649747 15254 fd7ab24e0f9c18d0d926be0e8838ad10 ""
   "structure/packages.tex" 1669649747 5991 ccb472fe66c1341d77a31d80386be8a6 ""
   (generated)
