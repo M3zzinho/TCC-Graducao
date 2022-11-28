@@ -5,7 +5,7 @@
 %- A homological theory is ...
 %- Some flavors of homological theory
 %- K-theory is our concern
-A homological theory for a category $\mathcal C$ consist in a sequence of covariant functors $H_n : \mathcal C \longto \Ab{\Grp}$ for each $n\in \N$ which satisfies some set of axioms, which depends on what theory one is interested. For example, if $\mathcal C$ contains a nice homotopical concept, its rather common to ask for homotopical invariance. If exact sequences naturally pops in the domain encoding a lot of information, some other axioms are required to obtain long exact sequences. The usual notation is:
+A homo-logical theory for a category $\mathcal C$ consist in a sequence of covariant functors $H_n : \mathcal C \longto \Ab{\Grp}$ for each $n\in \N$ which satisfies some set of axioms, which depends on what theory one is interested. For example, if $\mathcal C$ contains a nice homo-topical concept, it's rather common to ask for homo-topical invariance. If exact sequences naturally pops in the domain encoding a lot of information, some other axioms are required to obtain long exact sequences. The usual notation is:
 \begin{equation*}
     \describefunctor{H_n}{\mathcal{C},A,\phi,B}{\Ab{\Grp},H_n(A),\phi_n,H_n(B)}
 \end{equation*}
@@ -66,7 +66,7 @@ K_1\left(A/I\right) \arrow[u, "\partial"] & K_1(A) \arrow[l] & K_1(I) \arrow[l]
 \end{tikzcd}
 \end{equation*}
 
-The details will be spared in what is outside of our scope, which will include the definition of the groups $K_0$ and $K_1$ for complex Banach algebras, and the index map mentioned. The connecting map will be used in the classfication of finite rank modules, and later on, the index of our Fredholm operators. Hence it is important to define it in a helpfull way. 
+The details will be spared in what is outside of our scope, which will include the definition of the groups $K_0$ and $K_1$ for complex Banach algebras, and the index map mentioned. The connecting map will be used in the classification of finite rank modules, and later on, the index of our Fredholm operators. Hence it is important to define it in a helpful way. 
 
 
 \section[The \texorpdfstring{\ensuremath{K_0}}{K0} group]{The \texorpdfstring{\mathbf{K_0}}{K0}-group}
@@ -74,7 +74,7 @@ The details will be spared in what is outside of our scope, which will include t
 %- Define $K_0$
 %- Summon properties
 %- Some examples 
-Our object is to deal with Hilbert $C^*$-modules, witch are right $A$-modules with a generalized $A$-valued inner product for a given $C^*$-algebra $A$ (plus some other details), generalizing the concept of Hilbert space. Therefore, it is reasonable to understand some $K$-theory for $C^*$-algebras, as they are our underlying space. Unfortunately, as we'll see later on, there is no \textit{Riesz representation lemma} and, there exists bounded linear operators that aren't adjointable between Hilbert modules. Hence, dealing with self-adjoint operators is a restriction for sure. Thankfully, the $K$-theory for Banach algebras is good enougth in order to fill our needs.
+Our object is to deal with Hilbert $C^*$-modules, witch are right $A$-modules with a generalized $A$-valued inner product for a given $C^*$-algebra $A$ (plus some other details), generalizing the concept of Hilbert space. Therefore, it is reasonable to understand some $K$-theory for $C^*$-algebras, as they are our underlying space. Unfortunately, as we'll see later on, there is no \textit{Riesz representation lemma} and, there exists bounded linear operators that aren't adjointable between Hilbert modules. Hence, dealing with self-adjoint operators is a restriction for sure. Thankfully, the $K$-theory for Banach algebras is good enough in order to fill our needs.
 
 In topological $K$-theory, in order to define the $0^{\underline{\text{th}}}$ $K$ group, one would consider a complex vector bundle $E$ over $X \in \CHaus$ and take the right $C(X)$-module $\Gamma(X,E)$ of continuous sections $s:X\longto E$ with pointwise scalar multiplication\footnote{That is to say, for $f\in C(X)$ and $s\in \Gamma(X,E)$, let $x\longmapsto s(x)f(x)$.}. Compactness of $X$ implies that $\Gamma(X,E)$ is a projective $C(X)$-module, and \textit{Serre-Swan} theorem  \cite[Thr. 6.18]{karoubi2008k} states that $E\longmapsto \Gamma(X,E)$ induces an equivalence between the category of complex vector bundles and finitely generated projective $C(X)$-modules. Hence, $K^0(X)$ is the \textit{Grothendieck group} of the set of equivalence classes of isomorphisms between vector bundles over $X$.
 
@@ -106,10 +106,10 @@ Note that $\mathbb M_\infty(A)$ contains no unity, but that doesn't stop us to d
 Simply shouting ``Let $A$ be an $C^*$-algebra'' in the crowd is a powerfull classification tool, whenever is a mathematicians crowd\footnote{Otherwise, you are just playing creepy at dinner table again.}. 
 \begin{itroman}
     \item If you hear in response ``unital or not?'', you know that there is some $C^*$-algebraic fellow around you.
-    \item If the crowd contains mathematicians and no-one ask wetter $A$ contains a unity or not, no $C^*$-algebraist is contained in the crowd. They are instantly assuming the unity is there. 
+    \item If the crowd contains mathematicians and no-one asks if $A$ contains a unity or not, no $C^*$-algebraist is contained in the crowd. They are instantly assuming the unity is there. 
 \end{itroman}
 
-This is because dealing without unital rings outside $C^*$-theories are usually simple. Just unitize and go on. However, the presence of unity in $C^*$-algebras is crucial to determine theyr underlying hidden topology, as explicitly is made in \textit{Gelfand's duality} theorem.
+This is because dealing without unital rings outside $C^*$-theories are usually simple. Just unitize and go on. However, the presence of unity in $C^*$-algebras is crucial to determine their underlying hidden topology, as explicitly is made in \textit{Gelfand's duality} theorem.
 
 The next definition is in charge to define the functor $K_0$ for both cases, but some intermediate steps are required from one to another.
 
@@ -119,13 +119,13 @@ Let $A$ be a Banach algebra. The set of equivalence classes over $\mathbb M_\inf
 \begin{itroman}
 \item \textbf{\mathbf{K_{00}}}: It is the Grothendieck group construction associated with the semi-group $V({A}) \coloneqq \mathbb M_\infty\left({A}\right)/{\sim}$ where addition is given by $[x]+ [y] \coloneqq [\diag(x,y)]$, generalising the construction of $\Z$ from $\N$ considering formal differences. In lighter sheets, for pairs $(a,b)$ and $(c,d)$ of elements in $V(A)$, let $(a,b) \equiv (c,d)$ whenever there exists\footnote{Since it is only a semi-group, the cancelation property do not hold necessarily over $V(A)$. One might check that this is the case if, and only if, the inclusion of $V(A)$ at the Grothendieck's associated group is injective.} $z \in V(A)$ such that $a+d+z = c+b+z$. This is an equivalence relation over the pais, and $[\come]_{00}$ will denote the related equivalence class. 
 
-We are mimicking the formal differences construction, so it's natural to define the addition operation coordinate-wise and let $x-y \coloneqq [(x,y)]_{00}$. Therefore, it is well defined the folowing covariant functor:
+We are mimicking the formal differences construction, so it's natural to define the addition operation coordinate-wise and let $x-y \coloneqq [(x,y)]_{00}$. Therefore, it is well defined the following covariant functor:
 \begin{equation*}
     \covfunctor{{K_{00}}{\BAlg}{\Ab{\Grp}}{A}{\mfrac{V(A)\times V(A)}{\equiv}}{B}{\mfrac{V(B)\times V(B)}{\equiv}}{\phi}{\sub\phi{00}}{x-y}{\phi(x)-\phi(y)}}
 \end{equation*}
 
 Since every element in $V(A)$ is the class of some idempotent matrix $p$, we can state that every element in $K_{00}(A)$ is on the form $[p]_{00} - [q]_{00}$. Two formal differences $[p]_{00}-[q]_{00}$ and $[x]_{00}-[y]_{00}$ coincide in $K_{00}(A)$ precisely when the operators $\diag(p,y)$ and $\diag(x,q)$ are \textit{stably} homotopic. 
-\item \textbf{\mathbf{K_0}}: In our next step, it's crucial to know exactly who $K_{00}(\C)$ is. Hence, remeber that two idempotents in $\mathbb M_n(\C)$ are similar if, and only if, their images has the same dimension. Therefore $V(\C) \simeq \N$, and by historical nightmares with Analysis I exercises constructing the integer numbers, it is easy to infer that $K_{00}(\C) = \Z$. 
+\item \textbf{\mathbf{K_0}}: In our next step, it's crucial to know exactly who $K_{00}(\C)$ is. Hence, remember that two idempotents in $\mathbb M_n(\C)$ are similar if, and only if, their images has the same dimension. Therefore $V(\C) \simeq \N$, and by historical nightmares with Analysis I exercise constructing the integer numbers, it is easy to infer that $K_{00}(\C) = \Z$. 
 
 For non necessarily unital $A$, consider $\widetilde{A} \coloneqq A \oplus \C$ the \textit{unifization} of $A$ and the complex projection $\varepsilon: \widetilde{A} \longtwoheadrightarrow \C$, which induces the short exact sequence:
 \begin{equation*}
@@ -145,7 +145,7 @@ Since it is a morphism between unital Banach algebras, the induced map $\sub{\ep
 \begin{equation*}
     \covfunctor{{K_0}{\BAlg}{\Ab{\Grp}}{A}{\ker(K_{00}(\widetilde{A}) \to \Z)}{B}{\ker(K_{00}(\widetilde{B}) \to \Z)}{\phi}{\sub\phi0}{a+ z}{\phi(a)+z}}
 \end{equation*}
-Notice that $K_0(A)$ is precisely the set of elements $[p]_0-[q]_0 \in K_{00}(\widetilde{A})$ such that $\ep(p) \sim \ep(q)$. If $A$ is allready unital, it is possible to show that $K_0(A) \simeq K_{00}(A)$. 
+Notice that $K_0(A)$ is precisely the set of elements $[p]_0-[q]_0 \in K_{00}(\widetilde{A})$ such that $\ep(p) \sim \ep(q)$. If $A$ is already unital, it is possible to show that $K_0(A) \simeq K_{00}(A)$. 
 \end{itroman}
 \end{definicao}
 
@@ -185,11 +185,11 @@ Hence, $x \coloneqq \diag(-q,p)$ is such that $x+p_n$ is an idempotent operator 
 \end{proposicao}
 
 \section[The \texorpdfstring{\ensuremath{K_1}}{K1} group]{The \texorpdfstring{\mathbf{K_1}}{K1}-group}
-While $K_0$ is build upon equivallence classes of idempotent, $K_1$ uses invertible elements, but simpler. Therefore, let $\GL_\infty(A) \coloneqq \varinjlim_{n\in\N} \GL_n(A)$ considering the embedding $x \longmapsto \diag(x, 1)$. Calculus is back, and we shall consider exponentials inside a unital algebra $A$:
+While $K_0$ is build upon equivalence classes of idempotent, $K_1$ uses invertible elements, but simpler. Therefore, let $\GL_\infty(A) \coloneqq \varinjlim_{n\in\N} \GL_n(A)$ considering the embedding $x \longmapsto \diag(x, 1)$. Calculus is back, and we shall consider exponentials inside a unital algebra $A$:
 \begin{eqspaced*}{(a\in A)}
     \exp(a) \coloneqq \sum_{n=0}^\infty \dfrac{a^n}{n!} \e \log(1+a) \coloneqq \sum_{n=1}^\infty -\dfrac{{a}^n}{n} 
 \end{eqspaced*}
-\hspace{-0.15cm}where the log is defined whenever $\|a\| < 1$. This is the case since elements of the form $z-a$ for complex $z$ are invertible if $\|a\| \leqslant |z|$. If $a$ and $b$ doesn't commute, $\exp(a)\exp(b)\neq \exp(a+b)$, which means that the set of exponentials isn't closed by multiplications.
+\hspace{-0.15cm}where the log is defined whenever $\|a\| < 1$. This is the case since elements of the form $z-a$ for complex $z$ are invertible if $\|a\| \leqslant |z|$. If $a$ and $b$ doesn't commute, $\exp(a)\exp(b)\neq \exp(a+b)$, which means that the set of exponentials aren't closed by multiplications.
 
 \begin{lema}
     \label{lema:exp(A)=GL(A)_0}
@@ -269,9 +269,9 @@ Since $K_0\mathscr K(H) = \Z$ and $K_1\mathscr Q(H)$ can be seen the set of Fred
     If $\pi : \GL_\infty(\widetilde{A}) \longtwoheadrightarrow \GL_\infty(\widetilde{A/I})$ is the quotient projection, notice that $\pi(wp_n\inv w) = p_n$, so that $wp_n\inv w \in \widetilde{I}$. Since $wp_n \inv w$ is also an idempotent, notice that $[wp_n \inv w]_0 - [p_n]_0 \in K_0(I)$. And this is the image of the index map $\partial$ of some element $[x]_1$.
 \end{construcao}
 
-An anxious mind would immediately panic. We have a \textsc{to-do} list before calling it a day:
+An anxious mind would immediately panic. We have a \textsc{to-do} list before calling the day:
 \begin{itroman}
-    \item\label{todo:(i)} Check that $[wp_n \inv w]_0 - [p_n]_0$ doesn't depend on the lift $w$ choosen;
+    \item\label{todo:(i)} Check that $[wp_n \inv w]_0 - [p_n]_0$ doesn't depend on the lift $w$ chosen;
     \item\label{todo:(ii)} Check that $\partial([x]_1) = \partial([y]_1)$ for $x \equiv y$.
     \item\label{todo:(iii)} Check that $\partial$ is a group morphism.   
 \end{itroman}

@@ -1,7 +1,7 @@
 \chapter[Hilbert \texorpdfstring{\ensuremath{C^*}}{C*}-modules]{Hilbert \texorpdfstring{\mathbf{C^*}}{C*}-modules}
 \label{ch:hilbert modules}
 
-Hilbert modules first appear in the work of \textit{I. Kaplaski} \cite{kaplansky1953modules} and \textit{W. Paschke} \cite{paschke1973inner} later. There are three main areas where Hilbert $C^*$-modules are heavily used to formulate mathematical concepts envolving:
+Hilbert modules first appeared in the work of \textit{I. Kaplaski} \cite{kaplansky1953modules} and \textit{W. Paschke} \cite{paschke1973inner} later. There are three main areas where Hilbert $C^*$-modules are heavily used to formulate mathematical concepts involving:
 \begin{itroman}
     \item\label{main areas (i)} Induced representations of Morita equivalence \cite{brown1977stable}, \cite{RIEFFEL1974176}, \cite{rieffel1981c};
     \item Kasparov's $KK$-theory \cite{kasparov1980stinespring};
@@ -45,7 +45,7 @@ For any Inner product module $E$ over $A$, the following inequality holds:
 {\|\inner xy\|}^{2} \leq \|\inner xx\| \cdot \|\inner yy\|.
 \end{eqspaced}
 \begin{proof}
-    Given the fact that $0\leq \inner aa$ for $a\in A$, notice that with the acessory elements $a\coloneqq \inner xx$, $b \coloneqq \inner yy$ and $c\coloneqq \inner xy$,
+    Given the fact that $0\leq \inner aa$ for $a\in A$, notice that with the accessory elements $a\coloneqq \inner xx$, $b \coloneqq \inner yy$ and $c\coloneqq \inner xy$,
     \begin{eqspaced*}{(t \in \R)}
     \hspace{-0.5cm}
     \begin{array}{rcl}
@@ -58,7 +58,7 @@ For any Inner product module $E$ over $A$, the following inequality holds:
     \end{array}
     \end{eqspaced*}
     
-    Since $2t c c^*$ is self-adjoint, we can add in both sides and maintain the inequality in the $C^*$-realm. Using the $A$-norm and assumig $t \geq 0$, by \ref{lema: Cstar prop: a <= b ---> |a| <= |b|},
+    Since $2t c c^*$ is self-adjoint, we can add in both sides and maintain the inequality in the $C^*$-realm. Using the $A$-norm and assuming $t \geq 0$, %\ref{lema: Cstar prop: a <= b ---> |a| <= |b|}
     \begin{eqnarray}
      2t \|cc^*\| &\leq& \|a \| + t^2\|cb c^*\| \nonumber \\
                  &\leq & \vphantom{\displaystyle \int_a^b} \|a \| + t^2\|c\|\|b\|\|c^*\| \nonumber \\
@@ -66,14 +66,14 @@ For any Inner product module $E$ over $A$, the following inequality holds:
     \To \hfill 2t\|c\|^2 &\leq&  \|a \| + t^2\|b\|\|c\|^2           
     \end{eqnarray}
     
-    With a fairly nice quadratic polynomial in $\R[t]$ calved by (\ref{eq: CS - polinomio quadrado}) in our hands witch is allways non negative, the discriminant must be non positive. Therefore:
+    With a fairly nice quadratic polynomial in $\R[t]$ calved by (\ref{eq: CS - polinomio quadrado}) in our hands witch is always non negative, the discriminant must be non positive. Therefore:
     \begin{eqnarray}
         (-2\|c\|^2)^2 - 4\|b\|\|c\|^2 \|a\|  &\leq& 0 \nonumber\\
         \label{eq: CS - discriminante delta} \To \hfill
         \vphantom{\displaystyle \int_a^b}\|\inner xy\|^4 - \|\inner yy\|\|\inner xy\|^2 \|\inner xx\|  &\leq& 0 
     \end{eqnarray}
     
-    Assuming  $\|\inner xy\|^2 \neq 0$ means that (\ref{eq: CS - discriminante delta}) can be simplified into Cauchy-Schwartz inequality (\ref{eq: cauchy-schwarts}) by cancelling $\|\inner xy\|^2$. Otherwise\footnote{Note that $\|\inner xy\|^2=0$ if and only if $\inner xy=0$.}, $\inner xy=0$ is a trivial case of the desired inequality.
+    Assuming  $\|\inner xy\|^2 \neq 0$ means that (\ref{eq: CS - discriminante delta}) can be simplified into Cauchy-Schwartz inequality (\ref{eq: cauchy-schwarts}) by canceling $\|\inner xy\|^2$. Otherwise\footnote{Note that $\|\inner xy\|^2=0$ if and only if $\inner xy=0$.}, $\inner xy=0$ is a trivial case of the desired inequality.
     \end{proof}
 \end{proposicao}
 
@@ -127,7 +127,7 @@ Hence the elements of the form $x\sub u\lambda$ are dense in $E$.
 \end{proposicao}
 
 \begin{observacao}\label{obs: tornar um R-modulo em um K-modulo}
-Let $A$ and $B$ be $C^*$-algebras. If $E$ is a Hilbert $B$-module and the ideal $I$ of the clousure of the elements spanned by $\inner xy$ is contained in $A$, then there is a way to make $E$ into a Hilbert $A$-module without changing the inner product. Namely, let $(\sub u\lambda)_\lambda$ be an approximate unit for $I$. Then the identity
+Let $A$ and $B$ be $C^*$-algebras. If $E$ is a Hilbert $B$-module and the ideal $I$ of the closure of the elements spanned by $\inner xy$ is contained in $A$, then there is a way to make $E$ into a Hilbert $A$-module without changing the inner product. Namely, let $(\sub u\lambda)_\lambda$ be an approximate unit for $I$. Then the identity
 \begin{equation*}
 \begin{array}{rcl}
     \inner{x \sub u\eta a-x \sub u\lambda a}{x \sub u\eta a-x \sub u\lambda a} &=& 
@@ -220,7 +220,7 @@ holds for all $x\in E$ and $a\in A$, showing that $(x\sub u\lambda a)_\lambda$ c
 \label{lema: lim <x_lambda,y_lambda> = <x,y>}
 Given two nets $(\sub x\lambda)_\lambda$ and $(\sub y\lambda)_\lambda$ and $x,y$ in a Hilbert module $E$ over a $C^*$-algebra $A$ such that $\sub x\lambda \to x$ and $\sub y\lambda \to y$,  $\lim_\lambda \inner{\sub x\lambda}{\sub y\lambda} = \inner xy$ holds.
 \begin{proof}
-From the Cauchy-Schartz inequallity \ref{prop: Cauchy-Schwartz}, is easy to obtain that
+From the Cauchy-Schartz inequality \ref{prop: Cauchy-Schwartz}, is easy to obtain that
 \begin{eqspaced*}{(z\in E, \lambda \in \LLambda)}
     \sub{\|\inner{\sub x\lambda-x}z\|}A \overset{(\ref{eq: cauchy-schwarts})}\leqslant \sub{\|\sub x\lambda-x\|}E \sub{\|z\|}E
 \end{eqspaced*}
@@ -230,7 +230,7 @@ Analogously, $\sub{\|\inner z{\sub y\lambda-y}\|}A \leqslant \sub{\|\sub y\lambd
     &\leqslant& \|\inner{\sub x\lambda}{\sub y\lambda-y}\| + \| \inner{\sub x\lambda-x}y\| \\
     &\leqslant& \|\sub y\lambda-y\| \|\sub x\lambda\| +\|y\|\|\sub x\lambda-x\| 
 \end{eqnarray*}
-Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| \to \|x\|$. By $\|\sub y\lambda -y\|\to 0$,  there exists $\sub\lambda 0$ in which $\|\sub y\lambda - y\|\,\|\sub x\lambda\|  < \ep/2 $. Similarly, there allways exists $\sub\lambda1$ such that $\sub{\|\sub x\lambda -x\|}E < \ep/2({\|y\|}+1)$ for $\lambda \succeq \sub\lambda1$. Since it exists $\sub\lambda2 $ such that $\sub\lambda2 \succeq \sub\lambda0$ and $\sub\lambda2 \succeq \sub\lambda1$, we conclude that $\|\inner{\sub x\lambda}{\sub y\lambda} - \inner xy\| < \ep$ for all $\lambda \succeq \sub\lambda2$.
+Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| \to \|x\|$. By $\|\sub y\lambda -y\|\to 0$,  there exists $\sub\lambda 0$ in which $\|\sub y\lambda - y\|\,\|\sub x\lambda\|  < \ep/2 $. Similarly, there always exists $\sub\lambda1$ such that $\sub{\|\sub x\lambda -x\|}E < \ep/2({\|y\|}+1)$ for $\lambda \succeq \sub\lambda1$. Since it exists $\sub\lambda2 $ such that $\sub\lambda2 \succeq \sub\lambda0$ and $\sub\lambda2 \succeq \sub\lambda1$, we conclude that $\|\inner{\sub x\lambda}{\sub y\lambda} - \inner xy\| < \ep$ for all $\lambda \succeq \sub\lambda2$.
 \end{proof}
 \end{lema}
 
@@ -300,7 +300,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
     \begin{equation*}
         a = \inner{T(a,b)}{(0,1)} = \inner{(a,b)}{T^*(0,1)} = x^*a+y^*b
     \end{equation*}
-    for all $(a,b)$. Necessarilly, it is the case that $y=0$ and $x^*a=a$ for all $a\in J$, hence $x^*$ acts as a left multiplicative identity on $J$. But $x^* \in J^*$, and this contradicts our assumption of $J$.
+    for all $(a,b)$. Necessarily, it is the case that $y=0$ and $x^*a=a$ for all $a\in J$, hence $x^*$ acts as a left multiplicative identity on $J$. But $x^* \in J^*$, and this contradicts our assumption of $J$.
 \end{contraexemplo}
     
 \begin{contraexemplo}
@@ -310,7 +310,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
 \begin{proposicao}
     With the operator norm $\|T\| \coloneqq \sup_{\|x\|=1} \|Tx\|$, the adjointable operators $\adj(E,F)$ is $C^*$-algebra.
     \begin{proof}
-    It is straightfoward checking that $\adj(E,F)$ is an involution Banach algebra. To check the $C^*$-norm property, for each adjointable $T$,
+    It is straight foward checking that $\adj(E,F)$ is an involution Banach algebra. To check the $C^*$-norm property, for each adjointable $T$,
     \begin{equation}
     \label{eq: |Tx|² <= |T*|.|T|.|x|²}
         \begin{array}{rcl}
@@ -322,18 +322,18 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
     \[
     \|T\|^2 = \sup_{\|x\|=1} \|Tx\|^2 \leq \sup_{\|x\|=1} \|T^*\|\|T\|\|x\|^2 = \|T^*\|\|T\|,
     \]
-    which means: $\|T\| \leq \|T^*\|$ and by extension, $\|T\|=\|T^*\|$. This automatically garantee the $C^*$-norm property.
+    which means: $\|T\| \leq \|T^*\|$ and by extension, $\|T\|=\|T^*\|$. This automatically guarantee the $C^*$-norm property.
     \end{proof}
 \end{proposicao}
     
 \begin{proposicao}[Equivallence of positivity]
-    Beeing positive some element $T$ in the $C^*$-algebra $\adj(E)$ of adjointable automorphisms of a Hilbert $C^*$-module is equivalent to beeing positive in the inner algebra: $\inner{Tx}{x} \geq 0$ for all $x\in E$.
+    Being positive some element $T$ in the $C^*$-algebra $\adj(E)$ of adjointable automorphisms of a Hilbert $C^*$-module is equivalent to being positive in the inner algebra: $\inner{Tx}{x} \geq 0$ for all $x\in E$.
     \begin{proof}
     Assume that $T$ is a positive element in the $C^*$-algebra of operators. In a $C^*$-algebra, we know that $a \geqslant 0 \sse a=b^*b$ for some $b$. With this in hands, let $S$ be such that $T = S^*S$. Therefore:
     \begin{eqspaced}{(x\in E)}
     \inner{Tx}x = \inner{S^*Sx}{x} = \inner{Sx}{Sx} \bilateral{-0.25cm}{\overset{\ref{def: pre-hilb module}\ref{def item: positivo definido}}\geq} 0.
     \end{eqspaced}
-    Conversely, positive elements are self-adjoint, i.e., $\inner{Tx}x = \inner{x}{Tx}$. From the polarization identity \ref{eq: polarization}, one can see that $\inner{Tx}y = \inner{x}{Ty}$ for all $x,y \in E$, showing that $T$ is self-adjoint. By the Hahn decomposition\footnote{Every element $a\in A$ in a $C^*$-algebra can be written as $a = a_+-a_-$ with $a_+, a_-\geqslant 0$, $a_+a_-=a_-a_+=0$. This is callede the Hahn decomposition.}, there exists two positive elements $T_+$ and $T_-$ such that $T = T_+-T_-$ and $T_+T_-= T_+T_- = 0$. Then $\langle T_{-} y, y\rangle \leq\langle T_{+} y, y\rangle$ for any $y \in E$. In particular,
+    Conversely, positive elements are self-adjoint, i.e., $\inner{Tx}x = \inner{x}{Tx}$. From the polarization identity \ref{eq: polarization}, one can see that $\inner{Tx}y = \inner{x}{Ty}$ for all $x,y \in E$, showing that $T$ is self-adjoint. By the Hahn decomposition\footnote{Every element $a\in A$ in a $C^*$-algebra can be written as $a = a_+-a_-$ with $a_+, a_-\geqslant 0$, $a_+a_-=a_-a_+=0$. This is called the Hahn decomposition.}, there exists two positive elements $T_+$ and $T_-$ such that $T = T_+-T_-$ and $T_+T_-= T_+T_- = 0$. Then $\langle T_{-} y, y\rangle \leq\langle T_{+} y, y\rangle$ for any $y \in E$. In particular,
     $$
     \langle T_{-}^{3} x, x\rangle=\langle T_{-}^{2} x, T_{-} x\rangle \leq\langle T_{+} T_{-} x, T_{-} x\rangle=0 .
     $$
@@ -371,7 +371,7 @@ Let $M$ be a Hilbert $A$-module. Consider the following operator:
     \function{{\Omega}{M^n}{\adj(A^n,M)}{(x_i)_i}{\Big((a_i)_i
     \overset{\Omega_x}\longmapsto \sum\limits_{i=1}^n x_ia_i\Big)}}
 \end{equation}
-In order the obtain the adjoint operator, as far as algebraic manipulation goes, $\Omega_x^*: M \longto A^n$ has no other option else besides beeing the coordinate inner decomposition $(\inner{x_i}{\come})_i$: For $a \in A^n$ and $\xi \in M$,
+In order to obtain the adjoint operator, as far as algebraic manipulation goes, $\Omega_x^*: M \longto A^n$ has no other option else besides being the coordinate inner decomposition $(\inner{x_i}{\come})_i$: For $a \in A^n$ and $\xi \in M$,
 \begin{eqspaced*}{}
     \begin{array}{rcl}
          \sub{\inner{\Omega_x a}{\xi}}M  &=& \displaystyle \Big\langle\sum\limits_{i=1}^n x_ia_i, \xi \Big\rangle_M \\
@@ -398,7 +398,7 @@ Every operator of the form $\Omega_y\Omega_x^*: M\longto N$, where $(x,y) \in M^
 Unfortunately, $A$-compact operators need not to be compact in the sense of Banach spaces:
 
 \begin{contraexemplo}
-In a unital $C^*$-algebra $A$, the identity can be viewed as $\Omega_1 \Omega_1^* = \sub \Id A$ on the Hilbert module $A$. Hence $\sub \Id A \in \mathscr K(A)$, but it is a compact operator on the Banach space $A$ if and only if $A$ is finite-dimensional, since it is a invertible compact\footnote{If $T \in \Hom_{\boldsymbol{\mathscr B}\textbf{an}}(X,Y)$ is a invertible compact operator between Banach spaces, the boundedness of $\inv T$ rises a constant $C$ such that $\|\inv Ty\| \leqslant C\|y\|$, and by invertibility, $\|x\|\leqslant C\|Tx\|$. Thus, the image by $T$ of the unit ball in $X$ contains an open ball in $Y$. Since $T$ is compact, $Y$ is
+In a unital $C^*$-algebra $A$, the identity can be viewed as $\Omega_1 \Omega_1^* = \sub \Id A$ on the Hilbert module $A$. Hence $\sub \Id A \in \mathscr K(A)$, but it is a compact operator on the Banach space $A$ if and only if $A$ is finite-dimensional, since it is a invertible compact\footnote{If $T \in \Hom_{\boldsymbol{\mathscr B}\textbf{an}}(X,Y)$ is a invertible compact operator between Banach spaces, the boundness of $\inv T$ rises a constant $C$ such that $\|\inv Ty\| \leqslant C\|y\|$, and by invertibility, $\|x\|\leqslant C\|Tx\|$. Thus, the image by $T$ of the unit ball in $X$ contains an open ball in $Y$. Since $T$ is compact, $Y$ is
 finite-dimensional, and so do $X$.}. 
 \end{contraexemplo}
 
@@ -414,7 +414,7 @@ finite-dimensional, and so do $X$.}.
 %\end{proof}
 
 \begin{proposicao}\label{prop: H_A resgata nocao de compacto}
-In the standard Hilbert module $\HA$ over a unital $C^*$-algebra $A$, the classical compact notion of compact operator is well rescued: If $L_n(\HA) \subset \HA$ denotes the free submodule generated by the first $n$ canonical elements $\sub e0, \sub e1, \ldots, e_{n-1}$, the following are equivallent:
+In the standard Hilbert module $\HA$ over a unital $C^*$-algebra $A$, the classical compact notion of compact operator is well rescued: If $L_n(\HA) \subset \HA$ denotes the free submodule generated by the first $n$ canonical elements $\sub e0, \sub e1, \ldots, e_{n-1}$, the following are equivalent:
 \begin{itroman}
     \item\label{prop item: prop: H_A resgata nocao de compacto (i)} $K \in \mathscr K_{A}(A)$.
     \item\label{prop item: prop: H_A resgata nocao de compacto (ii)} The norms of restrictions of $K$ onto the orthogonal complements $L_{n}(\HA)^{\perp}$ of the submodules $L_{n}(\HA)$ vanish as $n \longrightarrow \infty$.
@@ -467,7 +467,7 @@ Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restrict
     \end{equation*}
     is well defined since $L_{a^*}$ is the adjoint of $L_a$. It is no mistery that $\|L_a\| \leqslant \|a\|$, but notice that $\|L_a(a^*)\| = \|a\|\,\|a^*\|$, hence $L$ is an isomorphism of $A$ onto a closed $*$-subalgebra of $\adj(A)$. \nocite{raeburn1998morita}
     
-    Since $a\inner{b}{\come} = L_{ab^*}$, it follows that $\mathscr K(A)$ is the clousure of (the image under $L$ of) the linear span of products in $A$. But every $C^*$-algebra contains an approximate identity, such products are dense, thus $L$ is an isomorphism between $A$ and $\mathscr K(A)$.   
+    Since $a\inner{b}{\come} = L_{ab^*}$, it follows that $\mathscr K(A)$ is the closure of (the image under $L$ of) the linear span of products in $A$. But every $C^*$-algebra contains an approximate identity, such products are dense, thus $L$ is an isomorphism between $A$ and $\mathscr K(A)$.   
 
     \item \label{exemplo item: K(A)=L(A) pra A unital} If $A$ is a unital algebra, $\mathscr K(A) = \adj(A)$ since any adjointable operator $T$ consists of left multiplication by $T(1)$.
     
@@ -496,7 +496,7 @@ So every finite 1-rank operators is indeed compact. For a general $n$, we arrive
 \[
 \sum_{i=1}^n \Omega_{x_i} \Omega_{\sub u\lambda}^*a_i \overset{(*)}= \Omega_{y} \Omega_{b}^* a
 \]
-in order to write a general $\Omega_x$ as a compact operator. To addres $(*)$, let $y\coloneqq x$ and $b \coloneqq \operatorname{Diag}(\sub u\lambda) \in \mathbb M_{n\times n}(A) \simeq (A^n)^n$ the diagonal matrix whose non zero entries are $\sub u\lambda$. Notice that
+in order to write a general $\Omega_x$ as a compact operator. To address $(*)$, let $y\coloneqq x$ and $b \coloneqq \operatorname{Diag}(\sub u\lambda) \in \mathbb M_{n\times n}(A) \simeq (A^n)^n$ the diagonal matrix whose non zero entries are $\sub u\lambda$. Notice that
 \begin{eqspaced}{(a\in A^n)}
 \label{eq: Omega_xOmega_ulambda^* da certo}
 \begin{array}{rcl}
@@ -521,7 +521,7 @@ A Hilbert Module $M$ over an $C^*$-algebra $A$ whose identity operator $\sub\Id 
 \begin{proposicao}\label{prop: FR(M) eh um ideal}
 For an $A$-finite rank Hilbert module $M$ over $A$, the family of finite rank automorphisms ${\textsc{FR}}(M)$ over $A$ is a two-sided ideal of the adjointable operators $\adj(M)$. 
 \begin{proof}
-Extending coordinatewise, let $Ty \coloneqq \coord{Ty}n $ and notice that, for $T,S \in \adj(M)$,
+Extending coordinate-wise, let $Ty \coloneqq \coord{Ty}n $ and notice that, for $T,S \in \adj(M)$,
 \begin{eqspaced*}{}
     \begin{array}{rcl}
         T\Omega_y\Omega_x^* + \Omega_w\Omega_z^*S &=& \sum\limits_{i=1}^n   Ty_i\inner{x_i}{\,\cdot\,}  + \sum\limits_{i=1}^n w_i\inner{S^*z_i}{\,\cdot\,} \\
@@ -591,7 +591,7 @@ That operator show us that $\Omega_x^*$ is an invertible operator: Given $a\in A
 %\sub{\inner\xi{\zeta}}M = \sub{\inner{\Omega_x^*\xi}{\Omega_x^*\zeta}}{A^n} 
 %\end{eqspaced}
 \end{itroman}
-Since it is an adjointable, functional continuous calculus allow us to extract the square root $|\Omega_x^*| \coloneqq (\Omega_x\Omega_x^*)^{1/2}$, which is self-adjoint. Besides beeing a linear bijection, $\Omega_x^*$ doesn't preserves inner products. But notice that $U \coloneqq \Omega_x^*|\Omega_x^*|^{-1}$ does: For $\xi,\zeta \in M$,
+Since it is an adjointable, functional continuous calculus allow us to extract the square root $|\Omega_x^*| \coloneqq (\Omega_x\Omega_x^*)^{1/2}$, which is self-adjoint. Besides being a linear bijection, $\Omega_x^*$ doesn't preserves inner products. But notice that $U \coloneqq \Omega_x^*|\Omega_x^*|^{-1}$ does: For $\xi,\zeta \in M$,
 \begin{eqspaced*}{}
     \begin{array}{rcl}
         \sub{\inner{U\xi}{U\zeta}}{A^n} &=& \sub{\inner{\Omega_x^*|\Omega_x^*|^{-1}\xi}{\Omega_x^*|\Omega_x^*|^{-1}\zeta}}{A^n} \\
@@ -728,7 +728,7 @@ Hence $T^*T \geqslant S^*S$. Notice that $S^*S$ has dense range, and by \ref{pro
 
 
 \section{Rank definition of Finite Rank Hilbert Modules}
-In order to define the actual \textit{rank} of a finite rank module $M$, we wish to deal with the $K_0$-group as the $K$-algebraic theoreticals like, so we shall visualise our $A$-modules over the unifization $\widetilde A$ of the underlying $C^*$-algebra $A$, regardless if it already posseses a unity or not. This process naturally enrich our module, as showed in \ref{prop: M eh finitamente gerado projetivo}.
+In order to define the actual \textit{rank} of a finite rank module $M$, we wish to deal with the $K_0$-group as the $K$-algebraic theoreticals like, so we shall visualize our $A$-modules over the unification $\widetilde A$ of the underlying $C^*$-algebra $A$, regardless if it already possesses a unity or not. This process naturally enrich our module, as showed in \ref{prop: M eh finitamente gerado projetivo}.
 
 \begin{definicao}[Projective module]
 Let $M$ be an $A$-module. $M$ is \textit{projective} whenever there exists a map $h$ such that it is commutative the following diagram:
@@ -738,7 +738,7 @@ Let $M$ be an $A$-module. $M$ is \textit{projective} whenever there exists a map
 E \arrow[r, two heads] & F                                   
 \end{tikzcd}
 \end{eqspaced*}
-That is to say, for every epimorphism\footnote{For our pourpose and needs, surjective morphism} $g: E \longtwoheadrightarrow F$ and $f:M \longto F$, there allways exists a map $h$ such that $g\circ h = f$.
+That is to say, for every epimorphism\footnote{For our purpose and needs, subjective morphism} $g: E \longtwoheadrightarrow F$ and $f:M \longto F$, there will always exist a map $h$ such that $g\circ h = f$.
 \end{definicao}
 
 \begin{proposicao}\label{prop: M eh finitamente gerado projetivo}
@@ -756,11 +756,11 @@ Let $M$ be a finite rank Hilbert $A$-module. If $(a,\lambda) \in \widetilde A$, 
     x = pa = p(pa) = p(\sub\Id{{{\widetilde{A}}}^n}-p)b = (p - p^2)b = 0,
     \]
     and the sum in (\ref{eq: ~A^n is a direct summand}) is fact direct. Since $\ker p = (\sub\Id{{\widetilde{A}}^n}-p){\widetilde{A}}^n$, the desired isomorphism holds by the givenness of $p$.
-    \item \label{item: M projetivo sse M oplus Q livre}\textbf{If there exists $\boldsymbol Q$ such that $\boldsymbol{M\oplus Q}$ is free, then $\boldsymbol M$ is projective}: Let $E$, $F$ be $\widetilde A$-modules, $g:E \longtwoheadrightarrow F$ a surjective map and $f:M \longto F$. Let $(b_i)_i$ be a basis of $M\oplus Q$. By surjectivity, for all $i$, there is allways $x_i\in M$  such that $g(x_i) = f(b_i)$. 
+    \item \label{item: M projetivo sse M oplus Q livre}\textbf{If there exists $\boldsymbol Q$ such that $\boldsymbol{M\oplus Q}$ is free, then $\boldsymbol M$ is projective}: Let $E$, $F$ be $\widetilde A$-modules, $g:E \longtwoheadrightarrow F$ a surjective map and $f:M \longto F$. Let $(b_i)_i$ be a basis of $M\oplus Q$. By surjectivity, for all $i$, there is always $x_i\in M$  such that $g(x_i) = f(b_i)$. 
     
-    Define $\widetilde{h}:M\oplus Q \longto E$ extending linearlly $\widetilde{h}(b_i) \coloneqq x_i$, in order that $g \circ \widetilde{h} = f$. Therefore, $h \coloneqq \widetilde{h} \sub{\restrita}{M}$ is the one necessary so that $M$ is projective.
+    Define $\widetilde{h}:M\oplus Q \longto E$ extending linearly $\widetilde{h}(b_i) \coloneqq x_i$, in order that $g \circ \widetilde{h} = f$. Therefore, $h \coloneqq \widetilde{h} \sub{\restrita}{M}$ is the one necessary so that $M$ is projective.
     
-    \item \label{item: direct summand}\textbf{If $\boldsymbol M$ is a direct summand of a free rank module, then it is finitely generated}: Let $M\oplus Q \simeq {\widetilde{A}}^n$ for some $\widetilde A$-module $Q$. That way, $Q$ can be both projected and embbeded in ${\widetilde{A}}^n$ by morphisms. Let $\psi : {\widetilde{A}}^n \longto {\widetilde{A}}^n$ be the compositions of those. Then
+    \item \label{item: direct summand}\textbf{If $\boldsymbol M$ is a direct summand of a free rank module, then it is finitely generated}: Let $M\oplus Q \simeq {\widetilde{A}}^n$ for some $\widetilde A$-module $Q$. That way, $Q$ can be both projected and embedded in ${\widetilde{A}}^n$ by morphisms. Let $\psi : {\widetilde{A}}^n \longto {\widetilde{A}}^n$ be the compositions of those. Then
     \[\Im \psi = \{(0,q) \in M \oplus Q \mid q \in Q\}\]
     is the kernel of the canonical projection $\sub \Pi M : {\widetilde{A}}^n \longtwoheadrightarrow M$. Therefore, the composition $\sub \Pi M \circ \psi : {\widetilde{A}}^n \longtwoheadrightarrow M$ is a surjection, telling the world that $M$ must be finitely generated.
 \end{itroman}
@@ -796,7 +796,7 @@ $\left.\right.$
 \end{lema}
 
 
-For a $A$-finite rank module $M$, $M$ can be viewed as an finitely gerated projective $\widetilde A$-module, hence let $p$ be as in \ref{teo: M rank finito sse M = pA^n} embeded in $\mathbb M_{\infty}({\widetilde{A}})$. As an element of $V({\widetilde{A}})$, the equivalence class of idempotents which represents $M$, is the set:
+For a $A$-finite rank module $M$, $M$ can be viewed as an finitely gerated projective $\widetilde A$-module, hence let $p$ be as in \ref{teo: M rank finito sse M = pA^n} embedded in $\mathbb M_{\infty}({\widetilde{A}})$. As an element of $V({\widetilde{A}})$, the equivalence class of idempotents which represents $M$, is the set:
 \[
 [M] \coloneqq  \{q \in \mathbb M_\infty({\widetilde{A}}) \mid q^2 = q \in \mathbb M_{n}({\widetilde{A}}), M \simeq q A^n\} = [p] \in V({\widetilde{A}})
 \]
@@ -951,7 +951,7 @@ For a given $i \leqslant n$, let $\pi_i$ be the projection in the $i$-th coordin
 \[
 r = r\Omega^{\vphantom{*}}_{y} \Omega_{x}^* = \sum_{i=1}^{n} r\Pi_iy\inner{\Pi_ix}{\come}
 \]
-    We are using the $i$-th coordinate projection $\Pi_i$ since more index are about to come. Hence, $\Im r$ is contained in the submodule generated by $\big(r\Pi_iy\big)_{i \leq n}$.
+    We are using the $i$-th coordinate projection $\Pi_i$ since more index is about to come. Hence, $\Im r$ is contained in the submodule generated by $\big(r\Pi_iy\big)_{i \leq n}$.
 \end{enumerate}
 
 In order to obey \ref{item: imagens contidas no gerador}, our initial collection $\sub{\mathscr C}0$ must contain all elements of the form $r\pi_i(y(r))$ for $r$ varying over the desired operators. Since $\sub\Id X- \sub T{XX}$ is a compact set, there exists tuple sequences $(\boldsymbol{\xi}_n)_{n\in \N}, (\boldsymbol{\zeta}_n)_{n\in \N}$ such that
@@ -975,7 +975,7 @@ By construction, those properties are obeyed. Inductively, we set new collection
 in order that each $\mathscr C_n$ satisfies \ref{item: imagens contidas no gerador} and \ref{item: aproximacao de Id-T_XX}. Therefore, the union $\mathscr C\coloneqq \bigcup_{n} \mathscr C_{n}$ is then obviously countable, and also obeys those same properties above. In addition, the following one belongs to package:
 \begin{enumerate}[label=\ensuremath{(\roman*)}]
     \setcounter{enumi}{3}
-    \item \label{item: (iii)} \textbf{$\boldsymbol{\mathscr C}$ is invariant under $\boldsymbol{\sub{T}{X X}^{\vphantom{*}}, \sub{T}{X X}^{-1}, \sub{T}{X X}^{*}}$ and $\boldsymbol{(\sub{T}{X X}^{-1})^{*}}$.} Let $r \in \adj (X)$ be one the operators. If it was the case that $\mathscr C$ wasn't invariant over $r$, necessarily it would exists $w \in r(\mathscr C)\backslash \mathscr C$, hence, $\inv r(w) \in \mathscr C_n$ for some $n$. However, 
+    \item \label{item: (iii)} \textbf{$\boldsymbol{\mathscr C}$ is invariant under $\boldsymbol{\sub{T}{X X}^{\vphantom{*}}, \sub{T}{X X}^{-1}, \sub{T}{X X}^{*}}$ and $\boldsymbol{(\sub{T}{X X}^{-1})^{*}}$.} Let $r \in \adj (X)$ be one of the operators. If it was the case that $\mathscr C$ wasn't invariant over $r$, necessarily it would exists $w \in r(\mathscr C)\backslash \mathscr C$, hence, $\inv r(w) \in \mathscr C_n$ for some $n$. However, 
     \[
     w = r(\inv r(w)) \in \mathscr C_n \cup r(\mathscr C_n) \subset \mathscr C_{n+1} \subset \mathscr C
     \]
@@ -993,7 +993,7 @@ In terms of the Morita equivalence, this is a big deal since we are not restrict
 \begin{teorema}\label{teo: M N quasi stably iso ==> rank igual}
 Let $M$ and $N$ be quasi-stably-isomorphic finite rank Hilbert modules over a $C^*$-algebra $A$. Therefore, $\rank(M) = \rank(N)$.
 \begin{proof}
-Let $T \in \GL(\adj(M\oplus X, N\oplus X))$ with $X$ beeing a countably generated Hilbert module (\ref{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}) and $\sub \Id X - \sub T{XX} \in \mathscr K(X)$. By the countability condition, we can apply Kasparov's Stabilization Theorem \ref{teo: kasparov stabilization} in order to obtain that $X \oplus \HA \simeq \HA$. Without loss of generality, we can assume that $X = \HA$.
+Let $T \in \GL(\adj(M\oplus X, N\oplus X))$ with $X$ being a countably generated Hilbert module (\ref{lema: Quasi-stably-isomorphic: X eh enumeravel gerado}) and $\sub \Id X - \sub T{XX} \in \mathscr K(X)$. By the countability condition, we can apply Kasparov's Stabilization Theorem \ref{teo: kasparov stabilization} in order to obtain that $X \oplus \HA \simeq \HA$. Without loss of generality, we can assume that $X = \HA$.
 
 Since $M$ is finitely generated as an $A$-module, by Kasparov's theorem again, there exists a isomorphism $\varphi :\HA \longto M\oplus \HA$. Now, we construct operators $F$ and $G$ given by the compositions:
 \begin{equation*}
