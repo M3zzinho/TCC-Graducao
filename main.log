@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  26 NOV 2022 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  28 NOV 2022 12:36
 entering extended mode
-**c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
-(c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
+**c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/TCC2/main.tex
+(c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/TCC2/main.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/etex-pkg\etex.sty
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
@@ -1205,21 +1205,11 @@ Overfull \hbox (8.55939pt too wide) in paragraph at lines 14--15
  []
 
 
-Overfull \hbox (7.45349pt too wide) in paragraph at lines 14--15
-\T1/lmr/m/n/10.95 dribbling the separability hypothesis. Hes doing occurs treating the mentioned
+Overfull \hbox (5.6284pt too wide) in paragraph at lines 14--15
+\T1/lmr/m/n/10.95 dribbling the separability hypothesis. His doing occurs treating the mentioned
  []
 
 [5]
-Overfull \hbox (7.91971pt too wide) in paragraph at lines 19--21
-\T1/lmr/m/n/10.95 Here, we focus on detailing about the construction of those Fredholm operators
- []
-
-
-Overfull \hbox (3.13412pt too wide) in paragraph at lines 19--21
-\T1/lmr/m/n/10.95 and the predecessor steps necessary. Therefore our road map can be described
- []
-
-
 Overfull \hbox (3.44852pt too wide) in paragraph at lines 22--23
 \T1/lmr/m/n/10.95 Exel's arguments is the Kasparov Stabilization Theorem [][]2.4.6[][] presented
  []
@@ -1496,9 +1486,6 @@ Overfull \hbox (1.68993pt too wide) detected at line 34
 
 ]
 
-LaTeX Warning: Reference `lema: Cstar prop: a <= b ---> |a| <= |b|' on page 22 undefined on input line 61.
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -1565,8 +1552,8 @@ Overfull \hbox (5.13611pt too wide) in paragraph at lines 324--326
  []
 
 
-Overfull \hbox (7.18109pt too wide) in paragraph at lines 330--332
-[][]\T1/lmr/bx/n/10.95 Proposition 2.2.8 \T1/lmr/m/n/10.95 (Equivallence of positivity)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Beeing positive some element
+Overfull \hbox (2.31436pt too wide) in paragraph at lines 330--332
+[][]\T1/lmr/bx/n/10.95 Proposition 2.2.8 \T1/lmr/m/n/10.95 (Equivallence of positivity)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Being positive some element
  []
 
 
@@ -2243,20 +2230,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C425E39DB3C0F8B803E6CE4DE3DC9FA6;3783.
  ) 
 Here is how much of TeX's memory you used:
- 47017 strings out of 478927
- 1047569 string characters out of 2852535
+ 47016 strings out of 478927
+ 1047642 string characters out of 2852535
  1653771 words of memory out of 3000000
- 63625 multiletter control sequences out of 15000+600000
+ 63624 multiletter control sequences out of 15000+600000
  665120 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,29n,93p,53572b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,29n,93p,53577b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
@@ -2290,7 +2274,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
-Output written on main.pdf (67 pages, 1134772 bytes).
+Output written on main.pdf (67 pages, 1134581 bytes).
 PDF statistics:
  1185 PDF objects out of 1200 (max. 8388607)
  326 named destinations out of 1000 (max. 500000)

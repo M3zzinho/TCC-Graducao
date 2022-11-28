@@ -5,38 +5,37 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
-Warning--empty year in exel7fredholm
 Warning--there's a number but no series in raeburn1998morita
 You've used 23 entries,
             2118 wiz_defined-function locations,
-            645 strings with 7785 characters,
-and the built_in function-call counts, 6375 in all, are:
-= -- 645
+            646 strings with 7789 characters,
+and the built_in function-call counts, 6374 in all, are:
+= -- 646
 > -- 219
 < -- 3
 + -- 91
 - -- 66
-* -- 397
-:= -- 1090
+* -- 395
+:= -- 1091
 add.period$ -- 80
 call.type$ -- 23
 change.case$ -- 95
 chr.to.int$ -- 0
-cite$ -- 25
+cite$ -- 24
 duplicate$ -- 247
 empty$ -- 560
 format.name$ -- 66
-if$ -- 1327
+if$ -- 1328
 int.to.chr$ -- 0
 int.to.str$ -- 23
 missing$ -- 27
 newline$ -- 127
 num.names$ -- 46
-pop$ -- 107
+pop$ -- 105
 preamble$ -- 1
 purify$ -- 79
 quote$ -- 0
-skip$ -- 158
+skip$ -- 159
 stack$ -- 0
 substring$ -- 406
 swap$ -- 26
@@ -44,8 +43,8 @@ text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 78
-warning$ -- 2
+warning$ -- 1
 while$ -- 68
 width$ -- 25
-write$ -- 265
-(There were 2 warnings)
+write$ -- 266
+(There was 1 warning)
