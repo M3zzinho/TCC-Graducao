@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  30 NOV 2022 00:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  30 NOV 2022 01:46
 entering extended mode
 **c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
 (c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
@@ -1156,14 +1156,14 @@ pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: foun
 <figures/capa-samya-v1.pdf, id=106, 597.23125pt x 845.1575pt>
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf>
-Package pdftex.def Info: figures/capa-samya-v1.pdf  used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
 pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf>
-Package pdftex.def Info: figures/capa-samya-v1.pdf  used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
@@ -1174,123 +1174,99 @@ pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: foun
 <figures/capa-samya-v1.pdf, id=109, page=1, 597.23125pt x 845.1575pt>
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf, page 1>
-Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 15.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf, page 1>
-Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf, page 1>
-Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf, page 1>
-Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: figures/capa-samya-v1.pdf Graphic file (type pdf)
 <use figures/capa-samya-v1.pdf, page 1>
-Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 15.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 [1
 
 
- <./figures/capa-samya-v1.pdf>] (chapters/agradecimentos.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[2
-
-{C:/Users/55119/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
-Overfull \hbox (0.2286pt too wide) in paragraph at lines 11--20
-\T1/lmr/m/sc/10.95 Guilherme Cerqueira Gonçalves \T1/lmr/m/n/10.95 and \T1/lmr/m/sc/10.95 Andrey Luan Gomes Contel\T1/lmr/m/n/10.95 .
- []
-
-(chapters/introduction.tex [3]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4
+ <./figures/capa-samya-v1.pdf>] (chapters/agradecimentos.tex [2
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <10.95> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 5.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 12.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 12.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3{C:/Users/55119/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (chapters/introduction.tex [4]
 Overfull \hbox (5.6284pt too wide) in paragraph at lines 14--15
 \T1/lmr/m/n/10.95 dribbling the separability hypothesis. His doing occurs treating the mentioned
  []
 
-[5]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 26.
+[5
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 27.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6]
-Overfull \hbox (3.06682pt too wide) in paragraph at lines 28--29
+) [6]
+Overfull \hbox (3.06682pt too wide) in paragraph at lines 29--30
 []$[]$\T1/lmr/m/n/10.95 : Up to this point,
  []
 
-)
-Overfull \hbox (2.5657pt too wide) in paragraph at lines 31--22
+
+Overfull \hbox (2.5657pt too wide) in paragraph at lines 32--33
 \T1/lmr/m/n/10.95 for some reader, i'd recommend the absolute masterpiece produced by Wegge-
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[7]
+) [7]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1384,10 +1360,6 @@ LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <7> not available
 (Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <7> not available
 (Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 72.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 79.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 79.
 
 Overfull \hbox (1.32889pt too wide) in paragraph at lines 79--80
 \T1/lmr/m/n/10.95 scalar multiplication[][][][][]. Compactness of $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 implies that $\OT1/lmr/m/n/10.95  (\OML/lmm/m/it/10.95 X; E\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 is a projective
@@ -2190,79 +2162,79 @@ Overfull \hbox (28.67848pt too wide) in paragraph at lines 19--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
 []\T1/lmr/m/n/10.95 Aweygan (https://math.stackexchange.com/users/234668/aweygan).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
-\T1/lmr/m/n/10.95 Strictly positive element in unital $\OML/lmm/m/it/10.95 c[]$\T1/lmr/m/n/10.95 -algebra is
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
+\T1/lmr/m/n/10.95 Strictly positive element in unital $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebra is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
 \T1/lmr/m/n/10.95 invertible.  Mathematics Stack Exchange, 2020.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
 \T1/lmr/m/n/10.95 URL:https://math.stackexchange.com/q/3926191 (version: 2020-
  []
 
 [65
 
 ]
-Underfull \hbox (badness 1168) in paragraph at lines 95--101
+Underfull \hbox (badness 1168) in paragraph at lines 96--102
 []\T1/lmr/m/n/10.95 James A Mingo and William J Phillips.  Equivariant triviality
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 95--101
+Underfull \hbox (badness 1418) in paragraph at lines 96--102
 \T1/lmr/m/n/10.95 theorems for hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -modules.  \T1/lmr/m/it/10.95 Proceedings of the American
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 95--101
+Underfull \hbox (badness 2556) in paragraph at lines 96--102
 \T1/lmr/m/it/10.95 Mathematical Society\T1/lmr/m/n/10.95 , 91(2):225--230, 1984.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 96--102
 \T1/lmtt/m/n/10.95 org / journals / proc / 1984-[]091-[]02 / S0002-[]9939-[]1984-[]0740176-[]0 /
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 103--109
+Underfull \hbox (badness 1902) in paragraph at lines 104--110
 []\T1/lmr/m/n/10.95 William L Paschke.  Inner product modules over $\OML/lmm/m/it/10.95 B[]$\T1/lmr/m/n/10.95 -algebras.
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 103--109
+Underfull \hbox (badness 6078) in paragraph at lines 104--110
 \T1/lmr/m/it/10.95 Transactions of the American Mathematical Society\T1/lmr/m/n/10.95 , 182:443--
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 103--109
+Underfull \hbox (badness 1521) in paragraph at lines 104--110
 \T1/lmr/m/n/10.95 468, 1973.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams . org / journals / tran / 1973-[]182-[]00 /
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 135--140
+Underfull \hbox (badness 4647) in paragraph at lines 136--141
 \T1/lmr/m/n/10.95 boundedness theorem.  \T1/lmr/m/it/10.95 The American Mathematical Monthly\T1/lmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 []\T1/lmr/m/n/10.95 Johannes Ebert ([][]$\T1/lmtt/m/n/10.95 https : / / mathoverflow . net / users / 9928 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
+Underfull \hbox (badness 10000) in paragraph at lines 143--148
 \T1/lmtt/m/n/10.95 johannes-[]ebert$[][]\T1/lmr/m/n/10.95 ).  Operators on hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -module and
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 142--147
+Underfull \hbox (badness 2799) in paragraph at lines 143--148
 \T1/lmr/m/n/10.95 families of fredholm operators.  MathOverflow.  URL:[][]$\T1/lmtt/m/n/10.95 https :
  []
 
@@ -2276,7 +2248,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [66]
 
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 150.
+(Font)              using `T1/lmr/m/scsl' instead on input line 151.
 
 ) 
 AED: lastpage setting LastPage
@@ -2299,13 +2271,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C425E39DB3C0F8B803E6CE4DE3DC9FA6;3783.
  ) 
 Here is how much of TeX's memory you used:
- 47694 strings out of 478927
- 1059228 string characters out of 2852535
- 1667048 words of memory out of 3000000
- 64279 multiletter control sequences out of 15000+600000
- 657458 words of font info for 281 fonts, out of 8000000 for 9000
+ 47728 strings out of 478927
+ 1060125 string characters out of 2852535
+ 1667185 words of memory out of 3000000
+ 64308 multiletter control sequences out of 15000+600000
+ 657823 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,29n,93p,53572b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
@@ -2338,10 +2312,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
-Output written on main.pdf (67 pages, 1170481 bytes).
+{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
+Output written on main.pdf (67 pages, 1173208 bytes).
 PDF statistics:
- 1187 PDF objects out of 1200 (max. 8388607)
- 328 named destinations out of 1000 (max. 500000)
+ 1193 PDF objects out of 1200 (max. 8388607)
+ 329 named destinations out of 1000 (max. 500000)
  281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

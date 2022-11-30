@@ -31,7 +31,7 @@ Lawrence Brown, Philip Green, and Marc Rieffel.
 
 \bibitem{dixmier1982c}
 J.~Dixmier.
-\newblock {\em \ensuremath{C^*}-algebras}.
+\newblock {\em \ensuremath{C^*}-Algebras}.
 \newblock North-Holland mathematical library. North-Holland, 1982.
 
 \bibitem{dontchev2020bartle}
@@ -48,7 +48,8 @@ Ruy Exel.
 
 \bibitem{aweygan2020}
 Aweygan (https://math.stackexchange.com/users/234668/aweygan).
-\newblock Strictly positive element in unital $c^*$-algebra is invertible.
+\newblock Strictly positive element in unital \ensuremath{C^*}-algebra is
+  invertible.
 \newblock Mathematics Stack Exchange, 2020.
 \newblock URL:https://math.stackexchange.com/q/3926191 (version: 2020-11-28).
 
@@ -64,7 +65,7 @@ Irving Kaplansky.
 
 \bibitem{karoubi2008k}
 Max Karoubi.
-\newblock {\em \ensuremath{K}-theory: An introduction}, volume 226.
+\newblock {\em \ensuremath{K}-Theory: An Introduction}, volume 226.
 \newblock Springer Science \& Business Media, 2008.
 
 \bibitem{kasparov1980stinespring}
@@ -75,8 +76,8 @@ G.~G. KASPAROV.
 
 \bibitem{lance1995hilbert}
 E~Christopher Lance.
-\newblock {\em Hilbert \ensuremath{C^*}-modules: a toolkit for operator
-  algebraists}, volume 210.
+\newblock {\em Hilbert \ensuremath{C^*}-Modules: A Toolkit for Operator
+  Algebraists}, volume 210.
 \newblock Cambridge University Press, 1995.
 
 \bibitem{manuilov2001hilbert}
@@ -114,8 +115,8 @@ Iain Raeburn and Dana~P Williams.
 \newblock Number~60. American Mathematical Soc., 1998.
 
 \bibitem{reed2012methods}
-Michael Reed.
-\newblock {\em Methods of modern mathematical physics: Functional analysis}.
+Michael Reed and Barry Simon.
+\newblock {\em Methods of Modern Mathematical Physics: Functional Analysis}.
 \newblock Elsevier, 2012.
 
 \bibitem{rieffel1981c}

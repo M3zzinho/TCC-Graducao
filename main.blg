@@ -8,34 +8,34 @@ Database file #1: ref.bib
 Warning--there's a number but no series in raeburn1998morita
 You've used 25 entries,
             2118 wiz_defined-function locations,
-            653 strings with 7953 characters,
-and the built_in function-call counts, 6815 in all, are:
-= -- 685
-> -- 233
+            654 strings with 8058 characters,
+and the built_in function-call counts, 6851 in all, are:
+= -- 688
+> -- 239
 < -- 4
-+ -- 97
-- -- 70
-* -- 414
-:= -- 1168
++ -- 99
+- -- 72
+* -- 418
+:= -- 1174
 add.period$ -- 86
 call.type$ -- 25
-change.case$ -- 101
+change.case$ -- 102
 chr.to.int$ -- 0
 cite$ -- 26
 duplicate$ -- 271
 empty$ -- 604
-format.name$ -- 70
-if$ -- 1422
+format.name$ -- 72
+if$ -- 1429
 int.to.chr$ -- 0
 int.to.str$ -- 25
 missing$ -- 31
 newline$ -- 137
 num.names$ -- 50
-pop$ -- 120
+pop$ -- 121
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 86
 quote$ -- 0
-skip$ -- 172
+skip$ -- 173
 stack$ -- 0
 substring$ -- 416
 swap$ -- 29
