@@ -6,45 +6,45 @@ The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
 Warning--there's a number but no series in raeburn1998morita
-You've used 23 entries,
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            646 strings with 7789 characters,
-and the built_in function-call counts, 6374 in all, are:
-= -- 646
-> -- 219
-< -- 3
-+ -- 91
-- -- 66
-* -- 395
-:= -- 1091
-add.period$ -- 80
-call.type$ -- 23
-change.case$ -- 95
+            653 strings with 7953 characters,
+and the built_in function-call counts, 6815 in all, are:
+= -- 685
+> -- 233
+< -- 4
++ -- 97
+- -- 70
+* -- 414
+:= -- 1168
+add.period$ -- 86
+call.type$ -- 25
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 247
-empty$ -- 560
-format.name$ -- 66
-if$ -- 1328
+cite$ -- 26
+duplicate$ -- 271
+empty$ -- 604
+format.name$ -- 70
+if$ -- 1422
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 27
-newline$ -- 127
-num.names$ -- 46
-pop$ -- 105
+int.to.str$ -- 25
+missing$ -- 31
+newline$ -- 137
+num.names$ -- 50
+pop$ -- 120
 preamble$ -- 1
-purify$ -- 79
+purify$ -- 85
 quote$ -- 0
-skip$ -- 159
+skip$ -- 172
 stack$ -- 0
-substring$ -- 406
-swap$ -- 26
-text.length$ -- 3
+substring$ -- 416
+swap$ -- 29
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 82
 warning$ -- 1
-while$ -- 68
-width$ -- 25
-write$ -- 266
+while$ -- 72
+width$ -- 27
+write$ -- 287
 (There was 1 warning)

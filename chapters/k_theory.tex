@@ -5,7 +5,7 @@
 %- A homological theory is ...
 %- Some flavors of homological theory
 %- K-theory is our concern
-A homo-logical theory for a category $\mathcal C$ consist in a sequence of covariant functors $H_n : \mathcal C \longto \Ab{\Grp}$ for each $n\in \N$ which satisfies some set of axioms, which depends on what theory one is interested. For example, if $\mathcal C$ contains a nice homo-topical concept, it's rather common to ask for homo-topical invariance. If exact sequences naturally pops in the domain encoding a lot of information, some other axioms are required to obtain long exact sequences. The usual notation is:
+A homological theory for a category $\mathcal C$ consist in a sequence of covariant functors $H_n : \mathcal C \longto \Ab{\Grp}$ for each $n\in \N$ which satisfies some set of axioms, which depends on what theory one is interested. For example, if $\mathcal C$ contains a nice homotopical concept, it's rather common to ask for homotopical invariance. If exact sequences naturally pops in the domain encoding a lot of information, some other axioms are required to obtain long exact sequences. The usual notation is:
 \begin{equation*}
     \describefunctor{H_n}{\mathcal{C},A,\phi,B}{\Ab{\Grp},H_n(A),\phi_n,H_n(B)}
 \end{equation*}
@@ -117,7 +117,7 @@ The next definition is in charge to define the functor $K_0$ for both cases, but
 Let $A$ be a Banach algebra. The set of equivalence classes over $\mathbb M_\infty(A)$ considering any relation $\sim$ contained in \ref{def: idempotentes equivalentes} is an abelian semi-group with $[x]+[y] \coloneqq [\diag(x,y)]$. Before defining $K_0$, in order to include the non necessarily unital algebras, it is needed to be considered an auxiliar functor $K_{00}$ much closer to the topological counterpart $K^0$. This is necessary in order to obtain the Bott periodicity result for Banach algebras, and other good functorial properties.
 
 \begin{itroman}
-\item \textbf{\mathbf{K_{00}}}: It is the Grothendieck group construction associated with the semi-group $V({A}) \coloneqq \mathbb M_\infty\left({A}\right)/{\sim}$ where addition is given by $[x]+ [y] \coloneqq [\diag(x,y)]$, generalising the construction of $\Z$ from $\N$ considering formal differences. In lighter sheets, for pairs $(a,b)$ and $(c,d)$ of elements in $V(A)$, let $(a,b) \equiv (c,d)$ whenever there exists\footnote{Since it is only a semi-group, the cancelation property do not hold necessarily over $V(A)$. One might check that this is the case if, and only if, the inclusion of $V(A)$ at the Grothendieck's associated group is injective.} $z \in V(A)$ such that $a+d+z = c+b+z$. This is an equivalence relation over the pais, and $[\come]_{00}$ will denote the related equivalence class. 
+\item \textbf{\mathbf{K_{00}}}: It is the Grothendieck group construction associated with the semi-group $V({A}) \coloneqq \mathbb M_\infty\left({A}\right)/{\sim}$ where addition is given by $[x]+ [y] \coloneqq [\diag(x,y)]$, generalising the construction of $\Z$ from $\N$ considering formal differences. In lighter sheets, for pairs $(a,b)$ and $(c,d)$ of elements in $V(A)$, let $(a,b) \equiv (c,d)$ whenever there exists\footnote{Since it is only a semi-group, the cancelation property do not hold necessarily over $V(A)$. One might check that this is the case if, and only if, the inclusion of $V(A)$ at the Grothendieck's associated group is injective.} $z \in V(A)$ such that $a+d+z = c+b+z$. This is an equivalence relation over the pairs, and $[\come]_{00}$ will denote the related equivalence class. 
 
 We are mimicking the formal differences construction, so it's natural to define the addition operation coordinate-wise and let $x-y \coloneqq [(x,y)]_{00}$. Therefore, it is well defined the following covariant functor:
 \begin{equation*}
@@ -150,17 +150,17 @@ Notice that $K_0(A)$ is precisely the set of elements $[p]_0-[q]_0 \in K_{00}(\w
 \end{definicao}
 
 \begin{observacao}
-    The argument to show that $V(\C) \simeq \N$  is equivalent for compact operators in a infinite-dimensional Hilbert space $H$, i.e., $V(\mathscr K(H)) \simeq \N$, hence $K_0\mathscr K(H) = \Z$. On the other hand, any two infinite rank projections in $\mathscr B(H)$ are equivalent, hence $V\mathscr B(H) \simeq \N \cup \{\infty\}$, which is a semi-group without the cancellation property. Since everyone is equivalent to $\infty$, it is obtained that $K_{00}\mathscr B(H) \simeq 0$. The semi-group $V(A)$ posses the cancellation property if, and only if, the inclusion $V(A)\longhookrightarrow K_{00}(A)$ is injective. 
+    The argument to show that $V(\C) \simeq \N$  is equivalent for compact operators in a infinite-dimensional Hilbert space $H$, i.e. $V(\mathscr K(H)) \simeq \N$, hence $K_0\mathscr K(H) = \Z$. On the other hand, any two infinite rank projections in $\mathscr B(H)$ are equivalent, hence $V\mathscr B(H) \simeq \N \cup \{\infty\}$, which is a semi-group without the cancellation property. Since everyone is equivalent to $\infty$, it is obtained that $K_{00}\mathscr B(H) \simeq 0$. The semi-group $V(A)$ posses the cancellation property if, and only if, the inclusion $V(A)\longhookrightarrow K_{00}(A)$ is injective. 
 \end{observacao}
 
 \begin{proposicao}[Standard portrait of \ensuremath{K_0}]
 Every element of $K_0(A)$ can be written as $[x+p_n]_0-[p_n]_0$.
 
 \begin{proof}
-Let $p, q \in \mathbb M_{\infty}(\widetilde A)$ be some idempotent square matrices with order no longer than $n$, such that $\sub\ep0\left([p]_0 - [q]_0\right) = 0$, i.e., $[p]_0 - [q]_0 \in K_0(A)$. Matrices $p \in \mathbb M_n(\widetilde{A})$ can be written as $(\sub pA, \sub p{\C}) \in \mathbb M_n(A)\oplus \mathbb M_n(\C)$, i.e., an algebraic part $\sub pA$ and a scalar part $\sub p{\C}$. Stating that  $\sub\ep0\left([p]_0 - [q]_0\right) = 0$ means that the scalar parts of $p$ and $q$ coincide.
+Let $p, q \in \mathbb M_{\infty}(\widetilde A)$ be some idempotent square matrices with order no longer than $n$, such that $\sub\ep0\left([p]_0 - [q]_0\right) = 0$, i.e. $[p]_0 - [q]_0 \in K_0(A)$. Matrices $p \in \mathbb M_n(\widetilde{A})$ can be written as $(\sub pA, \sub p{\C}) \in \mathbb M_n(A)\oplus \mathbb M_n(\C)$, i.e. an algebraic part $\sub pA$ and a scalar part $\sub p{\C}$. Stating that  $\sub\ep0\left([p]_0 - [q]_0\right) = 0$ means that the scalar parts of $p$ and $q$ coincide.
 
 The identity $\Id_n \in \mathbb M_\infty(\widetilde{A})$ can be seen as the projection operator of the first $n$-th coordinates, by filling it with 0's, but to avoid confusions, let it be $p_n$. With $y\leqslant x$ be given by $xy = yx = y$, one may see that $p < p_n$ and $y < p_n$. Notice that
-$\diag(0,p) \in \mathbb M_{2n}(\widetilde{A})$ is similar to $p$ and orthogonal to $\Id_n$, i.e., 
+$\diag(0,p) \in \mathbb M_{2n}(\widetilde{A})$ is similar to $p$ and orthogonal to $\Id_n$, i.e. 
 \[
 \begin{pmatrix}
     0 & 0 \\ 0 & p
@@ -198,12 +198,12 @@ For a unital Banach algebra $A$, the component of the unity is the group generat
 \begin{proof}
     Let $\GL^{(0)}(A)$ be the refered set of connected components of $1$. Notice that $t \longmapsto \exp(tb)$ for $t\in [0,1]$ is a continuous path of invertible elements between $1$ and $\exp(b)$ for any $b$, hence $\exp(A) \subset \GL^{(0)}(A)$. It remais only to show the converse inclusion.
 
-    For some $a$ with $\|1-a\| < 1$, let $b\coloneqq \log(1 + (a-1)) = \log(a)$, i.e., $a = \exp(b)$. Therefore, if $u\in \GL(A)$ and $\|v-u\| < \inv{\|\inv u\|}$, this means that $v= \exp(b)u$ for some $b$. From this treatment, if follows that $\exp(A)$ is a open and closed topological subspace of $\GL^{(0)}(A)$ which contains the unity, i.e., $\GL^{(0)}(A)$ coincides with $\exp(A)$. 
+    For some $a$ with $\|1-a\| < 1$, let $b\coloneqq \log(1 + (a-1)) = \log(a)$, i.e. $a = \exp(b)$. Therefore, if $u\in \GL(A)$ and $\|v-u\| < \inv{\|\inv u\|}$, this means that $v= \exp(b)u$ for some $b$. From this treatment, if follows that $\exp(A)$ is a open and closed topological subspace of $\GL^{(0)}(A)$ which contains the unity, i.e. $\GL^{(0)}(A)$ coincides with $\exp(A)$. 
 \end{proof}
 \end{lema}
 
 \begin{observacao}
-    Let $M\in \GL_n(\C)$. Since $0$ cannot be an eigenvalue of $M$ (which is a finite set), it's possible to find $\alpha \neq 0$ such that $[0, \infty)\cdot \alpha$ doesn't contains any of the eigenvalues of $M$ or $1$. Therefore, $1-\alpha t \neq 0$ for all $t\geq 0$ and $M_t \coloneqq \inv{(1-\alpha t)}(M-t\alpha \Id_n)$ is a continuous path from $M$ to the identity, i.e., $\GL_n(\C)$ is connected. 
+    Let $M\in \GL_n(\C)$. Since $0$ cannot be an eigenvalue of $M$ (which is a finite set), it's possible to find $\alpha \neq 0$ such that $[0, \infty)\cdot \alpha$ doesn't contains any of the eigenvalues of $M$ or $1$. Therefore, $1-\alpha t \neq 0$ for all $t\geq 0$ and $M_t \coloneqq \inv{(1-\alpha t)}(M-t\alpha \Id_n)$ is a continuous path from $M$ to the identity, i.e. $\GL_n(\C)$ is connected. 
 \end{observacao}
 
 
@@ -212,7 +212,7 @@ In a not so long future, the following result will be important in the presence 
     \label{corol:lift by surjection}
     Any continuous surjection $A \longto B$ induces a lift from every element in $\GL_n^{(0)}(B)$ to one in $\GL_n^{(0)}(A)$.
     \begin{proof}
-        Using \ref*{lema:exp(A)=GL(A)_0}, write $\prod_i \exp(b_i) \in \GL_n(B)^{(0)}$ for any desired element. Since there is a surjection, there exists lifts to each $b_i$, i.e., $a_i \in \GL_n(A)$ such that $\prod_i \exp(a_i) \in \GL_n(A)_{0}$.
+        Using \ref*{lema:exp(A)=GL(A)_0}, write $\prod_i \exp(b_i) \in \GL_n(B)^{(0)}$ for any desired element. Since there is a surjection, there exists lifts to each $b_i$, i.e. $a_i \in \GL_n(A)$ such that $\prod_i \exp(a_i) \in \GL_n(A)_{0}$.
     \end{proof}
 \end{corolario}
 
@@ -242,7 +242,7 @@ Considering the homotopy equivalence relation, two elements in $\GL_\infty(A)$ a
 \end{definicao}
 
 \begin{observacao}
-    It should be stated that if one is dealing with a $C^*$-algebra, then $K_1$ can be obtained by the set of unitary matrices $U_n(A)$, i.e., $u^* = \inv u$; Since $U_n(A)/U_n^{(0)}(A) \cong \GL_n(A)/\GL_n^{(0)}(A)$, one can obtain a deformation retraction from $\GL_n(A)$ to $U_n(A)$ by the polar decomposition, hence, $K_1(A)$ is isomorphic to $U_\infty(A)/U_\infty^{(0)}(A)$.  
+    It should be stated that if one is dealing with a $C^*$-algebra, then $K_1$ can be obtained by the set of unitary matrices $U_n(A)$, i.e. $u^* = \inv u$; Since $U_n(A)/U_n^{(0)}(A) \cong \GL_n(A)/\GL_n^{(0)}(A)$, one can obtain a deformation retraction from $\GL_n(A)$ to $U_n(A)$ by the polar decomposition, hence, $K_1(A)$ is isomorphic to $U_\infty(A)/U_\infty^{(0)}(A)$.  
 \end{observacao}
 
 %- Quote topological counterparts
@@ -251,6 +251,8 @@ Considering the homotopy equivalence relation, two elements in $\GL_\infty(A)$ a
 %- Some examples
 
 \section{The index map}
+
+Many functorial properties like homotopy invariance, stability and half exactness are shared by $K_0$ and $K_1$, but in our needs, they wont be necessary. The reader may recall to \cite{blackadar1998k} or \cite{wegge1993k} to a proper course.
 
 We are now ready to define the so called index map. This name comes from the Fredholm operator theory since what we are about to construct is a generalization of the index of those operators. Consider $\mathscr B(H)$ the $C^*$-algebra of bounded operators between a Hilbert space $H$, and $\mathscr K(H)$ the ideal of compact operators. The \textit{Atikinson} theorem states precisely that the \textit{Calkin} algebra $\mathscr Q(H) \coloneqq \mathscr B(H)/\mathscr K(H)$ is a classifying one: $T$ is a Fredholm operator if, and only if, $(T \bmod \mathscr K(H)) \in \GL \mathscr Q(H)$.
 
@@ -280,7 +282,7 @@ An anxious mind would immediately panic. We have a \textsc{to-do} list before ca
     $$
     vp_n \inv v = (v\inv w)wp_n\inv w\inv{(v\inv w)},
     $$
-    i.e., $vp_n \inv v$ is similar to $wp_n \inv w$. This is enough to take care of \ref{todo:(i)}.
+    i.e. $vp_n \inv v$ is similar to $wp_n \inv w$. This is enough to take care of \ref{todo:(i)}.
 
     In order to show that the index is well defined, suppose that $y \in \GL_n(\widetilde{A/I})$ is another representant of class $[x]_1$. Notice that 
     $$
@@ -323,7 +325,7 @@ An anxious mind would immediately panic. We have a \textsc{to-do} list before ca
 \end{definicao}
 
 \begin{exemplo}
-    In a unital $C^*$-algebra $A$, if a unitary\footnote{I.e., $u^*= \inv u$.} idempotent element $u$ in $\GL_n(A/I)$ lifts to $v\in \mathbb M_n(A)$, the element
+    In a unital $C^*$-algebra $A$, if a unitary\footnote{i.e. $u^*= \inv u$.} idempotent element $u$ in $\GL_n(A/I)$ lifts to $v\in \mathbb M_n(A)$, the element
     \begin{equation*}
         w \coloneqq \begin{pmatrix}
             v &  \Id_n - v^*v \\ \Id_n - vv^* & v^*

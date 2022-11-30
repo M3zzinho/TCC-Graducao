@@ -4,6 +4,11 @@
 Ch~D Aliprantis and KC~Border.
 \newblock Infinite dimensional analysis, 1994.
 
+\bibitem{blackadar1998k}
+Bruce Blackadar.
+\newblock {\em K-theory for operator algebras}, volume~5.
+\newblock Cambridge University Press, 1998.
+
 \bibitem{borel1958theoreme}
 Armand Borel and Jean-Pierre Serre.
 \newblock Le th{\'e}or{\`e}me de riemann-roch.
@@ -139,5 +144,10 @@ Johannes~Ebert (\url{https://mathoverflow.net/users/9928/johannes-ebert}).
   operators.
 \newblock MathOverflow.
 \newblock URL:\url{https://mathoverflow.net/q/239982} (version: 2016-05-28).
+
+\bibitem{wegge1993k}
+Niels~Erik Wegge-Olsen.
+\newblock {\em K-theory and \ensuremath{\textsc{C}^*}-algebras.}
+\newblock Oxford university press, 1993.
 
 \end{thebibliography}

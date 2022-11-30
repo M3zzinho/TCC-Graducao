@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  28 NOV 2022 12:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.26)  30 NOV 2022 00:44
 entering extended mode
-**c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/TCC2/main.tex
-(c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/TCC2/main.tex
+**c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
+(c:/Users/55119/Documents/Latex/Projetos/TCC/TCC2/main.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/etex-pkg\etex.sty
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
@@ -587,38 +587,58 @@ Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 Package: xparse 2021-08-27 L3 Experimental document command parser
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2020/03/24 v5.13.0 non-uTeX helper for fontawesome5
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5-mapping.def))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen282
-\WF@size=\dimen283
-\c@WF@wrappedlines=\count322
-\WF@box=\box67
-\WF@everypar=\toks46
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5-mapping.def))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
+\ESO@tempdima=\dimen282
+\ESO@tempdimb=\dimen283
+)
+\AM@pagewidth=\dimen284
+\AM@pageheight=\dimen285
+\AM@fboxrule=\dimen286
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count322
+\AM@pagebox=\box67
+\AM@global@opts=\toks46
+\AM@pagecnt=\count323
+\AM@toc@title=\toks47
+\c@AM@survey=\count324
+\AM@templatesizebox=\box68
+) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen287
+\WF@size=\dimen288
+\c@WF@wrappedlines=\count325
+\WF@box=\box69
+\WF@everypar=\toks48
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count323
-\mult@box=\box68
-\multicol@leftmargin=\dimen284
-\c@unbalance=\count324
-\c@collectmore=\count325
-\doublecol@number=\count326
-\multicoltolerance=\count327
-\multicolpretolerance=\count328
-\full@width=\dimen285
-\page@free=\dimen286
-\premulticols=\dimen287
-\postmulticols=\dimen288
+\c@tracingmulticols=\count326
+\mult@box=\box70
+\multicol@leftmargin=\dimen289
+\c@unbalance=\count327
+\c@collectmore=\count328
+\doublecol@number=\count329
+\multicoltolerance=\count330
+\multicolpretolerance=\count331
+\full@width=\dimen290
+\page@free=\dimen291
+\premulticols=\dimen292
+\postmulticols=\dimen293
 \multicolsep=\skip62
 \multicolbaselineskip=\skip63
-\partial@page=\box69
-\last@line=\box70
-\maxbalancingoverflow=\dimen289
-\mult@rightbox=\box71
-\mult@grightbox=\box72
-\mult@gfirstbox=\box73
-\mult@firstbox=\box74
-\@tempa=\box75
-\@tempa=\box76
+\partial@page=\box71
+\last@line=\box72
+\maxbalancingoverflow=\dimen294
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@gfirstbox=\box75
+\mult@firstbox=\box76
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
@@ -654,77 +674,79 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box109
 \@tempa=\box110
 \@tempa=\box111
-\c@minrows=\count329
-\c@columnbadness=\count330
-\c@finalcolumnbadness=\count331
-\last@try=\dimen290
-\multicolovershoot=\dimen291
-\multicolundershoot=\dimen292
-\mult@nat@firstbox=\box112
-\colbreak@box=\box113
-\mc@col@check@num=\count332
+\@tempa=\box112
+\@tempa=\box113
+\c@minrows=\count332
+\c@columnbadness=\count333
+\c@finalcolumnbadness=\count334
+\last@try=\dimen295
+\multicolovershoot=\dimen296
+\multicolundershoot=\dimen297
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count335
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip64
-\multirow@cntb=\count333
+\multirow@cntb=\count336
 \multirow@dima=\skip65
-\bigstrutjot=\dimen293
+\bigstrutjot=\dimen298
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks47
+\@enLab=\toks49
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip66
-\enit@outerparindent=\dimen294
-\enit@toks=\toks48
-\enit@inbox=\box114
-\enit@count@id=\count334
-\enitdp@description=\count335
+\enit@outerparindent=\dimen299
+\enit@toks=\toks50
+\enit@inbox=\box116
+\enit@count@id=\count337
+\enitdp@description=\count338
 )
-\c@alteri=\count336
-\enitdp@alter=\count337
-\c@itromani=\count338
-\enitdp@itroman=\count339
+\c@alteri=\count339
+\enitdp@alter=\count340
+\c@itromani=\count341
+\enitdp@itroman=\count342
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen295
-\captionmargin@=\dimen296
-\captionwidth=\dimen297
-\caption@tempdima=\dimen298
-\caption@indent=\dimen299
-\caption@parindent=\dimen300
-\caption@hangindent=\dimen301
+\captionmargin=\dimen300
+\captionmargin@=\dimen301
+\captionwidth=\dimen302
+\caption@tempdima=\dimen303
+\caption@indent=\dimen304
+\caption@parindent=\dimen305
+\caption@hangindent=\dimen306
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
+\c@caption@flags=\count343
+\c@continuedfloat=\count344
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count342
-\c@subtable=\count343
+\c@subfigure=\count345
+\c@subtable=\count346
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xtemplate.sty
 Package: xtemplate 2021-08-27 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen302
-\l__xtemplate_tmp_int=\count344
+\l__xtemplate_tmp_dim=\dimen307
+\l__xtemplate_tmp_int=\count347
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip67
 )
 Package: xfrac 2021-08-27 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box115
-\l__xfrac_tmp_box=\box116
-\l__xfrac_denominator_bot_sep_dim=\dimen303
-\l__xfrac_numerator_bot_sep_dim=\dimen304
-\l__xfrac_numerator_top_sep_dim=\dimen305
-\l__xfrac_slash_left_sep_dim=\dimen306
-\l__xfrac_slash_right_sep_dim=\dimen307
+\l__xfrac_slash_box=\box117
+\l__xfrac_tmp_box=\box118
+\l__xfrac_denominator_bot_sep_dim=\dimen308
+\l__xfrac_numerator_bot_sep_dim=\dimen309
+\l__xfrac_numerator_top_sep_dim=\dimen310
+\l__xfrac_slash_left_sep_dim=\dimen311
+\l__xfrac_slash_right_sep_dim=\dimen312
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
@@ -734,38 +756,38 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks49
-\t@pgfplots@tokb=\toks50
-\t@pgfplots@tokc=\toks51
-\pgfplots@tmpa=\dimen308
-\c@pgfplots@coordindex=\count345
-\c@pgfplots@scanlineindex=\count346
+\t@pgfplots@toka=\toks51
+\t@pgfplots@tokb=\toks52
+\t@pgfplots@tokc=\toks53
+\pgfplots@tmpa=\dimen313
+\c@pgfplots@coordindex=\count348
+\c@pgfplots@scanlineindex=\count349
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count347
+\c@pgfplotsarray@tmp=\count350
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count348
-\t@pgfplotstable@a=\toks52
+\c@pgfplotstable@counta=\count351
+\t@pgfplotstable@a=\toks54
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count349
+\c@pgfplotslibrarysurf@no=\count352
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen309
-\pgfdecoratedremainingdistance=\dimen310
-\pgfdecoratedinputsegmentcompleteddistance=\dimen311
-\pgfdecoratedinputsegmentremainingdistance=\dimen312
-\pgf@decorate@distancetomove=\dimen313
-\pgf@decorate@repeatstate=\count350
-\pgfdecorationsegmentamplitude=\dimen314
-\pgfdecorationsegmentlength=\dimen315
+\pgfdecoratedcompleteddistance=\dimen314
+\pgfdecoratedremainingdistance=\dimen315
+\pgfdecoratedinputsegmentcompleteddistance=\dimen316
+\pgfdecoratedinputsegmentremainingdistance=\dimen317
+\pgf@decorate@distancetomove=\dimen318
+\pgf@decorate@repeatstate=\count353
+\pgfdecorationsegmentamplitude=\dimen319
+\pgfdecorationsegmentlength=\dimen320
 )
-\tikz@lib@dec@box=\box117
+\tikz@lib@dec@box=\box119
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count351
-\pgfplots@xmin@reg=\dimen316
-\pgfplots@xmax@reg=\dimen317
-\pgfplots@ymin@reg=\dimen318
-\pgfplots@ymax@reg=\dimen319
-\pgfplots@zmin@reg=\dimen320
-\pgfplots@zmax@reg=\dimen321
+\pgfplots@numplots=\count354
+\pgfplots@xmin@reg=\dimen321
+\pgfplots@xmax@reg=\dimen322
+\pgfplots@ymin@reg=\dimen323
+\pgfplots@ymax@reg=\dimen324
+\pgfplots@zmin@reg=\dimen325
+\pgfplots@zmax@reg=\dimen326
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
@@ -774,16 +796,16 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count352
-\float@exts=\toks53
-\float@box=\box118
-\@float@everytoks=\toks54
-\@floatcapt=\box119
+\c@float@type=\count355
+\float@exts=\toks55
+\float@box=\box120
+\@float@everytoks=\toks56
+\@floatcapt=\box121
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count353
-\c@@ppsavesec=\count354
-\c@@ppsaveapp=\count355
+\c@@pps=\count356
+\c@@ppsavesec=\count357
+\c@@ppsaveapp=\count358
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
@@ -797,7 +819,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip68
 \bibsep=\skip69
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count356
+\c@NAT@ctr=\count359
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/fonts/old-arrows\old-arrows.sty
 Package: old-arrows 2017/01/05 v2.0 Old Arrows
 \symoasy=\mathgroup8
@@ -825,30 +847,30 @@ LaTeX Font Info:    Overwriting symbol font `lmsy' in version `bold'
 (Font)                  OMS/lmsy/m/n --> OMS/lmsy/b/n on input line 235.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2021/08/12 v3.8 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count357
+\FV@CodeLineNo=\count360
 \FV@InFile=\read5
-\FV@TabBox=\box120
-\c@FancyVerbLine=\count358
-\FV@StepNumber=\count359
+\FV@TabBox=\box122
+\c@FancyVerbLine=\count361
+\FV@StepNumber=\count362
 \FV@OutFile=\write4
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count360
-\lst@gtempboxa=\box121
-\lst@token=\toks55
-\lst@length=\count361
-\lst@currlwidth=\dimen322
-\lst@column=\count362
-\lst@pos=\count363
-\lst@lostspace=\dimen323
-\lst@width=\dimen324
-\lst@newlines=\count364
-\lst@lineno=\count365
-\lst@maxwidth=\dimen325
+\lst@mode=\count363
+\lst@gtempboxa=\box123
+\lst@token=\toks57
+\lst@length=\count364
+\lst@currlwidth=\dimen327
+\lst@column=\count365
+\lst@pos=\count366
+\lst@lostspace=\dimen328
+\lst@width=\dimen329
+\lst@newlines=\count367
+\lst@lineno=\count368
+\lst@maxwidth=\dimen330
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count366
-\lst@skipnumbers=\count367
-\lst@framebox=\box122
+\c@lstnumber=\count369
+\lst@skipnumbers=\count370
+\lst@framebox=\box124
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
@@ -861,9 +883,9 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 LaTeX Info: Redefining \_ on input line 43.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-08-01 v2.5 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count368
-\l__lipsum_a_int=\count369
-\l__lipsum_b_int=\count370
+\g__lipsum_par_int=\count371
+\l__lipsum_a_int=\count372
+\l__lipsum_b_int=\count373
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
@@ -876,7 +898,7 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 114.
+Package hyperref Info: Option `colorlinks' set `true' on input line 115.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
@@ -887,13 +909,13 @@ Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count371
+\c@abspage=\count374
 Package zref Info: New property: abspage on input line 66.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip74
-\c@mdf@globalstyle@cnt=\count372
+\c@mdf@globalstyle@cnt=\count375
 \mdf@skipabove@length=\skip75
 \mdf@skipbelow@length=\skip76
 \mdf@leftmargin@length=\skip77
@@ -936,11 +958,11 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
-\mdf@frametitlebox=\box123
-\mdf@footnotebox=\box124
-\mdf@splitbox@one=\box125
-\mdf@splitbox@two=\box126
-\mdf@splitbox@save=\box127
+\mdf@frametitlebox=\box125
+\mdf@footnotebox=\box126
+\mdf@splitbox@one=\box127
+\mdf@splitbox@two=\box128
+\mdf@splitbox@save=\box129
 \mdfsplitboxwidth=\skip114
 \mdfsplitboxtotalwidth=\skip115
 \mdfsplitboxheight=\skip116
@@ -968,16 +990,16 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip138
 \mdfsubtitleheight=\skip139
 \mdfsubsubtitleheight=\skip140
-\c@mdfcountframes=\count373
+\c@mdfcountframes=\count376
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count374
-\c@mdf@env@i=\count375
-\c@mdf@env@ii=\count376
-\c@mdf@zref@counter=\count377
+\mdf@envdepth=\count377
+\c@mdf@env@i=\count378
+\c@mdf@env@ii=\count379
+\c@mdf@zref@counter=\count380
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
@@ -999,7 +1021,7 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-\c@exercicio=\count378
+\c@exercicio=\count381
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/catchfilebetweentags\catchfilebetweentags.sty
 Package: catchfilebetweentags 2011/02/19 v1.1 - Catch file between tags (FC)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
@@ -1019,14 +1041,11 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@orf=\skip156
 )) (structure/macros.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\c@r@tfl@t=\count379
+\c@r@tfl@t=\count382
 \rotFPtop=\skip157
 \rotFPbot=\skip158
-\rot@float@box=\box128
-\rot@mess@toks=\toks56
+\rot@float@box=\box130
+\rot@mess@toks=\toks58
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty
 Package: tipa 2002/08/08 TIPA version 1.1
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -1069,19 +1088,20 @@ LaTeX Font Info:    Trying to load font information for T3+cmr on input line 12.
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 12.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count380
-\scratchdimen=\dimen326
-\scratchbox=\box129
-\nofMPsegments=\count381
-\nofMParguments=\count382
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count383
-\MPscratchDim=\dimen327
-\MPnumerator=\count384
-\makeMPintoPDFobject=\count385
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count383
+\scratchdimen=\dimen331
+\scratchbox=\box131
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen332
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks60
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
@@ -1105,7 +1125,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count386
+\c@section@level=\count389
 )
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
@@ -1114,6 +1134,13 @@ LaTeX Info: Redefining \nameref on input line 12.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1122,51 +1149,53 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-\c@lstlisting=\count387
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 14.
-(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 14.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 14.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 14.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 14.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 14.
- [1
+\c@lstlisting=\count390
 
 
-{C:/Users/55119/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (chapters/agradecimentos.tex
+pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/capa-samya-v1.pdf, id=106, 597.23125pt x 845.1575pt>
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf>
+Package pdftex.def Info: figures/capa-samya-v1.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf>
+Package pdftex.def Info: figures/capa-samya-v1.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./figures/capa-samya-v1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/capa-samya-v1.pdf, id=109, page=1, 597.23125pt x 845.1575pt>
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf, page 1>
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf, page 1>
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf, page 1>
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf, page 1>
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: figures/capa-samya-v1.pdf Graphic file (type pdf)
+<use figures/capa-samya-v1.pdf, page 1>
+Package pdftex.def Info: figures/capa-samya-v1.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+[1
+
+
+ <./figures/capa-samya-v1.pdf>] (chapters/agradecimentos.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1176,17 +1205,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2
 
-]
-Overfull \hbox (3.69041pt too wide) in paragraph at lines 3--4
-\T1/lmr/m/n/10.95 important end of cycle for me, and therefore, I need to thank those responsible
+{C:/Users/55119/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
+Overfull \hbox (0.2286pt too wide) in paragraph at lines 11--20
+\T1/lmr/m/sc/10.95 Guilherme Cerqueira Gonçalves \T1/lmr/m/n/10.95 and \T1/lmr/m/sc/10.95 Andrey Luan Gomes Contel\T1/lmr/m/n/10.95 .
  []
 
-
-Overfull \hbox (12.68901pt too wide) in paragraph at lines 5--6
-[]\T1/lmr/m/n/10.95 First of all, I couldn't forget to mention my parents: \T1/lmr/m/sc/10.95 Ricardo Mezzovilla
- []
-
-) (chapters/introduction.tex [3]
+(chapters/introduction.tex [3]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1197,25 +1221,49 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [4
 
 ]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 5.
-
-Overfull \hbox (8.55939pt too wide) in paragraph at lines 14--15
-\T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 ! \OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 for two $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 Morita-Rieffel equivalents,
- []
-
-
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 Overfull \hbox (5.6284pt too wide) in paragraph at lines 14--15
 \T1/lmr/m/n/10.95 dribbling the separability hypothesis. His doing occurs treating the mentioned
  []
 
 [5]
-Overfull \hbox (3.44852pt too wide) in paragraph at lines 22--23
-\T1/lmr/m/n/10.95 Exel's arguments is the Kasparov Stabilization Theorem [][]2.4.6[][] presented
- []
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 24.
-(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 26.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
@@ -1226,11 +1274,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
-Overfull \hbox (3.06682pt too wide) in paragraph at lines 26--27
+Overfull \hbox (3.06682pt too wide) in paragraph at lines 28--29
 []$[]$\T1/lmr/m/n/10.95 : Up to this point,
  []
 
 )
+Overfull \hbox (2.5657pt too wide) in paragraph at lines 31--22
+\T1/lmr/m/n/10.95 for some reader, i'd recommend the absolute masterpiece produced by Wegge-
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1268,6 +1320,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <24.88> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 1.
 
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 1.
@@ -1314,6 +1368,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [12]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 72.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 72.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <14.4> not available
@@ -1401,8 +1457,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-Overfull \hbox (6.32082pt too wide) in paragraph at lines 153--154
-\T1/lmr/m/n/10.95 compact operators in a infinite-dimensional Hilbert space $\OML/lmm/m/it/10.95 H$\T1/lmr/m/n/10.95 , i.e., $\OML/lmm/m/it/10.95 V\OT1/lmr/m/n/10.95 (\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 )) \OMS/lmsy/m/n/10.95 '
+Overfull \hbox (5.06361pt too wide) in paragraph at lines 153--154
+\T1/lmr/m/n/10.95 compact operators in a infinite-dimensional Hilbert space $\OML/lmm/m/it/10.95 H$\T1/lmr/m/n/10.95 , i.e. $\OML/lmm/m/it/10.95 V\OT1/lmr/m/n/10.95 (\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 )) \OMS/lmsy/m/n/10.95 '
  []
 
 
@@ -1431,6 +1487,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [17]
+Overfull \hbox (17.4719pt too wide) in paragraph at lines 255--256
+\T1/lmr/m/n/10.95 Many functorial properties like homotopy invariance, stability and half exactness
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1441,10 +1501,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [18]
 
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 278.
+(Font)              using `T1/lmr/m/scsl' instead on input line 280.
 
 
-Overfull \hbox (4.5833pt too wide) in paragraph at lines 285--286
+Overfull \hbox (4.5833pt too wide) in paragraph at lines 287--288
 []\T1/lmr/m/n/10.95 In order to show that the index is well defined, suppose that $\OML/lmm/m/it/10.95 y \OMS/lmsy/m/n/10.95 2 [][]\OT1/lmr/m/n/10.95 ([])$
  []
 
@@ -2120,89 +2180,89 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 14--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--25
 \T1/lmtt/m/n/10.95 journals / pacific-[]journal-[]of-[]mathematics / volume-[]71 / issue-[]2 /
  []
 
 
-Overfull \hbox (28.67848pt too wide) in paragraph at lines 14--20
+Overfull \hbox (28.67848pt too wide) in paragraph at lines 19--25
 \T1/lmtt/m/n/10.95 Stable-[]isomorphism-[]and-[]strong-[]Morita-[]equivalence-[]of-[]C-[]algebras /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 []\T1/lmr/m/n/10.95 Aweygan (https://math.stackexchange.com/users/234668/aweygan).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 \T1/lmr/m/n/10.95 Strictly positive element in unital $\OML/lmm/m/it/10.95 c[]$\T1/lmr/m/n/10.95 -algebra is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 \T1/lmr/m/n/10.95 invertible.  Mathematics Stack Exchange, 2020.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
 \T1/lmr/m/n/10.95 URL:https://math.stackexchange.com/q/3926191 (version: 2020-
  []
 
 [65
 
 ]
-Underfull \hbox (badness 1168) in paragraph at lines 90--96
+Underfull \hbox (badness 1168) in paragraph at lines 95--101
 []\T1/lmr/m/n/10.95 James A Mingo and William J Phillips.  Equivariant triviality
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 90--96
+Underfull \hbox (badness 1418) in paragraph at lines 95--101
 \T1/lmr/m/n/10.95 theorems for hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -modules.  \T1/lmr/m/it/10.95 Proceedings of the American
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 90--96
+Underfull \hbox (badness 2556) in paragraph at lines 95--101
 \T1/lmr/m/it/10.95 Mathematical Society\T1/lmr/m/n/10.95 , 91(2):225--230, 1984.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--96
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 \T1/lmtt/m/n/10.95 org / journals / proc / 1984-[]091-[]02 / S0002-[]9939-[]1984-[]0740176-[]0 /
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 98--104
+Underfull \hbox (badness 1902) in paragraph at lines 103--109
 []\T1/lmr/m/n/10.95 William L Paschke.  Inner product modules over $\OML/lmm/m/it/10.95 B[]$\T1/lmr/m/n/10.95 -algebras.
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 98--104
+Underfull \hbox (badness 6078) in paragraph at lines 103--109
 \T1/lmr/m/it/10.95 Transactions of the American Mathematical Society\T1/lmr/m/n/10.95 , 182:443--
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 98--104
+Underfull \hbox (badness 1521) in paragraph at lines 103--109
 \T1/lmr/m/n/10.95 468, 1973.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams . org / journals / tran / 1973-[]182-[]00 /
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 130--135
+Underfull \hbox (badness 4647) in paragraph at lines 135--140
 \T1/lmr/m/n/10.95 boundedness theorem.  \T1/lmr/m/it/10.95 The American Mathematical Monthly\T1/lmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--142
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
 []\T1/lmr/m/n/10.95 Johannes Ebert ([][]$\T1/lmtt/m/n/10.95 https : / / mathoverflow . net / users / 9928 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--142
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
 \T1/lmtt/m/n/10.95 johannes-[]ebert$[][]\T1/lmr/m/n/10.95 ).  Operators on hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -module and
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 137--142
+Underfull \hbox (badness 2799) in paragraph at lines 142--147
 \T1/lmr/m/n/10.95 families of fredholm operators.  MathOverflow.  URL:[][]$\T1/lmtt/m/n/10.95 https :
  []
 
@@ -2213,7 +2273,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[66]) 
+[66]
+
+LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
+(Font)              using `T1/lmr/m/scsl' instead on input line 150.
+
+) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2234,13 +2299,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C425E39DB3C0F8B803E6CE4DE3DC9FA6;3783.
  ) 
 Here is how much of TeX's memory you used:
- 47016 strings out of 478927
- 1047642 string characters out of 2852535
- 1653771 words of memory out of 3000000
- 63624 multiletter control sequences out of 15000+600000
- 665120 words of font info for 290 fonts, out of 8000000 for 9000
+ 47694 strings out of 478927
+ 1059228 string characters out of 2852535
+ 1667048 words of memory out of 3000000
+ 64279 multiletter control sequences out of 15000+600000
+ 657458 words of font info for 281 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,29n,93p,53577b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,29n,93p,53572b,1948s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
@@ -2273,10 +2338,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
-Output written on main.pdf (67 pages, 1134570 bytes).
+{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
+Output written on main.pdf (67 pages, 1170481 bytes).
 PDF statistics:
- 1185 PDF objects out of 1200 (max. 8388607)
- 326 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1187 PDF objects out of 1200 (max. 8388607)
+ 328 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

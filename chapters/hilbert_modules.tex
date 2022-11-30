@@ -164,7 +164,7 @@ holds for all $x\in E$ and $a\in A$, showing that $(x\sub u\lambda a)_\lambda$ c
 %        \begin{eqspaced*}{(n,m \geq n(\ep))}
 %        \Big\|\sum_{i\in I} \inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}} \Big\| < \ep
 %        \end{eqspaced*}
-%        Since all elements are positive, $\|\inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}}\| < \ep$ for each and every index $i$. No surprises in noticing that each $(x_i^{(n)})_{n\in \N} \subset E_i$ is a Cauchy sequence inside a Banach space, i.e., there exists $x_i \coloneqq \lim_{n\to \infty} x_i^{(n)}$.
+%        Since all elements are positive, $\|\inner{x_i^{(n)}-x_i^{(m)}}{x_i^{(n)}-x_i^{(m)}}\| < \ep$ for each and every index $i$. No surprises in noticing that each $(x_i^{(n)})_{n\in \N} \subset E_i$ is a Cauchy sequence inside a Banach space, i.e. there exists $x_i \coloneqq \lim_{n\to \infty} x_i^{(n)}$.
         
 %        We must verify that $\sum_i \inner{x_i}{x_i}$ does in fact converge in $A$. Fixing $\ep$ once and for all, get yourself a finite index set $F \subset I$ such that 
 %        \begin{eqspaced*}{(F\subset J \subset I)}
@@ -294,7 +294,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
     \begin{equation*}
     \inner{\left(\sub a{1}, \sub b{1}\right)}{\left(\sub a{2}, \sub b{2}\right)} = \sub a{2}^{*} \sub a{1}+\sub b{2}^{*} \sub b{1}
     \end{equation*}
-    for $\sub a1, \sub a2 \in J$ and $\sub b1, \sub b2 \in A$. In this new space we have $\sub{\|(a, b)\|}{J\times A}^2=\left\|a^{*} a+b^* b\right\|\leq \|a\|^{2}+\|b\|^{2}$, hence $\sub{\|\come\|}{J\times A}$ is complete, i.e., $J\times A$ is a Hilbert module. 
+    for $\sub a1, \sub a2 \in J$ and $\sub b1, \sub b2 \in A$. In this new space we have $\sub{\|(a, b)\|}{J\times A}^2=\left\|a^{*} a+b^* b\right\|\leq \|a\|^{2}+\|b\|^{2}$, hence $\sub{\|\come\|}{J\times A}$ is complete, i.e. $J\times A$ is a Hilbert module. 
     
     The operator $T(a,b)\coloneqq (0,a)$ for each $(a,b) \in J\times A$ is obviously a bounded one, but if we suppose that there exists $T^*$ and let $(x,y) \coloneqq T^*(0,1)$, notice that
     \begin{equation*}
@@ -304,7 +304,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
 \end{contraexemplo}
     
 \begin{contraexemplo}
-    Let $X\in \CHaus$ and $Y \subset X$ a closed non-empty subset with dense complement. Let $E \coloneqq \big\{f \in C(X) \mid f(Y) = \{0\}\big\}$ and $\iota : E \longhookrightarrow C(X)$ the bounded inclusion map. If $\iota$ were adjointable, $E \ni \iota^*(\sub\Id{C(X)}) = \sub\Id{C(X)} \notin E$, i.e., the inclusion is a non-adjointable bounded operator.
+    Let $X\in \CHaus$ and $Y \subset X$ a closed non-empty subset with dense complement. Let $E \coloneqq \big\{f \in C(X) \mid f(Y) = \{0\}\big\}$ and $\iota : E \longhookrightarrow C(X)$ the bounded inclusion map. If $\iota$ were adjointable, $E \ni \iota^*(\sub\Id{C(X)}) = \sub\Id{C(X)} \notin E$, i.e. the inclusion is a non-adjointable bounded operator.
 \end{contraexemplo}
         
 \begin{proposicao}
@@ -333,7 +333,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
     \begin{eqspaced}{(x\in E)}
     \inner{Tx}x = \inner{S^*Sx}{x} = \inner{Sx}{Sx} \bilateral{-0.25cm}{\overset{\ref{def: pre-hilb module}\ref{def item: positivo definido}}\geq} 0.
     \end{eqspaced}
-    Conversely, positive elements are self-adjoint, i.e., $\inner{Tx}x = \inner{x}{Tx}$. From the polarization identity \ref{eq: polarization}, one can see that $\inner{Tx}y = \inner{x}{Ty}$ for all $x,y \in E$, showing that $T$ is self-adjoint. By the Hahn decomposition\footnote{Every element $a\in A$ in a $C^*$-algebra can be written as $a = a_+-a_-$ with $a_+, a_-\geqslant 0$, $a_+a_-=a_-a_+=0$. This is called the Hahn decomposition.}, there exists two positive elements $T_+$ and $T_-$ such that $T = T_+-T_-$ and $T_+T_-= T_+T_- = 0$. Then $\langle T_{-} y, y\rangle \leq\langle T_{+} y, y\rangle$ for any $y \in E$. In particular,
+    Conversely, positive elements are self-adjoint, i.e. $\inner{Tx}x = \inner{x}{Tx}$. From the polarization identity \ref{eq: polarization}, one can see that $\inner{Tx}y = \inner{x}{Ty}$ for all $x,y \in E$, showing that $T$ is self-adjoint. By the Hahn decomposition\footnote{Every element $a\in A$ in a $C^*$-algebra can be written as $a = a_+-a_-$ with $a_+, a_-\geqslant 0$, $a_+a_-=a_-a_+=0$. This is called the Hahn decomposition.}, there exists two positive elements $T_+$ and $T_-$ such that $T = T_+-T_-$ and $T_+T_-= T_+T_- = 0$. Then $\langle T_{-} y, y\rangle \leq\langle T_{+} y, y\rangle$ for any $y \in E$. In particular,
     $$
     \langle T_{-}^{3} x, x\rangle=\langle T_{-}^{2} x, T_{-} x\rangle \leq\langle T_{+} T_{-} x, T_{-} x\rangle=0 .
     $$
@@ -410,7 +410,7 @@ finite-dimensional, and so do $X$.}.
 %\begin{eqspaced}{(y\in E)}
 %\inner z{z(Ty)-y(Tz)} = 0
 %\end{eqspaced}
-%i.e., $Ty = \inner{(Tz)^*z}{y}$.
+%i.e. $Ty = \inner{(Tz)^*z}{y}$.
 %\end{proof}
 
 \begin{proposicao}\label{prop: H_A resgata nocao de compacto}
@@ -435,7 +435,7 @@ $\left.\right.$
 \end{array}
     \end{eqspaced*}
 Since $\|p_{n} y\|$ tends to zero, the same is true for the norm of the restriction of the operator $\Omega_{x}^{}\Omega_{y}^{*}$ to the submodule $L_{n}(\HA)^{\perp}$, hence, for the norm of any compact operator $K$.
-    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Leftarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] For a operator $K \in \adj(\HA)$, suppose that $\|K \sub\restrita{L_n(A)^{\perp}}\|$ vanishes when $n\to \infty$. If $z$ is an orthogonal element with respect to $L_n(A)$, i.e., $\inner{e_i}{z} =0$ for any $i \leq n$, notice that if $e^n\coloneqq (\sub e1, \ldots, e_n)$, then $\Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)= 0$. Therefore:
+    \item[$\ref{prop item: prop: H_A resgata nocao de compacto (i)} \Leftarrow \ref{prop item: prop: H_A resgata nocao de compacto (ii)}$] For a operator $K \in \adj(\HA)$, suppose that $\|K \sub\restrita{L_n(A)^{\perp}}\|$ vanishes when $n\to \infty$. If $z$ is an orthogonal element with respect to $L_n(A)$, i.e. $\inner{e_i}{z} =0$ for any $i \leq n$, notice that if $e^n\coloneqq (\sub e1, \ldots, e_n)$, then $\Omega_{Ke^n}^{\vphantom{*}}\Omega_{e^n}^*(z)= 0$. Therefore:
     \begin{equation*}
         \begin{array}{rl}
             & \lim\limits_{n\to \infty} \sup\limits_{\substack{ z \in L_n(A)^{\perp} \\ \|z\| \leq 1}} \Big\| Kz - \sum\limits_{i=1}^n Ke_i \inner{e_i}z\Big\|\\
@@ -528,19 +528,19 @@ Extending coordinate-wise, let $Ty \coloneqq \coord{Ty}n $ and notice that, for 
         &=& \Omega_{(Ty,w)}\Omega_{(x,S^*z)}^*. 
     \end{array}
 \end{eqspaced*}
-Therefore, any $\adj(M)$-linear combination of finite rank operators is itself a finite rank one, as showed above, i.e., ${\textsc{FR}}(M) \triangleleft \adj(M)$.
+Therefore, any $\adj(M)$-linear combination of finite rank operators is itself a finite rank one, as showed above, i.e. ${\textsc{FR}}(M) \triangleleft \adj(M)$.
 \end{proof}
 \end{proposicao}
 
 \begin{proposicao}
 \label{prop: identidade compacta eh de rank finito}
-If the identity $\sub\Id E$ in a Hilbert module $E$ is a compact operator, then $E$ has finite rank, i.e., $\sub \Id E \in \mathscr K(E) \Rightarrow \sub\Id E \in \operatorname{FR}(E)$. 
+If the identity $\sub\Id E$ in a Hilbert module $E$ is a compact operator, then $E$ has finite rank, i.e. $\sub \Id E \in \mathscr K(E) \Rightarrow \sub\Id E \in \operatorname{FR}(E)$. 
 \begin{proof}
 Suppose that $\sub\Id M$ is a compact operator in a given Hilbert module $E$. By construction, $\operatorname{FR}(E)$ is a dense subset of compact operators, so every open non empty set $U \subset \mathscr K({E})$ obeys
 \begin{eqspaced*}{(U \subset \mathscr K(E))}
 U \cap \operatorname{FR}({E}) \neq \varnothing
 \end{eqspaced*}
-Since $\mathscr K({E})$ is a unital ${C}^{*}$-algebra, the invertible operators $\mathrm{GL}(\mathscr K({E}))$ constitute a non empty open set, hence there is a finite-rank invertible operator $F \in \GL(\mathscr K(E)) \cap \operatorname{FR}(E)$. Since $\operatorname{FR}({E})$ contains an invertible and is an ideal, it follows that  $\sub\Id E = F\inv F \in \operatorname{FR}({E})$, i.e., the identity has finite rank.
+Since $\mathscr K({E})$ is a unital ${C}^{*}$-algebra, the invertible operators $\mathrm{GL}(\mathscr K({E}))$ constitute a non empty open set, hence there is a finite-rank invertible operator $F \in \GL(\mathscr K(E)) \cap \operatorname{FR}(E)$. Since $\operatorname{FR}({E})$ contains an invertible and is an ideal, it follows that  $\sub\Id E = F\inv F \in \operatorname{FR}({E})$, i.e. the identity has finite rank.
 \end{proof}
 \end{proposicao}
 
@@ -549,12 +549,12 @@ In order to fully characterize finite rank Hilbert Modules over a given $C^*$-al
 
 %\begin{invocacao}[\cite{liu2019polar}, Theorems 3.8 and 3.13]
 %\label{invo: existencia de decomposicao polar}
-%Let $T\in \adj(M,N)$ be an adjointable operator between Hilbert modules $M,N$ over a given $C^*$-algebra. If the closed image subspaces $\con{\Im T}$, $\con{\Im T^*}$ are both orthogonally complemented\footnote{$N = \con{\Im T^*} \oplus \con{\Im T^*}^\perp$}, then there is \textit{partial isometry} $U \in \adj(M,N)$ (i.e., $U^*U$ is a projection operator) which satisfies
+%Let $T\in \adj(M,N)$ be an adjointable operator between Hilbert modules $M,N$ over a given $C^*$-algebra. If the closed image subspaces $\con{\Im T}$, $\con{\Im T^*}$ are both orthogonally complemented\footnote{$N = \con{\Im T^*} \oplus \con{\Im T^*}^\perp$}, then there is \textit{partial isometry} $U \in \adj(M,N)$ (i.e. $U^*U$ is a projection operator) which satisfies
 %\begin{equation}
 %\label{eq: T=U|T| e ker T subset ker U}
 %    T = U |T| \e \ker T \subset \ker U
 %\end{equation}
-%and it is the unique polar decomposition of $T$, i.e., %$U^*U$ is the projection over $\con{\Im T^*}$.
+%and it is the unique polar decomposition of $T$, i.e. %$U^*U$ is the projection over $\con{\Im T^*}$.
 %\end{invocacao}
 
 %The hypothesis of $\con{\Im T^*}$ beeing orthogonally complemented cannot be discarded. Over familiar Hilbert spaces, this is allways the case, which unfortunatelly mustn't be the case at this general view:
@@ -574,7 +574,7 @@ In order to fully characterize finite rank Hilbert Modules over a given $C^*$-al
 \begin{teorema}\label{teo: M rank finito sse M = pA^n}
 A Hilbert module $M$ has finite rank if, and only if, there exists an idempotent matrix $p\in \mathbb M_{n\times n}(A)$ such that $M$ is isomorphic, as Hilbert $A$-modules, to $p A^{n}$.
 \begin{proof}
-Assume that $M$ has finite rank, i.e., $\Id = \Omega_y\Omega_x^*$ for some $x,y \in M^n$. As presented in (\ref{eq: Omega_x^*Omega_y eh idempotente}), $\Omega_x^*\Omega_y \in \adj(A^n)$ is an idempotent operator, which corresponds to left multiplication by the idempotent matrix $p\coloneqq (\inner{x_i}{y_j})_{i,j} \in \mathbb M_{n\times n}(A)$.
+Assume that $M$ has finite rank, i.e. $\Id = \Omega_y\Omega_x^*$ for some $x,y \in M^n$. As presented in (\ref{eq: Omega_x^*Omega_y eh idempotente}), $\Omega_x^*\Omega_y \in \adj(A^n)$ is an idempotent operator, which corresponds to left multiplication by the idempotent matrix $p\coloneqq (\inner{x_i}{y_j})_{i,j} \in \mathbb M_{n\times n}(A)$.
 \begin{equation}
 \label{eq: Omega_x^*Omega_y eh idempotente}
     \Id = \Omega_y \Omega_x^* \To \Omega_x^* = (\Omega_x^*\Omega_y) \Omega_x^* \To \Omega_x^*\Omega_y = (\Omega_x^*\Omega_y)^2
@@ -584,7 +584,7 @@ Assume that $M$ has finite rank, i.e., $\Id = \Omega_y\Omega_x^*$ for some $x,y 
 \begin{equation*}
     \function{T{pA^n}{M}{pa}{\Omega_ya}}
 \end{equation*}
-That operator show us that $\Omega_x^*$ is an invertible operator: Given $a\in A^n$, $\xi \in M$,  one obtains that $\Omega_x^* T(pa) = \Omega_x^*\Omega_ya = pa$ and $T\Omega_x^* \xi = T(p\Omega_x^*\xi) = \Omega_y\Omega_x^*\xi = \xi$, i.e., $T = \inv{\Omega_x^*}$.
+That operator show us that $\Omega_x^*$ is an invertible operator: Given $a\in A^n$, $\xi \in M$,  one obtains that $\Omega_x^* T(pa) = \Omega_x^*\Omega_ya = pa$ and $T\Omega_x^* \xi = T(p\Omega_x^*\xi) = \Omega_y\Omega_x^*\xi = \xi$, i.e. $T = \inv{\Omega_x^*}$.
 %    \item \label{item:(ii) ida M rank finito sse M=pA^n}\textbf{$\boldsymbol{\con{\Im \Omega_x^*}}$ and $\boldsymbol{\con{\Im \Omega_x}}$ are orthogonally complementable}: 
 %\item \textbf{$\boldsymbol{\Omega_x^*}$ is an isomorphism of Hilbert modules}: As in traditional Hilbert spaces, we must check that
 %\begin{eqspaced}{(\xi,\zeta \in M)}
@@ -619,7 +619,7 @@ If $a$ is a positive element in a $C^*$-algebra $A$ and $\phi(a) \neq 0$ for all
 \begin{proposicao}
 A positive element $a\geqslant 0$ in a unitary $C^*$-algebra is strictly positive if and only if it is a invertible element.
 \begin{proof}[Proof due to \cite{aweygan2020}] 
-Suppose $a\in A$ is strictly positive.  Since $A$ is unital, the state space of $A$ is weak$^*$-compact, and it follows that the element $\varepsilon:=\inf\{\phi(a)\mid \phi\text{ is a state on }A\}$ is strictly positive, i.e., $\ep >0$. Therefore $a-\varepsilon$ is a positive element, so that the spectrum of $a$ is contained in $[\varepsilon,\infty)$, i.e., $a$ is invertible since $0$ is not in the spectrum of $a$.
+Suppose $a\in A$ is strictly positive.  Since $A$ is unital, the state space of $A$ is weak$^*$-compact, and it follows that the element $\varepsilon:=\inf\{\phi(a)\mid \phi\text{ is a state on }A\}$ is strictly positive, i.e. $\ep >0$. Therefore $a-\varepsilon$ is a positive element, so that the spectrum of $a$ is contained in $[\varepsilon,\infty)$, i.e. $a$ is invertible since $0$ is not in the spectrum of $a$.
 
 Conversely, suppose that a element $a\in A$ is positive and invertible. Whence, its spectrum is a compact subset of $(0,\infty)$, and thus $a-\varepsilon$ is positive for some $\varepsilon>0$.  If $\phi$ is a non-zero positive linear functional on $A$, we have
 \begin{equation*}
@@ -639,11 +639,11 @@ Conjure the following statement:
     Let $A$ be a $C^{*}$-algebra and $L, L^{\prime}$ two closed left ideals of $A$ such that $L \subseteq L^{\prime}$. Suppose every positive form on $A$ that vanishes on $L$ also vanishes on $L^{\prime}$. Then $L=L^{\prime}$.
     \end{invocacao}
 \end{quote}
-Suppose that $L \coloneqq aA\subset A \eqqcolon L'$ isn't dense, i.e., $L \neq L'$. By the summoning, there is a state of $A$ vanishing on $aA$. Such a state must vanish on $a$, so $a$ is not strictly positive. Conversely, if $\phi$ is a state which $\phi(a)=0$. Then, by Cauchy-Schwarz inequality for states:
+Suppose that $L \coloneqq aA\subset A \eqqcolon L'$ isn't dense, i.e. $L \neq L'$. By the summoning, there is a state of $A$ vanishing on $aA$. Such a state must vanish on $a$, so $a$ is not strictly positive. Conversely, if $\phi$ is a state which $\phi(a)=0$. Then, by Cauchy-Schwarz inequality for states:
 \begin{eqspaced*}{(b\in A)}
     |\phi(ab)|^2 \leqslant \phi(b^*b)\phi(a^*a) = 0
 \end{eqspaced*}
-i.e., $\phi$ vanishes on $aA$, hence it is not dense.
+i.e. $\phi$ vanishes on $aA$, hence it is not dense.
 \end{proof}
 \end{lema}
 
@@ -651,7 +651,7 @@ i.e., $\phi$ vanishes on $aA$, hence it is not dense.
 \label{prop: T > 0 sse Im T densa}
 Let $E$ be a Hilbert $A$-module and $T$ a positive element in the $C^*$-algebra $\mathscr K(E)$. Then $T$ is strictly positive if and only if $T$ has dense range.
 \begin{proof}
-If $T$ is strictly positive, by \ref{lema: a > 0 sse aA denso em A} then $\con{T\mathscr K(E)} = \mathscr K(E)$. Since $\con{\mathscr K(E)E} = E$, we have that $\con{\Im T} = \con{T\mathscr K(E)E} = \con{\mathscr K(E)E} = E$, i.e., $T$ has dense image. Conversely, suppose that $T$ has dense range. Therefore, for any $x,y \in E$, choose a sequence $(z_n)_n\subset E$ with $Tz_n \longto x$. Therefore,
+If $T$ is strictly positive, by \ref{lema: a > 0 sse aA denso em A} then $\con{T\mathscr K(E)} = \mathscr K(E)$. Since $\con{\mathscr K(E)E} = E$, we have that $\con{\Im T} = \con{T\mathscr K(E)E} = \con{\mathscr K(E)E} = E$, i.e. $T$ has dense image. Conversely, suppose that $T$ has dense range. Therefore, for any $x,y \in E$, choose a sequence $(z_n)_n\subset E$ with $Tz_n \longto x$. Therefore,
 \[
 \Omega_x^{\vphantom{*}}\Omega_y^* = \lim_{n\to \infty} T\Omega_{z_n}^{\vphantom{*}}\Omega_y^* \in \con{T\mathscr K(E)}.
 \]
@@ -667,7 +667,7 @@ If $M$ is a countably generated Hilbert $A$-module, then $\HA \simeq M\oplus \HA
 \begin{proof}
 Consider the case only when $M$ is Hilbert $\widetilde{A}$-module, which is sufficient since $\con{MA} = M$ and $\con{\HA A} = \HA$. Therefore, assume that $A$ is a unital $C^*$-algebra.
 
-Let $(\eta_n)_n$ be a bounded sequence of generators for $M$, with each generator repeated infinitely often. Let $(\sub e n)_n$ be the canonical orthonormal basis for $\HA$, i.e., only the $n$-th coordinate of $\sub e n$ is 1 and 0 elsewhere. Define $T:\HA\longto M\oplus \HA$ linearly extending by $T\sub e n \coloneqq 2^{-n} \eta_n + 4^{-n}\sub e n$. Notice that, for the elements $\zeta_n \coloneqq \eta_n+2^{-n}\sub e n$, $T$ can be written as
+Let $(\eta_n)_n$ be a bounded sequence of generators for $M$, with each generator repeated infinitely often. Let $(\sub e n)_n$ be the canonical orthonormal basis for $\HA$, i.e. only the $n$-th coordinate of $\sub e n$ is 1 and 0 elsewhere. Define $T:\HA\longto M\oplus \HA$ linearly extending by $T\sub e n \coloneqq 2^{-n} \eta_n + 4^{-n}\sub e n$. Notice that, for the elements $\zeta_n \coloneqq \eta_n+2^{-n}\sub e n$, $T$ can be written as
 \begin{equation*}
 T = \sum_{n=1}^\infty 2^{-n} \Omega^{\vphantom{*}}_{\zeta_n}\Omega^*_{\sub e n} =  \sum_{n=1}^\infty 2^{-n} (\eta_n+2^{-n}\sub e n)\inner{\sub e n}{\come}.
 \end{equation*}
@@ -703,7 +703,7 @@ Hence $T^*T \geqslant S^*S$. Notice that $S^*S$ has dense range, and by \ref{pro
 \end{corolario}
 
 \begin{proposicao}
-    A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e., is $\sigma$-unital.
+    A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e. is $\sigma$-unital.
 
     \begin{proof}
         If $A$ is unital and $(e_n)_n \subset \HA$ is the canonical orthonormal basis, the operator $h \coloneqq \sum_n 2^{-n} e_n \inner{e_n}{\come}$ is a strictly positive element in $\mathscr K(\HA)$ since it has dense range. If $P\in \adj(\HA)$ is an idempotent self-adjoint operator, then $PhP$ is strictly positive in $\mathscr K(P\HA)$. Finally, notice that $A$ is countably generated if, and only if $\widetilde{A}$ is countably generated. Therefore $\sub{\mathscr K}A(E) = \sub{\mathscr K}{\widetilde{A}}(E)$ is $\sigma$-unital if, and only if $E$ is countably generated.
@@ -711,7 +711,7 @@ Hence $T^*T \geqslant S^*S$. Notice that $S^*S$ has dense range, and by \ref{pro
 \end{proposicao}
 
 %\begin{proposicao}
-%A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e., is $\sigma$-unital.
+%A Hilbert $A$-module $E$ is countably generated if, and only if $\mathscr K(E)$ contains a strictly positive element, i.e. is $\sigma$-unital.
 %\begin{proof}
 %Assume that $E$ is countably generated and let $\sub\Pi E: E \oplus \HA \longtwoheadrightarrow E\oplus \HA$ be the projection into $E$. Then $E \simeq \sub\Pi E(E\oplus \HA)$. By Kasparov Stabilization theorem \ref{teo: kasparov stabilization}, let $U\in \mathscr K(\HA, E\oplus \HA)$ be the isomorphism given. Notice that it is a $*$-isomorphism the conjugation map:
 %\begin{equation*}
@@ -825,7 +825,7 @@ In light of the \ref{prop: identidade compacta eh de rank finito}, ${\Im P}$ is 
 \end{proposicao}
 
 \begin{observacao}\label{obs: idempotente gerando inversivel}
-    The range of an idempotent operator coincide with the range of some projection, i.e., self-adjoint idempotent operator. To see this, suppose that $a\in A$ is an idempotent in a unital $C^*$-algebra $A$.  Let
+    The range of an idempotent operator coincide with the range of some projection, i.e. self-adjoint idempotent operator. To see this, suppose that $a\in A$ is an idempotent in a unital $C^*$-algebra $A$.  Let
     \[
     h \coloneqq 1 + (a-a^*)(a^*-a) = 1 + aa^* - a^* - a + a^*a
     \]
@@ -874,7 +874,7 @@ The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the cla
 
 
 \begin{lema}\label{lema: [P]_0 = [Q]_0 ---> [p]_0 = [q]_0}
-    Let $E$ be a Hilbert module and $P, Q \in \adj(E)$ be two compact idempotent operators, and let $p$ and $q$ be the idempotent square matrices given in the proof of Theorem \ref{teo: M rank finito sse M = pA^n}. If $P$ and $Q$ are similar, i.e., there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
+    Let $E$ be a Hilbert module and $P, Q \in \adj(E)$ be two compact idempotent operators, and let $p$ and $q$ be the idempotent square matrices given in the proof of Theorem \ref{teo: M rank finito sse M = pA^n}. If $P$ and $Q$ are similar, i.e. there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
     \begin{proof}
         We have that $P = uQ\inv u$, $\Im P \simeq pA^n$ and $\Im Q \simeq qA^n$. Since their ranges are finite-rank modules (\ref{obs: idempotente gerando inversivel} and \ref{prop: compacto idempotente eh rank finito}), there are $x,y \in (\Im P)^n$ and $z,w \in (\Im Q)^m$ such that 
         $$P = \sub\Id{\Im P} = \Omega_{y}^{\,}\Omega_x^* \e Q = \sub\Id{\Im Q} = \Omega_{w}^{\,}\Omega_z^*.$$ 
@@ -912,7 +912,7 @@ T=\begin{pmatrix}
 $$
 where $\sub{T}{Z X}$ is in $\adj(X, Z)$ and similarly for the other matrix entries. Matrix notation is used to define our next important concept.
 
-We are in touch with pretty algebraic properties of Hilbert modules, and in our case of finite rank ones. Since those modules can be seen as projective finitely generated, an algebraist might convince you that two generators $[M]_0,[N]_0 \in K_0(A)$ are equal if, and only if they are \textit{stably-isomorphic}, i.e., there exists $n$ such that $ M \oplus A^n \simeq N \oplus A^n$. We will present a generalization of this concept in terms of the \rank, darkly hidden:
+We are in touch with pretty algebraic properties of Hilbert modules, and in our case of finite rank ones. Since those modules can be seen as projective finitely generated, an algebraist might convince you that two generators $[M]_0,[N]_0 \in K_0(A)$ are equal if, and only if they are \textit{stably-isomorphic}, i.e. there exists $n$ such that $ M \oplus A^n \simeq N \oplus A^n$. We will present a generalization of this concept in terms of the \rank, darkly hidden:
 
 \begin{definicao}[Quasi-stably-isomorphic finite rank]
 \label{def: quasi-stabli-isomorphic}
@@ -979,7 +979,7 @@ in order that each $\mathscr C_n$ satisfies \ref{item: imagens contidas no gerad
     \[
     w = r(\inv r(w)) \in \mathscr C_n \cup r(\mathscr C_n) \subset \mathscr C_{n+1} \subset \mathscr C
     \]
-    i.e., it cant be the case.
+    i.e. it cant be the case.
 \end{enumerate}
 
 Let $X' \coloneqq \con{\langle{\mathscr C}\rangle}$ be the Hilbert submodule of $X$ generated by $\mathscr C$. Because of \ref{item: imagens contidas no gerador} and \ref{item: (iii)} we see that 
@@ -1089,7 +1089,7 @@ is a lift of $\diag(\pi(F), \pi(F)^{-1})$, and its inverse just swaps $F$ and $G
     &=& \left[\Id - GF\right]_0 - \left[\Id - FG\right]_0
  \end{array}
 \end{equation*}
-Hence $[\Id - FG]_0 = [\Id - GF]_0$ and by the corollary \ref{corol: [P]_0 =[Q]_0 ---> rank(P) = rank(Q)}, one obtains that $\rank(\Id-FG) = \rank(\Id - GF)$. We had seen that $\Id - FG = \inv\varphi \sub\Pi{M}\varphi$, i.e., $\Im(\Id - FG) \simeq M$. Therefore:
+Hence $[\Id - FG]_0 = [\Id - GF]_0$ and by the corollary \ref{corol: [P]_0 =[Q]_0 ---> rank(P) = rank(Q)}, one obtains that $\rank(\Id-FG) = \rank(\Id - GF)$. We had seen that $\Id - FG = \inv\varphi \sub\Pi{M}\varphi$, i.e. $\Im(\Id - FG) \simeq M$. Therefore:
 \begin{equation*}
     \rank(M) = [M]_0 = [\Im(\Id - FG)]_0 = \rank(\Id-FG).
 \end{equation*} 
