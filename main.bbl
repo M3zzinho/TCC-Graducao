@@ -1,19 +1,34 @@
 \begin{thebibliography}{10}
 
+\bibitem{abadie1996hilbert}
+Beatriz Abadie and Ruy Exel.
+\newblock Hilbert \ensuremath{C^*}-bimodules over commutative
+  \ensuremath{C^*}-algebras and an isomorphism condition for quantum heisenberg
+  manifolds.
+\newblock {\em arXiv preprint funct-an/9609001}, 1996.
+\newblock \url{http://mtm.ufsc.br/~exel/papers/picard.pdf}.
+
 \bibitem{aliprantisinfinite}
 Ch~D Aliprantis and KC~Border.
 \newblock Infinite dimensional analysis, 1994.
+
+\bibitem{applebaum1988quantum}
+David Applebaum.
+\newblock Quantum stochastic parallel transport on non-commutative vector
+  bundles.
+\newblock In {\em Quantum Probability and Applications III}, pages 20--36.
+  Springer, 1988.
+
+\bibitem{atiyah1959riemann}
+Michael~F Atiyah and Friedrich Hirzebruch.
+\newblock Riemann-roch theorems for differentiable manifolds.
+\newblock {\em Bulletin of the American Mathematical Society}, 65(4):276--281,
+  1959.
 
 \bibitem{blackadar1998k}
 Bruce Blackadar.
 \newblock {\em K-theory for operator algebras}, volume~5.
 \newblock Cambridge University Press, 1998.
-
-\bibitem{borel1958theoreme}
-Armand Borel and Jean-Pierre Serre.
-\newblock Le th{\'e}or{\`e}me de riemann-roch.
-\newblock {\em Bulletin de la Soci{\'e}t{\'e} math{\'e}matique de France},
-  86:97--136, 1958.
 
 \bibitem{brown1977morita}
 Lawrence Brown, Philip Green, and Marc Rieffel.
@@ -29,6 +44,10 @@ Lawrence Brown, Philip Green, and Marc Rieffel.
   \ensuremath{C^*}-algebras.
 \newblock {\em Pacific Journal of Mathematics}, 71(2):349--363, 1977.
 
+\bibitem{browlowe2004exel}
+Nathan Brownlowe and Iain Raeburn.
+\newblock Exel's crossed product and relative cuntz-pimsner algebras, 2004.
+
 \bibitem{dixmier1982c}
 J.~Dixmier.
 \newblock {\em \ensuremath{C^*}-Algebras}.
@@ -43,7 +62,7 @@ Asen~L Dontchev.
 \bibitem{exel7fredholm}
 Ruy Exel.
 \newblock A fredholm operator approach to morita equivalence.
-\newblock {\em K-Theory}, 7(3), 1993.
+\newblock {\em \ensuremath{K}-Theory}, 7(3), 1993.
 \newblock \url{http://mtm.ufsc.br/~exel/papers/morita.pdf}.
 
 \bibitem{aweygan2020}
@@ -62,11 +81,6 @@ Kjeld~Knudsen Jensen and Klaus Thomsen.
 Irving Kaplansky.
 \newblock Modules over operator algebras.
 \newblock {\em American Journal of Mathematics}, 75(4):839--858, 1953.
-
-\bibitem{karoubi2008k}
-Max Karoubi.
-\newblock {\em \ensuremath{K}-Theory: An Introduction}, volume 226.
-\newblock Springer Science \& Business Media, 2008.
 
 \bibitem{kasparov1980stinespring}
 G.~G. KASPAROV.
@@ -132,6 +146,18 @@ Marc~A Rieffel.
 \newblock
   \url{https://www.sciencedirect.com/science/article/pii/0001870874900681}.
 
+\bibitem{robertson2011extensions}
+David Robertson.
+\newblock Extensions of hilbert bimodules and associated cuntz-pimsner
+  algebras.
+\newblock {\em arXiv preprint arXiv:1105.1615}, 2011.
+\newblock \url{https://arxiv.org/pdf/1105.1615.pdf}.
+
+\bibitem{Schafhauser2015CuntzPimsner}
+Christopher Schafhauser.
+\newblock Cuntz-pimsner algebras, crossed products, and \ensuremath{K}-theory,
+  2015.
+
 \bibitem{sokal2011uniform}
 Alan~D. Sokal.
 \newblock A really simple elementary proof of the uniform boundedness theorem.
@@ -150,5 +176,11 @@ Johannes~Ebert (\url{https://mathoverflow.net/users/9928/johannes-ebert}).
 Niels~Erik Wegge-Olsen.
 \newblock {\em K-theory and \ensuremath{\textsc{C}^*}-algebras.}
 \newblock Oxford university press, 1993.
+
+\bibitem{woronowicz1991unbounded}
+Stanis{\l}aw~Lech Woronowicz.
+\newblock Unbounded elements affiliated with \ensuremath{C^*}-algebras and
+  non-compact quantum groups.
+\newblock {\em Communications in mathematical physics}, 136(2):399--432, 1991.
 
 \end{thebibliography}
