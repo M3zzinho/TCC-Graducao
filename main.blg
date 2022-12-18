@@ -5,46 +5,47 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: ref.bib
-Warning--there's a number but no series in raeburn1998morita
-You've used 30 entries,
+Warning--I didn't find a database entry for "brown1977morita"
+Warning--I didn't find a database entry for "raeburn1998morita"
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            683 strings with 9080 characters,
-and the built_in function-call counts, 8220 in all, are:
-= -- 829
-> -- 286
-< -- 4
-+ -- 118
-- -- 86
-* -- 488
-:= -- 1399
-add.period$ -- 102
-call.type$ -- 30
-change.case$ -- 125
+            678 strings with 8927 characters,
+and the built_in function-call counts, 7583 in all, are:
+= -- 765
+> -- 255
+< -- 3
++ -- 106
+- -- 76
+* -- 441
+:= -- 1291
+add.period$ -- 95
+call.type$ -- 28
+change.case$ -- 115
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 326
-empty$ -- 727
-format.name$ -- 86
-if$ -- 1725
+cite$ -- 28
+duplicate$ -- 303
+empty$ -- 678
+format.name$ -- 76
+if$ -- 1593
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 33
-newline$ -- 162
-num.names$ -- 60
-pop$ -- 149
+int.to.str$ -- 28
+missing$ -- 30
+newline$ -- 152
+num.names$ -- 56
+pop$ -- 138
 preamble$ -- 1
-purify$ -- 103
+purify$ -- 94
 quote$ -- 0
-skip$ -- 220
+skip$ -- 207
 stack$ -- 0
-substring$ -- 493
-swap$ -- 40
-text.length$ -- 4
+substring$ -- 458
+swap$ -- 37
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 104
-warning$ -- 1
-while$ -- 87
-width$ -- 32
-write$ -- 339
-(There was 1 warning)
+type$ -- 98
+warning$ -- 0
+while$ -- 81
+width$ -- 30
+write$ -- 317
+(There were 2 warnings)
