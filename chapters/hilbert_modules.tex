@@ -314,7 +314,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
 \begin{proposicao}
     With the operator norm $\|T\| \coloneqq \sup_{\|x\|=1} \|Tx\|$, the adjointable operators $\adj(E,F)$ is $C^*$-algebra.
     \begin{proof}
-    It is straight foward checking that $\adj(E,F)$ is an involution Banach algebra. To check the $C^*$-norm property, for each adjointable $T$,
+    It is straight foward checking that $\adj(E,F)$ is a Banach algebra with an involution. To check the $C^*$-norm property, for each adjointable $T$,
     \begin{equation}
     \label{eq: |Tx|² <= |T*|.|T|.|x|²}
         \begin{array}{rcl}
@@ -471,7 +471,7 @@ Since $\|p_{n} x\|$ tends to zero, the same is true for the norm of the restrict
     \end{equation*}
     is well defined since $L_{a^*}$ is the adjoint of $L_a$. It is no mistery that $\|L_a\| \leqslant \|a\|$, but notice that $\|L_a(a^*)\| = \|a\|\,\|a^*\|$, hence $L$ is an isomorphism of $A$ onto a closed $*$-subalgebra of $\adj(A)$. \nocite{raeburn1998morita}
     
-    Since $a\inner{b}{\come} = L_{ab^*}$, it follows that $\mathscr K(A)$ is the closure of (the image under $L$ of) the linear span of products in $A$. But, since every $C^*$-algebra contains an approximate identity, such products are dense, thus $L$ is an isomorphism between $A$ and $\mathscr K(A)$.   
+    Since $a\inner{b}{\come} = L_{ab^*}$, it follows that $\mathscr K(A)$ is the closure of (the image under $L$ of) the linear span of products in $A$. But, since every $C^*$-algebra contains an approximate identity, the products above are dense, thus $L$ is an isomorphism between $A$ and $\mathscr K(A)$.   
 
     \item \label{exemplo item: K(A)=L(A) pra A unital} If $A$ is a unital algebra, $\mathscr K(A) = \adj(A)$ since any adjointable operator $T$ consists of left multiplication by $T(1)$.
     
@@ -761,7 +761,7 @@ Let $M$ be a finite rank Hilbert $A$-module. If $(a,\lambda) \in \widetilde A$, 
     \[
     x = pa = p(pa) = p(\sub\Id{{{\widetilde{A}}}^n}-p)b = (p - p^2)b = 0,
     \]
-    and the sum in (\ref{eq: ~A^n is a direct summand}) is fact direct. Since $\ker p = (\sub\Id{{\widetilde{A}}^n}-p){\widetilde{A}}^n$, the desired isomorphism holds $p\widetilde{A}^n \simeq M$.
+    and the sum in (\ref{eq: ~A^n is a direct summand}) is fact direct. Since $\ker p = (\sub\Id{{\widetilde{A}}^n}-p){\widetilde{A}}^n$, the desired isomorphism holds since $p\widetilde{A}^n \simeq M$.
     \item \label{item: M projetivo sse M oplus Q livre}\textbf{If there exists $\boldsymbol Q$ such that $\boldsymbol{M\oplus Q}$ is free, then $\boldsymbol M$ is projective}: Let $E$, $F$ be $\widetilde A$-modules, $g:E \longtwoheadrightarrow F$ a surjective map and $f:M \longto F$. Let $(b_i)_i$ be a basis of $M\oplus Q$. By surjectivity, for all $i$, there is always $x_i\in M$  such that $g(x_i) = f(b_i)$. 
     
     Define $\widetilde{h}:M\oplus Q \longto E$ extending linearly $\widetilde{h}(b_i) \coloneqq x_i$, in order that $g \circ \widetilde{h} = f$. Therefore, $h \coloneqq \widetilde{h} \sub{\restrita}{M}$ is the one necessary so that $M$ is projective.
@@ -876,19 +876,20 @@ In light of the \ref{prop: identidade compacta eh de rank finito}, ${\Im P}$ is 
 
 
 \begin{definicao}
-The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the class $\rank(M) \coloneqq [p]_0 \in K_0(A)$. The properties given in \ref{prop: compacto idempotente eh rank finito} and \ref{obs: idempotente gerando inversivel}, we are able to define the rank of a given compact idempotent operator $P$ as the rank of $\Im P$.
+The \textit{rank} of a finite rank Hilbert $A$-module will be defined as the class $\rank(M) \coloneqq [p]_0 \in K_0(A)$. The properties given in \ref{prop: compacto idempotente eh rank finito} and \ref{obs: idempotente gerando inversivel}, we are able to define the \textit{rank} of a given compact idempotent operator $P$ as the rank of $\Im P$.
 \end{definicao}
+
+Let $E$ be a Hilbert $A$-module and $P, Q \in \mathscr K(E)$ be two compact idempotent operators. Since their ranges are finite-rank modules (\ref{obs: idempotente gerando inversivel} and \ref{prop: compacto idempotente eh rank finito}), there are $x,y \in (\Im P)^n$ and $z,w \in (\Im Q)^m$ such that 
+$$P = \sub\Id{\Im P} = \Omega_{y}^{\,}\Omega_x^* \e Q = \sub\Id{\Im Q} = \Omega_{w}^{\,}\Omega_z^*.$$ 
+Let $p$ and $q$ be the matrices given by $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$, used in the argument used in \ref{teo: M rank finito sse M = pA^n}. As seen before, we get the following isomorphic Hilbert $C^*$-modules: $\Im P \simeq pA^n$ and $\Im Q \simeq q A^m$. 
 
 
 \begin{lema}\label{lema: [P]_0 = [Q]_0 ---> [p]_0 = [q]_0}
-    Let $E$ be a Hilbert module and $P, Q \in \adj(E)$ be two compact idempotent operators, and let $p$ and $q$ be the idempotent square matrices given in the proof of Theorem \ref{teo: M rank finito sse M = pA^n}. If $P$ and $Q$ are similar, i.e. there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
+    Let $P$ and $Q$ be as in the above conditions. If $P$ and $Q$ are similar, i.e. there exists $u \in \GL \adj(E)$ such that $P = uQ\inv u$, the matrices $p$ and $q$ are Murray-von Neumann equivalent. 
     \begin{proof}
-        We have that $P = uQ\inv u$, $\Im P \simeq pA^n$ and $\Im Q \simeq qA^n$. Since their ranges are finite-rank modules (\ref{obs: idempotente gerando inversivel} and \ref{prop: compacto idempotente eh rank finito}), there are $x,y \in (\Im P)^n$ and $z,w \in (\Im Q)^m$ such that 
-        $$P = \sub\Id{\Im P} = \Omega_{y}^{\,}\Omega_x^* \e Q = \sub\Id{\Im Q} = \Omega_{w}^{\,}\Omega_z^*.$$ 
-        We know that $p=\left(\inner{x_i}{y_j}\right)_{i,j}$ and $q=\left(\inner{z_i}{w_j}\right)_{i,j}$ by the argument used in \ref{teo: M rank finito sse M = pA^n}. Therefore:
-
-        $$
-        \Omega_y\Omega_x^* = P = uQ\inv u = u\Omega_{w}\Omega_z^*\inv u = \Omega_{u(w)}^{\,}\Omega_{({\inv u})^*(z)}^*, $$
+    We have that $P = uQ\inv u$, $\Im P \simeq pA^n$ and $\Im Q \simeq qA^m$. Therefore:
+    $$
+    \Omega_y\Omega_x^* = P = uQ\inv u = u\Omega_{w}\Omega_z^*\inv u = \Omega_{u(w)}^{\,}\Omega_{({\inv u})^*(z)}^*, $$
         which means that
         $$\sum_{i=1}^n y_i \inner{x_i}{\come} = \sum_{i=1}^m u(w_i)\inner{(\inv u)^*(z_i)}{\come}.$$ 
         Notice that the matrix $\widehat q \coloneqq \left(\inner{(\inv u)^*(z_i)}{u(w_j)}\right)_{i,j}$ obeys $\Im uQ\inv u \simeq \widehat{q}A^m$ by the construction of \ref{teo: M rank finito sse M = pA^n}. But since $\inner{(\inv u)^*(z_i)}{u(w_j)} = \inner{z_i}{w_j}$, one concludes that $\widehat{q} = q$, hence, we obtain two isomorphisms such that the following diagram commutes.
@@ -954,7 +955,7 @@ We shall construct inductively a enumerable collection $\mathscr C\subset X$ in 
 For a given $i \leqslant n$, let $\pi_i$ be the projection in the $i$-th coordinate of a tuple. In order to choose wisely, we write a technical issue:
 \begin{enumerate}[label=\ensuremath{(\roman*)}]
     \setcounter{enumi}{2}
-    \item \textbf{Choice of generators}: Let $r\in \adj(P,X)$ where $P$ is a finite rank Hilbert module. By assumption, there exists a natural number $n \in \N$ and tuples $x, y \in P^{n}$ such that $\sub\Id{P} = \Omega^{\vphantom{*}}_{y} \Omega_{x}^*$. Notice that their existence depends on the domain of $r$.  Therefore,
+    \item \textbf{Choice of generators}: Let $r\in \adj(P,X)$ where $P$ is a finite rank Hilbert module. By assumption, there exists a natural number $n \in \N$ and tuples $x, y \in P^{n}$ such that $\sub\Id{P} = \Omega^{\vphantom{*}}_{y} \Omega_{x}^*$. Notice that their existence depends on the domain of $r$. Therefore,
 \[
 r = r\Omega^{\vphantom{*}}_{y} \Omega_{x}^* = \sum_{i=1}^{n} r\Pi_iy\inner{\Pi_ix}{\come}
 \]

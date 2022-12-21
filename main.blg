@@ -9,12 +9,12 @@ Warning--I didn't find a database entry for "brown1977morita"
 Warning--I didn't find a database entry for "raeburn1998morita"
 You've used 28 entries,
             2118 wiz_defined-function locations,
-            678 strings with 8927 characters,
-and the built_in function-call counts, 7583 in all, are:
+            678 strings with 9075 characters,
+and the built_in function-call counts, 7581 in all, are:
 = -- 765
 > -- 255
 < -- 3
-+ -- 106
++ -- 105
 - -- 76
 * -- 441
 := -- 1291
@@ -38,7 +38,7 @@ purify$ -- 94
 quote$ -- 0
 skip$ -- 207
 stack$ -- 0
-substring$ -- 458
+substring$ -- 457
 swap$ -- 37
 text.length$ -- 3
 text.prefix$ -- 0
