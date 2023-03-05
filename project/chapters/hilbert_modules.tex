@@ -1,7 +1,7 @@
 \chapter[Hilbert \texorpdfstring{\ensuremath{C^*}}{C*}-modules]{Hilbert \texorpdfstring{\mathbf{C^*}}{C*}-modules}
 \label{ch:hilbert modules}
 
-Hilbert modules first appeared in the work of \textit{I. Kaplansky} \cite{kaplansky1953modules} and \textit{W. Paschke} \cite{paschke1973inner} later. There are three main areas where Hilbert $C^*$-modules are heavily used to formulate mathematical concepts involving:
+Hilbert modules first appeared in the work of \textsc{I. Kaplansky} \cite{kaplansky1953modules} and \textsc{W. Paschke} \cite{paschke1973inner} later. There are three main areas where Hilbert $C^*$-modules are heavily used to formulate mathematical concepts involving:
 \begin{itroman}
     \item\label{main areas (i)} \textbf{Induced representations of Morita equivalence} \cite{brown1977stable, RIEFFEL1974176,rieffel1981c};
     \item \textbf{Kasparov's $\mathbf{KK}$-theory} \cite{kasparov1980stinespring};
@@ -199,7 +199,7 @@ holds for all $x\in E$ and $a\in A$, showing that $(x\sub u\lambda a)_\lambda$ c
 %    \end{enumerate}    
     \item Subexamples of \ref{item: soma direta de modulos de hilbert} are: $A$ it self endowed with $\inner ab \coloneqq a^*b$; $A^n = \bigoplus_{i =1}^n A$ for any natural number $n$.
     
-    \item \textbf{The standard Hilbert \mathbf{A}-module $\boldsymbol{\HA}$}: A more especif subexample of \ref{item: soma direta de modulos de hilbert} can be given by $\HA \coloneqq \bigoplus_{n\in \mathbb N} A$, consisting of all sequences $(a_n)_n \subset A$ which $\sum_n a_n^*a_n$ converges.
+    \item \textbf{The standard Hilbert \mathbf{A}-module $\boldsymbol{\HA}$}: Another subexample of \ref{item: soma direta de modulos de hilbert} can be given by $\HA \coloneqq \bigoplus_{n\in \mathbb N} A$, consisting of all sequences $(a_n)_n \subset A$ which $\sum_n a_n^*a_n$ converges.
     \item \label{exemplo hilb (X) C*algebra} Given a Hilbert space $H$, the algebraic tensor product of $H$ by $A$ can be seen as an inner product $C^*$-module, with the bond:
     \[
     \inner {x\otimes a}{y\otimes b} \coloneqq \sub{\inner xy}H a^*b
@@ -248,7 +248,7 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
 %- the (unital) C*-algebra of adjointable operators
 %- equivalence of positivity
 
-\begin{definicao}[Adjoint]
+\begin{definicao}
     Let $E, F$ be Hilbert modules over a $C^*$-algebra $A$. A function $T:E\longto F$ is said to be \textit{adjointable} if there exists a function $T^*: F\longto E$ which satisfies the following relation:
     \begin{eqspaced*}{((x,y) \in E \times F)}
     \sub{\inner {Tx}y}F = \sub{\inner x{T^*y}}E
@@ -263,7 +263,7 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
          \begin{quote}
              \begin{invocacao}[Banach-Steinhaus ``Uniform Boundness Principle'' - \cite{sokal2011uniform}]
          \label{invo: limitacao uniforme}
-         Let $\mathcal{F}$ be a family of bounded linear operators from a Banach space $X$ to a normed linear space $Y$. If $\mathcal{F}$ is pointwise bounded, then $\mathcal{F}$ is norm-bounded, i.e., 
+         Let $\mathcal{F}$ be a family of bounded linear operators from a Banach space $X$ to a normed linear space $Y$. If $\mathcal{F}$ is pointwise bounded, then $\mathcal{F}$ is norm-bounded, i.e.
 
         %  \[\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.\]
          $\hphantom{\text{pointw}}\vphantom{\int\limits^\int}\forall\,x\in X, \displaystyle \sup _{T \in \mathcal{F}}\|T x\|<\infty \To \sup _{T \in \mathcal{F}}\|T\|<\infty.$
@@ -291,10 +291,10 @@ Let $\ep > 0$. Notice that $\sub x\lambda \to x$, means that $\|\sub x\lambda\| 
     Given $x,y \in E$, the maps $y\inner{x}{\come}$ and $x\inner y\come$ are adjoints of each other. The linear span of those operator are what we will call the \textit{finite rank} operators.
 \end{exemplo}
     
-In traditional Hilbert spaces, every bounded operator is adjointable, thanks to the Riesz Lemma (\cite{reed2012methods}). But when talking about Hilbert modules, that might not be the case anymore:
+In traditional Hilbert spaces, every bounded operator is adjointable, thanks to the Riesz Lemma (\cite[Theorem II.4]{reed2012methods}). But when talking about Hilbert modules, that might not be the case anymore:
     
-\begin{contraexemplo}[\textit{Non-adjointable bounded operator} - \cite{paschke1973inner}]\label{contraexemplo: paschke non adjointable}
-    Suppose that $J$ is a closed right ideal of a unital $C^{*}$-algebra $A$ such that no element of $J^{*}$ acts as a left multiplicative identity on $J$\footnote{For instance, the algebra of complex valued continuous functions on the unit interval $C[0,1]$, and the ideal $\sub C0[0,1]$ of functions which vanish at 0.}. Consider the right module $J \times A$ with inner product defined by 
+\begin{contraexemplo}[\textit{Non-adjointable bounded operator}] \label{contraexemplo: paschke non adjointable}
+    This one can be founded in \textsc{W. Paschke}'s work \cite[Remark 2.5]{paschke1973inner}. Suppose that $J$ is a closed right ideal of a unital $C^{*}$-algebra $A$ such that no element of $J^{*}$ acts as a left multiplicative identity on $J$\footnote{For instance, the algebra of complex valued continuous functions on the unit interval $C[0,1]$, and the ideal $\sub C0[0,1]$ of functions which vanish at 0.}. Consider the right module $J \times A$ with inner product defined by 
     \begin{equation*}
     \inner{\left(\sub a{1}, \sub b{1}\right)}{\left(\sub a{2}, \sub b{2}\right)} = \sub a{2}^{*} \sub a{1}+\sub b{2}^{*} \sub b{1}
     \end{equation*}
@@ -308,7 +308,7 @@ In traditional Hilbert spaces, every bounded operator is adjointable, thanks to 
 \end{contraexemplo}
     
 \begin{contraexemplo}
-    Let $X\in \CHaus$ and $Y \subset X$ a closed non-empty subset with dense complement. Let $E \coloneqq \big\{f \in C(X) \mid f(Y) = \{0\}\big\}$ and $\iota : E \longhookrightarrow C(X)$ the bounded inclusion map. If $\iota$ were adjointable, $E \ni \iota^*(\sub\Id{C(X)}) = \sub\Id{C(X)} \notin E$, i.e. the inclusion is a non-adjointable bounded operator.
+    Let $X$ be a compact Hausdorff space and $Y \subset X$ a closed non-empty subset with dense complement. Let $E \coloneqq \big\{f \in C(X) \mid f(Y) = \{0\}\big\}$ and $\iota : E \longhookrightarrow C(X)$ the bounded inclusion map. If $\iota$ were adjointable, $E \ni \iota^*(\sub\Id{C(X)}) = \sub\Id{C(X)} \notin E$, i.e. the inclusion is a non-adjointable bounded operator.
 \end{contraexemplo}
         
 \begin{proposicao}
@@ -688,14 +688,14 @@ Since $\{\eta_n + 0,\,0 + \sub e n  \}_n$ generates a dense submodule of $M\oplu
     \begin{array}{rcl}
          T^*T &=& S^*S + R^*R \\ 
          &=& \left(\begin{smallmatrix} 
-         4^{-4} & 0 & 0 & \cdots\\
-         0 & 4^{-8} & 0 & \cdots\\
-         0 & 0 & 4^{-12} & \cdots\\
+         4^{-4} & 0 & 0 & \scaleobj{1}{\cdots}\\
+         0 & 4^{-8} & 0 & \scaleobj{1}{\cdots}\\
+         0 & 0 & 4^{-12} & \scaleobj{1}{\cdots}\\
          \vdots & \vdots & \vdots & \ddots
          \end{smallmatrix}\right) + \left(\begin{smallmatrix} 
-         4^{-2}\inner{\sub\eta 1}{\sub\eta 1} & 4^{-3}\inner{\sub\eta 1}{\sub\eta 2} & 4^{-4}\inner{\sub\eta 1}{\sub\eta 4}& \cdots\\
-         4^{-3}\inner{\sub\eta 2}{\sub\eta 1} & 4^{-4}\inner{\sub\eta 2}{\sub\eta 2} & 4^{-5}\inner{\sub\eta 2}{\sub\eta 3} & \cdots\\
-         4^{-4}\inner{\sub\eta 3}{\sub\eta 1} & 4^{-5}\inner{\sub\eta 3}{\sub\eta 2} & 4^{-6}\inner{\sub\eta 3}{\sub\eta 1} & \cdots\\
+         4^{-2}\inner{\sub\eta 1}{\sub\eta 1}\hphantom{i} & 4^{-3}\inner{\sub\eta 1}{\sub\eta 2}\hphantom{i} & 4^{-4}\inner{\sub\eta 1}{\sub\eta 4}\hphantom{i}& \scaleobj{1}{\cdots}\\
+         4^{-3}\inner{\sub\eta 2}{\sub\eta 1}\hphantom{i} & 4^{-4}\inner{\sub\eta 2}{\sub\eta 2}\hphantom{i} & 4^{-5}\inner{\sub\eta 2}{\sub\eta 3}\hphantom{i} & \scaleobj{1}{\cdots}\\
+         4^{-4}\inner{\sub\eta 3}{\sub\eta 1}\hphantom{i} & 4^{-5}\inner{\sub\eta 3}{\sub\eta 2}\hphantom{i} & 4^{-6}\inner{\sub\eta 3}{\sub\eta 1}\hphantom{i} & \scaleobj{1}{\cdots}\\
          \vdots & \vdots & \vdots & \ddots
          \end{smallmatrix}\right)
     \end{array}
@@ -841,7 +841,7 @@ In light of the \ref{prop: identidade compacta eh de rank finito}, ${\Im P}$ is 
     \begin{itroman}
         \item $h^* = h$.
         \item Notice that $(a-a^*)(a^*-a) \geqslant 0$, hence $\Spec((a-a^*)(a^*-a)) \subset [0,\infty)$. Conjure one of the classical theorems in spectral theory:        
-        \begin{invocacao}[Spectral mapping theorem]
+        \begin{invocacao}[Spectral mapping theorem - \cite{rudin1991functional} - Theorem 10.28.(\textit{b})]
             \label{teo: spectral mapping}
             Given an unital Banach algebra $A$ and $a\in A$, the following holds:
             \begin{equation*}
@@ -952,7 +952,7 @@ We shall construct inductively a enumerable collection $\mathscr C\subset X$ in 
     
     \item \label{item: aproximacao de Id-T_XX} $\sub{\Id}{X}-\sub{T}{X X}$ can be approximated by finite rank operators of the form $\Omega_{y} \Omega_{x}^{*}$, where the components of $x$ and $y$ belong to ${\mathscr C}_n$.
 \end{itroman}
-For a given $i \leqslant n$, let $\pi_i$ be the projection in the $i$-th coordinate of a tuple. In order to choose wisely, we write a technical issue:
+For a given $i \leqslant n$, let $\Pi_i$ be the projection in the $i$-th coordinate of a tuple. In order to choose wisely, we write a technical issue:
 \begin{enumerate}[label=\ensuremath{(\roman*)}]
     \setcounter{enumi}{2}
     \item \textbf{Choice of generators}: Let $r\in \adj(P,X)$ where $P$ is a finite rank Hilbert module. By assumption, there exists a natural number $n \in \N$ and tuples $x, y \in P^{n}$ such that $\sub\Id{P} = \Omega^{\vphantom{*}}_{y} \Omega_{x}^*$. Notice that their existence depends on the domain of $r$. Therefore,
@@ -966,19 +966,17 @@ In order to obey \ref{item: imagens contidas no gerador}, our initial collection
 \[
 \sub\Id X - \sub T{XX} = \lim_{n\to \infty} \Omega_{\boldsymbol{\zeta}_n} \Omega_{\boldsymbol{\xi}_n}^*.
 \]
-Let $\sub{\mathscr C}0$ be given by:
+To facilitate the notation, write $\mathscr O \coloneqq \{\sub{T}{X M}^{\vphantom{*}}, \sub{S}{X N}^{\vphantom{*}}, \sub{T}{N X}^{*},\sub{S}{XM}^{*}\}$. Let $\sub{\mathscr C}0$ be given by:
 \begin{equation*}
-    \begin{array}{rcl}
-        \sub{\mathscr C}0 &\coloneqq& {\big\{ r\Pi_iy \mid r\in \{\sub{T}{X M}^{\vphantom{*}}, \sub{S}{X N}^{\vphantom{*}}, \sub{T}{N X}^{*},\sub{S}{XM}^{*}\}, \sub\Id{\operatorname{dom}(r)} = \Omega_y^{\,}\Omega_x^*\big\}}_{i\in \mathbb N} \\ 
-        & & \cup \bigcup\limits_{n\in \N} \{\Pi_i\boldsymbol{\xi_n} , \Pi_i\boldsymbol{\zeta_n} \}_{i \in \N}
-    \end{array}
+    % \begin{array}{rcl}
+        \sub{\mathscr C}0 \coloneqq {\big\{ r\Pi_iy \mid r\in \mathscr O, \sub\Id{\operatorname{dom}(r)} = \Omega_y^{\,}\Omega_x^*\big\}}_{i\in \mathbb N}  \cup \bigcup\limits_{n\in \N} \{\Pi_i\boldsymbol{\xi_n} , \Pi_i\boldsymbol{\zeta_n} \}_{i \in \N}
+    % \end{array}
 \end{equation*}
 By construction, those properties are obeyed. Inductively, we set new collections in order to obey to above properties in terms of the operator $\sub T{XX}^{\vphantom{*}}$ and $\sub{S}{XX}$:
 \begin{eqspaced*}{(n\in \mathbb N)}
-\begin{array}{rcl}
-    \mathscr C_{n+1} &\coloneqq & \mathscr C_{n} \cup \sub{T}{X X}^{\vphantom{*}}\left(\mathscr C_{n}\right) \cup \sub{S}{X X}^{\vphantom{*}}\left(\mathscr C_{n}\right) \\
-    & & \cup \sub{T}{X X}^{*}\left(\mathscr C_{n}\right) \cup \sub{S}{X X}^{*}\left(\mathscr C_{n}\right)
-\end{array}
+% \begin{array}{rcl}
+    \mathscr C_{n+1} = \mathscr C_n \cup \bigcup\limits_{r \in \mathscr O} r\left(\mathscr C_n\right)
+% \end{array}
 \end{eqspaced*}
 in order that each $\mathscr C_n$ satisfies \ref{item: imagens contidas no gerador} and \ref{item: aproximacao de Id-T_XX}. Therefore, the union $\mathscr C\coloneqq \bigcup_{n} \mathscr C_{n}$ is then obviously countable, and also obeys those same properties above. In addition, the following one belongs to package:
 \begin{enumerate}[label=\ensuremath{(\roman*)}]

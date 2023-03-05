@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.31)  5 MAR 2023 08:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.31)  5 MAR 2023 16:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -94,16 +94,36 @@ Package babel Info: You haven't specified a language as a class or package
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/babel\nil.ldf
 Language: nil 2022/12/26 3.84 Nil language
 \l@nil=\language80
-)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
-) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
-) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+\KV@toks@=\toks18
+) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count198
+\Gm@cntv=\count199
+Normal \count register pool exhausted, switching to extended pool.
+\c@Gm@tempcnt=\count277
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks19
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
+) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -114,8 +134,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen142
-\Gin@req@width=\dimen143
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
@@ -138,8 +158,6 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
@@ -169,12 +187,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count198
+\c@section@level=\count278
 )
-\@linkdim=\dimen144
-\Hy@linkcounter=\count199
-Normal \count register pool exhausted, switching to extended pool.
-\Hy@pagecounter=\count277
+\@linkdim=\dimen152
+\Hy@linkcounter=\count279
+\Hy@pagecounter=\count280
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -184,7 +201,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count278
+\Hy@SavedSpaceFactor=\count281
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -198,21 +215,21 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count279
+\c@Hy@tempcnt=\count282
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4748.
-\XeTeXLinkMargin=\dimen145
+\XeTeXLinkMargin=\dimen153
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count280
-\Field@Width=\dimen146
-\Fld@charsize=\dimen147
+\Fld@menulength=\count283
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -224,9 +241,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count281
-\c@Item=\count282
-\c@Hfootnote=\count283
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -235,8 +252,8 @@ File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count284
-\c@bookmark@seq@number=\count285
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -249,25 +266,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen148
+\col@sep=\dimen156
 \ar@mcellbox=\box51
-\extrarowheight=\dimen149
-\NC@list=\toks21
+\extrarowheight=\dimen157
+\NC@list=\toks22
 \extratabsurround=\skip51
 \backup@length=\skip52
 \ar@cellbox=\box52
 )
-\TX@col@width=\dimen150
-\TX@old@table=\dimen151
-\TX@old@col=\dimen152
-\TX@target=\dimen153
-\TX@delta=\dimen154
-\TX@cols=\count286
-\TX@ftn=\toks22
+\TX@col@width=\dimen158
+\TX@old@table=\dimen159
+\TX@old@col=\dimen160
+\TX@target=\dimen161
+\TX@delta=\dimen162
+\TX@cols=\count289
+\TX@ftn=\toks23
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen163
+\pgfutil@tempdimb=\dimen164
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box53
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -277,31 +294,31 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks27
 ))
-\pgf@x=\dimen157
-\pgf@y=\dimen158
-\pgf@xa=\dimen159
-\pgf@ya=\dimen160
-\pgf@xb=\dimen161
-\pgf@yb=\dimen162
-\pgf@xc=\dimen163
-\pgf@yc=\dimen164
-\pgf@xd=\dimen165
-\pgf@yd=\dimen166
+\pgf@x=\dimen165
+\pgf@y=\dimen166
+\pgf@xa=\dimen167
+\pgf@ya=\dimen168
+\pgf@xb=\dimen169
+\pgf@yb=\dimen170
+\pgf@xc=\dimen171
+\pgf@yc=\dimen172
+\pgf@xd=\dimen173
+\pgf@yd=\dimen174
 \w@pgf@writea=\write3
 \r@pgf@reada=\read4
-\c@pgf@counta=\count287
-\c@pgf@countb=\count288
-\c@pgf@countc=\count289
-\c@pgf@countd=\count290
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count291
+\c@pgf@counta=\count290
+\c@pgf@countb=\count291
+\c@pgf@countc=\count292
+\c@pgf@countd=\count293
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count294
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -312,59 +329,59 @@ File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count292
-\pgfsyssoftpath@bigbuffer@items=\count293
+\pgfsyssoftpath@smallbuffer@items=\count295
+\pgfsyssoftpath@bigbuffer@items=\count296
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen167
-\pgfmath@count=\count294
+\pgfmath@dimen=\dimen175
+\pgfmath@count=\count297
 \pgfmath@box=\box54
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count295
+\c@pgfmathroundto@lastzeros=\count298
 )) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
+\pgf@picminx=\dimen176
+\pgf@picmaxx=\dimen177
+\pgf@picminy=\dimen178
+\pgf@picmaxy=\dimen179
+\pgf@pathminx=\dimen180
+\pgf@pathmaxx=\dimen181
+\pgf@pathminy=\dimen182
+\pgf@pathmaxy=\dimen183
+\pgf@xx=\dimen184
+\pgf@xy=\dimen185
+\pgf@yx=\dimen186
+\pgf@yy=\dimen187
+\pgf@zx=\dimen188
+\pgf@zy=\dimen189
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
+\pgf@path@lastx=\dimen190
+\pgf@path@lasty=\dimen191
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+\pgf@shorten@end@additional=\dimen192
+\pgf@shorten@start@additional=\dimen193
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box55
 \pgf@hbox=\box56
 \pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count296
+\pgf@picture@serial@count=\count299
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen186
+\pgflinewidth=\dimen194
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+\pgf@pt@x=\dimen195
+\pgf@pt@y=\dimen196
+\pgf@pt@temp=\dimen197
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -373,12 +390,12 @@ File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen190
+\pgfarrowsep=\dimen198
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count297
-\pgf@shadingcount=\count298
+\pgf@max=\dimen199
+\pgf@sys@shading@range@num=\count300
+\pgf@shadingcount=\count301
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -399,63 +416,63 @@ File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@nodesepstart=\dimen256
+\pgf@nodesepend=\dimen257
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
-\pgffor@iter=\dimen194
-\pgffor@skip=\dimen195
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@iter=\dimen258
+\pgffor@skip=\dimen259
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 )) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count299
-\pgfplotmarksize=\dimen196
+\pgf@plot@mark@count=\count302
+\pgfplotmarksize=\dimen260
 )
-\tikz@lastx=\dimen197
-\tikz@lasty=\dimen198
-\tikz@lastxsaved=\dimen199
-Normal \dimen register pool exhausted, switching to extended pool.
-\tikz@lastysaved=\dimen256
-\tikz@lastmovetox=\dimen257
-\tikz@lastmovetoy=\dimen258
-\tikzleveldistance=\dimen259
-\tikzsiblingdistance=\dimen260
+\tikz@lastx=\dimen261
+\tikz@lasty=\dimen262
+\tikz@lastxsaved=\dimen263
+\tikz@lastysaved=\dimen264
+\tikz@lastmovetox=\dimen265
+\tikz@lastmovetoy=\dimen266
+\tikzleveldistance=\dimen267
+\tikzsiblingdistance=\dimen268
 \tikz@figbox=\box60
 \tikz@figbox@bg=\box61
 \tikz@tempbox=\box62
 \tikz@tempbox@bg=\box63
-\tikztreelevel=\count300
-\tikznumberofchildren=\count301
-\tikznumberofcurrentchild=\count302
-\tikz@fig@count=\count303
+\tikztreelevel=\count303
+\tikznumberofchildren=\count304
+\tikznumberofcurrentchild=\count305
+\tikz@fig@count=\count306
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count304
-\pgfmatrixcurrentcolumn=\count305
-\pgf@matrix@numberofcolumns=\count306
+\pgfmatrixcurrentrow=\count307
+\pgfmatrixcurrentcolumn=\count308
+\pgf@matrix@numberofcolumns=\count309
 )
-\tikz@expandcount=\count307
+\tikz@expandcount=\count310
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikz-cd.sty
 Package: tikz-cd 2021/05/04 v1.0 Commutative diagrams with TikZ
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikzlibrarycd.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarymatrix.code.tex
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tikz-cd\tikzlibrarycd.code.tex
+(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryquotes.code.tex
 File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen261
-\pgfarrowlength=\dimen262
-\pgfarrowwidth=\dimen263
-\pgfarrowlinewidth=\dimen264
+\pgfarrowinset=\dimen269
+\pgfarrowlength=\dimen270
+\pgfarrowwidth=\dimen271
+\pgfarrowlinewidth=\dimen272
 ))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrarypatterns.code.tex
@@ -469,7 +486,7 @@ File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfbs@fading@count=\count308
+\pgfbs@fading@count=\count311
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybabel.code.tex
 File: tikzlibrarybabel.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
@@ -481,22 +498,22 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
-\ex@=\dimen265
+\@emptytoks=\toks36
+\ex@=\dimen273
 )) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen266
+\pmbraise@=\dimen274
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count309
+\inf@bad=\count312
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count310
-\leftroot@=\count311
+\uproot@=\count313
+\leftroot@=\count314
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count312
-\DOTSCASE@=\count313
+\classnum@=\count315
+\DOTSCASE@=\count316
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -506,34 +523,34 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen267
+\big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count314
+\macc@depth=\count317
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count315
+\c@MaxMatrixCols=\count318
 \dotsspace@=\muskip17
-\c@parentequation=\count316
-\dspbrk@lvl=\count317
-\tag@help=\toks36
-\row@=\count318
-\column@=\count319
-\maxfields@=\count320
-\andhelp@=\toks37
-\eqnshift@=\dimen268
-\alignsep@=\dimen269
-\tagshift@=\dimen270
-\tagwidth@=\dimen271
-\totwidth@=\dimen272
-\lineht@=\dimen273
-\@envbody=\toks38
+\c@parentequation=\count319
+\dspbrk@lvl=\count320
+\tag@help=\toks37
+\row@=\count321
+\column@=\count322
+\maxfields@=\count323
+\andhelp@=\toks38
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
+\@envbody=\toks39
 \multlinegap=\skip54
 \multlinetaggap=\skip55
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -545,50 +562,50 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
 \thm@preskip=\skip56
 \thm@postskip=\skip57
 \thm@headsep=\skip58
-\dth@everypar=\toks45
+\dth@everypar=\toks46
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count321
-\calc@Bcount=\count322
-\calc@Adimen=\dimen274
-\calc@Bdimen=\dimen275
+\calc@Acount=\count324
+\calc@Bcount=\count325
+\calc@Adimen=\dimen282
+\calc@Bdimen=\dimen283
 \calc@Askip=\skip59
 \calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count323
+\calc@Ccount=\count326
 \calc@Cskip=\skip61
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count324
-\l_MT_multwidth_dim=\dimen276
+\g_MT_multlinerow_int=\count327
+\l_MT_multwidth_dim=\dimen284
 \origjot=\skip62
-\l_MT_shortvdotswithinadjustabove_dim=\dimen277
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen278
-\l_MT_above_intertext_sep=\dimen279
-\l_MT_below_intertext_sep=\dimen280
-\l_MT_above_shortintertext_sep=\dimen281
-\l_MT_below_shortintertext_sep=\dimen282
+\l_MT_shortvdotswithinadjustabove_dim=\dimen285
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen286
+\l_MT_above_intertext_sep=\dimen287
+\l_MT_below_intertext_sep=\dimen288
+\l_MT_above_shortintertext_sep=\dimen289
+\l_MT_below_shortintertext_sep=\dimen290
 \xmathstrut@box=\box66
-\xmathstrut@dim=\dimen283
+\xmathstrut@dim=\dimen291
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2022-12-17 L3 programming layer (loader) 
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count325
+\l__color_backend_stack_int=\count328
 \l__pdf_internal_box=\box67
 ))
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
@@ -604,49 +621,49 @@ Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/09/27 v2.0i eso-pic (RN)
-\ESO@tempdima=\dimen284
-\ESO@tempdimb=\dimen285
+\ESO@tempdima=\dimen292
+\ESO@tempdimb=\dimen293
 )
-\AM@pagewidth=\dimen286
-\AM@pageheight=\dimen287
-\AM@fboxrule=\dimen288
+\AM@pagewidth=\dimen294
+\AM@pageheight=\dimen295
+\AM@fboxrule=\dimen296
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count326
+\pdfpages@includegraphics@status=\count329
 \AM@pagebox=\box68
-\AM@global@opts=\toks46
-\AM@pagecnt=\count327
-\AM@toc@title=\toks47
-\AM@lof@heading=\toks48
-\c@AM@survey=\count328
+\AM@global@opts=\toks47
+\AM@pagecnt=\count330
+\AM@toc@title=\toks48
+\AM@lof@heading=\toks49
+\c@AM@survey=\count331
 \AM@templatesizebox=\box69
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen289
-\WF@size=\dimen290
-\c@WF@wrappedlines=\count329
+\wrapoverhang=\dimen297
+\WF@size=\dimen298
+\c@WF@wrappedlines=\count332
 \WF@box=\box70
-\WF@everypar=\toks49
+\WF@everypar=\toks50
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count330
+\c@tracingmulticols=\count333
 \mult@box=\box71
-\multicol@leftmargin=\dimen291
-\c@unbalance=\count331
-\c@collectmore=\count332
-\doublecol@number=\count333
-\multicoltolerance=\count334
-\multicolpretolerance=\count335
-\full@width=\dimen292
-\page@free=\dimen293
-\premulticols=\dimen294
-\postmulticols=\dimen295
+\multicol@leftmargin=\dimen299
+\c@unbalance=\count334
+\c@collectmore=\count335
+\doublecol@number=\count336
+\multicoltolerance=\count337
+\multicolpretolerance=\count338
+\full@width=\dimen300
+\page@free=\dimen301
+\premulticols=\dimen302
+\postmulticols=\dimen303
 \multicolsep=\skip63
 \multicolbaselineskip=\skip64
 \partial@page=\box72
 \last@line=\box73
-\maxbalancingoverflow=\dimen296
+\maxbalancingoverflow=\dimen304
 \mult@rightbox=\box74
 \mult@grightbox=\box75
 \mult@firstbox=\box76
@@ -687,78 +704,78 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box111
 \@tempa=\box112
 \@tempa=\box113
-\c@minrows=\count336
-\c@columnbadness=\count337
-\c@finalcolumnbadness=\count338
-\last@try=\dimen297
-\multicolovershoot=\dimen298
-\multicolundershoot=\dimen299
+\c@minrows=\count339
+\c@columnbadness=\count340
+\c@finalcolumnbadness=\count341
+\last@try=\dimen305
+\multicolovershoot=\dimen306
+\multicolundershoot=\dimen307
 \mult@nat@firstbox=\box114
 \colbreak@box=\box115
-\mc@col@check@num=\count339
+\mc@col@check@num=\count342
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip65
-\multirow@cntb=\count340
+\multirow@cntb=\count343
 \multirow@dima=\skip66
-\bigstrutjot=\dimen300
+\bigstrutjot=\dimen308
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks50
+\@enLab=\toks51
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip67
-\enit@outerparindent=\dimen301
-\enit@toks=\toks51
+\enit@outerparindent=\dimen309
+\enit@toks=\toks52
 \enit@inbox=\box116
-\enit@count@id=\count341
-\enitdp@description=\count342
+\enit@count@id=\count344
+\enitdp@description=\count345
 )
-\c@alteri=\count343
-\enitdp@alter=\count344
-\c@itromani=\count345
-\enitdp@itroman=\count346
+\c@alteri=\count346
+\enitdp@alter=\count347
+\c@itromani=\count348
+\enitdp@itroman=\count349
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen302
-\captionmargin=\dimen303
-\caption@leftmargin=\dimen304
-\caption@rightmargin=\dimen305
-\caption@width=\dimen306
-\caption@indent=\dimen307
-\caption@parindent=\dimen308
-\caption@hangindent=\dimen309
+\caption@tempdima=\dimen310
+\captionmargin=\dimen311
+\caption@leftmargin=\dimen312
+\caption@rightmargin=\dimen313
+\caption@width=\dimen314
+\caption@indent=\dimen315
+\caption@parindent=\dimen316
+\caption@hangindent=\dimen317
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count347
-\c@continuedfloat=\count348
+\c@caption@flags=\count350
+\c@continuedfloat=\count351
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
-\c@subfigure=\count349
-\c@subtable=\count350
+\c@subfigure=\count352
+\c@subtable=\count353
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xtemplate.sty
 Package: xtemplate 2022-12-17 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen310
-\l__xtemplate_tmp_int=\count351
+\l__xtemplate_tmp_dim=\dimen318
+\l__xtemplate_tmp_int=\count354
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip68
 )
 Package: xfrac 2022-12-17 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box117
 \l__xfrac_tmp_box=\box118
-\l__xfrac_denominator_bot_sep_dim=\dimen311
-\l__xfrac_numerator_bot_sep_dim=\dimen312
-\l__xfrac_numerator_top_sep_dim=\dimen313
-\l__xfrac_slash_left_sep_dim=\dimen314
-\l__xfrac_slash_right_sep_dim=\dimen315
+\l__xfrac_denominator_bot_sep_dim=\dimen319
+\l__xfrac_numerator_bot_sep_dim=\dimen320
+\l__xfrac_numerator_top_sep_dim=\dimen321
+\l__xfrac_slash_left_sep_dim=\dimen322
+\l__xfrac_slash_right_sep_dim=\dimen323
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 
@@ -768,38 +785,38 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks52
-\t@pgfplots@tokb=\toks53
-\t@pgfplots@tokc=\toks54
-\pgfplots@tmpa=\dimen316
-\c@pgfplots@coordindex=\count352
-\c@pgfplots@scanlineindex=\count353
+\t@pgfplots@toka=\toks53
+\t@pgfplots@tokb=\toks54
+\t@pgfplots@tokc=\toks55
+\pgfplots@tmpa=\dimen324
+\c@pgfplots@coordindex=\count355
+\c@pgfplots@scanlineindex=\count356
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count354
+\c@pgfplotsarray@tmp=\count357
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count355
-\t@pgfplotstable@a=\toks55
+\c@pgfplotstable@counta=\count358
+\t@pgfplotstable@a=\toks56
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count356
+\c@pgfplotslibrarysurf@no=\count359
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen317
-\pgfdecoratedremainingdistance=\dimen318
-\pgfdecoratedinputsegmentcompleteddistance=\dimen319
-\pgfdecoratedinputsegmentremainingdistance=\dimen320
-\pgf@decorate@distancetomove=\dimen321
-\pgf@decorate@repeatstate=\count357
-\pgfdecorationsegmentamplitude=\dimen322
-\pgfdecorationsegmentlength=\dimen323
+\pgfdecoratedcompleteddistance=\dimen325
+\pgfdecoratedremainingdistance=\dimen326
+\pgfdecoratedinputsegmentcompleteddistance=\dimen327
+\pgfdecoratedinputsegmentremainingdistance=\dimen328
+\pgf@decorate@distancetomove=\dimen329
+\pgf@decorate@repeatstate=\count360
+\pgfdecorationsegmentamplitude=\dimen330
+\pgfdecorationsegmentlength=\dimen331
 )
 \tikz@lib@dec@box=\box119
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count358
-\pgfplots@xmin@reg=\dimen324
-\pgfplots@xmax@reg=\dimen325
-\pgfplots@ymin@reg=\dimen326
-\pgfplots@ymax@reg=\dimen327
-\pgfplots@zmin@reg=\dimen328
-\pgfplots@zmax@reg=\dimen329
+\pgfplots@numplots=\count361
+\pgfplots@xmin@reg=\dimen332
+\pgfplots@xmax@reg=\dimen333
+\pgfplots@ymin@reg=\dimen334
+\pgfplots@ymax@reg=\dimen335
+\pgfplots@zmin@reg=\dimen336
+\pgfplots@zmax@reg=\dimen337
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
@@ -808,16 +825,16 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count359
-\float@exts=\toks56
+\c@float@type=\count362
+\float@exts=\toks57
 \float@box=\box120
-\@float@everytoks=\toks57
+\@float@everytoks=\toks58
 \@floatcapt=\box121
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count360
-\c@@ppsavesec=\count361
-\c@@ppsaveapp=\count362
+\c@@pps=\count363
+\c@@ppsavesec=\count364
+\c@@ppsaveapp=\count365
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
@@ -831,7 +848,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip69
 \bibsep=\skip70
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count363
+\c@NAT@ctr=\count366
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/fonts/old-arrows\old-arrows.sty
 Package: old-arrows 2017/01/05 v2.0 Old Arrows
 \symoasy=\mathgroup8
@@ -859,29 +876,29 @@ LaTeX Font Info:    Overwriting symbol font `lmsy' in version `bold'
 (Font)                  OMS/lmsy/m/n --> OMS/lmsy/b/n on input line 235.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
 Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count364
+\FV@CodeLineNo=\count367
 \FV@InFile=\read5
 \FV@TabBox=\box122
-\c@FancyVerbLine=\count365
-\FV@StepNumber=\count366
+\c@FancyVerbLine=\count368
+\FV@StepNumber=\count369
 \FV@OutFile=\write4
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count367
+\lst@mode=\count370
 \lst@gtempboxa=\box123
-\lst@token=\toks58
-\lst@length=\count368
-\lst@currlwidth=\dimen330
-\lst@column=\count369
-\lst@pos=\count370
-\lst@lostspace=\dimen331
-\lst@width=\dimen332
-\lst@newlines=\count371
-\lst@lineno=\count372
-\lst@maxwidth=\dimen333
+\lst@token=\toks59
+\lst@length=\count371
+\lst@currlwidth=\dimen338
+\lst@column=\count372
+\lst@pos=\count373
+\lst@lostspace=\dimen339
+\lst@width=\dimen340
+\lst@newlines=\count374
+\lst@lineno=\count375
+\lst@maxwidth=\dimen341
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count373
-\lst@skipnumbers=\count374
+\c@lstnumber=\count376
+\lst@skipnumbers=\count377
 \lst@framebox=\box124
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -895,9 +912,9 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 LaTeX Info: Redefining \_ on input line 43.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count375
-\l__lipsum_a_int=\count376
-\l__lipsum_b_int=\count377
+\g__lipsum_par_int=\count378
+\l__lipsum_a_int=\count379
+\l__lipsum_b_int=\count380
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/epigraph\epigraph.sty
 Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/nextpage\nextpage.sty
@@ -910,7 +927,7 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 115.
+Package hyperref Info: Option `colorlinks' set `true' on input line 117.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
@@ -921,13 +938,13 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count378
+\c@abspage=\count381
 Package zref Info: New property: abspage on input line 65.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip75
-\c@mdf@globalstyle@cnt=\count379
+\c@mdf@globalstyle@cnt=\count382
 \mdf@skipabove@length=\skip76
 \mdf@skipbelow@length=\skip77
 \mdf@leftmargin@length=\skip78
@@ -1002,16 +1019,16 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip139
 \mdfsubtitleheight=\skip140
 \mdfsubsubtitleheight=\skip141
-\c@mdfcountframes=\count380
+\c@mdfcountframes=\count383
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count381
-\c@mdf@env@i=\count382
-\c@mdf@env@ii=\count383
-\c@mdf@zref@counter=\count384
+\mdf@envdepth=\count384
+\c@mdf@env@i=\count385
+\c@mdf@env@ii=\count386
+\c@mdf@zref@counter=\count387
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
@@ -1033,7 +1050,7 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-\c@exercicio=\count385
+\c@exercicio=\count388
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/catchfilebetweentags\catchfilebetweentags.sty
 Package: catchfilebetweentags 2011/02/19 v1.1 - Catch file between tags (FC)
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
@@ -1053,11 +1070,11 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip157
 )) (structure/macros.tex (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count386
+\c@r@tfl@t=\count389
 \rotFPtop=\skip158
 \rotFPbot=\skip159
 \rot@float@box=\box130
-\rot@mess@toks=\toks59
+\rot@mess@toks=\toks60
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/tipa\tipa.sty
 Package: tipa 2002/08/08 TIPA version 1.1
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
@@ -1101,19 +1118,53 @@ File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 12.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
+* \topmargin=-2.73714pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
-\scratchdimen=\dimen334
+\scratchcounter=\count390
+\scratchdimen=\dimen342
 \scratchbox=\box131
-\nofMPsegments=\count388
-\nofMParguments=\count389
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count390
-\MPscratchDim=\dimen335
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
-\everyMPtoPDFconversion=\toks61
+\nofMPsegments=\count391
+\nofMParguments=\count392
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count393
+\MPscratchDim=\dimen343
+\MPnumerator=\count394
+\makeMPintoPDFobject=\count395
+\everyMPtoPDFconversion=\toks62
 ) (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
@@ -1149,7 +1200,7 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.16).
 
-\c@lstlisting=\count393
+\c@lstlisting=\count396
 <figures/capa-samya-v2.pdf, id=106, 597.432pt x 845.07718pt>
 File: figures/capa-samya-v2.pdf Graphic file (type pdf)
 <use figures/capa-samya-v2.pdf>
@@ -1226,53 +1277,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 12.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3{C:/Users/55119/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (chapters/introduction.tex [4]
-Overfull \hbox (2.71637pt too wide) in paragraph at lines 5--6
-\T1/lmr/m/n/10.95 The present document builds upon \T1/lmr/m/sc/10.95 Ruy Exel\T1/lmr/m/n/10.95 's paper ``A Fredholm Operator
- []
-
-
-Package natbib Warning: Citation `brown1977morita' on page 5 undefined on input line 9.
-
-
-Overfull \hbox (13.70105pt too wide) in paragraph at lines 9--11
-\T1/lmr/m/n/10.95 Morita equivalent and if they both possess strictly positive elements,
- []
-
-
-Overfull \hbox (0.89827pt too wide) in paragraph at lines 15--16
-\T1/lmr/m/n/10.95 induce the same $\OML/lmm/m/it/10.95 K$\T1/lmr/m/n/10.95 -groups. In the original concept, the separability condition
- []
-
-
-Overfull \hbox (8.55939pt too wide) in paragraph at lines 17--18
-\T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 ! \OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 for two $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 Morita-Rieffel equivalents,
- []
-
-[5
+) [3{C:/Users/55119/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (chapters/introduction.tex [4] [5
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 30.
- (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [6]
-
-LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 32.
-
-
-Overfull \hbox (9.29007pt too wide) in paragraph at lines 32--33
-[]$[]$\T1/lmr/m/n/10.95 : Up to this point,
+Overfull \hbox (4.56853pt too wide) in paragraph at lines 51--53
+\T1/lmr/m/n/10.95 Here, we focus on detailing the construction of those Fredholm operators and the necessary
  []
 
-) [7]
+
+Overfull \hbox (4.01877pt too wide) in paragraph at lines 56--57
+[]\T1/lmr/m/n/10.95 One of the greatest technical theorems used in \T1/lmr/m/sc/10.95 Exel\T1/lmr/m/n/10.95 's arguments is the Kasparov
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 58.
+(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (8.3743pt too wide) in paragraph at lines 58--59
+[]$[]$\T1/lmr/m/n/10.95 : As you may anticipate by the spoiling title, Chapter
+ []
+
+
+LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
+(Font)              using `T1/lmr/m/scsl' instead on input line 60.
+
+[6]) [7]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1308,55 +1340,42 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 1.
 
-
-Overfull \hbox (2.05031pt too wide) in paragraph at lines 10--12
-\T1/lmr/m/n/10.95 every homology theory seeks to define a connecting morphism $\OML/lmm/m/it/10.95 ^^N[] \OT1/lmr/m/n/10.95 : \OML/lmm/m/it/10.95 H[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 !
- []
-
-[11]
-LaTeX Font Info:    Trying to load font information for OMS+mdugm on input line 34.
+(chapters/k_theory/general_portrait_of_homological_theories.tex [11]
+LaTeX Font Info:    Trying to load font information for OMS+mdugm on input line 31.
  (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdugm\omsmdugm.fd
 File: omsmdugm.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdugm.
 )
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <10.95> not available
-(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 34.
+(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <10.95> not available
-(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 34.
+(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <8> not available
-(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 34.
+(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <8> not available
-(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 34.
+(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <6> not available
-(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 34.
+(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <6> not available
-(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 34.
+(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 31.
+) (chapters/k_theory/k0_group.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 68.
+(Font)              <14.4> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 68.
+(Font)              <10> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 68.
+(Font)              <7> on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <14.4> not available
-(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 68.
+(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <14.4> not available
-(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 68.
+(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <10> not available
-(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 68.
+(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <10> not available
-(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 68.
+(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <7> not available
-(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 68.
+(Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <7> not available
-(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 68.
-
-Overfull \hbox (3.77032pt too wide) in paragraph at lines 75--76
-\T1/lmr/m/n/10.95 will take values in the $\OML/lmm/m/it/10.95 K[]$ \T1/lmr/m/n/10.95 group of the scalar coefficients algebra $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 . Therefore,
- []
-
-
-Overfull \hbox (0.3121pt too wide) in paragraph at lines 81--82
-[]\T1/lmr/m/n/10.95 For a given Banach Algebra $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 , the following definitions and constructions
- []
+(Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 1.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1366,12 +1385,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
-Overfull \hbox (4.94485pt too wide) in paragraph at lines 89--90
-[]\T1/lmr/bx/n/10.95 Homotopic\T1/lmr/m/n/10.95 : There is a continuous path $\OML/lmm/m/it/10.95 ^^M \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 C\OT1/lmr/m/n/10.95 ([0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1]\OML/lmm/m/it/10.95 ; A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 of idempotents
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 34.
+ (C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
+Overfull \hbox (2.46568pt too wide) in paragraph at lines 33--34
+[][]\T1/lmr/bx/it/10.95 Remark \T1/lmr/bx/n/10.95 1.2.2. []\T1/lmr/m/n/10.95 Note that $\U/msb/m/n/10.95 M[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 contains no unity, but that doesn't stop us to declaring
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 104.
-(C:\Users\55119\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1380,29 +1399,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Overfull \hbox (4.01443pt too wide) in paragraph at lines 120--121
-\T1/lmr/m/n/10.95 formal differences. In lighter sheets, for pairs $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 and $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c; d\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 of elements
- []
-
-
-Overfull \hbox (4.9963pt too wide) in paragraph at lines 122--123
-[]\T1/lmr/m/n/10.95 We are mimicking the formal differences construction, so it is natural
- []
-
-LaTeX Font Info:    Calculating math sizes for size <7.665> on input line 124.
+LaTeX Font Info:    Calculating math sizes for size <7.665> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.665> on input line 124.
+(Font)              <7.665> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.36546> on input line 124.
+(Font)              <5.36546> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <3.83249> on input line 124.
+(Font)              <3.83249> on input line 54.
+
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.83249> not available
-(Font)              size <5> substituted on input line 124.
+(Font)              size <5> substituted on input line 54.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <3.83249> not available
-(Font)              size <5> substituted on input line 124.
+(Font)              size <5> substituted on input line 54.
+
+
+Overfull \vbox (1.63979pt too high) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1411,16 +1426,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14]
-Overfull \hbox (11.14687pt too wide) in paragraph at lines 153--154
-\T1/lmr/m/n/10.95 compact operators in an infinite-dimensional Hilbert space $\OML/lmm/m/it/10.95 H$\T1/lmr/m/n/10.95 , i.e. $\OML/lmm/m/it/10.95 V\OT1/lmr/m/n/10.95 (\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 )) \OMS/lmsy/m/n/10.95 '
- []
-
-
-Overfull \hbox (1.03166pt too wide) in paragraph at lines 153--154
-[]$\T1/lmr/m/n/10.95 , hence $\OML/lmm/m/it/10.95 K[]\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 H\OT1/lmr/m/n/10.95 ) = []$\T1/lmr/m/n/10.95 . On the other hand, any two infinite rank projections
- []
-
+[14]) (chapters/k_theory/k1_group.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1429,8 +1435,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
-Overfull \hbox (28.70892pt too wide) in paragraph at lines 188--189
-\T1/lmr/m/n/10.95 elements, and this makes the construction simpler. Let $[][]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 ) [][]= [][] [][](\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )$
+Overfull \hbox (17.83821pt too wide) in paragraph at lines 37--38
+[]\T1/lmr/m/n/10.95 Considering the homotopy equivalence relation, two elements in $[][]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 are homotopical
  []
 
 
@@ -1440,7 +1446,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
+[16]) (chapters/k_theory/index_map.tex
+Overfull \hbox (9.73993pt too wide) in paragraph at lines 3--4
+\T1/lmr/m/n/10.95 Many important functorial properties like homotopy invariance, stability and half exactness
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1451,11 +1461,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [17]
 
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 279.
+(Font)              using `T1/lmr/m/scsl' instead on input line 28.
 
 
-Overfull \hbox (4.5833pt too wide) in paragraph at lines 286--287
-[]\T1/lmr/m/n/10.95 In order to show that the index is well defined, suppose that $\OML/lmm/m/it/10.95 y \OMS/lmsy/m/n/10.95 2 [][]\OT1/lmr/m/n/10.95 ([])$
+Overfull \hbox (6.97472pt too wide) in paragraph at lines 68--69
+[][]\T1/lmr/bx/n/10.95 Definition 1.4.2 \T1/lmr/m/n/10.95 (Index map in $\OML/lmm/m/it/10.95 K$\T1/lmr/m/n/10.95 -theory)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Using construction [][]1.4.1[][], the group morphism
+ []
+
+
+Overfull \hbox (4.19597pt too wide) in paragraph at lines 76--77
+[][]\T1/lmr/bx/n/10.95 Example 1.4.3. []\T1/lmr/m/n/10.95 In a unital $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebra $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 , if a unitary idempotent element $\OML/lmm/m/it/10.95 u$ \T1/lmr/m/n/10.95 in $[][]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A=I\OT1/lmr/m/n/10.95 )$
  []
 
 
@@ -1465,7 +1480,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18]
+[18])) (chapters/hilbert_modules.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1473,7 +1488,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[19]) (chapters/hilbert_modules.tex
+[19]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1481,7 +1496,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
+[20
+
+]
 Chapter 2.
 LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <24.88> not available
 (Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 1.
@@ -1495,14 +1512,7 @@ LaTeX Font Info:    Font shape `OMS/mdugm/b/n' in size <17.28> not available
 (Font)              Font shape `OMS/mdugm/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OMS/mdugm/bx/n' in size <17.28> not available
 (Font)              Font shape `OMS/mdugm/mb/n' tried instead on input line 1.
-
-Overfull \hbox (1.68993pt too wide) detected at line 37
-[]  []  []
- []
-
-[21
-
-]
+[21]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1511,6 +1521,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22]
+Overfull \hbox (4.0356pt too wide) in paragraph at lines 115--116
+[][]\T1/lmr/bx/n/10.95 Definition 2.1.4. []\T1/lmr/m/n/10.95 Inner product modules are called \T1/lmr/m/it/10.95 Hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/it/10.95 -modules \T1/lmr/m/n/10.95 when the induced
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1527,6 +1541,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [24]
+Package mdframed Info: mdframed works in twoside mode on input line 264.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 264.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1535,23 +1554,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [25]
-Package mdframed Info: mdframed works in twoside mode on input line 264.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 264.
-
-Overfull \hbox (2.12346pt too wide) in paragraph at lines 266--267
-[][]\T1/lmr/bx/n/10.95 Summoning 2.2.3 \T1/lmr/m/n/10.95 (Banach-Steinhaus ``Uniform Boundness
- []
-
-
-Overfull \hbox (13.21507pt too wide) in paragraph at lines 266--267
-\T1/lmr/m/n/10.95 Principle'' - [[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OMS/lmsy/m/n/10.95 F$ \T1/lmr/m/n/10.95 be a family of bounded linear operators
- []
-
-
-Overfull \hbox (2.08463pt too wide) in paragraph at lines 297--298
-[][]\T1/lmr/bx/n/10.95 Counterexample 2.2.5 \T1/lmr/m/n/10.95 (\T1/lmr/m/it/10.95 Non-adjointable bounded operator \T1/lmr/m/n/10.95 - [[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Suppose
+Overfull \hbox (1.60568pt too wide) in paragraph at lines 317--318
+[]\T1/lmr/m/n/10.95 It is straight foward checking that $\U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 is a Banach algebra with an involution.
  []
 
 
@@ -1562,13 +1566,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [26]
-Overfull \hbox (5.13611pt too wide) in paragraph at lines 328--330
-\T1/lmr/m/n/10.95 which means: $\OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 k \U/msa/m/n/10.95 6 \OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T[]\OMS/lmsy/m/n/10.95 k$ \T1/lmr/m/n/10.95 and by extension, $\OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 k \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T[]\OMS/lmsy/m/n/10.95 k$\T1/lmr/m/n/10.95 . This automatically
- []
-
-
-Overfull \hbox (3.05981pt too wide) in paragraph at lines 349--351
-[][]\T1/lmr/bx/n/10.95 Proposition 2.2.9. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 x \OMS/lmsy/m/n/10.95 2 \OML/lmm/m/it/10.95 E$\T1/lmr/m/n/10.95 , then $\OMS/lmsy/m/n/10.95 h[]\OML/lmm/m/it/10.95 ; []\OMS/lmsy/m/n/10.95 i \U/msa/m/n/10.95 6 \OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 k[]h\OML/lmm/m/it/10.95 x; x\OMS/lmsy/m/n/10.95 i$\T1/lmr/m/n/10.95 . 
+Overfull \hbox (9.40732pt too wide) in paragraph at lines 339--341
+ \T1/lmr/m/n/10.95 Conversely, positive elements are self-adjoint, i.e. $\OMS/lmsy/m/n/10.95 h[]\OML/lmm/m/it/10.95 ; x\OMS/lmsy/m/n/10.95 i \OT1/lmr/m/n/10.95 = \OMS/lmsy/m/n/10.95 h\OML/lmm/m/it/10.95 x; []\OMS/lmsy/m/n/10.95 i$\T1/lmr/m/n/10.95 . From the polarization
  []
 
 
@@ -1587,6 +1586,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [28]
+Overfull \hbox (14.50667pt too wide) in paragraph at lines 424--425
+[]\T1/lmr/m/n/10.95 The norms of restrictions of $\OML/lmm/m/it/10.95 K$ \T1/lmr/m/n/10.95 onto the orthogonal complements $\OML/lmm/m/it/10.95 E[]$ \T1/lmr/m/n/10.95 of the submodules
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1606,6 +1609,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [30]
+Overfull \hbox (1.1049pt too wide) in paragraph at lines 525--527
+[][]\T1/lmr/bx/n/10.95 Proposition 2.3.7. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 E$ \T1/lmr/m/n/10.95 is an Hilbert $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -module, the family of finite rank automorphisms
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1614,8 +1621,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [31]
-Overfull \hbox (9.76039pt too wide) in paragraph at lines 549--551
-\T1/lmr/m/n/10.95 algebra, the same $\OML/lmm/m/it/10.95 K$\T1/lmr/m/n/10.95 -theoretic bias is seen right here through the representation
+Overfull \hbox (2.69788pt too wide) in paragraph at lines 612--613
+\T1/lmr/m/n/10.95 generated Hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -module is a direct summand in the canonical space $\U/rsfs/m/n/10.95 H[]$\T1/lmr/m/n/10.95 . Technically,
  []
 
 
@@ -1626,14 +1633,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [32]
-Overfull \hbox (7.70363pt too wide) in paragraph at lines 629--630
-[]\T1/lmr/m/n/10.95 Conversely, suppose that $\OML/lmm/m/it/10.95 a$ \T1/lmr/m/n/10.95 is positive and invertible. Whence, its spectrum
- []
-
 Package mdframed Info: mdframed works in twoside mode on input line 643.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 643.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1642,6 +1646,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [33]
+Overfull \hbox (0.21985pt too wide) in paragraph at lines 715--716
+\T1/lmr/m/n/10.95 generated. Therefore $\U/rsfs/m/n/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E\OT1/lmr/m/n/10.95 ) = \U/rsfs/m/n/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 is $\OML/lmm/m/it/10.95 ^^[$\T1/lmr/m/n/10.95 -unital if, and only if $\OML/lmm/m/it/10.95 E$ \T1/lmr/m/n/10.95 is countably generated.
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1650,8 +1658,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [34]
-Overfull \hbox (1.19301pt too wide) in paragraph at lines 702--704
-\T1/lmr/m/n/10.95 strictly positive and so do $\OML/lmm/m/it/10.95 T[]T$\T1/lmr/m/n/10.95 . Therefore, $\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 T\OMS/lmsy/m/n/10.95 j[]$ \T1/lmr/m/n/10.95 is the desired isomorphism
+Overfull \hbox (1.09999pt too wide) in paragraph at lines 740--741
+[][]\T1/lmr/bx/n/10.95 Definition 2.5.1 \T1/lmr/m/n/10.95 (Projective module)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 be an $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -module. $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 is \T1/lmr/m/it/10.95 projective \T1/lmr/m/n/10.95 whenever
+ []
+
+
+Overfull \hbox (2.55414pt too wide) in paragraph at lines 770--772
+\T1/lmr/m/n/10.95 is the kernel of the canonical projection $\OT1/lmr/m/n/10.95 ^^E[] : [] [][]\U/msa/m/n/10.95 ^^P \OML/lmm/m/it/10.95 M$\T1/lmr/m/n/10.95 . Therefore, the composition
  []
 
 
@@ -1662,10 +1675,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [35]
-Overfull \hbox (1.48155pt too wide) in paragraph at lines 765--766
-[]\T1/lmr/bx/n/10.95 If there exists $[]$ such that $[]$ is free, then $[]$ is projective\T1/lmr/m/n/10.95 :
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1674,6 +1683,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [36]
+Package mdframed Info: mdframed works in twoside mode on input line 844.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 844.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1682,13 +1696,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [37]
-Package mdframed Info: mdframed works in twoside mode on input line 844.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 844.
-
-Overfull \hbox (11.2364pt too wide) in paragraph at lines 882--883
-[]\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 E$ \T1/lmr/m/n/10.95 be a Hilbert $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -module and $\OML/lmm/m/it/10.95 P; Q \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be two compact idempotent
+Overfull \hbox (3.29198pt too wide) in paragraph at lines 882--883
+[]\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 E$ \T1/lmr/m/n/10.95 be a Hilbert $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -module and $\OML/lmm/m/it/10.95 P; Q \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be two compact idempotent operators.
  []
 
 
@@ -1707,18 +1716,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [39]
-Overfull \hbox (7.17862pt too wide) in paragraph at lines 927--928
-[][]\T1/lmr/bx/n/10.95 Definition 2.6.1 \T1/lmr/m/n/10.95 (Quasi-stably-isomorphic finite rank)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Two Hilbert modules
- []
-
-
-Overfull \hbox (10.46231pt too wide) in paragraph at lines 930--931
-[]\T1/lmr/m/n/10.95 Notice that this is an equivalence relation. Before lighting that relationship,
- []
-
-
-Overfull \hbox (1.9589pt too wide) in paragraph at lines 942--944
-\T1/lmr/m/n/10.95 Since it is an invertible operator, consider the inverse given in matrix notation
+Overfull \hbox (8.67107pt too wide) in paragraph at lines 997--998
+\T1/lmr/m/n/10.95 ourselves into $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras with countably approximate identities. After studying Fredholm
  []
 
 
@@ -1729,6 +1728,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [40]
+Overfull \hbox (0.60963pt too wide) in paragraph at lines 1012--1014
+[]\T1/lmr/m/n/10.95 Those are the first moments we are dealing with some generalized Fredholm operators,
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1736,26 +1739,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[41]
-Overfull \hbox (4.83577pt too wide) in paragraph at lines 1002--1004
-[][]\T1/lmr/bx/n/10.95 Theorem 2.6.3. []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 M$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 N$ \T1/lmr/m/n/10.95 be quasi-stably-isomorphic finite rank Hilbert
- []
-
-
-Overfull \hbox (8.55406pt too wide) in paragraph at lines 1014--1016
-[]\T1/lmr/m/n/10.95 Those are the first moments we are dealing with some generalized Fredholm
- []
-
-
-Overfull \hbox (24.39006pt too wide) detected at line 1023
-[]
- []
-
-
-Overfull \hbox (1.1447pt too wide) detected at line 1035
-[]  []  []
- []
-
+[41]) (chapters/fredholm.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1764,23 +1748,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [42]
-Overfull \hbox (9.75294pt too wide) in paragraph at lines 1048--1049
-[]$[]$ \T1/lmr/bx/n/10.95 and $[]$ are compact perturbations of the identity\T1/lmr/m/n/10.95 : The operators
+Chapter 3.
+
+Overfull \hbox (16.09613pt too wide) in paragraph at lines 4--5
+\T1/lmr/m/n/10.95 classical Atikinson's theorem characterizes Fredholm operators in terms only of compactness,
  []
 
 
-Overfull \hbox (7.43497pt too wide) in paragraph at lines 1048--1049
-\T1/lmr/m/n/10.95 which ignores $\OML/lmm/m/it/10.95 '$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 '[]$ \T1/lmr/m/n/10.95 in the constructions of $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 G$\T1/lmr/m/n/10.95 , are represented
+Overfull \hbox (3.977pt too wide) in paragraph at lines 28--30
+\T1/lmr/m/n/10.95 i.e. $\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 ] = [\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 ]$ \T1/lmr/m/n/10.95 in the quotient algebra $\OML/lmm/m/it/10.95 A=J$\T1/lmr/m/n/10.95 . Therefore, there is a representative
  []
 
+[43
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+]
+Package mdframed Info: mdframed works in twoside mode on input line 60.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 60.
 
-[43]) (chapters/fredholm.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1789,44 +1775,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [44]
-Chapter 3.
 
-Overfull \hbox (0.9537pt too wide) in paragraph at lines 4--5
-\T1/lmr/m/n/10.95 Fredholm operators in terms only of compactness, which we fully characterize
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[45]
+Overfull \hbox (6.82599pt too wide) in paragraph at lines 136--137
+[]\T1/lmr/m/n/10.95 Notice that $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 ST\OT1/lmr/m/n/10.95 )[] = \OML/lmm/m/it/10.95 S\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 TST\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 ST$ \T1/lmr/m/n/10.95 and similarly for $\OML/lmm/m/it/10.95 TS$\T1/lmr/m/n/10.95 , i.e. they are idempotents.
  []
 
-
-Overfull \hbox (8.72563pt too wide) in paragraph at lines 14--15
-[][]\T1/lmr/bx/n/10.95 Proposition 3.0.2. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 is invertible modulo $\U/rsfs/m/n/10.95 K\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , then it is $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -Fredholm.
- []
-
-[45
-
-]
-Overfull \hbox (3.48427pt too wide) in paragraph at lines 43--44
-[][]\T1/lmr/bx/n/10.95 Example 3.0.5 \T1/lmr/m/n/10.95 ([[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 X \OMS/lmsy/m/n/10.95 2 []$ \T1/lmr/m/n/10.95 and $\U/rsfs/m/n/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 `[]\OT1/lmr/m/n/10.95 ([]))$ \T1/lmr/m/n/10.95 the set of $[]$-Fredholm
- []
-
-
-Overfull \hbox (1.13695pt too wide) in paragraph at lines 48--51
-\T1/lmr/m/n/10.95 Hence $[]$ is adjointable. In order to show that continuous families of Fredholm
- []
-
-Package mdframed Info: mdframed works in twoside mode on input line 60.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 60.
-
-Overfull \hbox (20.72673pt too wide) in paragraph at lines 62--63
-[][]\T1/lmr/bx/n/10.95 Summoning 3.0.6 \T1/lmr/m/n/10.95 (Classical Bartle-Graves theorem - Corollary
- []
-
-
-Overfull \hbox (8.76268pt too wide) in paragraph at lines 62--63
-\T1/lmr/m/n/10.95 17.67 [[]])\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Every surjective continuous linear operator between
- []
-
-Package mdframed Info: Not enough space on this page on input line 63.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1835,10 +1795,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [46]
-Package mdframed Info: Not enough space on this page on input line 63.
+Overfull \hbox (11.40405pt too wide) in paragraph at lines 182--183
+[]\T1/lmr/m/n/10.95 Notice that $[] \OML/lmm/m/it/10.95 VT \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 since $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 is invertible, hence $[] \OT1/lmr/m/n/10.95 ([] \OML/lmm/m/it/10.95 VT\OT1/lmr/m/n/10.95 ) = [] ([] \OML/lmm/m/it/10.95 T\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 .
+ []
 
-Overfull \hbox (6.01793pt too wide) in paragraph at lines 80--81
-\T1/lmr/m/n/10.95 that $[] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 and $[] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 are finite dimensional. Those assumptions are sufficient
+
+Overfull \hbox (23.0899pt too wide) in paragraph at lines 182--183
+\T1/lmr/m/n/10.95 Analysing $\OML/lmm/m/it/10.95 U[][]$\T1/lmr/m/n/10.95 , one obtains that $[] \OML/lmm/m/it/10.95 TU \OMS/lmsy/m/n/10.95 ' [] \OML/lmm/m/it/10.95 T$\T1/lmr/m/n/10.95 , thus $[] \OT1/lmr/m/n/10.95 ([] \OML/lmm/m/it/10.95 TU\OT1/lmr/m/n/10.95 ) = [] ([] \OML/lmm/m/it/10.95 T\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 .
  []
 
 
@@ -1849,8 +1812,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [47]
-Overfull \hbox (3.38815pt too wide) in paragraph at lines 101--102
-[][]\T1/lmr/bx/n/10.95 Example 3.1.2. []\T1/lmr/m/n/10.95 The operators $\OML/lmm/m/it/10.95 F$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 G$ \T1/lmr/m/n/10.95 constructed in the proof of Theorem
+
+Package amsthm Warning: The \qedhere command may not work correctly here on input line 217.
+
+
+Overfull \hbox (0.62816pt too wide) in paragraph at lines 240--241
+[]$[]$\T1/lmr/m/n/10.95 : Using the coordinate switch operator (which has index
  []
 
 
@@ -1869,13 +1836,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [49]
-Overfull \hbox (8.48784pt too wide) detected at line 179
-[]
- []
-
-
-Overfull \hbox (3.95999pt too wide) in paragraph at lines 182--183
-[]\T1/lmr/m/n/10.95 Notice that $[] \OML/lmm/m/it/10.95 VT \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 since $\OML/lmm/m/it/10.95 V$ \T1/lmr/m/n/10.95 is invertible, hence $[] \OT1/lmr/m/n/10.95 ([] \OML/lmm/m/it/10.95 VT\OT1/lmr/m/n/10.95 ) =
+Overfull \hbox (16.09888pt too wide) in paragraph at lines 379--381
+[][]\T1/lmr/bx/n/10.95 Proposition 3.2.3. []\T1/lmr/m/n/10.95 For any $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -Fredholm operator $\OML/lmm/m/it/10.95 T$\T1/lmr/m/n/10.95 , despite the fact that the regularization
  []
 
 
@@ -1886,17 +1848,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [50]
-
-Package amsthm Warning: The \qedhere command may not work correctly here on input line 217.
-
-
-Overfull \hbox (12.28343pt too wide) in paragraph at lines 240--241
-[]$[]$\T1/lmr/m/n/10.95 : Using the coordinate switch operator (which
+Overfull \hbox (1.1536pt too wide) in paragraph at lines 385--387
+\T1/lmr/m/n/10.95 index of $[]$, first we obtain that $[] \OT1/lmr/m/n/10.95 ([] []) = \OML/lmm/m/it/10.95 n \OMS/lmsy/m/n/10.95 ^^A \OT1/lmr/m/n/10.95 1[]$\T1/lmr/m/n/10.95 ; in order to obtain $[] \OT1/lmr/m/n/10.95 ([] []) =
  []
 
 
-Overfull \hbox (14.30122pt too wide) detected at line 252
-[] []
+Overfull \hbox (28.99866pt too wide) in paragraph at lines 430--432
+\T1/lmr/m/n/10.95 Therefore, $\OML/lmm/m/it/10.95 Q$ \T1/lmr/m/n/10.95 is an idempotent operator in $\U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 ([])$ \T1/lmr/m/n/10.95 which corresponds to left multiplication
  []
 
 
@@ -1907,6 +1865,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [51]
+Overfull \hbox (2.68622pt too wide) in paragraph at lines 433--434
+[]$[]$\T1/lmr/m/n/10.95 : Let $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 e[]\OT1/lmr/m/n/10.95 )[]$ \T1/lmr/m/n/10.95 be the canonical basis of $[]$. We shall write the coordinates
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1915,6 +1877,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [52]
+Overfull \hbox (2.16469pt too wide) in paragraph at lines 471--473
+\T1/lmr/m/n/10.95 be the quotient projection. The set of Fredholm operators $\U/rsfs/m/n/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 ) [][]= \OML/lmm/m/it/10.95 ^^Y[] [] \U/rsfs/m/n/10.95 Q\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 ^^Z
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1923,6 +1889,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [53]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 560.
+
+
+LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 560.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1931,18 +1904,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [54]
-Overfull \hbox (5.74916pt too wide) in paragraph at lines 463--464
-[][]\T1/lmr/bx/n/10.95 Definition 3.2.4. []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T$ \T1/lmr/m/n/10.95 is a Fredholm operator in $\U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 , then the Fredholm
- []
-
-
-Overfull \hbox (3.07999pt too wide) in paragraph at lines 471--473
-[][]\T1/lmr/bx/n/10.95 Proposition 3.2.5. []\T1/lmr/m/n/10.95 Let $\U/rsfs/m/n/10.95 Q\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be the Calkin algebra and $\OML/lmm/m/it/10.95 ^^Y \OT1/lmr/m/n/10.95 : \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 !
- []
-
-
-Overfull \hbox (11.1698pt too wide) in paragraph at lines 471--473
-\U/rsfs/m/n/10.95 Q\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be the quotient projection. The set of Fredholm operators $\U/rsfs/m/n/10.95 F\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 ) [][]=
+Overfull \hbox (0.19495pt too wide) in paragraph at lines 610--611
+[][]\T1/lmr/bx/n/10.95 Proposition 3.3.1. []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 T \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 L\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 be Fredholm operator with $[] \OML/lmm/m/it/10.95 T \OT1/lmr/m/n/10.95 = 0$\T1/lmr/m/n/10.95 . Therefore,
  []
 
 
@@ -1953,8 +1916,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [55]
-Overfull \hbox (1.54073pt too wide) in paragraph at lines 531--532
-[]\T1/lmr/m/n/10.95 Write $\OML/lmm/m/it/10.95  \OT1/lmr/m/n/10.95 = [\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 q\OT1/lmr/m/n/10.95 ][]$ \T1/lmr/m/n/10.95 with $[][]\OT1/lmr/m/n/10.95 ([\OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 ][] \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 q\OT1/lmr/m/n/10.95 ][]) = 0$\T1/lmr/m/n/10.95 , for self-adjoint idempotent
+Overfull \hbox (12.72278pt too wide) in paragraph at lines 636--638
+\T1/lmr/m/n/10.95 setting $\OML/lmm/m/it/10.95 q[] [][]\OT1/lmr/m/n/10.95 = [][] \OML/lmm/m/it/10.95 u[]p[]$\T1/lmr/m/n/10.95 , we obtain $\OML/lmm/m/it/10.95 q[] \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 ^^X[] \OT1/lmr/m/n/10.95 + \OML/lmm/m/it/10.95 b[]$ \T1/lmr/m/n/10.95 in which $[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b[]\OT1/lmr/m/n/10.95 ) = \OML/lmm/m/it/10.95 ^^N[]$\T1/lmr/m/n/10.95 , i.e. $[]\OT1/lmr/m/n/10.95 ((\OML/lmm/m/it/10.95 b[]; [] ; b[]\OT1/lmr/m/n/10.95 )) =
  []
 
 
@@ -1964,22 +1927,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[56]
-Overfull \hbox (3.92651pt too wide) detected at line 558
-[] [] \OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 k\OML/lmm/m/it/10.95 x\OMS/lmsy/m/n/10.95 k \U/msa/m/n/10.95 6 \OT1/lmr/m/n/10.95 1)
- []
-
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 560.
-
-LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 560.
-
-
-Overfull \hbox (14.32813pt too wide) in paragraph at lines 582--583
-\T1/lmr/m/n/10.95 idempotents, hence their ranges are finite rank modules ([][]2.5.4[][]). Moreover,
- []
-
+[56]) (chapters/morita.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1995,24 +1943,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[58]
-Overfull \hbox (22.63991pt too wide) in paragraph at lines 628--629
-[]\T1/lmr/bx/n/10.95 There is a orthonormal generating set $[]$
+[58
+
+]
+Chapter 4.
+
+Overfull \hbox (15.44777pt too wide) in paragraph at lines 3--4
+\T1/lmr/m/n/10.95 equivalent if their categories of modules are naturally equivalent. Although no corresponding
+ []
+
+[59]
+Overfull \hbox (5.62741pt too wide) in paragraph at lines 33--34
+[]\T1/lmr/m/n/10.95 A full treatment of Hilbert bimodules should consider the representations of bimodules,
  []
 
 
-Overfull \hbox (2.66446pt too wide) in paragraph at lines 628--629
-\T1/lmr/m/n/10.95 Since each $\OML/lmm/m/it/10.95 a[] \OMS/lmsy/m/n/10.95 2 []$\T1/lmr/m/n/10.95 , one can write $\OML/lmm/m/it/10.95 a[] \OT1/lmr/m/n/10.95 = (\OML/lmm/m/it/10.95 a[]\OT1/lmr/m/n/10.95 )[]$\T1/lmr/m/n/10.95 . Hence, orthonormality
- []
+Package natbib Warning: Citation `raeburn1998morita' on page 60 undefined on input line 59.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[59]) (chapters/morita.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2021,52 +1968,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [60]
-Chapter 4.
-
-Overfull \hbox (15.84767pt too wide) in paragraph at lines 3--4
-\T1/lmr/m/n/10.95 Rieffel's imprimitivity bimodule [[], [], []]. The treatment of Morita equivalence
- []
-
-[61
-
-]
-Overfull \hbox (1.39862pt too wide) in paragraph at lines 36--37
-[][]\T1/lmr/bx/n/10.95 Definition 4.1.2 \T1/lmr/m/n/10.95 (Morita-Rieffel)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 Let $\OML/lmm/m/it/10.95 A$ \T1/lmr/m/n/10.95 and $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 be $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras. A bimodule
- []
-
-
-Overfull \hbox (11.20135pt too wide) in paragraph at lines 43--44
-[]\T1/lmr/m/n/10.95 Isomorphic $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -algebras are necessarily Morita-Rieffel equivalent. Indeed,
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[62]
-
-Package natbib Warning: Citation `raeburn1998morita' on page 63 undefined on input line 59.
-
-
-Overfull \hbox (17.07133pt too wide) in paragraph at lines 59--60
-[]\T1/lmr/m/n/10.95 A full treatment about Morita-Rieffel equivalence, including the construction
- []
-
-
-Overfull \hbox (20.68326pt too wide) in paragraph at lines 64--65
-\T1/lmr/m/n/10.95 Rieffel equivalent, and let $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 denote the $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A; B\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity bimodule associated
- []
-
 Package mdframed Info: mdframed works in twoside mode on input line 66.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 66.
 
-Overfull \hbox (16.7609pt too wide) in paragraph at lines 90--91
-[]\T1/lmr/m/n/10.95 Consider $\OML/lmm/m/it/10.95 X[]$ \T1/lmr/m/n/10.95 to be the conjugated module by $\OMS/lmsy/m/n/10.95 ^^C$\T1/lmr/m/n/10.95 , which is $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B; A\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity
+Overfull \hbox (5.15146pt too wide) in paragraph at lines 68--69
+[][]\T1/lmr/bx/n/10.95 Summoning 4.2.1 \T1/lmr/m/n/10.95 ([[]], Corollary 4.3)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 If $\OML/lmm/m/it/10.95 T \OMS/lmsy/m/n/10.95 2 \U/rsfs/m/n/10.95 L[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 E; F\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 is an $\OML/lmm/m/it/10.95 A$\T1/lmr/m/n/10.95 -Fredholm operator,
+ []
+
+
+Overfull \hbox (8.08574pt too wide) in paragraph at lines 90--91
+[]\T1/lmr/m/n/10.95 Consider $\OML/lmm/m/it/10.95 X[]$ \T1/lmr/m/n/10.95 to be the conjugated module by $\OMS/lmsy/m/n/10.95 ^^C$\T1/lmr/m/n/10.95 , which is $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B; A\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity bimodule.
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 92.
@@ -2074,15 +1987,11 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 92.
 
-Overfull \hbox (1.23203pt too wide) in paragraph at lines 98--99
-\OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 . Summarizing, its obtained the Brown-Green-Rieffel theorem without
+Overfull \hbox (4.89316pt too wide) in paragraph at lines 94--95
+[][]\T1/lmr/bx/n/10.95 Summoning 4.2.3 \T1/lmr/m/n/10.95 ([[]], Proposition 4.13)\T1/lmr/bx/n/10.95 . []\T1/lmr/m/n/10.95 For any left-full Hilbert $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A; B\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -bimodule
  []
 
-
-Overfull \hbox (20.31845pt too wide) in paragraph at lines 102--103
-\T1/lmr/m/n/10.95 the $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A; B\OT1/lmr/m/n/10.95 )$\T1/lmr/m/n/10.95 -imprimitivity bimodule $\OML/lmm/m/it/10.95 X$ \T1/lmr/m/n/10.95 induces two isomorphisms: $\OML/lmm/m/it/10.95 X[] \OT1/lmr/m/n/10.95 : \OML/lmm/m/it/10.95 K[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 A\OT1/lmr/m/n/10.95 ) [][]\OMS/oasy/m/n/10.95 !
- []
-
+) (main.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2090,7 +1999,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[63]) (main.bbl
+[61]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[62
+
+]
+Underfull \hbox (badness 1259) in paragraph at lines 23--27
+[]\T1/lmr/m/n/10.95 Michael F Atiyah and Friedrich Hirzebruch.  Riemann-Roch Theorems for
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 62--67
+[]\T1/lmr/m/n/10.95 Aweygan (https://math.stackexchange.com/users/234668/aweygan).  Strictly
+ []
+
+[63]
+Underfull \hbox (badness 1817) in paragraph at lines 105--111
+[]\T1/lmr/m/n/10.95 James A Mingo and William J Phillips.  Equivariant triviality theorems
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 105--111
+\T1/lmr/m/n/10.95 91(2):225--230, 1984.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams . org / journals / proc / 1984-[]091-[]02 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
+\T1/lmr/m/it/10.95 of the American Mathematical Society\T1/lmr/m/n/10.95 , 182:443--468, 1973.  [][]$\T1/lmtt/m/n/10.95 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
+\T1/lmtt/m/n/10.95 / / www . ams . org / journals / tran / 1973-[]182-[]00 / S0002-[]9947-[]1973-[]0355613-[]0 /
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 127--132
+[]\T1/lmr/m/n/10.95 Marc Rieffel.  $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -Algebras Associated with Irrational Rotations.  \T1/lmr/m/it/10.95 Pacific
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2099,107 +2052,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [64]
-Underfull \hbox (badness 1648) in paragraph at lines 16--21
-[]\T1/lmr/m/n/10.95 David Applebaum.  Quantum Stochastic Parallel Transport on
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
+[]\T1/lmr/m/n/10.95 Johannes Ebert ([][]$\T1/lmtt/m/n/10.95 https : / / mathoverflow . net / users / 9928 / johannes-[]ebert$[][]\T1/lmr/m/n/10.95 ).
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 29--32
-[]\T1/lmr/m/n/10.95 Bruce Blackadar.  $\OML/lmm/m/it/10.95 K$\T1/lmr/m/it/10.95 -Theory for Operator Algebras\T1/lmr/m/n/10.95 , volume 5.
+Underfull \hbox (badness 5802) in paragraph at lines 167--172
+\T1/lmr/m/n/10.95 Operators on Hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -Module and Families of Fredholm Operators.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
-[]\T1/lmr/m/n/10.95 Aweygan (https://math.stackexchange.com/users/234668/aweygan).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
-\T1/lmr/m/n/10.95 Strictly positive element in unital $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -Algebra is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
-\T1/lmr/m/n/10.95 invertible.  Mathematics Stack Exchange, 2020.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
-\T1/lmr/m/n/10.95 URL:https://math.stackexchange.com/q/3926191 (version: 2020-
- []
-
-[65
-
-]
-Underfull \hbox (badness 1168) in paragraph at lines 105--111
-[]\T1/lmr/m/n/10.95 James A Mingo and William J Phillips.  Equivariant triviality
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 105--111
-\T1/lmr/m/n/10.95 theorems for hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -modules.  \T1/lmr/m/it/10.95 Proceedings of the American
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 105--111
-\T1/lmr/m/it/10.95 Mathematical Society\T1/lmr/m/n/10.95 , 91(2):225--230, 1984.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
-\T1/lmtt/m/n/10.95 org / journals / proc / 1984-[]091-[]02 / S0002-[]9939-[]1984-[]0740176-[]0 /
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 113--119
-[]\T1/lmr/m/n/10.95 William L Paschke.  Inner Product Modules over $\OML/lmm/m/it/10.95 B[]$\T1/lmr/m/n/10.95 -Algebras.
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 113--119
-\T1/lmr/m/it/10.95 Transactions of the American Mathematical Society\T1/lmr/m/n/10.95 , 182:443--
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 113--119
-\T1/lmr/m/n/10.95 468, 1973.  [][]$\T1/lmtt/m/n/10.95 https : / / www . ams . org / journals / tran / 1973-[]182-[]00 /
- []
-
-
-Underfull \hbox (badness 1248) in paragraph at lines 141--146
-\T1/lmr/m/n/10.95 Cuntz-Pimsner Algebras.  \T1/lmr/m/it/10.95 arXiv preprint arXiv:1105.1615\T1/lmr/m/n/10.95 , 2011.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[66]
-Underfull \hbox (badness 3108) in paragraph at lines 153--159
-\T1/lmr/m/n/10.95 Boundedness Theorem.  \T1/lmr/m/it/10.95 The American Mathematical Monthly\T1/lmr/m/n/10.95 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
-[]\T1/lmr/m/n/10.95 Johannes Ebert ([][]$\T1/lmtt/m/n/10.95 https : / / mathoverflow . net / users / 9928 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
-\T1/lmtt/m/n/10.95 johannes-[]ebert$[][]\T1/lmr/m/n/10.95 ).  Operators on Hilbert $\OML/lmm/m/it/10.95 C[]$\T1/lmr/m/n/10.95 -Module and
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 161--166
-\T1/lmr/m/n/10.95 Families of Fredholm Operators.  MathOverflow.  URL:[][]$\T1/lmtt/m/n/10.95 https :
+Underfull \hbox (badness 1852) in paragraph at lines 167--172
+\T1/lmr/m/n/10.95 MathOverflow.  URL:[][]$\T1/lmtt/m/n/10.95 https : / / mathoverflow . net / q / 239982$[][] \T1/lmr/m/n/10.95 (version: 2016-
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 169.
+(Font)              using `T1/lmr/m/scsl' instead on input line 175.
 
 ) 
 AED: lastpage setting LastPage
@@ -2210,7 +2079,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[67]
+[65]
 
 Package natbib Warning: There were undefined citations.
 
@@ -2226,13 +2095,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4AA6C0C08B4E1882A8F0011A41D467A4;3740.
  ) 
 Here is how much of TeX's memory you used:
- 49186 strings out of 476406
- 1111194 string characters out of 2789566
- 1882787 words of memory out of 3000000
- 68279 multiletter control sequences out of 15000+600000
+ 49705 strings out of 476406
+ 1120285 string characters out of 2789566
+ 1888787 words of memory out of 3000000
+ 68776 multiletter control sequences out of 15000+600000
  749282 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,29n,93p,1037b,1499s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,29n,93p,1076b,1499s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist, replaced by a fixed one
 
@@ -2279,9 +2148,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/old-arrows/oasy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy5.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtko10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdugm/md-gmm7y.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oabsy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy8.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/old-arrows/oasy9.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/55119/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs5.pfb>
-Output written on main.pdf (67 pages, 79440609 bytes).
+Output written on main.pdf (65 pages, 79436295 bytes).
 PDF statistics:
- 1214 PDF objects out of 1440 (max. 8388607)
- 331 named destinations out of 1000 (max. 500000)
+ 1206 PDF objects out of 1440 (max. 8388607)
+ 330 named destinations out of 1000 (max. 500000)
  281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
